@@ -3,53 +3,57 @@
 
 <head>
     <title>Charles Zawacki: Personal Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav id="site-navigation">
-        <a id="home-page" class="info-link" href="index.html">Home Page</a> |
-        <a id="work-experience" class="info-link" href="full-work.html">Work Experience</a> |
-        <a id="personal-projects" class="info-link" href="full-projects.html">Personal Projects</a>
-    </nav>
-    <section id="personal-info">
-        <table id="personal-info-table">
-            <tr>
-                <td id="personal-info-image">
-                    <img id="profile" src="profile.jpg">
-                </td>
-                <td id="personal-info-data">
-                    <h1 id="name">Charles Zawacki</h1>
-                    <table id="contact-info-table">
-                        <tr class="info-attribute">
-                            <td>571-471-1741</td>
-                        </tr>
-                        <tr class="info-attribute">
-                            <td>cazwacki@gmail.com</td>
-                        </tr>
-                        <tr class="info-attribute">
-                            <td>411 Hunt Club Road</td>
-                        </tr>
-                        <tr class="info-attribute">
-                            <td>Blacksburg, VA 24060</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <nav id="personal-links">
-            <a id="linkedin-link" class="info-link" href="https://www.linkedin.com/in/charleszawacki/">LinkedIn</a> |
-            <a id="github-link" class="info-link" href="https://github.com/cazwacki">Github</a> |
-            <a id="play-store-link" class="info-link"
-                href="https://play.google.com/store/apps/developer?id=Charles+Z.">Google Play Store</a>
-        </nav>
-    </section>
+    <div id="banner">
+        <section id="banner-section">
+            <nav id="site-navigation">
+                <a id="home-page" class="info-link" href="index.html">Home Page</a> |
+                <a id="work-experience" class="info-link" href="full-work.html">Work Experience</a> |
+                <a id="personal-projects" class="info-link" href="full-projects.html">Personal Projects</a>
+            </nav>
+            <table id="personal-info-table">
+                <tr>
+                    <td id="personal-info-image">
+                        <img id="profile" src="profile.jpg">
+                    </td>
+                    <td id="personal-info-data">
+                        <h1 id="name">Charles Zawacki</h1>
+                        <table id="contact-info-table">
+                            <tr class="info-attribute">
+                                <td>571-471-1741</td>
+                            </tr>
+                            <tr class="info-attribute">
+                                <td>cazwacki@gmail.com</td>
+                            </tr>
+                            <tr class="info-attribute">
+                                <td>411 Hunt Club Road</td>
+                            </tr>
+                            <tr class="info-attribute">
+                                <td>Blacksburg, VA 24060</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <nav id="personal-links">
+                <a id="linkedin-link" class="info-link" href="https://www.linkedin.com/in/charleszawacki/">LinkedIn</a>
+                |
+                <a id="github-link" class="info-link" href="https://github.com/cazwacki">Github</a> |
+                <a id="play-store-link" class="info-link"
+                    href="https://play.google.com/store/apps/developer?id=Charles+Z.">Google Play Store</a>
+            </nav>
+        </section>
+    </div>
     <section id="personal-projects" class="resume-section">
         <h3 id="personal-projects-title" class="section-title">Personal Projects</h3>
-        <table id="project-table">
+        <table id="project-table" class="section-list">
             <tr id="personal-discord-bot-entry" class="list-entry">
                 <td>
-                    <a href="https://github.com/cazwacki/PersonalDiscordBot">PersonalDiscordBot
-                        (Golang)</a>
+                    <h3><a href="https://github.com/cazwacki/PersonalDiscordBot">PersonalDiscordBot
+                            (Golang)</a></h3>
                     <ul id="personaldiscordbot-desc">
                         <li class="entry-desc">Provided a wide array of standard management commands for the Discord
                             server
@@ -72,8 +76,8 @@
             </tr>
             <tr id="calendar-tasks-entry" class="list-entry">
                 <td>
-                    <a href="https://play.google.com/store/apps/details?id=com.charles.cazwa.calendartasks">Calendar
-                        Tasks (Android / Java)</a>
+                    <h3><a href="https://play.google.com/store/apps/details?id=com.charles.cazwa.calendartasks">Calendar
+                            Tasks (Android / Java)</a></h3>
                     <ul id="calendar-tasks-desc">
                         <li class="entry-desc">Permits a user to create tasks on their phone that are added and
                             categorized
@@ -86,12 +90,12 @@
                     </ul>
                 </td>
                 <td>
-                    <img id="calendar-tasks-gif" src="project_images/calendar_tasks.gif">
+                    <img id="calendar-tasks-gif" class="project-image" src="project_images/calendar_tasks.gif">
                 </td>
             </tr>
             <tr id="traffic-simulator-entry" class="list-entry">
                 <td>
-                    <a href="https://github.com/cazwacki/Traffic-Simulator">Traffic Simulator (Java)</a>
+                    <h3><a href="https://github.com/cazwacki/Traffic-Simulator">Traffic Simulator (Java)</a></h3>
                     <ul id="calendar-tasks-desc">
                         <li class="entry-desc">Simulates a set of intersections close to each other with adjustable
                             light timing</li>
@@ -101,14 +105,14 @@
                     </ul>
                 </td>
                 <td>
-                    <img id="calendar-tasks-gif" src="project_images/traffic_simulator.gif">
+                    <img id="calendar-tasks-gif" class="project-image" src="project_images/traffic_simulator.gif">
                 </td>
             </tr>
             <tr id="music-data-to-spreadsheet-entry" class="list-entry">
                 <td>
-                    <a id="music-data-to-spreadsheet-title"
-                        href="https://github.com/cazwacki/Music-Data-to-Spreadsheet">Music Data to Spreadsheet
-                        (Java)</a>
+                    <h3> <a id="music-data-to-spreadsheet-title"
+                            href="https://github.com/cazwacki/Music-Data-to-Spreadsheet">Music Data to Spreadsheet
+                            (Java)</a></h3>
                     <ul id="music-data-to-spreadsheet-desc">
                         <li class="entry-desc">Allows a user to add / remove songs to a list that would then be exported
                             to a spreadsheet in order to facilitate tracking music</li>
@@ -117,12 +121,13 @@
                     </ul>
                 </td>
                 <td>
-                    <img id="music-data-to-spreadsheet-gif" src="project_images/music_data_to_spreadsheet.gif">
+                    <img id="music-data-to-spreadsheet-gif" class="project-image"
+                        src="project_images/music_data_to_spreadsheet.gif">
                 </td>
             </tr>
             <tr id="map-maker-entry" class="list-entry">
                 <td>
-                    <a id="map-maker-title" href="https://github.com/cazwacki/Map-Maker">Map Maker (Java)</a>
+                    <h3><a id="map-maker-title" href="https://github.com/cazwacki/Map-Maker">Map Maker (Java)</a></h3>
                     <ul id="map-maker-desc">
                         <li class="entry-desc">Created a map editor that can be used for 2D game design using Java 2D
                             graphics engine</li>
@@ -131,13 +136,13 @@
                     </ul>
                 </td>
                 <td>
-                    <img id="map-maker-gif" src="project_images/map_maker.gif">
+                    <img id="map-maker-gif" class="project-image" src="project_images/map_maker.gif">
                 </td>
             </tr>
             <tr id="mario-galaga-entry" class="list-entry">
                 <td>
-                    <a id="mario-galaga-title" href="https://github.com/cazwacki/Mario-Galaga">Mario Galaga Game
-                        (Java)</a>
+                    <h3><a id="mario-galaga-title" href="https://github.com/cazwacki/Mario-Galaga">Mario Galaga Game
+                            (Java)</a></h3>
                     <ul id="mario-galaga-desc">
                         <li class="entry-desc">Used 2D Java graphics engine to design a basic Galaga game</li>
                         <li class="entry-desc">Uses some basic game design principles to organize classes effectively
@@ -145,7 +150,7 @@
                     </ul>
                 </td>
                 <td>
-                    <img id="mario-galaga-gif" src="project_images/mario-galaga.gif">
+                    <img id="mario-galaga-gif" class="project-image" src="project_images/mario-galaga.gif">
                 </td>
             </tr>
         </table>

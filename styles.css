@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("vectorbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("banner.png");
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    color: #ffa9a1;
+}
+
+#profile {
+    display: block;
+}
+
+.section-title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.section-list {
+    border-spacing: 0 1em;
+    table-layout: fixed;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.125em;
+}
+
+.list-entry:nth-child(even) {
+    background-color: #650000;
+}
+
+.list-entry:nth-child(odd) {
+    background-color: #4A0000;
+}
+
+.list-entry a {
+    font-weight: bolder;
+}
+
+.list-entry a:hover {
+    color: white;
+}
+
+.list-entry h3 {
+    font-size: 1.25em;
+}
+
+.list-entry td {
+    vertical-align: top;
+    padding: 1em;
+    border-color: darkgrey;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.list-entry td:first-child {
+    width: 75%;
+    border-left-style: solid;
+    border-top-left-radius: 0.75em; 
+    border-bottom-left-radius: 0.75em;
+}
+.list-entry td:last-child {
+    width: 25%;
+    border-right-style: solid;
+    border-bottom-right-radius: 0.75em; 
+    border-top-right-radius: 0.75em; 
+}
+
+.project-image {
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.work-image {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
