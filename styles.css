@@ -1,3 +1,12 @@
+/*------------------------------------------
+| ITEMS THAT AFFECT EVERY PART OF THE SITE |
+------------------------------------------*/
+
+/*
+This is used to set sizes for different devices that will visit the site.
+All my font sizes use "rem", which uses a multiplier on the html font size
+to determine the resulting font size for each component.
+*/
 @media (max-width: 480px) {
     html {
         font-size: 12px;
@@ -28,14 +37,43 @@
     }
 }
 
+/*
+Sets the website's background, and establishes a default font and color of 
+"Microsoft YaHei Light" and white font for all containers in the HTML body.
+*/
 body {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("vectorbg.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    font-family: "Microsoft YaHei Light"
 }
 
+/*
+All links are to be colored pink.
+*/
+a {
+    color: #ffa9a1;
+}
+
+/*
+All links are changed to white when hovered on.
+*/
+a:hover {
+    color: white;
+}
+
+/*------------------------------------------
+|     CUSTOMIZING THE BANNER / HEADER      |
+------------------------------------------*/
+
+/*
+Styles the personal info section of my resume into a banner that exists at
+the top of the page, but becomes fixed to the top of the screen when
+scrolling down. Centers all the content in the banner as well. It uses a custom
+font to help it stand out from the rest of the site.
+*/
 #banner {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("banner.png");
     position: sticky;
@@ -44,31 +82,53 @@ body {
     justify-content: center;
     top: 0;
     width: 100%;
+    font-family: "Microsoft JhengHei";
 }
 
-a {
-    color: #ffa9a1;
+/*------------------------------------------
+|         CUSTOMIZING All SECTIONS         |
+------------------------------------------*/
+
+/*
+Sets all section titles (h3) to be large and centered.
+*/
+.section-title {
+    font-size: 2rem;
+    text-align: center;
 }
 
-#profile {
-    display: block;
-}
+/*------------------------------------------
+|        CUSTOMIZING THE INDEX PAGE        |
+------------------------------------------*/
 
+/*
+Centers the sections of the resume and gives a 15% screen 
+margin on each side.
+*/
 .resume-section {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.section-title {
-    font-size: 2rem;
-    text-align: center;
-}
-
+/*
+Adds a semi-transparent dark red background to the text of 
+the resume to significantly increase the readability of the 
+content.
+*/
 .section-content {
     background-color: rgba(74, 0, 0, 0.5);
 }
 
+/*------------------------------------------
+|       CUSTOMIZING THE EXTRA PAGES        |
+------------------------------------------*/
+
+/*
+Centers the tables of each page and spaces out the rows
+to give the appearance of separate entries. There is a 15%
+screen margin on each side.
+*/
 .section-list {
     border-spacing: 0 1rem;
     table-layout: fixed;
@@ -77,6 +137,12 @@ a {
     margin-right: auto;
 }
 
+/*
+This comment addresses the next two entries. These are made
+to alternate the colors of each table row in the extra pages
+to help them stand out from each other. Not needed but I think
+it's a nice touch.
+*/
 .list-entry:nth-child(even) {
     background-color: #650000;
 }
@@ -85,22 +151,30 @@ a {
     background-color: #4A0000;
 }
 
-.list-entry a {
-    font-weight: bolder;
-}
-
-.list-entry a:hover {
-    color: white;
-}
-
+/*
+The title in each table row is larger than the rest
+of the content to increase its visibility.
+*/
 .list-entry h3 {
     font-size: 1.25rem;
 }
 
+/*
+This comment will address the next three entries. I wanted to create
+a sort of "bubble" for each table row using a colored border. Each
+row contains only two pieces of data: the description of the work or
+project and a corresponding image. So what I did was create a top and
+bottom border for both pieces of data, then had the left child round
+the borders of the left. The right child rounds the borders on the right.
+This results in each table row having its own bubbled border.
+
+I also made the description section take up 75% of the table row because
+I felt that the text needed more space than the images.
+*/
 .list-entry td {
     vertical-align: top;
     padding: 1rem;
-    border-color: darkgrey;
+    border-color: #D4AF37;
     border-top-style: solid;
     border-bottom-style: solid;
 }
@@ -111,6 +185,7 @@ a {
     border-top-left-radius: 0.75rem; 
     border-bottom-left-radius: 0.75rem;
 }
+
 .list-entry td:last-child {
     width: 25%;
     border-right-style: solid;
@@ -118,17 +193,38 @@ a {
     border-top-right-radius: 0.75rem; 
 }
 
-.project-image {
-    border-radius: 10%;
+/*
+The images in the "Work Experience" page looked bad against the static colors
+because of the transparency, so I added a semi-transparent background and rounded
+the corners to make them easier to see while still being appealing to look at.
+The images are centered in their table entry and resize automatically.
+*/
+.work-image {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.75rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     height: auto;
 }
 
-.work-image {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 0.75rem;
+/*
+I used this id because this is the only individual text I wanted to make a little
+smaller in the projects page. I have .gifs of each project in action next to the 
+project description and wanted to point out that you can see them better when opened 
+in a new tab. I thought it would look bad if it was the same size as the personal 
+projects header, so I made the size slightly smaller.
+*/
+#projects-suggestion {
+    font-size: 1.1rem;
+}
+
+/*
+Similar styling to the work images, but for the project images in the "Personal
+Projects" page. No transparency, so no background needed.
+*/
+.project-image {
+    border-radius: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
