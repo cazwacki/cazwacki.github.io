@@ -1,5 +1,31 @@
-html {
-    font-size: 100%;
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
@@ -8,7 +34,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    font-size: 1em;
 }
 
 #banner {
@@ -30,13 +55,13 @@ a {
 }
 
 .resume-section {
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-title {
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -45,7 +70,7 @@ a {
 }
 
 .section-list {
-    border-spacing: 0 1em;
+    border-spacing: 0 1rem;
     table-layout: fixed;
     max-width: 70%;
     margin-left: auto;
@@ -69,12 +94,12 @@ a {
 }
 
 .list-entry h3 {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 .list-entry td {
     vertical-align: top;
-    padding: 1em;
+    padding: 1rem;
     border-color: darkgrey;
     border-top-style: solid;
     border-bottom-style: solid;
@@ -83,14 +108,14 @@ a {
 .list-entry td:first-child {
     width: 75%;
     border-left-style: solid;
-    border-top-left-radius: 0.75em; 
-    border-bottom-left-radius: 0.75em;
+    border-top-left-radius: 0.75rem; 
+    border-bottom-left-radius: 0.75rem;
 }
 .list-entry td:last-child {
     width: 25%;
     border-right-style: solid;
-    border-bottom-right-radius: 0.75em; 
-    border-top-right-radius: 0.75em; 
+    border-bottom-right-radius: 0.75rem; 
+    border-top-right-radius: 0.75rem; 
 }
 
 .project-image {
@@ -103,7 +128,7 @@ a {
 
 .work-image {
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 0.75em;
+    border-radius: 0.75rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
