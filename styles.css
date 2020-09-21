@@ -152,11 +152,11 @@ to help them stand out from each other. Not needed but I think
 it's a nice touch.
 */
 .list-entry:nth-child(even) {
-    background-color: #650000;
+    background-color: rgba(100, 0, 0, 0.5);
 }
 
 .list-entry:nth-child(odd) {
-    background-color: #4A0000;
+    background-color: rgba(50, 0, 0, 0.5);
 }
 
 /*
