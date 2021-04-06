@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Charles Zawacki: Personal Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+</head>
+
+<body>
+    <div id="banner">
+        <section id="banner-section">
+            <nav id="site-navigation">
+                <a id="home-page" class="info-link" href="index.html">Home Page</a> |
+                <a id="work-experience" class="info-link" href="full-work.html">Work Experience</a> |
+                <a id="personal-projects" class="info-link" href="full-projects.html">Personal Projects</a>
+            </nav>
+            <table id="personal-info-table">
+                <tr>
+                    <td id="personal-info-image">
+                        <img id="profile" src="profile.jpg">
+                    </td>
+                    <td id="personal-info-data">
+                        <h1 id="name">Charles Zawacki</h1>
+                        <table id="contact-info-table">
+                            <tr class="info-attribute">
+                                <td>cazwacki@gmail.com</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <nav id="personal-links">
+                <a id="linkedin-link" class="info-link" href="https://www.linkedin.com/in/charleszawacki/">LinkedIn</a> |
+                <a id="github-link" class="info-link" href="https://github.com/cazwacki">Github</a> |
+                <a id="play-store-link" class="info-link" href="https://play.google.com/store/apps/developer?id=Charles+Z.">Google Play Store</a>
+            </nav>
+        </section>
+    </div>
+    <section id="work-experience">
+        <h3 id="work-experience-title" class="section-title">Discord Bot Commands</h3>
+        <table id="work-table" class="section-list">
+            <tr id="virginia-tech-research" class="list-entry">
+                <td>
+                    <button id="greeter-button" class="collapsible" type="button">Greeter Commands</button>
+                    <div id="greeter-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">Greeter codes that can be used to substitute server / user data in your messages:</li>
+                            <ul>
+                                <li>&lt;&lt;user&gt;&gt; &rarr; username</li>
+                                <li>&lt;&lt;disc&gt;&gt; &rarr; discriminator</li>
+                                <li>&lt;&lt;ping&gt;&gt; &rarr; @user</li>
+                                <li>&lt;&lt;memc&gt;&gt; &rarr; member count</li>
+                                <li>Example: "Welcome, &lt;&lt;ping&gt;&gt;!&lt;&lt;user&gt;&gt;#&lt;&lt;disc&gt;&gt; is member &lt;&lt;memc&gt;&gt; on the server!" becomes "Welcome, @czawacki! czawacki#1234 is member 56 on the server!"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~greeter help</li>
+                            <ul>
+                                <li>Explains how to use the greeter subcommands in detail, since they are more complex than the rest of the commands.</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~greeter status</li>
+                            <ul>
+                                <li>Displays the current welcome and goodbye messages' information, if present for the server.</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~greeter set (join / leave) (#channel) (message: max 1000 characters) (-img (URL max 1000 characters): optional)</li>
+                            <ul>
+                                <li>Adds (or updates) an entry for the guild to send the new message when a user joins/leaves.</li>
+                                <li>Example: "~greeter set join #welcome-channel Welcome to the server, &lt;&lt;ping&gt;&gt;! You are member #&lt;&lt;memc&gt;&gt;!"</li>
+                                <li>Example: "~greeter set leave #goodbye-channel Goodbye! Thanks for coming by! -img https://media2.giphy.com/media/26u3Zl2MQWJl2hf2g/giphy.gif"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~greeter reset (join / leave)</li>
+                            <ul>
+                                <li>Removes the join/leave message completely. It will no longer send the corresponding message until you set a message again using "~greeter set."</li>
+                                <li>Example: "~greeter reset join"</li>
+                            </ul>
+                            <br />
+                        </ul>
+                    </div>
+                    <button id="monitoring-button" class="collapsible" type="button">Monitoring Commands</button>
+                    <div id="monitoring-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">~leaderboard</li>
+                            <ul>
+                                <li>Get top 10 (or top x where x is the number of people who have sent a message) users with the highest chat scores, and also display the invoking user's position on the leaderboard.</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~activity rescan</li>
+                            <ul>
+                                <li>(Should be useless most of the time) Checks for any users in the server that are not in the database, and adds them to it.</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~activity user (@user)</li>
+                            <ul>
+                                <li>Returns the user's last sign of activity recorded by the bot. (Records user join, reaction, and message)</li>
+                                <li>Example: "~activity @czawacki"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~activity list (number)</li>
+                            <ul>
+                                <li>Returns a report of users who have been inactive for (number) days or more.</li>
+                                <li>Example: "~activity list 14"</li>
+                            </ul>
+                            <br />
+                        </ul>
+                    </div>
+                    <button id="administration-button" class="collapsible" type="button">Administration Commands</button>
+                    <div id="administration-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">~nick (@user) (new nickname)</li>
+                            <ul>
+                                <li>Nickname the specified user on the server.</li>
+                                <li>Example: "~nick @cazwacki Bot Developer"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~kick (@user) (reason: optional)</li>
+                            <ul>
+                                <li>Kicks the user from the server and DMs them, including the reason if provided.</li>
+                                <li>Example: "~kick @cazwacki"</li>
+                                <li>Example: "~kick @cazwacki Violated rule 3"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~ban (@user) (reason: optional)</li>
+                            <ul>
+                                <li>Bans the user from the server and DMs them, including the reason if provided.</li>
+                                <li>Example: "~ban @cazwacki"</li>
+                                <li>Example: "~ban @cazwacki Repeatedly broke rule 3"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~purge (number)</li>
+                            <ul>
+                                <li>Removes the (number) most recent messages from the channel the command was invoked in.</li>
+                                <li>Example: "~purge 15"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~mv (number) (#channel)</li>
+                            <ul>
+                                <li>Removes the (number) most recent messages from the channel the command was invoked in and pastes them into the channel called in the command.</li>
+                                <li>Example: "~mv 25 #gaming"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~cp (number) (#channel)</li>
+                            <ul>
+                                <li>Copies the (number) most recent messages from the channel the command was invoked in and pastes them into the channel called in the command.</li>
+                                <li>Example: "~cp 25 #gaming"</li>
+                            </ul>
+                            <br />
+                        </ul>
+                    </div>
+                    <button id="lookup-button" class="collapsible" type="button">Lookup Commands</button>
+                    <div id="lookup-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">~define (word / phrase)</li>
+                            <ul>
+                                <li>Returns the definition of the word or phrase passed in.</li>
+                                <li>Example: "~define discord"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~wiki (word / phrase)</li>
+                            <ul>
+                                <li>Returns the wikipedia entry for the word or phrase passed in.</li>
+                                <li>Example: "~wiki discord (software)"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~google (word / phrase)</li>
+                            <ul>
+                                <li>Returns the first 5 Google results for the word or phrase passed in.</li>
+                                <li>Example: "~google starlink coverage map"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~image (word / phrase)</li>
+                            <ul>
+                                <li>Returns the first 10 images from Google for the word or phrase passed in. They can be navigated by using the left, right, and stop reactions that pop up.</li>
+                                <li>Example: "~image color wheel"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~help</li>
+                            <ul>
+                                <li>Returns a URL to this page.</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <button id="user-info-button" class="collapsible" type="button">User Info Commands</button>
+                    <div id="lookup-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">~about (@user)</li>
+                            <ul>
+                                <li>Returns the server join date, nickname (if applicable), and roles associated with the tagged user.</li>
+                                <li>Example: "~about @czawacki"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~profile (@user)</li>
+                            <ul>
+                                <li>Returns a 512x512 version of the tagged user's profile picture.</li>
+                                <li>Example: "~profile @czawacki"</li>
+                            </ul>
+                            <br />
+                        </ul>
+                    </div>
+                    <button id="dbd-button" class="collapsible" type="button">Dead by Daylight Commands</button>
+                    <div id="lookup-commands" class="collapsible-content">
+                        <ul>
+                            <li class="entry-desc">~perk (perk name)</li>
+                            <ul>
+                                <li>Returns the entry of the perk from the Dead by Daylight Wiki.</li>
+                                <li>Example: "~perk We'll Make It"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~shrine</li>
+                            <ul>
+                                <li>Returns the current shrine of 4 perks that can be purchased with shards.</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~autoshrine (#channel)</li>
+                            <ul>
+                                <li>Designates the channel for shrine updates from the DBD Twitter account.</li>
+                                <li>Example: "~profile @czawacki"</li>
+                            </ul>
+                            <br />
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
