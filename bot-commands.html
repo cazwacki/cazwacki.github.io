@@ -92,15 +92,29 @@
                                 <li>(Should be useless most of the time) Checks for any users in the server that are not in the database, and adds them to it.</li>
                             </ul>
                             <br />
+                            <li class="entry-desc">~activity whitelist (@user) (true/false)</li>
+                            <ul>
+                                <li>Returns a report of users who have been inactive for (number) days or more.</li>
+                                <li>Example: "~activity whitelist @czawacki true"</li>
+                                <li>Example: "~activity whitelist @czawacki false"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~activity autokick (number)</li>
+                            <ul>
+                                <li>Sets the bot to kick users automatically after (number) days of inactivity. If (number) &lt; 1, then the auto-kick is disabled for the server.</li>
+                                <li>Example: "~activity autokick 14" will set the bot to kick users after 2 weeks of inactivity</li>
+                                <li>Example: "~activity autokick 0" will disable auto-kick on the server.</li>
+                            </ul>
+                            <br />
                             <li class="entry-desc">~activity user (@user)</li>
                             <ul>
-                                <li>Returns the user's last sign of activity recorded by the bot. (Records user join, reaction, and message)</li>
+                                <li>Returns the user's last sign of activity recorded by the bot. (Records user join, reaction, and message). Includes whether the user is protected from auto-kick.</li>
                                 <li>Example: "~activity @czawacki"</li>
                             </ul>
                             <br />
                             <li class="entry-desc">~activity list (number)</li>
                             <ul>
-                                <li>Returns a report of users who have been inactive for (number) days or more.</li>
+                                <li>Returns a report of users who have been inactive for (number) days or more. Includes whether the user is protected from auto-kick.</li>
                                 <li>Example: "~activity list 14"</li>
                             </ul>
                             <br />
