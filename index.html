@@ -47,18 +47,33 @@
     <section id="education" class="resume-section">
         <h3 id="education-title" class="section-title">Education</h3>
         <div id="education-content" class="section-content">
-            <table id="education-info">
+            <table id="ms-education-info">
+                <tr class="info-attribute">
+                    <td>Currently Pursuing M.S., Computer Science</td>
+                </tr>
+                <tr class="info-attribute">
+                    <td>Georgia Tech, OMSCS Program</td>
+                </tr>
+                <tr class="info-attribute">
+                    <td>Atlanta, GA</td>
+                </tr>
+                <tr class="info-attribute">
+                    <td>Expected Graduation: Fall 2024</td>
+                </tr>
+            </table>
+            <br />
+            <table id="bs-education-info">
                 <tr class="info-attribute">
                     <td>B.S., Computer Science</td>
                 </tr>
                 <tr class="info-attribute">
-                    <td>Virginia Tech (3.32 GPA, in-major 3.82)</td>
+                    <td>Virginia Tech (3.39 GPA, in-major 3.83)</td>
                 </tr>
                 <tr class="info-attribute">
                     <td>Blacksburg, VA</td>
                 </tr>
                 <tr class="info-attribute">
-                    <td>Expected Graduation: Spring 2021</td>
+                    <td>Graduation: May 15, 2021</td>
                 </tr>
             </table>
         </div>
@@ -67,8 +82,8 @@
         <h3 id="skills-title" class="section-title">Skills</h3>
         <div id="skills-content" class="section-content">
             <ul id="skills-list">
-                <li class="resume-entry">Languages: Java, C, Golang, Python, JavaScript, HTML, CSS, Bash</li>
-                <li class="resume-entry">Technologies: Enterprise Jenkins, Datadog, LDAP, Git, Visual Studio, Basic CI/CD
+                <li class="resume-entry">Languages: Java, C, Golang, Python, JavaScript, HTML, CSS, Scripting</li>
+                <li class="resume-entry">Technologies: Enterprise Jenkins, Datadog, LDAP, Git, Visual Studio, Basic CI/CD, WebRTC, GStreamer, WebSocket, OpenMP 4.5
                 </li>
                 <li class="resume-entry">AWS Tools: Lambda, S3, IAM, CloudWatch, CloudTrail</li>
                 <li class="resume-entry">Relevant Coursework: Parallel Computation, Cloud Software Development, Computer Organization, Data Structures and Algorithms</li>
@@ -109,6 +124,16 @@
         <h3 id="projects-title" class="section-title"><a href="full-projects.html">Notable Projects</a></h3>
         <div id="projects-content" class="section-content">
             <ul id="projects-list">
+                <li class="resume-entry"><a href="https://github.com/cazwacki/Switch-Streaming">Switch Streaming
+                </a>
+                <ul id="switchstream-desc">
+                    <li class="entry-desc">Allows someone to play your Nintendo Switch from across the country with sub-second latency!</li>
+                    <li class="entry-desc">Uses Poohl/joycontrol and WebSocket to send controller input read from a web client to a server that sends corresponding inputs to the Nintendo Switch</li>
+                    <li class="entry-desc">Uses pion/webrtc and GStreamer to stream Nintendo Switch audio and video to a web client with sub-second latencies</li>
+                    <li class="entry-desc">Credentials system, taking advantage of TURN server behavior</li>
+                </ul>
+                <br />
+            </li>
                 <li class="resume-entry"><a href="https://github.com/cazwacki/PersonalDiscordBot">PersonalDiscordBot
                         (Golang)</a>
                     <ul id="personaldiscordbot-desc">
