@@ -94,7 +94,7 @@
                             <br />
                             <li class="entry-desc">~activity whitelist (@user) (true/false)</li>
                             <ul>
-                                <li>Returns a report of users who have been inactive for (number) days or more.</li>
+                                <li>Marks whether a user should be protected from auto-kick.</li>
                                 <li>Example: "~activity whitelist @czawacki true"</li>
                                 <li>Example: "~activity whitelist @czawacki false"</li>
                             </ul>
@@ -116,6 +116,18 @@
                             <ul>
                                 <li>Returns a report of users who have been inactive for (number) days or more. Includes whether the user is protected from auto-kick.</li>
                                 <li>Example: "~activity list 14"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~modlog set (#channel)</li>
+                            <ul>
+                                <li>Logs kicks, bans, and unbans to the listed channel.</li>
+                                <li>Example: "~modlog set #mod-logs"</li>
+                            </ul>
+                            <br />
+                            <li class="entry-desc">~modlog reset</li>
+                            <ul>
+                                <li>No longer logs kicks, bans, and unbans to any channel in the server.</li>
+                                <li>Example: "~modlog reset"</li>
                             </ul>
                             <br />
                         </ul>
