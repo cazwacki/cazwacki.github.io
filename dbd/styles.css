@@ -1,0 +1,186 @@
+/*
+This is used to set sizes for different devices that will visit the site.
+All my font sizes use "rem", which uses a multiplier on the html font size
+to determine the resulting font size for each component.
+*/
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/*
+Sets the website's background, and establishes a default font and color of 
+"Microsoft YaHei Light" and white font for all containers in the HTML body.
+*/
+
+body {
+    overflow-x: hidden;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Roboto" !important;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#bg-video {
+    z-index: -9999;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#video-filter {
+    z-index: -9998;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    height: 96px;
+    display: inline;
+}
+
+.button-menu {
+    padding: 15px;
+    margin: auto;
+}
+
+.generate {
+    width: 30%;
+    margin: auto;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation ease 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.footer {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: darkgrey;
+    text-align: center;
+}
+
+.footer-row {
+    width: 75%;
+}
+
+#perk-set {
+    width: 50%;
+}
+
+#perk-set a {
+    text-decoration: none;
+}
+
+#character-addons {
+    width: 50%;
+}
+
+#character-addons a {
+    text-decoration: none;
+}
+
+#selectors {
+    width: 50%;
+}
+
+#build-description {
+    opacity: 1;
+}
+
+.perk-img {
+    width: 128px;
+    height: 128px;
+}
+
+.addon-img {
+    width: 96px;
+    height: 96px;
+}
+
+#character-addons a {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#character-img {
+    max-height: 128px;
+    width: auto;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto" !important;
+}
+
+#home h1 {
+    display: inline;
+}
+
+.perk-caption {
+    color: white;
+    font-family: "Roboto" !important;
+}
+
+option {
+    background: black;
+    color: darkgrey;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DBD Build Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="buttons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+</head>
+
+<body>
+    <!-- DBD Logo & Background -->
+    <br />
+    <div id="video-filter">
+    </div>
+    <video autoplay muted loop id="bg-video">
+        <source src="images/background.mp4" type="video/mp4">
+    </video>
+    <a id="home" href="./index.html">
+        <img class="mb-4 logo" src="images/dbd_small.png">
+        <h1 class="h2 mb-3 fw-normal">Home Page</h1>
+    </a>
+    <!-- Buttons -->
+    <h1 class="h2 mb-3 fw-normal">Build Generators</h1>
+    <br />
+    <div class="fadeIn">
+        <div id="jack-builds" class="row justify-content-center">
+            <div class="col-3"><a href="presets.html?build=Preset&mode=Survivor"><button class="btn btn-outline-dark btn-lg btn-radius">Preset Survivor Builds</button></a></div>
+            <div class="col-3"><a href="presets.html?build=Preset&mode=Killer"><button class="btn btn-outline-light btn-lg btn-radius">Preset Killer Builds</button></a></div>
+        </div>
+        <br />
+        <div id="style-builds" class="row justify-content-center">
+            <div class="col-3"><a href="generator.html?build=Semi-Random&mode=Survivor"><button class="btn btn-outline-dark btn-lg btn-radius">Semi-Random Survivor Builds</button></a></div>
+            <div class="col-3"><a href="generator.html?build=Semi-Random&mode=Killer"><button class="btn btn-outline-light btn-lg btn-radius">Semi-Random Killer Builds</button></a></div>
+        </div>
+        <br />
+        <div id="random-builds" class="row justify-content-center">
+            <div class="col-3"><a href="generator.html?build=Random&mode=Survivor"><button class="btn btn-outline-dark btn-lg btn-radius">Random Survivor Builds</button></a></div>
+            <div class="col-3"><a href="generator.html?build=Random&mode=Killer"><button class="btn btn-outline-light btn-lg btn-radius">Random Killer Builds</button></a></div>
+        </div>
+    </div>
+    <br />
+    <!-- Footer -->
+    <footer class="footer">
+        <br />
+        <div class="mx-auto row justify-content-center footer-row">
+            <div class="col">
+                <a href="https://charles.zawackis.com" target="_blank">More About Me</a>
+            </div>
+            <div class="col">
+                <p>Hope you enjoy the build generator!</p>
+            </div>
+            <div class="col">
+                <a href="https://deadbydaylight.fandom.com" target="_blank">Dead By Daylight Wiki</a>
+            </div>
+        </div>
+        <div class="mx-auto row justify-content-center footer-row">
+            <div class="col">
+                <a href="https://github.com/cazwacki" target="_blank">GitHub</a>
+            </div>
+            <div class="col">
+                <p>⠀⠀</p>
+            </div>
+            <div class="col">
+                <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight Forums</a>
+            </div>
+        </div>
+        <div class="mx-auto row justify-content-center footer-row">
+            <div class="col">
+                <a href="https://www.linkedin.com/in/charleszawacki/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="col">
+                <a href="https://www.paypal.com/donate?business=DUMTYDP6XGF9E&no_recurring=0&item_name=Tip+me+if+you+like+my+work%21+Appreciate+you%21&currency_code=USD" target="_blank">Tip jar, if you really like my work!</a>
+            </div>
+            <div class="col">
+                <a href="https://twitter.com/DeadByBHVR" target="_blank">Dead By Daylight Twitter</a>
+            </div>
+        </div>
+        <br />
+    </footer>
+</body>
+
+</html>
