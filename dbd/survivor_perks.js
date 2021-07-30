@@ -384,6 +384,5 @@ let survivor_perks = {
 for (let perk in survivor_perks) {
     // preload all images
     var img = new Image();
-    console.log(perk)
     img.src = survivor_perks[perk].img_url;
 }
