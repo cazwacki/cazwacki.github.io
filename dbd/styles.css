@@ -8,11 +8,41 @@ to determine the resulting font size for each component.
     html {
         font-size: 12px;
     }
+    .footer-row {
+        width: 75%;
+    }
+    #perk-set {
+        width: 80%;
+    }
+    #character-addons {
+        width: 80%;
+    }
+    #selectors {
+        width: 80%;
+    }
+    .button-set {
+        width: 80%;
+    }
 }
 
 @media (min-width: 480px) {
     html {
         font-size: 13px;
+    }
+    .footer-row {
+        width: 75%;
+    }
+    #perk-set {
+        width: 75%;
+    }
+    #character-addons {
+        width: 75%;
+    }
+    #selectors {
+        width: 75%;
+    }
+    .button-set {
+        width: 75%;
     }
 }
 
@@ -31,6 +61,21 @@ to determine the resulting font size for each component.
 @media (min-width: 1200px) {
     html {
         font-size: 16px;
+    }
+    .footer-row {
+        width: 75%;
+    }
+    #perk-set {
+        width: 50%;
+    }
+    #character-addons {
+        width: 50%;
+    }
+    #selectors {
+        width: 50%;
+    }
+    .button-set {
+        width: 50%;
     }
 }
 
@@ -117,28 +162,12 @@ body {
     text-align: center;
 }
 
-.footer-row {
-    width: 75%;
-}
-
-#perk-set {
-    width: 50%;
-}
-
 #perk-set a {
     text-decoration: none;
 }
 
-#character-addons {
-    width: 50%;
-}
-
 #character-addons a {
     text-decoration: none;
-}
-
-#selectors {
-    width: 50%;
 }
 
 #build-description {
