@@ -2315,13 +2315,11 @@ let addons = {
 for (let addon in addons) {
     // preload all images
     var img = new Image();
-    console.log(addon)
     img.src = addons[addon].img_url;
 }
 
 for (let killer in killers) {
     // preload all images
     var img = new Image();
-    console.log(killer)
     img.src = killers[killer].img_url;
 }
