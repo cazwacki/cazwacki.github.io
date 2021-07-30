@@ -995,7 +995,7 @@ let addons = {
     },
     "Julie's Mix Tape": {
         "url": "https://deadbydaylight.fandom.com/wiki/Julie%27s_Mix_Tape",
-        "img_url": "images/addons/iconAddon_juliesMixTape.png"
+        "img_url": "images/addons/iconAddon_juliesMixtape.png"
     },
     "Etched Ruler": {
         "url": "https://deadbydaylight.fandom.com/wiki/Etched_Ruler",
@@ -1015,7 +1015,7 @@ let addons = {
     },
     "Stolen Sketch Book": {
         "url": "https://deadbydaylight.fandom.com/wiki/Stolen_Sketch_Book",
-        "img_url": "images/addons/iconAddon_stolenSketchBook.png"
+        "img_url": "images/addons/iconAddon_stolenSketchbook.png"
     },
     "Nasty Blade": {
         "url": "https://deadbydaylight.fandom.com/wiki/Nasty_Blade",
@@ -1023,7 +1023,7 @@ let addons = {
     },
     "Joey's Mix Tape": {
         "url": "https://deadbydaylight.fandom.com/wiki/Joey%27s_Mix_Tape",
-        "img_url": "images/addons/iconAddon_joeysMixTape.png"
+        "img_url": "images/addons/iconAddon_joeysMixtape.png"
     },
     "Stab Wounds Study": {
         "url": "https://deadbydaylight.fandom.com/wiki/Stab_Wounds_Study",
@@ -1031,7 +1031,7 @@ let addons = {
     },
     "Frank's Mix Tape": {
         "url": "https://deadbydaylight.fandom.com/wiki/Frank%27s_Mix_Tape",
-        "img_url": "images/addons/iconAddon_franksMixTape.png"
+        "img_url": "images/addons/iconAddon_franksMixtape.png"
     },
     "Filthy Blade": {
         "url": "https://deadbydaylight.fandom.com/wiki/Filthy_Blade",
@@ -1047,7 +1047,7 @@ let addons = {
     },
     "Fuming Mix Tape": {
         "url": "https://deadbydaylight.fandom.com/wiki/Fuming_Mix_Tape",
-        "img_url": "images/addons/iconAddon_fumingMixTape.png"
+        "img_url": "images/addons/iconAddon_fumingMixtape.png"
     },
     "Yellowed Cloth": {
         "url": "https://deadbydaylight.fandom.com/wiki/Yellowed_Cloth",
@@ -1355,7 +1355,7 @@ let addons = {
     },
     "Upside Down Resin": {
         "url": "https://deadbydaylight.fandom.com/wiki/Upside_Down_Resin",
-        "img_url": "images/addons/iconAddon_upsideDownResin.png"
+        "img_url": "images/addons/iconAddon_upsidedownResin.png"
     },
     "Unknown Egg": {
         "url": "https://deadbydaylight.fandom.com/wiki/Unknown_Egg",
@@ -1479,7 +1479,7 @@ let addons = {
     },
     "Forgotten Videotape": {
         "url": "https://deadbydaylight.fandom.com/wiki/Forgotten_Videotape",
-        "img_url": "images/addons/iconAddon_forgottenVideotape.png"
+        "img_url": "images/addons/iconAddon_forgottenVideoTape.png"
     },
     "Cinderella Music Box": {
         "url": "https://deadbydaylight.fandom.com/wiki/Cinderella_Music_Box",
@@ -1687,7 +1687,7 @@ let addons = {
     },
     "Matchbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Matchbox",
-        "img_url": "images/addons/iconAddon_matchbox.png"
+        "img_url": "images/addons/iconAddon_matchBox.png"
     },
     "Visitor Wristband": {
         "url": "https://deadbydaylight.fandom.com/wiki/Visitor_Wristband",
@@ -1843,7 +1843,7 @@ let addons = {
     },
     "Iridescent Seal": {
         "url": "https://deadbydaylight.fandom.com/wiki/Iridescent_Seal",
-        "img_url": "images/addons/iconAddon_iridescentSeal.png"
+        "img_url": "images/addons/iconAddon_IridescentSeal.png"
     },
     "Black Incense": {
         "url": "https://deadbydaylight.fandom.com/wiki/Black_Incense",
@@ -1935,7 +1935,7 @@ let addons = {
     },
     "Shiawase Amulet": {
         "url": "https://deadbydaylight.fandom.com/wiki/Shiawase_Amulet",
-        "img_url": "images/addons/iconAddon_shiawaseAmulet.png"
+        "img_url": "images/addons/iconAddon_ShiawaseAmulet.png"
     },
     "Origami Crane": {
         "url": "https://deadbydaylight.fandom.com/wiki/Origami_Crane",
@@ -2087,7 +2087,7 @@ let addons = {
     },
     "Iridescent Family Crest": {
         "url": "https://deadbydaylight.fandom.com/wiki/Iridescent_Family_Crest",
-        "img_url": "images/addons/iconAddon_iridescentFamilyCrest.png"
+        "img_url": "images/addons/iconAddon_IridescentFamilyCrest.png"
     },
     "Wide Lens": {
         "url": "https://deadbydaylight.fandom.com/wiki/Wide_Lens",
