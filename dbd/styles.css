@@ -158,7 +158,7 @@ body {
     left: 0;
     bottom: 0;
     background-color: black;
-    color: darkgrey;
+    color: lightgrey;
     text-align: center;
 }
 
@@ -211,5 +211,5 @@ body {
 
 option {
     background: black;
-    color: darkgrey;
+    color: lightgrey;
 }
