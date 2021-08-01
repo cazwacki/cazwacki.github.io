@@ -58,8 +58,8 @@ let preset_killer_perks = {
     "Tricky Looper": {
         "main": "The Hillbilly",
         "addons": ["Leafy Mash", "Heavy Clutch"],
-        "perks": ["I'm All Ears", "Bamboozle", "Hex: The Third Seal", "Mindbreaker"],
-        "explanation": "Use Leafy Mash to cloak yourself! I'm All Ears will help you see the survivor, and you can use Heavy Clutch to go for trickier plays in loop spots! Bamboozle and Mindbreaker will strengthen your 1v1.",
+        "perks": ["Tinkerer", "Bamboozle", "Hex: The Third Seal", "Mindbreaker"],
+        "explanation": "Use Leafy Mash to cloak yourself! You can use Heavy Clutch to go for trickier plays in loop spots! Bamboozle and Mindbreaker will strengthen your 1v1.",
         "meme": "Low Meme"
     },
     "Deceptive Swiftness": {
@@ -72,7 +72,7 @@ let preset_killer_perks = {
     "No Stamina Nurse": {
         "main": "The Nurse",
         "addons": ["Matchbox", "Kavanagh's Last Breath"],
-        "perks": ["Mindbreaker", "Blood Echo", "Hex: Devour Hope", "Hex: Ruin"],
+        "perks": ["Mindbreaker", "Blood Echo", "Barbecue & Chilli", "Hex: Ruin"],
         "explanation": "She can make one huge sprint, but then she's out of breath... the survivors are out of breath too?",
         "meme": "High Meme"
     },
@@ -142,8 +142,8 @@ let preset_killer_perks = {
     "Sniper Doc": {
         "main": "The Doctor",
         "addons": ["Interview Tape", "High Stimulus Electrode"],
-        "perks": ["Hex: Devour Hope", "Deathbound", "Knock Out", "Pop Goes the Weasel"],
-        "explanation": "Shock survivors from afar! Use the haste of Devour to chase them down and Knock Out to confuse the team. Deathbound and Pop Goes the Weasel will help slow down the match.",
+        "perks": ["Hex: Devour Hope", "Tinkerer", "Knock Out", "Pop Goes the Weasel"],
+        "explanation": "Shock survivors from afar! Use the haste of Devour to chase them down and Knock Out to confuse the team. Tinkerer and Pop Goes the Weasel will help slow down the match.",
         "meme": "High Meme"
     },
     "Hit and Run Huntress": {
@@ -156,7 +156,7 @@ let preset_killer_perks = {
     "Rapid Fire": {
         "main": "The Huntress",
         "addons": ["Flower Babushka", "Oak Haft"],
-        "perks": ["Save the Best for Last", "Hex: Devour Hope", "I'm All Ears", "Infectious Fright"],
+        "perks": ["Save the Best for Last", "Hex: Devour Hope", "Barbecue & Chilli", "Infectious Fright"],
         "explanation": "Quickly, move, basic attack, and throw hatchets. Down survivors and use Infectious to quickly throw a hatchet at the next survivor!",
         "meme": "Medium Meme"
     },
@@ -247,8 +247,8 @@ let preset_killer_perks = {
     "Litterer": {
         "main": "The Clown",
         "addons": ["Thick Cork Stopper", "Cheap Gin Bottle"],
-        "perks": ["Brutal Strength", "Save the Best for Last", "Bamboozle", "Surge"],
-        "explanation": "Throw those bottles like crazy! Brutal Strength and Bamboozle will help with obstacle removal and replace that garbage with broken bottles!",
+        "perks": ["Brutal Strength", "Save the Best for Last", "Tinkerer", "Surge"],
+        "explanation": "Throw those bottles like crazy! Brutal Strength will help with obstacle removal and replace that garbage with broken bottles!",
         "meme": "High Meme"
     },
     "Disorienting Dancer": {
@@ -328,7 +328,7 @@ let preset_killer_perks = {
         "explanation": "On a down, survivors within your terror radius scream and those outside are highlighted! You can choose to take advantage of the vision or use BBQ to get more vision after a hook.",
         "meme": "Low Meme"
     },
-    "Determined Death": {
+    "Determined for Death": {
         "main": "The Ghost Face",
         "addons": ["Lasting Perfume", "Leather Knife Sheath"],
         "perks": ["Save the Best for Last", "Bamboozle", "A Nurse's Calling", "Surge"],
@@ -394,8 +394,8 @@ let preset_killer_perks = {
     "Fast Hands Slinger": {
         "main": "The Deathslinger",
         "addons": ["Warden's Keys", "Bayshore's Gold Tooth"],
-        "perks": ["Save the Best for Last", "Surge", "Hysteria", "I'm All Ears"],
-        "explanation": "Quickly fire and reel in survivors with your addons. StBfL will reward your basic attacks, and Hysteria and I'm All Ears will throw off survivors and help you get fast downs, resulting in Surge proc!",
+        "perks": ["Save the Best for Last", "Surge", "Hysteria", "Barbecue & Chilli"],
+        "explanation": "Quickly fire and reel in survivors with your addons. StBfL will reward your basic attacks, and Hysteria will throw off survivors and help you get fast downs, resulting in Surge proc!",
         "meme": "Low Meme"
     },
     "American Sniper": {
