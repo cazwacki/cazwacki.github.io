@@ -17,7 +17,7 @@ let preset_survivor_perks = {
         "main": "Camping Aid Kit",
         "addons": ["Abdominal Dressing", "Medical Scissors"],
         "perks": ["Fixated", "Tenacity", "Urban Evasion", "Sprint Burst"],
-        "explanation": "Everything, but a little faster. Run, walk, crouch, and crawl with alacrity! Plus, unless it's been fixed since the time of writing (Patch 5.1.0) Fixated's speed boost applies to crawling. Zoom!",
+        "explanation": "Do everything, but a little faster. Run, walk, crouch, and crawl with alacrity! Plus, unless it's been fixed since the time of writing (Patch 5.1.0) Fixated's speed boost applies to crawling. Zoom!",
         "meme": "High Meme"
     },
     "Hiding in Plain Sight": {
@@ -45,14 +45,14 @@ let preset_survivor_perks = {
         "main": "Ranger Med-Kit",
         "addons": ["Gel Dressings", "Self Adherent Wrap"],
         "perks": ["Kindred", "Camaraderie", "Decisive Strike", "Open-Handed"],
-        "explanation": "You don't mind hanging out for a while. Provide crazy info for your team while on the hook, hang out for an extra half minute, and even get a second chance with a sharp piece of glass!",
+        "explanation": "You don't mind hanging out for a while. Provide crazy info for your team while on the hook, hang out for an extra half minute, and even get a second chance with Decisive Strike!",
         "meme": "High Meme"
     },
     "Double Agent": {
         "main": "Dull Key",
         "addons": ["Milky Glass", "Weaved Ring"],
         "perks": ["Self-Preservation", "Better Together", "Object of Obsession", "Left Behind"],
-        "explanation": "You're a real sinister bastard. Lure teammates to you with Better, Lure killers to you with Object, leave your teammates to die with Self. Rinse and repeat till you're \"left behind\" and have no choice but to leave.",
+        "explanation": "You're real sinister. Lure teammates to you with Better, Lure killers to you with Object, leave your teammates to die with Self-Preservation. Rinse and repeat till you're \"Left Behind\" and have no choice but to leave via the Hatch.",
         "meme": "High Meme"
     },
     "Untrackable": {
@@ -108,7 +108,7 @@ let preset_survivor_perks = {
         "main": "Map (Item)",
         "addons": ["Red Twine", "Retardant Jelly"],
         "perks": ["Inner Strength", "Counterforce", "Small Game", "Spine Chill"],
-        "explanation": "Crack some skulls and make NOED users cry. Snap every skull, and if the killer comes to swat you use that chill to just break them faster.",
+        "explanation": "Crack some skulls and make NOED users cry. Snap every skull, and if the killer comes to swat you use that Spine Chill to just break them faster.",
         "meme": "Low Meme"
     },
     "King Aura": {
@@ -143,14 +143,14 @@ let preset_survivor_perks = {
         "main": "Flashlight (Item)",
         "addons": ["Odd Bulb", "High-End Sapphire Lens"],
         "perks": ["Any Means Necessary", "Decisive Strike", "Blast Mine", "Head On"],
-        "explanation": "You're just a real prick, arent'cha? Hit the poor murderer with shards of glass, locker doors, and explosives. If you're feeling extra rude, pick up a pallet just to whack em' with it again!",
+        "explanation": "You're just a real jerk, arent'cha? Hit the poor murderer with shards of glass, locker doors, and explosives. If you're feeling extra rude, pick up a pallet just to whack 'em with it again!",
         "meme": "Medium Meme"
     },
     "Nyoom": {
         "main": "Skeleton Key",
         "addons": ["Prayer Beads", "Unique Wedding Ring"],
         "perks": ["Hope", "Blood Pact", "Breakout", "Sprint Burst"],
-        "explanation": "A little speed boost can go a long way. Regardless of if it's completed gens, a hurt friend, or a carried survivor you just seem to be faster than the competition.",
+        "explanation": "A little speed boost can go a long way. Regardless of if it's completed gens, a hurt friend, or a carried survivor, you just seem to be faster than the competition.",
         "meme": "High Meme"
     },
     "Playing Hookey": {
@@ -185,7 +185,7 @@ let preset_survivor_perks = {
         "main": "Commodious Toolbox",
         "addons": ["Wire Spool", "Instructions"],
         "perks": ["Iron Will", "Calm Spirit", "Distortion", "Spine Chill"],
-        "explanation": "Counter screams (Doctor/Clown), stalks (Wraith/Myers/Ghostface), cries (Spirit), or Tracking (BBQ/Lethal/etc.). You won't always get value, but when you do, they get hard countered.",
+        "explanation": "Counter screams (Doctor/Clown), stalks (Wraith/Myers/Ghostface), cries (Spirit), or tracking (BBQ/Lethal/etc.). You won't always get value, but when you do, they get hard countered.",
         "meme": "Medium Meme"
     },
     "Guidance": {
@@ -373,7 +373,7 @@ let preset_survivor_perks = {
     "Flashlight Saviour": {
         "main": "Utility Flashlight",
         "addons": ["Long Life Battery", "High-End Sapphire Lens"],
-        "perks": ["Diversion", "Stake Out", "Quick & Quiet", "Lightweight"],
+        "perks": ["Diversion", "Stake Out", "Quick & Quiet", "Empathy"],
         "explanation": "Make sure survivors that get picked up will always be saved! Keep track of the chase with Empathy and get in position stealthily with Quick & Quiet! Since you might be following along with the chase at times, Stake Out and Diversion help you take advantage of the time used on this.",
         "meme": "Medium Meme"
     },
