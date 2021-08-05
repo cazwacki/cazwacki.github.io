@@ -98,6 +98,15 @@ body {
 }
 
 #bg-video {
+    z-index: -9998;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#bg-img {
     z-index: -9999;
     position: fixed;
     right: 0;
@@ -107,7 +116,7 @@ body {
 }
 
 #video-filter {
-    z-index: -9998;
+    z-index: -9997;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     right: 0;
