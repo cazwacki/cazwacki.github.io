@@ -559,4 +559,25 @@ let preset_killer_perks = {
         "explanation": "Kick gens as you search for survivors to punish! When you down a survivor, incapacitate survivors working on those gens for 16 seconds, which you can use to quickly find them and cause havoc! If you're too far away, you can do some map cleanup and then pick up the survivor, activating Thrilling Tremors and giving Ruin over 30 seconds to cause regression!",
         "meme": "Medium Meme"
     },
+    "Abusive Documentation": {
+        "main": "The Cenobite",
+        "addons": ["Greasy Black Lens", "Larry's Blood"],
+        "perks": ["I'm All Ears", "Spies from the Shadows", "Hex: Ruin", "Hex: Undying"],
+        "explanation": "Always know the survivors exact movements in chase",
+        "meme": "Medium Meme"
+    },
+    "Box Baron": {
+        "main": "The Cenobite",
+        "addons": ["Iridescent Lament Configuration", "Larry's Remains"],
+        "perks": ["Hoarder", "Save the Best for Last", "Barbecue & Chilli", "Pop Goes the Weasel"],
+        "explanation": "Never let them solve your box! You'll know who and when they find it!",
+        "meme": "Low Meme"
+    },
+    "Scratching Nails": {
+        "main": "The Cenobite",
+        "addons": ["Torture Pillar", "Burning Candle"],
+        "perks": ["Dead Man's Switch", "Nemesis", "Tinkerer", "Surge"],
+        "explanation": "Hook the obsession for permanent Dead Man's, and let the chains block the gens.",
+        "meme": "High Meme"
+    },
 }

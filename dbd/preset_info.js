@@ -94,6 +94,10 @@ let killers = {
     "The Nemesis": {
         "url": "https://deadbydaylight.fandom.com/wiki/The_Nemesis",
         "img_url": "images/powers/nemesis.png"
+    },
+    "The Cenobite": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Elliot_Spencer",
+        "img_url": "images/powers/cenobite.png"
     }
 }
 
@@ -2308,6 +2312,86 @@ let addons = {
     "Brand New Part": {
         "url": "https://deadbydaylight.fandom.com/wiki/Brand_New_Part",
         "img_url": "images/addons/iconAddon_brandNewPart.png"
+    },
+    "Leather Strip": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Leather_Strip",
+        "img_url": "images/addons/iconAddon_leatherStrip.png"
+    },
+    "Lively Crickets": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Lively_Crickets",
+        "img_url": "images/addons/iconAddon_livelyCrickets.png"
+    },
+    "Burning Candle": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Burning_Candle",
+        "img_url": "images/addons/iconAddon_burningCandle.png"
+    },
+    "Bent Nail": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Bent_Nail",
+        "img_url": "images/addons/iconAddon_bentNail.png"
+    },
+    "Wriggling Maggots": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Wriggling_Maggots",
+        "img_url": "images/addons/iconAddon_wrigglingMaggots.png"
+    },
+    "Spoiled Meal": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Spoiled_Meal",
+        "img_url": "images/addons/iconAddon_spoiledMeal.png"
+    },
+    "Skewered Rat": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Skewered_Rat",
+        "img_url": "images/addons/iconAddon_skeweredRat.png"
+    },
+    "Liquified Gore": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Liquified_Gore",
+        "img_url": "images/addons/iconAddon_liquifiedGore.png"
+    },
+    "Flickering Television": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Flickering_Television",
+        "img_url": "images/addons/iconAddon_flickeringTelevision.png"
+    },
+    "Torture Pillar": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Torture_Pillar",
+        "img_url": "images/addons/iconAddon_torturePillar.png"
+    },
+    "Slice of Frank": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Slice_of_Frank",
+        "img_url": "images/addons/iconAddon_sliceofFrank.png"
+    },
+    "Larry's Remains": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Larry%27s_Remains",
+        "img_url": "images/addons/iconAddon_larrysRemains.png"
+    },
+    "Larry's Blood": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Larry%27s_Blood",
+        "img_url": "images/addons/iconAddon_larrysBlood.png"
+    },
+    "Frank's Heart": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Frank%27s_Heart",
+        "img_url": "images/addons/iconAddon_franksHeart.png"
+    },
+    "Original Pain": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Original_Pain",
+        "img_url": "images/addons/iconAddon_originalPain.png"
+    },
+    "Impaling Wire": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Impaling_Wire",
+        "img_url": "images/addons/iconAddon_impalingWire.png"
+    },
+    "Greasy Black Lens": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Greasy_Black_Lens",
+        "img_url": "images/addons/iconAddon_greasyBlackLens.png"
+    },
+    "Chatterer's Tooth": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Chatterer%27s_Tooth",
+        "img_url": "images/addons/iconAddon_chatterersTooth.png"
+    },
+    "Iridescent Lament Configuration": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Iridescent_Lament_Configuration",
+        "img_url": "images/addons/iconAddon_iridescentLamentConfiguration.png"
+    },
+    "Engineer's Fang": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Engineer%27s_Fang",
+        "img_url": "images/addons/iconAddon_engineersFang.png"
     }
 }
 

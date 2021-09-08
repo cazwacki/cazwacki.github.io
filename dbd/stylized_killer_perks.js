@@ -1,14 +1,14 @@
 var stylized_killer_perks = {
     "Aura-Reading": {
-        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
+        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Deadlock", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Scourge Hook: Gift of Pain", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
         "description": "gather information"
     },
     "Anti-Gens": {
-        "perks": ["Brutal Strength", "Corrupt Intervention", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Hex: Huntress Lullaby", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Surge", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
+        "perks": ["Brutal Strength", "Corrupt Intervention", "Deadlock", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Hex: Huntress Lullaby", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Surge", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
         "description": "slow down gen progression"
     },
     "Anti-Healing": {
-        "perks": ["A Nurse's Calling", "Coulrophobia", "Deathbound", "Forced Penance", "Hex: Huntress Lullaby", "Sloppy Butcher", "Unnerving Presence"],
+        "perks": ["A Nurse's Calling", "Coulrophobia", "Deathbound", "Forced Penance", "Hex: Huntress Lullaby", "Scourge Hook: Gift of Pain", "Sloppy Butcher", "Unnerving Presence"],
         "description": "prevent or discourage healing"
     },
     "Anti-Items": {
@@ -44,11 +44,11 @@ var stylized_killer_perks = {
         "description": "expose survivors"
     },
     "Hexing": {
-        "perks": ["Hex: Blood Favour", "Hex: Crowd Control", "Hex: Devour Hope", "Hex: Haunted Ground", "Hex: Huntress Lullaby", "Hex: No One Escapes Death", "Hex: Retribution", "Hex: Ruin", "Hex: The Third Seal"],
+        "perks": ["Hex: Blood Favour", "Hex: Crowd Control", "Hex: Devour Hope", "Hex: Haunted Ground", "Hex: Huntress Lullaby", "Hex: No One Escapes Death", "Hex: Plaything", "Hex: Retribution", "Hex: Ruin", "Hex: The Third Seal"],
         "description": "take advantage of hex totems"
     },
     "Hooking": {
-        "perks": ["Agitation", "Barbecue & Chilli", "Blood Echo", "Blood Warden", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Hex: Devour Hope", "Hex: Huntress Lullaby", "Make Your Choice", "Monstrous Shrine", "No Way Out", "Pop Goes the Weasel"],
+        "perks": ["Agitation", "Barbecue & Chilli", "Blood Echo", "Blood Warden", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Hex: Devour Hope", "Hex: Huntress Lullaby", "Make Your Choice", "Monstrous Shrine", "No Way Out", "Pop Goes the Weasel", "Scourge Hook: Gift of Pain"],
         "description": "take advantage of hooking survivors"
     },
     "Obssessive": {
@@ -64,11 +64,11 @@ var stylized_killer_perks = {
         "description": "speed up some of your actions"
     },
     "Status-Inflicting": {
-        "perks": ["Blood Echo", "Deathbound", "Eruption", "Forced Penance", "Hex: Retribution", "Hex: The Third Seal", "Hysteria", "Mindbreaker", "Nemesis", "Sloppy Butcher"],
+        "perks": ["Blood Echo", "Deathbound", "Eruption", "Forced Penance", "Hex: Retribution", "Hex: The Third Seal", "Hex: Plaything", "Hysteria", "Mindbreaker", "Nemesis", "Scourge Hook: Gift of Pain", "Sloppy Butcher"],
         "description": "inflict status effects on survivors"
     },
     "Stealthy": {
-        "perks": ["Beast of Prey", "Dark Devotion", "Furtive Chase", "Insidious", "Monitor & Abuse", "Tinkerer", "Trail of Torment"],
+        "perks": ["Beast of Prey", "Dark Devotion", "Furtive Chase", "Hex: The Third Seal", "Hex: Plaything", "Insidious", "Monitor & Abuse", "Tinkerer", "Trail of Torment"],
         "description": "catch survivors by surprise"
     },
     "Terrifying": {

@@ -334,6 +334,18 @@ let killer_perks = {
     "Zanshin Tactics": {
         "url": "https://deadbydaylight.fandom.com/wiki/Zanshin_Tactics",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_zanshinTactics.png",
+    },
+    "Hex: Plaything": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Hex:_Plaything",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/IconPerks_hexPlaything.png",
+    },
+    "Scourge Hook: Gift of Pain": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Gift_of_Pain",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/IconPerks_scourgeHookGiftOfPain.png",
+    },
+    "Deadlock": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Deadlock",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_deadlock.png",
     }
 };
 

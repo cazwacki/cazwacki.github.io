@@ -156,6 +156,12 @@ function presetBuild() {
     animateRandom();
     let build_name = Object.keys(preset_perk_set)[Math.floor(Math.random() * Object.keys(preset_perk_set).length)];
     let chosen_build = preset_perk_set[build_name];
+    for (let i = 0; i < 10; i++) {
+        if (chosen_build.main != "The Cenobite") {
+            build_name = Object.keys(preset_perk_set)[Math.floor(Math.random() * Object.keys(preset_perk_set).length)];
+            chosen_build = preset_perk_set[build_name];
+        }
+    }
     // here we also have to animate killer, power, addons as well as select them
     $('#title').text('???');
     $('#explanation').text('???');
