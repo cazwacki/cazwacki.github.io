@@ -2,7 +2,7 @@ let preset_killer_perks = {
     "Shadow Traps": {
         "main": "The Trapper",
         "addons": ["Logwood Dye", "Tar Bottle"],
-        "perks": ["Corrupt Intervention", "Whispers", "Infectious Fright", "Monitor & Abuse"],
+        "perks": ["Corrupt Intervention", "Whispers", "Hex: The Third Seal", "Monitor & Abuse"],
         "explanation": "Make sure you're not being watched as you place these inky shadow traps, and say a prayer to the entity you don't get Coldwind.",
         "meme": "Low Meme"
     },
@@ -86,7 +86,7 @@ let preset_killer_perks = {
     "Vault Hopper": {
         "main": "The Shape",
         "addons": ["Lock of Hair", "J. Myers Memorial"],
-        "perks": ["Bamboozle", "Fire Up", "Enduring", "Brutal Strength"],
+        "perks": ["Bamboozle", "Fire Up", "Coup de Grâce", "Brutal Strength"],
         "explanation": "Pallets and Windows might stop other killers, but not you. Cast aside every obstacle in your path to hunt and down the survivors.",
         "meme": "High Meme"
     },
@@ -113,7 +113,7 @@ let preset_killer_perks = {
     },
     "Flashbang": {
         "main": "The Hag",
-        "addons": ["Disfigured Ear", "Rusty Shackles"],
+        "addons": ["Disfigured Ear", "Willow Wreath"],
         "perks": ["Save the Best for Last", "Make Your Choice", "Corrupt Intervention", "Dragon's Grip"],
         "explanation": "Deafen and Disorient by making survivors lose all sound for no reason. Expose and Exterminate!",
         "meme": "High Meme"
@@ -261,7 +261,7 @@ let preset_killer_perks = {
     "Yoink": {
         "main": "The Spirit",
         "addons": ["Mother-Daughter Ring", "Yakuyoke Amulet"],
-        "perks": ["Lethal Pursuer", "Discordance", "Tinkerer", "Monitor & Abuse"],
+        "perks": ["Lethal Pursuer", "Discordance", "Tinkerer", "Thrilling Tremors"],
         "explanation": "Use Lethal Pursuer to find a survivor early and \"yoink\" them off the generator! Monitor and Tinkerer will help you catch survivors and continue yoinking them throughout the match!",
         "meme": "High Meme"
     },
@@ -274,8 +274,8 @@ let preset_killer_perks = {
     },
     "Surveillance State": {
         "main": "The Legion",
-        "addons": ["Iridescent Button", "Cold Dirt"],
-        "perks": ["Spies from the Shadows", "Hangman's Trick", "Hex: Undying", "Hex: Retribution"],
+        "addons": ["Iridescent Button", "Stolen Sketch Book"],
+        "perks": ["Spies from the Shadows", "Hangman's Trick", "Hex: Undying", "Rancor"],
         "explanation": "Everything will help you keep track of where the survivors are! Take advantage of this to consistently injure and down survivors.",
         "meme": "Medium Meme"
     },
