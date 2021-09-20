@@ -563,7 +563,7 @@ let preset_killer_perks = {
         "main": "The Cenobite",
         "addons": ["Greasy Black Lens", "Larry's Blood"],
         "perks": ["I'm All Ears", "Spies from the Shadows", "Hex: Ruin", "Hex: Undying"],
-        "explanation": "Always know the survivors exact movements in chase",
+        "explanation": "Always know the survivors exact movements in chase! I'm All Ears, Spies, and Undying all give you survivor information alongside Greasy Black Lens. Ruin will slow down the match in the meantime to help you kill survivors in time.",
         "meme": "Medium Meme"
     },
     "Box Baron": {
