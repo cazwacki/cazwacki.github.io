@@ -653,7 +653,7 @@ let preset_killer_perks = {
     "Y: House of Fun": {
         "main": "The Clown",
         "addons": ["Redhead's Pinky Finger", "Cheap Gin Bottle"],
-        "perks": ["Bitter Murmur", "Tinkerer", "Brutal Stength", "Cruel Limits"],
+        "perks": ["Bitter Murmur", "Tinkerer", "Brutal Strength", "Cruel Limits"],
         "explanation": "Punish survivors for completing gens! Tinkerer will warn you when a gen is about to pop. When it pops, you'll see where the survivors go with Bitter Murmur; Cruel Limits will block all the windows and vault locations within 32 meters, which you can use to your advantage to get some easier downs on survivors. Brutal Strength will help you break pallets easier, eliminating most of the barriers between you and a survivor. Found in a video by not Otzdarva.",
         "meme": "High Meme"
     },
@@ -702,7 +702,7 @@ let preset_killer_perks = {
     "Y: Palletphobic": {
         "main": "The Trapper",
         "addons": ["Trapper Gloves", "Trapper Sack"],
-        "perks": ["Brutal Strength", "Spirit Fury", "Enduring", "Hex: Blood Favor"],
+        "perks": ["Brutal Strength", "Spirit Fury", "Enduring", "Hex: Blood Favour"],
         "explanation": "This Trapper hates pallets! Use all your perks to make sure they are either locked down or destroyed! Found in a video by not Otzdarva.",
         "meme": "High Meme"
     },
@@ -722,9 +722,9 @@ let preset_killer_perks = {
     },
     "Y: Speed Boost Only": {
         "main": "The Clown",
-        "addons": ["Cigar Box", "Garish Make-Up Kit"],
+        "addons": ["Cigar Box", "Garish Make-up Kit"],
         "perks": ["Hex: No One Escapes Death", "Spirit Fury", "Make Your Choice", "Bitter Murmur"],
-        "explanation": "Challenge yourself by only using the Clown's yellow speed bottles! Use the Cigar Box for aura reading on nearby survivors and the extended duration of Garish Make-Up Kit! Bitter Murmur will give you visuals on survivors that finished gens, NOED will help you get fast downs to clutch the endgame, Spirit Fury will help you with the occasional chase, and Make Your Choice will help you down rescuers! Found in a video by not Otzdarva.",
+        "explanation": "Challenge yourself by only using the Clown's yellow speed bottles! Use the Cigar Box for aura reading on nearby survivors and the extended duration of Garish Make-up Kit! Bitter Murmur will give you visuals on survivors that finished gens, NOED will help you get fast downs to clutch the endgame, Spirit Fury will help you with the occasional chase, and Make Your Choice will help you down rescuers! Found in a video by not Otzdarva.",
         "meme": "High Meme"
     },
     "Y: Stack Addict": {
@@ -792,7 +792,7 @@ let preset_killer_perks = {
     },
     "Z: Biceps Bubba": {
         "main": "The Cannibal",
-        "addons": ["Award-winning Chili", "The Beast's Marks"],
+        "addons": ["Award-winning Chilli", "The Beast's Marks"],
         "perks": ["Coup de Grâce", "Hex: Ruin", "Hex: Undying", "Thrilling Tremors"],
         "explanation": "The Cannibal has gotten some arm days in at the gym! His add-ons allow him to run a little bit farther than usual when swinging his chainsaw, and Coup de Grace will allow him to go for unconventional lunges. Ruin and Undying will help slow down generators as Cannibal pushes his arms workout to the limits.",
         "meme": "Low Meme"
@@ -807,7 +807,7 @@ let preset_killer_perks = {
     "Z: Combat Scout": {
         "main": "The Huntress",
         "addons": ["Glowing Concoction", "Flower Babushka"],
-        "perks": ["I'm All Ears", "Iron Maiden", "Barbecue & Chilli", "Pop Goes The Weasel"],
+        "perks": ["I'm All Ears", "Iron Maiden", "Barbecue & Chilli", "Pop Goes the Weasel"],
         "explanation": "A reference to Warzone's controversial perk, this build lets Huntress see players after hitting them with a hatchet! I'm All Ears will help even more at loops if Huntress gets close and personal at a tough loop spot, BBQ will tell you where to go after hooks, and Pop will help slow down generator progress. Iron Maiden will provide you with a fast reload.",
         "meme": "Low Meme"
     },
@@ -835,7 +835,7 @@ let preset_killer_perks = {
     "Z: Endurance Runner": {
         "main": "The Legion",
         "addons": ["Cold Dirt", "Joey's Mix Tape"],
-        "perks": ["Pop Goes The Weasel", "Tinkerer", "Surge", "Bamboozle"],
+        "perks": ["Pop Goes the Weasel", "Tinkerer", "Surge", "Bamboozle"],
         "explanation": "The Legion's gotten used to running around! His cooldown on Feral Frenzy is reduced by 1 second thanks to his addons. Bamboozle will help you perform in your chases, since it blocks windows even during your frenzy. Tinkerer, Surge, and Pop Goes the Weasel will help you slow down gens will playing with an improved chase.",
         "meme": "Low Meme"
     },
@@ -925,7 +925,7 @@ let preset_killer_perks = {
     },
     "Z: Photographic Memory": {
         "main": "The Ghost Face",
-        "addons": ["Night Vision Monocular", "Knife Belt Quick"],
+        "addons": ["Night Vision Monocular", "Knife Belt Clip"],
         "perks": ["Brutal Strength", "Barbecue & Chilli", "Save the Best for Last", "Bamboozle"],
         "explanation": "Ghostface's photographic memory allows him to learn a lot more about his prey much more quickly; he needs less time to stalk!",
         "meme": "Medium Meme"
@@ -1052,7 +1052,7 @@ let preset_killer_perks = {
     "Z: Unfaltering Force": {
         "main": "The Deathslinger",
         "addons": ["Prison Chain", "Bayshore's Gold Tooth"],
-        "perks": ["Pop Goes The Weasel", "Save the Best for Last", "Tinkerer", "Enduring"],
+        "perks": ["Pop Goes the Weasel", "Save the Best for Last", "Tinkerer", "Enduring"],
         "explanation": "Survivors going for pallet stuns at bad loops will be in for a surprise! Deathslinger's addons help him get close to the survivor quickly after hitting them with the spear, and Enduring gives him the opportunity to go for a shot after the survivor drops a pallet! Save the Best for Last will make sure your first hit doesn't waste any time before you take aim and fire. Tinkerer and Pop will help you get information on which gens to address and give you a means to regress them.",
         "meme": "Medium Meme"
     },

@@ -666,7 +666,7 @@ let preset_survivor_perks = {
     },
     "Fighting Back": {
         "main": "Utility Flashlight",
-        "addons": ["Long Life Battery", "Low-Amp Filament"],
+        "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Flashbang", "Blast Mine", "Balanced Landing", "Decisive Strike"],
         "explanation": "Strike back in any way you can! Blind them with your Flashlight and Flashbangs, stun them with your Blast Mine, and get 'em in the shoulder with Decisive Strike!",
         "meme": "Low Meme"
