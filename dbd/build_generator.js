@@ -16,6 +16,7 @@ if (mode == "Killer") {
     if (build == "Preset") {
         $("#character-img").attr("src", "images/killer.png");
         $("#character-caption").text("Killer");
+        $("#browser-source").text("https://charles.zawackis.com/dbd/embed.html?mode=Killer")
     }
 } else if (mode == "Survivor") {
     perk_set = survivor_perks;
@@ -25,6 +26,7 @@ if (mode == "Killer") {
     if (build == "Preset") {
         $("#character-img").attr("src", "images/item.png");
         $("#character-caption").text("Item");
+        $("#browser-source").text("https://charles.zawackis.com/dbd/embed.html?mode=Survivor")
     }
 } else {
     alert(
@@ -376,4 +378,15 @@ function updateDescription() {
             "."
         );
     }
+}
+
+function copyBrowserSource() {
+    $('#browser-source').css('color', 'lightgreen');
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText($('#browser-source').text());
+
+    setTimeout(() => {
+        $('#browser-source').css('color', 'lightslategray');
+    }, 250);
 }

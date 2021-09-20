@@ -183,6 +183,15 @@ body {
     opacity: 1;
 }
 
+#embed-set a {
+    text-decoration: none;
+}
+
+#embed-set {
+    display: grid;
+    width: 100%;
+}
+
 .perk-img {
     width: 128px;
     height: 128px;
@@ -221,4 +230,83 @@ body {
 option {
     background: black;
     color: lightgrey;
+}
+
+.perk1 {
+    position: absolute;
+    top: 27.5vh;
+    left: 10vw;
+}
+
+.perk2 {
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+
+.perk3 {
+    position: absolute;
+    top: 27.5vh;
+    left: 30vw;
+}
+
+.perk4 {
+    position: absolute;
+    top: 41vh;
+    left: 20vw;
+}
+
+.character-embed {
+    position: absolute;
+    top: 22.5vh;
+    left: 62vw;
+}
+
+.addon1 {
+    position: fixed;
+    width: 20vw;
+    top: 42.5vh;
+    left: 50vw;
+}
+
+.addon2 {
+    position: fixed;
+    width: 20vw;
+    top: 42.5vh;
+    right: 10vw;
+}
+
+#browser-source {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+}
+
+.embed-img {
+    height: 20vw;
+    width: 20vw;
+}
+
+.embed-url {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.addon-embed {
+    width: 10vw;
+}
+
+#embed-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+
+#embed-refresh {
+    position: absolute;
+    top: 0vh;
+    right: 10vw;
 }
