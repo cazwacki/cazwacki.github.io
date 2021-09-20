@@ -2,6 +2,8 @@ let urlParam = new URLSearchParams(window.location.search);
 
 let mode = urlParam.get("mode");
 let build = urlParam.get("build");
+let main_history = []; // size 4
+let build_history = []; // size 10
 let perk_set;
 let stylized_perk_set;
 let preset_perk_set;
@@ -187,6 +189,24 @@ function presetBuild() {
             Math.floor(Math.random() * Object.keys(preset_perk_set).length)
         ];
     let chosen_build = preset_perk_set[build_name];
+
+    while (main_history.includes(chosen_build.main) || build_history.includes(build_name)) {
+        build_name = Object.keys(preset_perk_set)[
+            Math.floor(Math.random() * Object.keys(preset_perk_set).length)
+        ];
+        chosen_build = preset_perk_set[build_name];
+    }
+
+    main_history.push(chosen_build.main);
+    build_history.push(build_name);
+
+    if (main_history.length > 4) {
+        main_history.shift();
+    }
+
+    if (build_history.length > 10) {
+        build_history.shift();
+    }
 
     // here we also have to animate killer, power, addons as well as select them
     $("#title").text("???");
