@@ -559,4 +559,116 @@ let preset_survivor_perks = {
         "explanation": "These are the perks I (Jack/Boxcar) use when playing online. (When I'm not using some random shitpost build, of course. Toss Flashbangs to your hearts content (I'll get a save eventually, I swear), Borrowed Time to be a bro, Adrenaline to clutch out right at the finish (assuming we're making it that far), and my personal comfort pick Tecnician. It's not because I miss Skill Checks (I swear!), but that noise reduction can bamboozle more than you'd think!",
         "meme": "Low Meme"
     },
+    "Infinite Sprint Burst": {
+        "main": "Camping Aid Kit",
+        "addons": ["Abdominal Dressing", "Bandages"],
+        "perks": ["Fixated", "Sprint Burst", "Vigil", "Adrenaline"],
+        "explanation": "Get your Sprint Burst back while maintaining speed! Use your Sprint Burst, and enjoy the reduced cooldown from Vigil! Fixated will help you move quickly as you wait for Sprint Burst to be off cooldown, and Adrenaline will give you a health state and speed boost to help clutch the endgame.",
+        "meme": "Medium Meme"
+    },
+    "Final Stand": {
+        "main": "Camping Aid Kit",
+        "addons": ["Styptic Agent", "Butterfly Tape"],
+        "perks": ["Soul Guard", "Unbreakable", "Dead Hard", "Borrowed Time"],
+        "explanation": "In a desperate state, you'll do anything to get out alive. Unbreakable and Soul Guard will help you in an endgame situation where everyone is getting slugged / hooked. Combine it with Borrowed Time to potentially get you and another teammate out of the game alive. Dead Hard will help you extend the chase as you try to escape or work your way to a teammate.",
+        "meme": "Medium Meme"
+    },
+    "Community Service": {
+        "main": "Toolbox (Item)",
+        "addons": ["Wire Spool", "Scraps"],
+        "perks": ["For the People", "Inner Strength", "Kindred", "Iron Will"],
+        "explanation": "Quickly heal teammates off the hook, then use Inner Strength to heal back up! Kindred will help you figure out the appropriate time to unhook, and Iron Will will keep you quiet when you're injured and keep you hard to find.",
+        "meme": "Medium Meme"
+    },
+    "Gen Addict": {
+        "main": "Commodious Toolbox",
+        "addons": ["Brand New Part", "Wire Spool"],
+        "perks": ["Fast Track", "Prove Thyself", "Resilience", "Built to Last"],
+        "explanation": "Must... finish... gens... Brand New Part will give you insane completion speed on generators, Fast Track will give you some extra instant progress on skill checks, and can stack up, Prove Thyself will increase the speed when cooperating with another survivor, and Built to Last will extend the usefulness of your toolbox! Resilience will also increase your gen completion speed in case you get injured.",
+        "meme": "Low Meme"
+    },
+    "Mom: We Have Meta at Home; The Meta at Home:": {
+        "main": "Flashlight (Item)",
+        "addons": ["Long Life Battery", "Low Amp Filament"],
+        "perks": ["Smash Hit", "Power Struggle", "Soul Guard", "Babysitter"],
+        "explanation": "Smash Hit is your exhaustion perk instead of Dead Hard, Power Struggle is your alternative to Decisive Strike, Soul Guard is your alternative to Unbreakable, and Babysitter is your alternative to Borrowed Time. Enjoy meta at home! :-)",
+        "meme": "High Meme"
+    },
+    "Misled to a Concussion": {
+        "main": "Toolbox (Item)",
+        "addons": ["Socket Swivels", "Clean Rag"],
+        "perks": ["Deception", "Head On", "Iron Will", "Quick & Quiet"],
+        "explanation": "Confuse, then concuss a killer with two adjacent lockers! Use Deception to create a loud noise notification at one locker, then use Quick & Quiet to silently hop into the other one. Iron Will will stifle your cries if you're injured. After the killer opens the first locker, they'll probably check the other locker; use this chance to stun them with Head On and make a quick getaway!",
+        "meme": "High Meme"
+    },
+    "Hemophobia": {
+        "main": "Ranger Med-Kit",
+        "addons": ["Gel Dressings", "Gauze Roll"],
+        "perks": ["Botany Knowledge", "Lucky Break", "Desperate Measures", "Built to Last"],
+        "explanation": "You're terrified of blood, especially when it's you who's bleeding. Your medkit combined with Botany Knowledge, Desperate Measures, and Built to Last, will make sure you prevent bleeding as soon as you can. In the meantime, Lucky Break will stifle the bleeding, but only for so long. Use that time to heal up!",
+        "meme": "Low Meme"
+    },
+    "Vault Speed Build": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Spine Chill", "Resilience", "Dead Hard", "Iron Will"],
+        "explanation": "Get a 15% bonus vault speed when you're injured from Spine Chill and Resilience! It might help you in a close situation. Dead Hard and Iron Will will help you extend the chase even further and create more opportunities to enjoy the faster vaults.",
+        "meme": "Low Meme"
+    },
+    "The Mute": {
+        "main": "Commodious Toolbox",
+        "addons": ["Spring Clamp", "Wire Spool"],
+        "perks": ["Balanced Landing", "Iron Will", "Quick & Quiet", "Calm Spirit"],
+        "explanation": "You move quietly, and can't even scream. Iron Will prevent injured cries, Quick & Quiet makes your fast actions silent, Balanced Landing prevent your cries when falling, and Calm Spirit prevents you from screaming when hit or hooked!",
+        "meme": "Low Meme"
+    },
+    "Off Hook Bait": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Second Wind", "Decisive Strike", "Lithe", "Quick & Quiet"],
+        "explanation": "For once, you want the killer to tunnel you a bit. If you get a heal in before you are hooked, you'll get a full health state in 20 seconds. Loop the killer long enough and get a free health state they won't expect! Lithe and Quick & Quiet will help you create distance and confuse the killer in chase, and Decisive Strike will help you get out of the killer's clutches if they manage to down you anyways.",
+        "meme": "Medium Meme"
+    },
+    "We Have Meta at Home 2": {
+        "main": "Utility Flashlight",
+        "addons": ["Rubber Grip", "Low Amp Filament"],
+        "perks": ["Off the Record", "Head On", "Flip-Flop", "Premonition"],
+        "explanation": "Off the Record is your substitute for Iron Will, Head On is your exhaustion perk, Flip-Flop is your replacement for decisive strike, and Premonition is your alternative to Spine Chill!",
+        "meme": "High Meme"
+    },
+    "Heal Me! Please!": {
+        "main": "Toolbox (Item)",
+        "addons": ["Socket Swivels", "Clean Rag"],
+        "perks": ["Resurgence", "Leader", "Off the Record", "Tenacity"],
+        "explanation": "Off hook, people should heal you because it'll be super fast! Resurgence restores 50% of your health state, and Leader increases your teammate's healing speed when nearby! Off the Record will help you make a break away from the killer if they're nearby, and Tenacity will help you start moving away from the killer to get picked up if they slug you.",
+        "meme": "Medium Meme"
+    },
+    "Anti-Camping": {
+        "main": "Flashlight (Item)",
+        "addons": ["Odd Bulb", "High-End Sapphire Lens"],
+        "perks": ["Camaraderie", "Borrowed Time", "Breakdown", "Decisive Strike"],
+        "explanation": "The killer will be wasting a ton of time if they try to camp you! Camaraderie will extend your hook timer, Breakdown will destroy the hook you were placed on so he can't re-hook you there, Decisive Strike will help you get out of a tunneling situation, and Borrowed Time will help you get other survivors out of camping situations too!",
+        "meme": "Medium Meme"
+    },
+    "Team Buffer": {
+        "main": "Skeleton Key",
+        "addons": ["Blood Amber", "Prayer Beads"],
+        "perks": ["Kindred", "Open-Handed", "Leader", "Vigil"],
+        "explanation": "Help your teammates by sticking around and improving their resistances and information! Open-Handed will increase their aura vision, Vigil will lower their status durations and exhausted cooldown, and Leader will help them heal! Kindred will provide them lots of killer information once you get hooked.",
+        "meme": "Medium Meme"
+    },
+    "Entity's Loosened Grip": {
+        "main": "Broken Key",
+        "addons": ["Gold Token", "Prayer Beads"],
+        "perks": ["Lightweight", "Distortion", "Camaraderie", "Repressed Alliance"],
+        "explanation": "The Entity has a poor grip on you, making you harder to keep ahold of during the match. Lightweight masks your Scratch Marks, Distortion masks your Aura, Camaraderie will extend your hook timer, and you can force the Entity to protect one of your gens with Repressed Alliance!",
+        "meme": "High Meme"
+    },
+    "Fighting Back": {
+        "main": "Utility Flashlight",
+        "addons": ["Long Life Battery", "Low-Amp Filament"],
+        "perks": ["Flashbang", "Blast Mine", "Balanced Landing", "Decisive Strike"],
+        "explanation": "Strike back in any way you can! Blind them with your Flashlight and Flashbangs, stun them with your Blast Mine, and get 'em in the shoulder with Decisive Strike!",
+        "meme": "Low Meme"
+    },
 }
