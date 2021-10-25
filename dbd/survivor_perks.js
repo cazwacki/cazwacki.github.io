@@ -59,6 +59,14 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Bond",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/IconPerks_bond.png"
     },
+    "Boon: Circle of Healing": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Boon:_Circle_of_Healing",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/IconPerks_boonCircleOfHealing.png",
+    },
+    "Boon: Shadow Step": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Boon:_Shadow_Step",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/IconPerks_boonShadowStep.png",
+    },
     "Borrowed Time": {
         "url": "https://deadbydaylight.fandom.com/wiki/Borrowed_Time",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/IconPerks_borrowedTime.png"
@@ -90,6 +98,10 @@ let survivor_perks = {
     "Camaraderie": {
         "url": "https://deadbydaylight.fandom.com/wiki/Camaraderie",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png"
+    },
+    "Clairvoyance": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Clairvoyance",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/IconPerks_clairvoyance.png"
     },
     "Counterforce": {
         "url": "https://deadbydaylight.fandom.com/wiki/Counterforce",

@@ -671,4 +671,32 @@ let preset_survivor_perks = {
         "explanation": "Strike back in any way you can! Blind them with your Flashlight and Flashbangs, stun them with your Blast Mine, and get 'em in the shoulder with Decisive Strike!",
         "meme": "Low Meme"
     },
+    "Distilling Auras": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Clairvoyance", "Dead Hard", "Small Game", "Inner Strength"],
+        "explanation": "PLACEHOLDER",
+        "meme": "Medium Meme"
+    },
+    "Biotic Field": {
+        "main": "Toolbox (Item)",
+        "addons": ["Socket Swivels", "Clean Rag"],
+        "perks": ["Detective's Hunch", "Boon: Circle of Healing", "Boon: Shadow Step", "Prove Thyself"],
+        "explanation": "PLACEHOLDER",
+        "meme": "High Meme"
+    },
+    "Bone Sage": {
+        "main": "Toolbox (Item)",
+        "addons": ["Wire Spool", "Scraps"],
+        "perks": ["Inner Strength", "Clairvoyance", "For the People", "Iron Will"],
+        "explanation": "PLACEHOLDER",
+        "meme": "High Meme"
+    },
+    "Infra-Sight": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Open-Handed", "Small Game", "Windows of Opportunity", "Clairvoyance"],
+        "explanation": "PLACEHOLDER",
+        "meme": "Medium Meme"
+    },
 }

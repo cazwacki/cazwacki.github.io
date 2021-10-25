@@ -1,10 +1,10 @@
 var stylized_survivor_perks = {
     "Altruistic": {
-        "perks": ["Aftercare", "Babysitter", "Botany Knowledge", "Breakout", "Buckle Up", "Desperate Measures", "Empathy", "For the People", "Kindred", "Mettle of Man", "We'll Make It"],
+        "perks": ["Aftercare", "Any Means Necessary", "Babysitter", "Boon: Circle of Healing", "Botany Knowledge", "Breakout", "Buckle Up", "Desperate Measures", "Empathy", "For the People", "Kindred", "Mettle of Man", "We'll Make It"],
         "description": "assist your teammates"
     },
     "Aura-Reading": {
-        "perks": ["Aftercare", "Alert", "Better Together", "Bond", "Breakdown", "Counterforce", "Dark Sense", "Déjà Vu", "Empathy", "Kindred", "Left Behind", "No One Left Behind", "Object of Obsession", "Open-Handed", "Plunderer's Instinct", "Rookie Spirit", "Visionary", "Wake Up!", "Windows of Opportunity"],
+        "perks": ["Aftercare", "Alert", "Better Together", "Bond", "Breakdown", "Clairvoyance", "Counterforce", "Dark Sense", "Déjà Vu", "Empathy", "Kindred", "Left Behind", "No One Left Behind", "Object of Obsession", "Open-Handed", "Plunderer's Instinct", "Rookie Spirit", "Visionary", "Wake Up!", "Windows of Opportunity"],
         "description": "get more information"
     },
     "BP Farming": {
@@ -16,19 +16,19 @@ var stylized_survivor_perks = {
         "description": "clutch difficult situations"
     },
     "Confusing": {
-        "perks": ["Camaraderie", "Deception", "Deliverance", "Distortion", "Diversion", "Iron Will", "Lucky Break", "Red Herring", "Sole Survivor", "Technician"],
+        "perks": ["Boon: Shadow Step", "Camaraderie", "Deception", "Deliverance", "Distortion", "Diversion", "Iron Will", "Lucky Break", "Red Herring", "Sole Survivor", "Technician"],
         "description": "throw off the killer"
     },
     "Debilitating": {
-        "perks": ["Blast Mine", "Boil Over", "Breakdown", "Decisive Strike", "Distortion", "Head On"],
+        "perks": ["Blast Mine", "Boil Over", "Boon: Shadow Step", "Breakdown", "Decisive Strike", "Distortion", "Head On"],
         "description": "undermine the killer"
     },
     "Defensive": {
-        "perks": ["Any Means Necessary", "Buckle Up", "Counterforce", "Decisive Strike", "Flashbang", "Kindred", "Repressed Alliance", "We'll Make It"],
+        "perks": ["Any Means Necessary", "Boon: Circle of Healing", "Buckle Up", "Counterforce", "Decisive Strike", "Flashbang", "Kindred", "Repressed Alliance", "We'll Make It"],
         "description": "increase your general safety"
     },
     "End-Gaming": {
-        "perks": ["Adrenaline", "Hope", "Left Behind", "No One Left Behind", "Wake Up!"],
+        "perks": ["Adrenaline", "Clairvoyance", "Hope", "Left Behind", "No One Left Behind", "Wake Up!"],
         "description": "clutch out the endgame"
     },
     "Escaping": {
@@ -40,15 +40,15 @@ var stylized_survivor_perks = {
         "description": "extend a chase"
     },
     "Gen-Rushing": {
-        "perks": ["Déjà Vu", "Detective's Hunch", "Fast Track", "Prove Thyself", "Rookie Spirit", "Visionary"],
+        "perks": ["Clairvoyance", "Déjà Vu", "Detective's Hunch", "Fast Track", "Prove Thyself", "Rookie Spirit", "Visionary"],
         "description": "quickly complete generators"
     },
     "Healing": {
-        "perks": ["Autodidact", "Botany Knowledge", "Desperate Measures", "Empathy", "Inner Strength", "Pharmacy", "Resilience", "Second Wind", "Self-Care", "Solidarity", "We'll Make It", "We're Gonna Live Forever"],
+        "perks": ["Autodidact", "Boon: Circle of Healing", "Botany Knowledge", "Desperate Measures", "Empathy", "Inner Strength", "Pharmacy", "Resilience", "Second Wind", "Self-Care", "Solidarity", "We'll Make It", "We're Gonna Live Forever"],
         "description": "heal you or your teammates"
     },
     "Item Farming": {
-        "perks": ["Ace in the Hole", "Appraisal", "Detective's Hunch", "Pharmacy", "Plunderer's Instinct", "Up the Ante"],
+        "perks": ["Ace in the Hole", "Appraisal", "Clairvoyance", "Detective's Hunch", "Pharmacy", "Plunderer's Instinct", "Up the Ante"],
         "description": "farm for new items"
     },
     "Killer-Spying": {
@@ -64,7 +64,7 @@ var stylized_survivor_perks = {
         "description": "loop more effectively"
     },
     "Resourceful": {
-        "perks": ["Built to Last", "Detective's Hunch", "Flashbang", "Repressed Alliance", "Self-Care", "Streetwise"],
+        "perks": ["Boon: Circle of Healing", "Built to Last", "Detective's Hunch", "Flashbang", "Repressed Alliance", "Self-Care", "Streetwise"],
         "description": "make the best of a situation"
     },
     "Risky": {
@@ -84,19 +84,19 @@ var stylized_survivor_perks = {
         "description": "take care of yourself"
     },
     "Speedy": {
-        "perks": ["Appraisal", "Botany Knowledge", "Counterforce", "Desperate Measures", "Fixated", "Hope", "Inner Strength", "No One Left Behind", "Prove Thyself", "Resilience", "Unbreakable", "Urban Evasion", "Vigil", "Wake Up!", "We'll Make It", "We're Gonna Live Forever"],
+        "perks": ["Appraisal", "Boon: Circle of Healing", "Botany Knowledge", "Counterforce", "Desperate Measures", "Fixated", "Hope", "Inner Strength", "No One Left Behind", "Prove Thyself", "Resilience", "Unbreakable", "Urban Evasion", "Vigil", "Wake Up!", "We'll Make It", "We're Gonna Live Forever"],
         "description": "speed up common tasks"
     },
     "Stealthy": {
-        "perks": ["Bite the Bullet", "Calm Spirit", "Dance With Me", "Fixated", "Iron Will", "Lightweight", "No Mither", "Off the Record", "Poised", "Quick & Quiet", "Self-Preservation", "Technician", "Urban Evasion"],
+        "perks": ["Bite the Bullet", "Boon: Shadow Step", "Calm Spirit", "Dance With Me", "Fixated", "Iron Will", "Lightweight", "No Mither", "Off the Record", "Poised", "Quick & Quiet", "Self-Preservation", "Technician", "Urban Evasion"],
         "description": "remain concealed"
     },
     "Team-Oriented": {
-        "perks": ["Blood Pact", "Babysitter", "Botany Knowledge", "Breakout", "Camaraderie", "Empathy", "Head On", "Kindred", "Leader", "Mettle of Man", "Open-Handed", "Prove Thyself", "Streetwise", "Vigil", "We'll Make It"],
+        "perks": ["Blood Pact", "Babysitter", "Boon: Shadow Step", "Boon: Circle of Healing", "Botany Knowledge", "Breakout", "Camaraderie", "Empathy", "Head On", "Kindred", "Leader", "Mettle of Man", "Open-Handed", "Prove Thyself", "Streetwise", "Vigil", "We'll Make It"],
         "description": "go for team-coordination plays"
     },
     "Totem-Hunting": {
-        "perks": ["Counterforce", "Detective's Hunch", "Inner Strength", "Small Game"],
+        "perks": ["Clairvoyance", "Counterforce", "Detective's Hunch", "Inner Strength", "Small Game"],
         "description": "destroy totems effectively"
     },
     "Unhooking": {
