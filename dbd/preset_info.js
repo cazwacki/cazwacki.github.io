@@ -265,10 +265,6 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Trapper_Gloves",
         "img_url": "images/addons/iconAddon_trapperGloves.png"
     },
-    "Strong Coil Spring": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Strong_Coil_Spring",
-        "img_url": "images/addons/iconAddon_coilSpring.png"
-    },
     "Padded Jaws": {
         "url": "https://deadbydaylight.fandom.com/wiki/Padded_Jaws",
         "img_url": "images/addons/iconAddon_paddedJaws.png"
@@ -277,17 +273,9 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Trapper_Bag",
         "img_url": "images/addons/iconAddon_trapperBag.png"
     },
-    "Trap Setters": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Trap_Setters",
-        "img_url": "images/addons/iconAddon_tapSetters.png"
-    },
     "Serrated Jaws": {
         "url": "https://deadbydaylight.fandom.com/wiki/Serrated_Jaws",
         "img_url": "images/addons/iconAddon_serratedJaws.png"
-    },
-    "Logwood Dye": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Logwood_Dye",
-        "img_url": "images/addons/iconAddon_logwoodDye.png"
     },
     "4-Coil Spring Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/4-Coil_Spring_Kit",
@@ -301,10 +289,6 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Tar_Bottle",
         "img_url": "images/addons/iconAddon_tarBottle.png"
     },
-    "Setting Tools": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Setting_Tools",
-        "img_url": "images/addons/iconAddon_settingTools.png"
-    },
     "Secondary Coil": {
         "url": "https://deadbydaylight.fandom.com/wiki/Secondary_Coil",
         "img_url": "images/addons/iconAddon_secondaryCoil.png"
@@ -312,10 +296,6 @@ let addons = {
     "Rusted Jaws": {
         "url": "https://deadbydaylight.fandom.com/wiki/Rusted_Jaws",
         "img_url": "images/addons/iconAddon_rustedJaws.png"
-    },
-    "Stitched Bag": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Stitched_Bag",
-        "img_url": "images/addons/iconAddon_stichedBag.png"
     },
     "Oily Coil": {
         "url": "https://deadbydaylight.fandom.com/wiki/Oily_Coil",
@@ -1973,21 +1953,9 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Rusty_Flute",
         "img_url": "images/addons/iconAddon_rustyFlute.png"
     },
-    "Katsumori Talisman": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Katsumori_Talisman",
-        "img_url": "images/addons/iconAddon_katsumoriTalisman.png"
-    },
     "Katana Tsuba": {
         "url": "https://deadbydaylight.fandom.com/wiki/Katana_Tsuba",
         "img_url": "images/addons/iconAddon_katanaTsuba.png"
-    },
-    "Dirty Uwabaki": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Dirty_Uwabaki",
-        "img_url": "images/addons/iconAddon_dirtyUwabaki.png"
-    },
-    "Bloody Hair Brooch": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Bloody_Hair_Brooch",
-        "img_url": "images/addons/iconAddon_bloodyHairBroochi.png"
     },
     "Yakuyoke Amulet": {
         "url": "https://deadbydaylight.fandom.com/wiki/Yakuyoke_Amulet",
@@ -1997,10 +1965,6 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Wakizashi_Saya",
         "img_url": "images/addons/iconAddon_wakizashiSaya.png"
     },
-    "Prayer Beads Bracelet": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Prayer_Beads_Bracelet",
-        "img_url": "images/addons/iconAddon_prayersBeads.png"
-    },
     "Dried Cherry Blossom": {
         "url": "https://deadbydaylight.fandom.com/wiki/Dried_Cherry_Blossom",
         "img_url": "images/addons/iconAddon_driedCherryBlossom.png"
@@ -2008,10 +1972,6 @@ let addons = {
     "Mother-Daughter Ring": {
         "url": "https://deadbydaylight.fandom.com/wiki/Mother-Daughter_Ring",
         "img_url": "images/addons/iconAddon_motherDaughterRing.png"
-    },
-    "Father's Glasses": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Father%27s_Glasses",
-        "img_url": "images/addons/iconAddon_fathersGlasses.png"
     },
     "Yakuyoke Talisman": {
         "url": "https://deadbydaylight.fandom.com/wiki/Yakuyoke_Talisman",
@@ -2392,7 +2352,7 @@ let addons = {
     "Engineer's Fang": {
         "url": "https://deadbydaylight.fandom.com/wiki/Engineer%27s_Fang",
         "img_url": "images/addons/iconAddon_engineersFang.png"
-    }
+    },
 }
 
 
