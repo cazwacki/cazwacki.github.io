@@ -675,28 +675,28 @@ let preset_survivor_perks = {
         "main": "Camping Aid Kit",
         "addons": ["Surgical Suture", "Medical Scissors"],
         "perks": ["Clairvoyance", "Dead Hard", "Small Game", "Inner Strength"],
-        "explanation": "PLACEHOLDER",
+        "explanation": "Destroy totems to strengthen your magical aptitude. Use Small Game to find totems, then destroy them and enjoy the effects of Clairvoyance and Inner Strength! Dead Hard will help you get away and heal.",
         "meme": "Medium Meme"
     },
     "Biotic Field": {
         "main": "Toolbox (Item)",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Detective's Hunch", "Boon: Circle of Healing", "Boon: Shadow Step", "Prove Thyself"],
-        "explanation": "PLACEHOLDER",
+        "explanation": "Complete a generator and find a totem to plant your biotic field! Prove Thyself will help you quickly complete a generator, which will help you find a location to plant your biotic field! Enjoy the health and stealth benefits from your boons!",
         "meme": "High Meme"
     },
     "Bone Sage": {
         "main": "Toolbox (Item)",
         "addons": ["Wire Spool", "Scraps"],
         "perks": ["Inner Strength", "Clairvoyance", "For the People", "Iron Will"],
-        "explanation": "PLACEHOLDER",
+        "explanation": "Use the power of bones to get an advantage! Instantly heal others with For the People, and Iron Will will help you get around and find bones to destroy. Inner Strength will let you re-heal and Clairvoyance will help you stay productive!",
         "meme": "High Meme"
     },
     "Infra-Sight": {
         "main": "Camping Aid Kit",
         "addons": ["Surgical Suture", "Medical Scissors"],
         "perks": ["Open-Handed", "Small Game", "Windows of Opportunity", "Clairvoyance"],
-        "explanation": "PLACEHOLDER",
+        "explanation": "Tap into the forces of the world around you. You can sense windows and pallets with Windows of Opportunity, but when you break a totem, your vision expands to chests, hooks, and generators!",
         "meme": "Medium Meme"
     },
 }
