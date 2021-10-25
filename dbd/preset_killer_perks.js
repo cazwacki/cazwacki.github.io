@@ -15,7 +15,7 @@ let preset_killer_perks = {
     },
     "Booby Trapped": {
         "main": "The Trapper",
-        "addons": ["Stitched Bag", "Bloody Coil"],
+        "addons": ["Stitched Bag", "Trapper Sack"],
         "perks": ["Franklin's Demise", "Hoarder", "Zanshin Tactics", "No Way Out"],
         "explanation": "Their tools belong to you, and you're not giving them back. Trap items, resources, and gates.",
         "meme": "High Meme"
@@ -253,7 +253,7 @@ let preset_killer_perks = {
     },
     "Disorienting Dancer": {
         "main": "The Spirit",
-        "addons": ["Juniper Bonsai", "Dried Cherry Blossom"],
+        "addons": ["Juniper Bonsai", "Rusty Flute"],
         "perks": ["Beast of Prey", "Nemesis", "I'm All Ears", "Tinkerer"],
         "explanation": "Constantly throw off survivors with your passive phasing! Nemesis, I'm All Ears, and Beast of Prey will help you down survivors and Tinkerer will guide you to the relevant generators.",
         "meme": "Medium Meme"
@@ -267,7 +267,7 @@ let preset_killer_perks = {
     },
     "Planeswalker": {
         "main": "The Spirit",
-        "addons": ["Yakuyoke Amulet", "Katsumori Talisman"],
+        "addons": ["Yakuyoke Amulet", "Kaiun Talisman"],
         "perks": ["Tinkerer", "Pop Goes the Weasel", "Distressing", "A Nurse's Calling"],
         "explanation": "You can be spotted from a mile away in this reality... use your power to shift to a different plane and get as close as you can, before they see you once more.",
         "meme": "High Meme"
@@ -295,14 +295,14 @@ let preset_killer_perks = {
     },
     "Wannabe Oni": {
         "main": "The Plague",
-        "addons": ["Prayer Tablet Fragment", "Worship Tablet"],
+        "addons": ["Incensed Ointment", "Worship Tablet"],
         "perks": ["Hex: Devour Hope", "Save the Best for Last", "Hysteria", "Infectious Fright"],
         "explanation": "Enjoy a huge speed boost when using Corrupt Purge, just like Oni!",
         "meme": "High Meme"
     },
     "Neon Vomit": {
         "main": "The Plague",
-        "addons": ["Black Incense", "Incensed Ointment"],
+        "addons": ["Black Incense", "Infected Emetic"],
         "perks": ["Monitor & Abuse", "Lethal Pursuer", "Hex: The Third Seal", "Hex: Ruin"],
         "explanation": "Use Lethal Pursuer to find survivors, and activate your X-Ray vision by vomiting on them! Mask yourself with the help of Monitor and The Third Seal to catch them by surprise while always knowing their position.",
         "meme": "Low Meme"
@@ -505,7 +505,7 @@ let preset_killer_perks = {
     },
     "Lock the Gates": {
         "main": "The Trapper",
-        "addons": ["Oily Coil", "Secondary Coil"],
+        "addons": ["4-Coil Spring Kit", "Secondary Coil"],
         "perks": ["Remember Me", "No Way Out", "Hex: No One Escapes Death", "Insidious"],
         "explanation": "Combined, you have the potential to lock down those Exit Gate switches for 82 seconds. Find a nice spot between the gates to hide, then wait and watch for someone who so much as dares to escape.",
         "meme": "Medium Meme"
@@ -554,7 +554,7 @@ let preset_killer_perks = {
     },
     "Gen Restrictor": {
         "main": "The Spirit",
-        "addons": ["Rusty Flute", "Katsumori Talisman"],
+        "addons": ["Rusty Flute", "Kaiun Talisman"],
         "perks": ["Thrilling Tremors", "Eruption", "Hex: Ruin", "Brutal Strength"],
         "explanation": "Kick gens as you search for survivors to punish! When you down a survivor, incapacitate survivors working on those gens for 16 seconds, which you can use to quickly find them and cause havoc! If you're too far away, you can do some map cleanup and then pick up the survivor, activating Thrilling Tremors and giving Ruin over 30 seconds to cause regression!",
         "meme": "Medium Meme"
@@ -645,7 +645,7 @@ let preset_killer_perks = {
     },
     "Genrush Me": {
         "main": "The Trapper",
-        "addons": ["Trapper Sack", "Trapper Gloves"],
+        "addons": ["Tension Spring", "Trapper Gloves"],
         "perks": ["Rancor", "Bitter Murmur", "Coup de Grâce", "Fire Up"],
         "explanation": "Trapper powers up as gens get completed! Learn of the survivors whereabouts with Bitter Murmur, use Coup de Grace to get unconventional lunges, Fire Up to get through obstacles more quickly over time, and Rancor to kill the Obsession at the end of the match! Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -659,7 +659,7 @@ let preset_killer_perks = {
     },
     "Immersed Trapper": {
         "main": "The Trapper",
-        "addons": ["Stitched Bag", "Tar Bottle"],
+        "addons": ["Trapper Bag", "Tar Bottle"],
         "perks": ["Dragon's Grip", "Zanshin Tactics", "Insidious", "Deerstalker"],
         "explanation": "Set up traps and catch survivors off-guard in weird, unexpected ways! Deerstalker will help you find downed survivors, Dragon's Grip might get you some exposed survivors, and Zanshin Tactics will lead the Trapper to good places to lay down some traps. You can use Insidious to stand near hooks and catch survivors by surprise, making them panic and pushing them into your traps. Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -673,7 +673,7 @@ let preset_killer_perks = {
     },
     "Item Thief": {
         "main": "The Trapper",
-        "addons": ["Tar Bottle", "Trapper Sack"],
+        "addons": ["Secondary Coil", "Trapper Bag"],
         "perks": ["Franklin's Demise", "Gearhead", "Hoarder", "Agitation"],
         "explanation": "Constantly prevent survivors from reacquiring their items! Franklin's lets you knock them down, and Hoarder will notify you when they get picked back up. Agitation allows you to go for positioning with hooks, and Gearhead will let you know where to go after hitting survivors with your basic attacks. Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -687,7 +687,7 @@ let preset_killer_perks = {
     },
     "Omegalunge Spirit": {
         "main": "The Spirit",
-        "addons": ["Wakizashi Saya", "Katana Tsuba"],
+        "addons": ["Muddy Sports Day Cap", "Katana Tsuba"],
         "perks": ["Coup de Grâce", "Stridor", "Blood Warden", "Unrelenting"],
         "explanation": "Spirit typically has a pretty big lunge, but we can take that to make it as ridiculous as possible! Use Stridor to find survivors more easily while phasing, Unrelenting to avoid the cooldown of missed attacks, and Coup de Grace to stretch that huge lunge even further. If you're lucky and get a hook at endgame, Blood Warden will trap survivors for your skewering pleasure! Found in a video by not Otzdarva.",
         "meme": "Medium Meme"
@@ -701,7 +701,7 @@ let preset_killer_perks = {
     },
     "Palletphobic": {
         "main": "The Trapper",
-        "addons": ["Trapper Gloves", "Trapper Sack"],
+        "addons": ["Trapper Gloves", "Bear Oil"],
         "perks": ["Brutal Strength", "Spirit Fury", "Enduring", "Hex: Blood Favour"],
         "explanation": "This Trapper hates pallets! Use all your perks to make sure they are either locked down or destroyed! Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -715,7 +715,7 @@ let preset_killer_perks = {
     },
     "Skeleton Lord": {
         "main": "The Trapper",
-        "addons": ["Trapper Bag", "Trap Setters"],
+        "addons": ["Trapper Bag", "Trapper Gloves"],
         "perks": ["Thanatophobia", "Hex: Undying", "Hex: No One Escapes Death", "Monstrous Shrine"],
         "explanation": "Every perk has a bunch of skulls on it. That's all there is to it :-) Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -778,7 +778,7 @@ let preset_killer_perks = {
     },
     "Basement Warden": {
         "main": "The Trapper",
-        "addons": ["Honing Stone", "Stitched Bag"],
+        "addons": ["Trapper Sack", "Makeshift Wrap"],
         "perks": ["Agitation", "Iron Grasp", "Hex: Ruin", "Territorial Imperative"],
         "explanation": "Force downed survivors into the basement, and wreak havoc on survivors who try to save them! Agitation and Iron Grasp will help you bring a survivor down to the basement, Territorial Imperative will let you know when a survivor is going into the basement from a distance, and Ruin will help slow down gens when chasing survivors off of them.",
         "meme": "Medium Meme"
@@ -883,7 +883,7 @@ let preset_killer_perks = {
     },
     "Max Lethality": {
         "main": "The Plague",
-        "addons": ["Vile Emetic", "Incensed Ointment"],
+        "addons": ["Vile Emetic", "Rubbing Oil"],
         "perks": ["Stridor", "Surge", "Hysteria", "Hex: Ruin"],
         "explanation": "Infect and show survivors the lethality of your plague. Use her add-ons to get fast infects. Stridor will help you track the infected survivors, Surge will damage surrounding generators when you're downed. Ruin and Thrilling will slow down the match as you down and hook survivors.",
         "meme": "Medium Meme"
@@ -897,7 +897,7 @@ let preset_killer_perks = {
     },
     "Omnipresence": {
         "main": "The Spirit",
-        "addons": ["Prayer Beads Bracelet", "Bloody Hair Brooch"],
+        "addons": ["Furin", "White Hair Ribbon"],
         "perks": ["Barbecue & Chilli", "Surge", "Tinkerer", "Hex: Devour Hope"],
         "explanation": "Survivors will struggle to know the Spirit's location as she slowly gains strength throughout the match! Prayer Beads will make sure that all survivors are on edge. Tinkerer and Surge will help you find and regress gens, Barbecue will help you find the next survivors to down, and Devour Hope will strengthen Rin throughout the match, eventually exposing the survivors and hopefully even allowing her mori to shine!",
         "meme": "Low Meme"
@@ -1009,7 +1009,7 @@ let preset_killer_perks = {
     },
     "Slovensky Kopov": {
         "main": "The Spirit",
-        "addons": ["Mother-Daughter Ring", "Father's Glasses"],
+        "addons": ["Mother-Daughter Ring", "Dried Cherry Blossom"],
         "perks": ["Bloodhound", "Sloppy Butcher", "Save the Best for Last", "Surge"],
         "explanation": "Rin has gained an acute sensitivity for blood! Fly across the map and track blood with Father's Glasses and Mother-Daughter Ring! Sloppy Butcher will increase their bleeding, Bloodhound increases the visibility of blood, and Save the Best for Last will help her strike fast and hard! In her violent excitement, Surge will damage all the gens around her when she gets downs.",
         "meme": "Medium Meme"
@@ -1037,7 +1037,7 @@ let preset_killer_perks = {
     },
     "The Only Thing They Fear is You": {
         "main": "The Deathslinger",
-        "addons": ["Hellshire Iron", "Prison Chain"],
+        "addons": ["Barbed Wire", "Prison Chain"],
         "perks": ["Starstruck", "Pop Goes the Weasel", "Distressing", "Hex: Plaything"],
         "explanation": "Much like the unstoppable force that is Doom Guy, Deathslinger will strike fear into the hearts of anyone unfortunate enough to face him. Hellshire Iron and Prison Chain alongside Distressing will give Deathslinger tons of information about nearby survivors; after downing a survivior, Starstruck will mark the survivors still in his Terror Radius with exposed, making them easier to down. Plaything will make sure that previously hooked players will be even easier to down, since they won't hear your terror radius.",
         "meme": "High Meme"
