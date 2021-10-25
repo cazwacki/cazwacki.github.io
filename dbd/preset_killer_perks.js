@@ -309,7 +309,7 @@ let preset_killer_perks = {
     },
     "Max Infectivity": {
         "main": "The Plague",
-        "addons": ["Severed Toe", "Haematite Seal"],
+        "addons": ["Infected Emetic", "Emetic Potion"],
         "perks": ["Dragon's Grip", "Thanatophobia", "Tinkerer", "Hex: Ruin"],
         "explanation": "Use slowdowns that force longer survivor interactions, quickly infecting them with Severed Toe!",
         "meme": "Medium Meme"
@@ -1076,5 +1076,110 @@ let preset_killer_perks = {
         "perks": ["Coup de Grâce", "Barbecue & Chilli", "Surge", "Starstruck"],
         "explanation": "The Nurse can make huge sprints, but needs a lot of time to recharge! Take advantage of Starstruck to get downs on nearby survivors when you get to pick one up, Barbecue to find survivors if they're farther away after a hook, Coup de Grace to get a little extra reach in a tight spot, and Surge to damage generators around you when you down a survivor!",
         "meme": "Medium Meme"
+    },
+    "Migration Tracking": {
+        "main": "The Pig",
+        "addons": ["Jigsaw's Sketch", "Rule Set No.2"],
+        "perks": ["Hex: Undying", "Hex: Ruin", "Save the Best for Last", "Mindbreaker"],
+        "explanation": "Use your traps like a tracking device and see where the survivors move! When traps are on and a survivor tries to work on a gen, you'll know about it, and they won't be able to run far thanks to Mindbreaker! Save the Best for Last will speed up your strikes and minimize wasted time. Ruin and Undying will regress the gens the trapped survivors are working on.",
+        "meme": "Low Meme"
+    },
+    "Spectator Sport": {
+        "main": "The Pig",
+        "addons": ["Video Tape", "Amanda's Secret"],
+        "perks": ["Deerstalker", "Surge", "Barbecue & Chilli", "Make Your Choice"],
+        "explanation": "Quickly find survivors that try to take off their traps and down them! Deerstalker will let you slug survivors to find other survivors taking their traps off, Surge will help with slowing gen progression,  Barbecue will help you find where to go after getting a hook, and Make Your Choice will make unhooking dangerous for survivors!",
+        "meme": "Medium Meme"
+    },
+    "Emergency Meeting": {
+        "main": "The Pig",
+        "addons": ["Rule Set No.2", "Video Tape"],
+        "perks": ["Save the Best for Last", "Bitter Murmur", "Pop Goes the Weasel", "Thrilling Tremors"],
+        "explanation": "Survivors are in for a panic once the first generator completes and all their traps start to go down! Thrilling Tremors and Pop will help slow down gen progression, Bitter Murmur will let you know where survivors are going when they leave a generator, and Save the Best for Last will quicken your strikes, ensuring you waste minimal time as their trap times tick down!",
+        "meme": "Medium Meme"
+    },
+    "Bloodhound": {
+        "main": "The Pig",
+        "addons": ["Amanda's Letter", "John's Medical File"],
+        "perks": ["Pop Goes the Weasel", "Tinkerer", "I'm All Ears", "Barbecue & Chilli"],
+        "explanation": "Get a sense of the area around you when you're crouched down! Tinkerer and Pop will help with gen regression, I'm All Ears will help with mindgames at tricky loops, and Barbecue will let you know where to go next after hooking a survivor!",
+        "meme": "Low Meme"
+    },
+    "Stage Fright": {
+        "main": "The Pig",
+        "addons": ["Razor Wires", "Bag of Gears"],
+        "perks": ["Sloppy Butcher", "Surge", "Hex: Huntress Lullaby", "Unnerving Presence"],
+        "explanation": "Watch the survivor panic and fail skill checks as they try to take off your traps! Unnerving Presence and Huntress Lullaby will make skill checks more difficult for them; Sloppy Butcher and Surge will help slow down the match as you watch the shows.",
+        "meme": "High Meme"
+    },
+    "Venus Flytrap": {
+        "main": "The Trapper",
+        "addons": ["Tension Spring", "Honing Stone"],
+        "perks": ["Territorial Imperative", "Insidious", "Agitation", "Iron Grasp"],
+        "explanation": "Your traps eat up survivors, kill them, and open back up for their next meal! Use this near the basement to hold down the area! Iron Grasp and Agitation will help you hook survivors in the basement, Territorial Imperative will help you know when a survivor is entering the basement, and Insidious will allow you to hide nearby and strike at the right time!",
+        "meme": "High Meme"
+    },
+    "Growing Pains": {
+        "main": "The Trapper",
+        "addons": ["Lengthened Jaws", "Tar Bottle"],
+        "perks": ["Barbecue & Chilli", "Sloppy Butcher", "Tinkerer", "Pop Goes the Weasel"],
+        "explanation": "Survivors will be in for a nasty surprise when they escape a trap! Force survivors to waste time mending if they escape a trap. Tinkerer and Pop will help you regress gens, Barbecue will help you find where to go after getting a hook, and Sloppy Butcher will mitigate healing when you strike survivors!",
+        "meme": "Low Meme"
+    },
+    "Grasping Tendril": {
+        "main": "The Trapper",
+        "addons": ["Makeshift Wrap", "Trapper Sack"],
+        "perks": ["Iron Grasp", "Agitation", "Thrilling Tremors", "Hex: Ruin"],
+        "explanation": "Pull survivors to the basement and make it impossible to escape. Load the area around the basement with traps; the survivors won't be able to run over the traps, but you can effortlessly. Iron Grasp and Agitation will help you pull survivors to the basement, and Thrilling Tremors and Ruin will provide a little gen regression as you maintain the basement prison.",
+        "meme": "Medium Meme"
+    },
+    "Marathon Runner": {
+        "main": "The Nurse",
+        "addons": ["Torn Bookmark", "Fragile Wheeze"],
+        "perks": ["Hex: Plaything", "Tinkerer", "Pop Goes the Weasel", "Infectious Fright"],
+        "explanation": "Nurse can move farther than ever with a third blink! Use this to get that little extra distance if the survivor manages to dodge your second blink. Infectious Fright will help you chain downs, Plaything will keep survivors confused about when you are coming, and Tinkerer and Pop help regress generators!",
+        "meme": "Low Meme"
+    },
+    "Slaughterhouse": {
+        "main": "The Spirit",
+        "addons": ["Dried Cherry Blossom", "Mother-Daughter Ring"],
+        "perks": ["Tinkerer", "Pop Goes the Weasel", "Barbecue & Chilli", "Corrupt Intervention"],
+        "explanation": "Rin knows when a survivor is close by. Fly to them and detect them with your addons, and get easy downs. Corrupt Intervention, Tinkerer, and Pop will help slow down gens, and Barbecue will help you find the next survivor to down after getting a hook.",
+        "meme": "Low Meme"
+    },
+    "Guenhwyvar": {
+        "main": "The Spirit",
+        "addons": ["Kintsugi Teacup", "Yakuyoke Amulet"],
+        "perks": ["Lethal Pursuer", "Hysteria", "Sloppy Butcher", "Hex: Ruin"],
+        "explanation": "Spirit enters and leaves the physical plane as she pleases, breaking pallets or walls to do so. She has the strength of the panther. Lethal Pursuer will help you find someone quickly, Hysteria and Sloppy Butcher will help you slow down and confuse survivors, and Ruin will slow down generators as you hunt down the survivors!",
+        "meme": "Medium Meme"
+    },
+    "False Sense of Security": {
+        "main": "The Spirit",
+        "addons": ["Uchiwa", "White Hair Ribbon"],
+        "perks": ["Enduring", "Spirit Fury", "Tinkerer", "Pop Goes the Weasel"],
+        "explanation": "When survivors throw down pallets, they won't be making any distance. Your addons reset your Haunting when you're stunned! Enduring and Spirit Fury will help mitigate those effects and allow Spirit to get right back onto the survivor. Tinkerer and Pop will help guide with finding gens close to completion and regressing them.",
+        "meme": "Low Meme"
+    },
+    "Time to Run": {
+        "main": "The Plague",
+        "addons": ["Incensed Ointment", "Exorcism Amulet"],
+        "perks": ["Infectious Fright", "Hex: Ruin", "Deerstalker", "Hex: Undying"],
+        "explanation": "The Corrupt Purge fills survivors with horror! Know the locations of nearby survivors when you get your Corrupt Purge and down as many as you can! Ruin and Undying will slow generator progress, and Deerstalker and Infectious Fright will help you as chain downs, then come back and hook survivors after you finish your Corrupt Purge!",
+        "meme": "Medium Meme"
+    },
+    "Leper Architect": {
+        "main": "The Plague",
+        "addons": ["Infected Emetic", "Prophylactic Amulet"],
+        "perks": ["Surge", "Bloodhound", "Blood Echo", "Barbecue & Chilli"],
+        "explanation": "Limit their ability to cure themselves! Infect them more easily and they'll have a harder time cleansing! Bloodhound will help you find infected survivors, Blood Echo will limit their abilities to run away, and Barbecue will help you to figure out where to go after getting a hook! Surge will help with some gen regression in the meantime.",
+        "meme": "Medium Meme"
+    },
+    "Tightening Grip": {
+        "main": "The Blight",
+        "addons": ["Summoning Stone", "Alchemist's Ring"],
+        "perks": ["Pop Goes the Weasel", "Make Your Choice", "Barbecue & Chilli", "Tinkerer"],
+        "explanation": "When you find a survivor and hit them with your Lethal Rush, they won't stand a chance! When you hit them, you'll get all your charges back and lock down nearby pallets. If they manage to find a window, just use your charges to get that second hit and down them! Tinkerer and Pop will help you slow down gens, Barbecue will help you figure out where to go after a hook, and Make Your Choice makes unhooking deadly for survivors!",
+        "meme": "Low Meme"
     },
 }
