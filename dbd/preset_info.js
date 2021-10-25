@@ -2353,6 +2353,46 @@ let addons = {
         "url": "https://deadbydaylight.fandom.com/wiki/Engineer%27s_Fang",
         "img_url": "images/addons/iconAddon_engineersFang.png"
     },
+    "Makeshift Wrap": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Makeshift_Wrap",
+        "img_url": "images/addons/iconAddon_makeshiftWrap.png"
+    },
+    "Coffee Grinds": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Coffee_Grinds",
+        "img_url": "images/addons/iconAddon_coffeeGrinds.png"
+    },
+    "Lengthened Jaws": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Lengthened_Jaws",
+        "img_url": "images/addons/iconAddon_lengthenedJaws.png"
+    },
+    "Tension Spring": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Tension_Spring",
+        "img_url": "images/addons/iconAddon_tensionSpring.png"
+    },
+    "Bear Oil": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Bear_Oil",
+        "img_url": "images/addons/iconAddon_bearOil.png"
+    },
+    "Mother's Glasses": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Mother%27s_Glasses",
+        "img_url": "images/addons/iconAddon_mothersGlasses.png"
+    },
+    "Uchiwa": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Uchiwa",
+        "img_url": "images/addons/iconAddon_uchiwa.png"
+    },
+    "Senko Hanabi": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Senko_Hanabi",
+        "img_url": "images/addons/iconAddon_senkoHanabi.png"
+    },
+    "Furin": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Furin",
+        "img_url": "images/addons/iconAddon_furin.png"
+    },
+    "Kintsugi Teacup": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Kintsugi_Teacup",
+        "img_url": "images/addons/iconAddon_kintsugiTeacup.png"
+    }
 }
 
 
