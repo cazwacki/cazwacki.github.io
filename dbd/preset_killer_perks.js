@@ -1,7 +1,7 @@
 let preset_killer_perks = {
     "Shadow Traps": {
         "main": "The Trapper",
-        "addons": ["Logwood Dye", "Tar Bottle"],
+        "addons": ["Rusted Jaws", "Tar Bottle"],
         "perks": ["Corrupt Intervention", "Whispers", "Hex: The Third Seal", "Monitor & Abuse"],
         "explanation": "Make sure you're not being watched as you place these inky shadow traps, and say a prayer to the entity you don't get Coldwind.",
         "meme": "Low Meme"
@@ -15,7 +15,7 @@ let preset_killer_perks = {
     },
     "Booby Trapped": {
         "main": "The Trapper",
-        "addons": ["Stitched Bag", "Trapper Sack"],
+        "addons": ["Secondary Coil", "4-Coil Spring Kit"],
         "perks": ["Franklin's Demise", "Hoarder", "Zanshin Tactics", "No Way Out"],
         "explanation": "Their tools belong to you, and you're not giving them back. Trap items, resources, and gates.",
         "meme": "High Meme"
@@ -1079,7 +1079,7 @@ let preset_killer_perks = {
     },
     "Migration Tracking": {
         "main": "The Pig",
-        "addons": ["Jigsaw's Sketch", "Rule Set No.2"],
+        "addons": ["Jigsaw's Sketch", "Rules Set No.2"],
         "perks": ["Hex: Undying", "Hex: Ruin", "Save the Best for Last", "Mindbreaker"],
         "explanation": "Use your traps like a tracking device and see where the survivors move! When traps are on and a survivor tries to work on a gen, you'll know about it, and they won't be able to run far thanks to Mindbreaker! Save the Best for Last will speed up your strikes and minimize wasted time. Ruin and Undying will regress the gens the trapped survivors are working on.",
         "meme": "Low Meme"
@@ -1093,7 +1093,7 @@ let preset_killer_perks = {
     },
     "Emergency Meeting": {
         "main": "The Pig",
-        "addons": ["Rule Set No.2", "Video Tape"],
+        "addons": ["Rules Set No.2", "Video Tape"],
         "perks": ["Save the Best for Last", "Bitter Murmur", "Pop Goes the Weasel", "Thrilling Tremors"],
         "explanation": "Survivors are in for a panic once the first generator completes and all their traps start to go down! Thrilling Tremors and Pop will help slow down gen progression, Bitter Murmur will let you know where survivors are going when they leave a generator, and Save the Best for Last will quicken your strikes, ensuring you waste minimal time as their trap times tick down!",
         "meme": "Medium Meme"

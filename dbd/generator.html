@@ -10,11 +10,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="buttons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.css">
+    <script type="text/javascript" src="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.js"></script>
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 </head>
 
 <body>
+    <script>
+        $(function() {
+            $.protip();
+        });
+    </script>
     <!-- DBD Logo & Background -->
     <br />
     <div id="video-filter">
@@ -43,25 +50,25 @@
         <br />
         <div id="perk-set" class="mx-auto row justify-content-center">
             <div class="col">
-                <a id="perk1-url" href="" target="_blank">
+                <a id="perk1-url" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
                     <img id="perk1-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk1-caption" class="h5 perk-caption">Perk 1</figcaption>
                 </a>
             </div>
             <div class="col">
-                <a id="perk2-url" href="" target="_blank">
+                <a id="perk2-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
                     <img id="perk2-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk2-caption" class="h5 perk-caption">Perk 2</figcaption>
                 </a>
             </div>
             <div class="col">
-                <a id="perk3-url" href="" target="_blank">
+                <a id="perk3-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
                     <img id="perk3-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk3-caption" class="h5 perk-caption">Perk 3</figcaption>
                 </a>
             </div>
             <div class="col">
-                <a id="perk4-url" href="" target="_blank">
+                <a id="perk4-url" class="protip" data-pt-width="300" data-pt-position="right" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
                     <img id="perk4-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk4-caption" class="h5 perk-caption">Perk 4</figcaption>
                 </a>
@@ -72,7 +79,7 @@
         <button class="btn btn-outline-dark btn-lg btn-radius text-light" onclick="displayBuild()">Generate Build</button>
         <br />
         <br />
-        <h1 class="h6 text-muted mb-3 fw-normal">It's okay if you don't have a listed perk; just try and stick to a theme or choose any!<br />Click the perks to learn more about them on the wiki!</h1>
+        <h1 class="h6 text-muted mb-3 fw-normal">It's okay if you don't have a listed perk; just try and stick to a theme or choose any!<br />Hover/Click the perks to learn more about them on the wiki!</h1>
         <br />
     </div>
     <script src="survivor_perks.js"></script>

@@ -16,7 +16,9 @@ if (mode == "Killer") {
     if (build == "Preset") {
         $("#character-img").attr("src", "images/killer.png");
         $("#character-caption").text("Killer");
-        $("#browser-source").text("https://charles.zawackis.com/dbd/embed.html?mode=Killer")
+        $("#browser-source").text(
+            "https://charles.zawackis.com/dbd/embed.html?mode=Killer"
+        );
     }
 } else if (mode == "Survivor") {
     perk_set = survivor_perks;
@@ -26,13 +28,29 @@ if (mode == "Killer") {
     if (build == "Preset") {
         $("#character-img").attr("src", "images/item.png");
         $("#character-caption").text("Item");
-        $("#browser-source").text("https://charles.zawackis.com/dbd/embed.html?mode=Survivor")
+        $("#browser-source").text(
+            "https://charles.zawackis.com/dbd/embed.html?mode=Survivor"
+        );
     }
 } else {
     alert(
         "Please click on the DBD Logo and navigate the site using the buttons."
     );
 }
+
+//DEBUG
+// console.log(Object.keys(preset_perk_set).length);
+// for (let i = 0; i < Object.keys(preset_perk_set).length; i++) {
+//     let build_name = Object.keys(preset_perk_set)[i];
+//     console.log('--' + build_name);
+//     let chosen_build = preset_perk_set[build_name];
+//     for (let i = 0; i < 4; i++) {
+//         console.log(perk_set[chosen_build.perks[i]]);
+//     }
+//     for (let i = 0; i < 2; i++) {
+//         console.log(items[chosen_build.addons[i]]);
+//     }
+// }
 
 if (build != "Semi-Random") {
     $("#selectors").remove();
@@ -94,6 +112,8 @@ function fetchAndFade(perks) {
         $("#perk" + (i + 1).toString() + "-img").addClass("fadeIn");
         $("#perk" + (i + 1).toString() + "-caption").text(perk);
         $("#perk" + (i + 1).toString() + "-caption").addClass("fadeIn");
+        let current_i = i + 1;
+        descUpdate("perk" + (i + 1).toString());
         setTimeout(
             (dom_img, dom_caption) => {
                 dom_img.removeClass("fadeIn");
@@ -192,13 +212,18 @@ function presetBuild() {
         ];
     let chosen_build = preset_perk_set[build_name];
 
-    while (main_history.includes(chosen_build.main) || build_history.includes(build_name)) {
-        build_name = Object.keys(preset_perk_set)[
-            Math.floor(Math.random() * Object.keys(preset_perk_set).length)
-        ];
+    while (
+        // DEBUG
+        // chosen_build.main != 'The Trapper'
+        main_history.includes(chosen_build.main) ||
+        build_history.includes(build_name)
+    ) {
+        build_name =
+            Object.keys(preset_perk_set)[
+                Math.floor(Math.random() * Object.keys(preset_perk_set).length)
+            ];
         chosen_build = preset_perk_set[build_name];
     }
-
     main_history.push(chosen_build.main);
     build_history.push(build_name);
 
@@ -248,6 +273,15 @@ function presetBuild() {
     let perks = [];
     for (let i = 0; i < 4; i++) {
         perks[chosen_build.perks[i]] = perk_set[chosen_build.perks[i]];
+        setTimeout(
+            (dom_img, dom_caption) => {
+                dom_img.removeClass("fadeIn");
+                dom_caption.removeClass("fadeIn");
+            },
+            3000,
+            $("#perk" + (i + 1).toString() + "-img"),
+            $("#perk" + (i + 1).toString() + "-caption")
+        );
     }
     setTimeout(() => {
         // tool for survivors
@@ -324,16 +358,10 @@ function presetBuild() {
             $("#perk" + (i + 1).toString() + "-img").addClass("fadeIn");
             $("#perk" + (i + 1).toString() + "-caption").text(perk);
             $("#perk" + (i + 1).toString() + "-caption").addClass("fadeIn");
-            setTimeout(
-                (dom_img, dom_caption) => {
-                    dom_img.removeClass("fadeIn");
-                    dom_caption.removeClass("fadeIn");
-                },
-                1500,
-                $("#perk" + (i + 1).toString() + "-img"),
-                $("#perk" + (i + 1).toString() + "-caption")
-            );
             i++;
+        }
+        for (let i = 0; i < 4; i++) {
+            descUpdate("perk" + (i + 1).toString());
         }
     }, 1500);
 }
@@ -381,12 +409,44 @@ function updateDescription() {
 }
 
 function copyBrowserSource() {
-    $('#browser-source').css('color', 'lightgreen');
+    $("#browser-source").css("color", "lightgreen");
 
     /* Copy the text inside the text field */
-    navigator.clipboard.writeText($('#browser-source').text());
+    navigator.clipboard.writeText($("#browser-source").text());
 
     setTimeout(() => {
-        $('#browser-source').css('color', 'lightslategray');
+        $("#browser-source").css("color", "lightslategray");
     }, 250);
+}
+
+// $.ajaxSetup({
+//     headers: {
+//         'Origin': "google.com"
+//     }
+// });
+
+function descUpdate(item) {
+    let proxy = "https://cors-anywhere.herokuapp.com/";
+    let url = $("#" + item + "-url").attr("href");
+    if (url.includes("https://")) {
+        if (item.includes("perk")) {
+            $.get(proxy + url, function(response) {
+                $("#" + item + "-url").protipSet({
+                    title: $(response)
+                        .find(".wikitable")
+                        .first()
+                        .find("td")
+                        .last()
+                        .find(".rawPerkDesc")
+                        .first()
+                        .text()
+                        .replaceAll("<br>", "<br><br>")
+                        .replaceAll('style="', 'style="font-weight: bold; ')
+                        .replaceAll("'''", "")
+                        .replaceAll("* ", "")
+                        .replaceAll("''", ""),
+                });
+            });
+        }
+    }
 }
