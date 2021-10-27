@@ -426,7 +426,7 @@ function copyBrowserSource() {
 // });
 
 function descUpdate(item) {
-    let proxy = "https://cors-anywhere.herokuapp.com/";
+    let proxy = "http://dreamland.zawackis.com:12399/";
     let url = $("#" + item + "-url").attr("href");
     if (url.includes("https://")) {
         if (item.includes("perk")) {
