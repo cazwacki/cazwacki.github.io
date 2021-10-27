@@ -426,7 +426,7 @@ function copyBrowserSource() {
 // });
 
 function descUpdate(item) {
-    let proxy = "http://dreamland.zawackis.com:12399/";
+    let proxy = "https://dreamland.zawackis.com:12399/";
     let url = $("#" + item + "-url").attr("href");
     if (url.includes("https://")) {
         if (item.includes("perk")) {
