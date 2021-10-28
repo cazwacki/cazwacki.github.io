@@ -314,6 +314,8 @@ function presetBuild() {
             $("#addon1-img"),
             $("#addon1-caption")
         );
+        descUpdate("addon1");
+
         $("#addon2-url").attr("href", addons[chosen_build.addons[1]].url);
         $("#addon2-img").attr("src", addons[chosen_build.addons[1]].img_url);
         $("#addon2-caption").text(chosen_build.addons[1]);
@@ -328,6 +330,8 @@ function presetBuild() {
             $("#addon2-img"),
             $("#addon2-caption")
         );
+        descUpdate("addon2");
+
         $("#title")
             .empty()
             .append("<strong>" + build_name + "</strong>");
@@ -445,6 +449,38 @@ function descUpdate(item) {
                         .replaceAll("'''", "")
                         .replaceAll("* ", "")
                         .replaceAll("''", ""),
+                });
+            });
+        } else if (item.includes("addon")) {
+            console.log("addon!");
+            $.get(proxy + url, function(response) {
+                let info = $(response)
+                    .find(".wikitable")
+                    .first()
+                    .find("tr")
+                    .last()
+                    .find("td")
+                    .first();
+                info.find("a").each(function() {
+                    $(this).attr("href", "");
+                    if ($(this).has("img")) {
+                        $(this).find("img").remove();
+                    }
+                });
+                let resulting_title = info
+                    .html()
+                    .replaceAll("<li>", "<p>")
+                    .replaceAll("</li>", "</p>")
+                    .replaceAll("<ul>", "")
+                    .replaceAll("</ul>", "")
+                    .replaceAll("<a", "<span")
+                    .replaceAll("</a>", "</span>")
+                    .replaceAll(" .", ".")
+                    .replaceAll("  ", " ")
+                    .replaceAll("&nbsp;%", "%")
+                    .replaceAll("\n", "\n\n");
+                $("#" + item + "-url").protipSet({
+                    title: resulting_title,
                 });
             });
         }
