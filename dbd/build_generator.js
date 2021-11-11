@@ -435,20 +435,38 @@ function descUpdate(item) {
     if (url.includes("https://")) {
         if (item.includes("perk")) {
             $.get(proxy + url, function(response) {
+                let info = $(response)
+                    .find(".wikitable")
+                    .first()
+                    .find("td")
+                    .last()
+                    .find(".formattedPerkDesc")
+                    .first();
+
+                info.find("a").each(function() {
+                    $(this).attr("href", "");
+                });
+
+                let resulting_title = info
+                    .html()
+                    .replaceAll('style="', 'style="font-weight: bold; ')
+                    .replaceAll("<li>", "<p>")
+                    .replaceAll("</li>", "</p>")
+                    .replaceAll("<ul>", "")
+                    .replaceAll("</ul>", "")
+                    .replaceAll("<a", "<span")
+                    .replaceAll("</a>", "</span>")
+                    .replaceAll("<br>", "<br><br>")
+                    .replaceAll(" .", ".")
+                    .replaceAll("  ", " ")
+                    .replaceAll("'''", "")
+                    .replaceAll("* ", "")
+                    .replaceAll("''", "")
+                    .replaceAll("&nbsp;%", "%")
+                    .replaceAll("\n", "\n\n");
+
                 $("#" + item + "-url").protipSet({
-                    title: $(response)
-                        .find(".wikitable")
-                        .first()
-                        .find("td")
-                        .last()
-                        .find(".rawPerkDesc")
-                        .first()
-                        .text()
-                        .replaceAll("<br>", "<br><br>")
-                        .replaceAll('style="', 'style="font-weight: bold; ')
-                        .replaceAll("'''", "")
-                        .replaceAll("* ", "")
-                        .replaceAll("''", ""),
+                    title: resulting_title
                 });
             });
         } else if (item.includes("addon")) {
