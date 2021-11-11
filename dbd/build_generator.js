@@ -445,6 +445,9 @@ function descUpdate(item) {
 
                 info.find("a").each(function() {
                     $(this).attr("href", "");
+                    if ($(this).has("img")) {
+                        $(this).find("img").remove();
+                    }
                 });
 
                 let resulting_title = info
