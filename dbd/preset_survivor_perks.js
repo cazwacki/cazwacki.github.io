@@ -699,4 +699,25 @@ let preset_survivor_perks = {
         "explanation": "Tap into the forces of the world around you. You can sense windows and pallets with Windows of Opportunity, but when you break a totem, your vision expands to chests, hooks, and generators!",
         "meme": "Medium Meme"
     },
+    "Noob Assist": {
+        "main": "Flashlight (Item)",
+        "addons": ["Long Life Battery", "Intense Halogen"],
+        "perks": ["Technician", "Corrective Action", "Guardian", "We'll Make It"],
+        "explanation": "Make sure your fellow survivors get a boost! Their failed skill checks won't hurt as much and you can heal them quickly once you take them off the Hook! Technician and Guardian will further help you protect your teammates from harm.",
+        "meme": "High Meme"
+    },
+    "The Witch": {
+        "main": "Toolbox (Item)",
+        "addons": ["Socket Swivels", "Clean Rag"],
+        "perks": ["Small Game", "Boon: Circle of Healing", "Boon: Shadow Step", "Boon: Exponential"],
+        "explanation": "Cast your witchcraft onto bones to create incredibly powerful areas that your fellow survivors can take advantage of!",
+        "meme": "High Meme"
+    },
+    "Self-Suturer": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Gel Dressings", "Gauze Roll"],
+        "perks": ["Lucky Break", "Overcome", "Iron Will", "Built to Last"],
+        "explanation": "Don't let an injury hold you back for too long. When you get injured, use the extra distance and lack of blood to lose the killer! Quickly heal up and re-enter the battlefield. Get back to looping the killer so your teammates can power through gens!",
+        "meme": "Low Meme"
+    },
 }

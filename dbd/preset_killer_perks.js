@@ -1182,4 +1182,39 @@ let preset_killer_perks = {
         "explanation": "When you find a survivor and hit them with your Lethal Rush, they won't stand a chance! When you hit them, you'll get all your charges back and lock down nearby pallets. If they manage to find a window, just use your charges to get that second hit and down them! Tinkerer and Pop will help you slow down gens, Barbecue will help you figure out where to go after a hook, and Make Your Choice makes unhooking deadly for survivors!",
         "meme": "Low Meme"
     },
+    "Terrorclaw": {
+        "main": "The Artist",
+        "addons": ["Silver Bell", "Charcoal Stick"],
+        "perks": ["Hex: Plaything", "Tinkerer", "Pop Goes the Weasel", "Hysteria"],
+        "explanation": "Drain the survivors' sanity by injuring them, blinding them, and jumping out of nowhere and injuring them! Silver Bell and Charcoal Stick will help mask your movements; Hysteria and Plaything will make sure the survivors will never be completely sure where you are or when you're coming! Tinkerer and Pop will help you slow down gens in the meantime.",
+        "meme": "Medium Meme"
+    },
+    "Out of the Frying Pan": {
+        "main": "The Artist",
+        "addons": ["Automatic Drawing", "Severed Tongue"],
+        "perks": ["Barbecue & Chilli", "Hex: Pentimento", "Hex: Plaything", "Jolt"],
+        "explanation": "Wreak havoc on survivors using Hex: Plaything to confuse them, then when they finally break the totems, hit them with Pentimento! Barbecue and Jolt will help you find survivors and regress generators while building up for your Pentimento.",
+        "meme": "Low Meme"
+    },
+    "Carmina's Curses": {
+        "main": "The Artist",
+        "addons": ["Vibrant Obituary", "Oil Paints"],
+        "perks": ["Hex: Ruin", "Hex: Undying", "Hex: Pentimento", "Hex: Thrill of the Hunt"],
+        "explanation": "Encourage survivors to destroy your hexes so you can use the power of Pentimento to slow htings down even further!",
+        "meme": "Low Meme"
+    },
+    "Dragged to the Pyre": {
+        "main": "The Artist",
+        "addons": ["Untitled Agony", "Thorny Nest"],
+        "perks": ["Scourge Hook: Pain Resonance", "Iron Grasp", "Agitation", "Starstruck"],
+        "explanation": "Get easier downs on survivors with the Artist's addons, then drag a survivor to a Scourge Hook and damage the most progressed generator! Iron Grasp and Agitation will make sure you can take advantage of your Scourge Hook perk and Starstruck will ensure that anyone that blocks your path to the Scourge Hook will be direly punished for it.",
+        "meme": "High Meme"
+    },
+    "Wallhacks Artist": {
+        "main": "The Artist",
+        "addons": ["Thick Tar", "Festering Carrion"],
+        "perks": ["Hex: Undying", "Barbecue & Chilli", "Hex: Ruin", "No Way Out"],
+        "explanation": "Get maximum visibility of the survivors using this build! Found in a video by Scott Jund.",
+        "meme": "Medium Meme"
+    },
 }
