@@ -27,16 +27,16 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Autodidact",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/IconPerks_autodidact.png"
     },
-    "Babysitter": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Babysitter",
-        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/db/IconPerks_babysitter.png"
+    "Guardian": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Guardian",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/23/IconPerks_guardian.png"
     },
     "Balanced Landing": {
         "url": "https://deadbydaylight.fandom.com/wiki/Balanced_Landing",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/IconPerks_balancedLanding.png"
     },
-    "Better Together": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Better_Together",
+    "Situational Awareness": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Situational_Awareness",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_betterTogether.png"
     },
     "Bite the Bullet": {
@@ -95,8 +95,8 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Calm_Spirit",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/IconPerks_calmSpirit.png"
     },
-    "Camaraderie": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Camaraderie",
+    "Kinship": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Kinship",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_camaraderie.png"
     },
     "Clairvoyance": {
@@ -159,8 +159,8 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Fast_Track",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/IconPerks_fastTrack.png"
     },
-    "Fixated": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Fixated",
+    "Self-Aware": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Self-Aware",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7c/IconPerks_fixated.png"
     },
     "Flashbang": {
@@ -183,9 +183,9 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Hope",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/IconPerks_hope.png"
     },
-    "Inner Strength": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Inner_Strength",
-        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/IconPerks_innerStrength.png"
+    "Inner Healing": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Inner_Healing",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/df/IconPerks_innerHealing.png"
     },
     "Iron Will": {
         "url": "https://deadbydaylight.fandom.com/wiki/Iron_Will",
@@ -291,9 +291,9 @@ let survivor_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Saboteur",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0e/IconPerks_saboteur.png"
     },
-    "Second Wind": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Second_Wind",
-        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_secondWind.png"
+    "Renewal": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Renewal",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7b/IconPerks_renewal.png"
     },
     "Self-Care": {
         "url": "https://deadbydaylight.fandom.com/wiki/Self-Care",
@@ -390,6 +390,18 @@ let survivor_perks = {
     "Windows of Opportunity": {
         "url": "https://deadbydaylight.fandom.com/wiki/Windows_of_Opportunity",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/IconPerks_windowsOfOpportunity.png"
+    },
+    "Overcome": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Overcome",
+        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/IconPerks_overcome.png",
+    },
+    "Corrective Action": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Corrective_Action",
+        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/IconPerks_correctiveAction.png",
+    },
+    "Boon: Exponential": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Boon:_Exponential",
+        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/IconPerks_boonExponential.png",
     }
 }
 

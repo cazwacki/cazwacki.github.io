@@ -51,8 +51,8 @@ let killer_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Coup_de_Gr%C3%A2ce",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png",
     },
-    "Cruel Limits": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Cruel_Limits",
+    "Claustrophobia": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Claustrophobia",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_cruelLimits.png",
     },
     "Dark Devotion": {
@@ -211,8 +211,8 @@ let killer_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Make_Your_Choice",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/IconPerks_makeYourChoice.png",
     },
-    "Mindbreaker": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Mindbreaker",
+    "Fearmonger": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Fearmonger",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_mindbreaker.png",
     },
     "Monitor & Abuse": {
@@ -291,8 +291,8 @@ let killer_perks = {
         "url": "https://deadbydaylight.fandom.com/wiki/Stridor",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/IconPerks_stridor.png",
     },
-    "Surge": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Surge",
+    "Jolt": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Jolt",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_surge.png",
     },
     "Surveillance": {
@@ -346,6 +346,18 @@ let killer_perks = {
     "Deadlock": {
         "url": "https://deadbydaylight.fandom.com/wiki/Deadlock",
         "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_deadlock.png",
+    },
+    "Grim Embrace": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Grim_Embrace",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_grimEmbrace.png",
+    },
+    "Scourge Hook: Pain Resonance": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Pain_Resonance",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/IconPerks_scourgeHookPainResonance.png",
+    },
+    "Hex: Pentimento": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Hex:_Pentimento",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/IconPerks_hexPentimento.png",
     }
 };
 

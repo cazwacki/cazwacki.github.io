@@ -1,14 +1,14 @@
 var stylized_killer_perks = {
     "Aura-Reading": {
-        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Deadlock", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Scourge Hook: Gift of Pain", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
+        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Deadlock", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Grim Embrace", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Scourge Hook: Gift of Pain", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
         "description": "gather information"
     },
     "Anti-Gens": {
-        "perks": ["Brutal Strength", "Corrupt Intervention", "Deadlock", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Hex: Huntress Lullaby", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Surge", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
+        "perks": ["Brutal Strength", "Corrupt Intervention", "Deadlock", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Grim Embrace", "Hex: Huntress Lullaby", "Hex: Pentimento", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Scourge Hook: Pain Resonance", "Jolt", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
         "description": "slow down gen progression"
     },
     "Anti-Healing": {
-        "perks": ["A Nurse's Calling", "Coulrophobia", "Deathbound", "Forced Penance", "Hex: Huntress Lullaby", "Scourge Hook: Gift of Pain", "Sloppy Butcher", "Unnerving Presence"],
+        "perks": ["A Nurse's Calling", "Coulrophobia", "Deathbound", "Forced Penance", "Hex: Huntress Lullaby", "Hex: Pentimento", "Scourge Hook: Gift of Pain", "Sloppy Butcher", "Unnerving Presence"],
         "description": "prevent or discourage healing"
     },
     "Anti-Items": {
@@ -16,11 +16,11 @@ var stylized_killer_perks = {
         "description": "punish the use of items"
     },
     "Anti-Looping": {
-        "perks": ["Bamboozle", "Beast of Prey", "Blood Echo", "Brutal Strength", "Coup de Grâce", "Cruel Limits", "Enduring", "Hex: Blood Favour", "Hex: Crowd Control", "I'm All Ears", "Mindbreaker", "Spirit Fury", "Zanshin Tactics"],
+        "perks": ["Bamboozle", "Beast of Prey", "Blood Echo", "Brutal Strength", "Coup de Grâce", "Claustrophobia", "Enduring", "Hex: Blood Favour", "Hex: Crowd Control", "I'm All Ears", "Fearmonger", "Spirit Fury", "Zanshin Tactics"],
         "description": "end chases more quickly"
     },
     "Basic Attacking": {
-        "perks": ["Dark Devotion", "Franklin's Demise", "Gearhead", "Hex: Blood Favour", "Hex: The Third Seal", "Knock Out", "Mad Grit", "Remember Me", "Save the Best for Last", "Sloppy Butcher", "Surge", "Unrelenting"],
+        "perks": ["Dark Devotion", "Franklin's Demise", "Gearhead", "Hex: Blood Favour", "Hex: The Third Seal", "Knock Out", "Mad Grit", "Remember Me", "Save the Best for Last", "Sloppy Butcher", "Jolt", "Unrelenting"],
         "description": "strengthen your basic attacks"
     },
     "BP Farming": {
@@ -32,7 +32,7 @@ var stylized_killer_perks = {
         "description": "take advantage of carrying a survivor"
     },
     "Confusing": {
-        "perks": ["Dark Devotion", "Knock Out", "Lightborn", "Cruel Limits"],
+        "perks": ["Dark Devotion", "Knock Out", "Lightborn", "Claustrophobia"],
         "description": "throw off survivors"
     },
     "End-Gaming": {
@@ -44,19 +44,19 @@ var stylized_killer_perks = {
         "description": "expose survivors"
     },
     "Hexing": {
-        "perks": ["Hex: Blood Favour", "Hex: Crowd Control", "Hex: Devour Hope", "Hex: Haunted Ground", "Hex: Huntress Lullaby", "Hex: No One Escapes Death", "Hex: Plaything", "Hex: Retribution", "Hex: Ruin", "Hex: The Third Seal"],
+        "perks": ["Hex: Blood Favour", "Hex: Crowd Control", "Hex: Devour Hope", "Hex: Haunted Ground", "Hex: Huntress Lullaby", "Hex: No One Escapes Death", "Hex: Pentimento", "Hex: Plaything", "Hex: Retribution", "Hex: Ruin", "Hex: The Third Seal"],
         "description": "take advantage of hex totems"
     },
     "Hooking": {
-        "perks": ["Agitation", "Barbecue & Chilli", "Blood Echo", "Blood Warden", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Hex: Devour Hope", "Hex: Huntress Lullaby", "Make Your Choice", "Monstrous Shrine", "No Way Out", "Pop Goes the Weasel", "Scourge Hook: Gift of Pain"],
+        "perks": ["Agitation", "Barbecue & Chilli", "Blood Echo", "Blood Warden", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Grim Embrace", "Hex: Devour Hope", "Hex: Huntress Lullaby", "Make Your Choice", "Monstrous Shrine", "No Way Out", "Pop Goes the Weasel", "Scourge Hook: Gift of Pain", "Scourge Hook: Pain Resonance"],
         "description": "take advantage of hooking survivors"
     },
     "Obssessive": {
-        "perks": ["Dark Devotion", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Nemesis", "Play with Your Food", "Rancor", "Save the Best for Last"],
+        "perks": ["Dark Devotion", "Dead Man's Switch", "Dying Light", "Furtive Chase", "Grim Embrace", "Nemesis", "Play with Your Food", "Rancor", "Save the Best for Last"],
         "description": "interact with the Obsession"
     },
     "Scream-Inducing": {
-        "perks": ["Deathbound", "Dragon's Grip", "Eruption", "Infectious Fright", "Make Your Choice"],
+        "perks": ["Deathbound", "Dragon's Grip", "Eruption", "Infectious Fright", "Make Your Choice", "Scourge Hook: Pain Resonance"],
         "description": "make the survivors scream"
     },
     "Speedy": {
@@ -64,7 +64,7 @@ var stylized_killer_perks = {
         "description": "speed up some of your actions"
     },
     "Status-Inflicting": {
-        "perks": ["Blood Echo", "Deathbound", "Eruption", "Forced Penance", "Hex: Retribution", "Hex: The Third Seal", "Hex: Plaything", "Hysteria", "Mindbreaker", "Nemesis", "Scourge Hook: Gift of Pain", "Sloppy Butcher"],
+        "perks": ["Blood Echo", "Deathbound", "Eruption", "Forced Penance", "Hex: Retribution", "Hex: The Third Seal", "Hex: Plaything", "Hysteria", "Fearmonger", "Nemesis", "Scourge Hook: Gift of Pain", "Sloppy Butcher"],
         "description": "inflict status effects on survivors"
     },
     "Stealthy": {

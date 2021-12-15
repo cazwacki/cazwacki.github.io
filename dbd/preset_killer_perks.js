@@ -58,8 +58,8 @@ let preset_killer_perks = {
     "Tricky Looper": {
         "main": "The Hillbilly",
         "addons": ["Leafy Mash", "Heavy Clutch"],
-        "perks": ["Tinkerer", "Bamboozle", "Hex: The Third Seal", "Mindbreaker"],
-        "explanation": "Use Leafy Mash to cloak yourself! You can use Heavy Clutch to go for trickier plays in loop spots! Bamboozle and Mindbreaker will strengthen your 1v1.",
+        "perks": ["Tinkerer", "Bamboozle", "Hex: The Third Seal", "Fearmonger"],
+        "explanation": "Use Leafy Mash to cloak yourself! You can use Heavy Clutch to go for trickier plays in loop spots! Bamboozle and Fearmonger will strengthen your 1v1.",
         "meme": "Low Meme"
     },
     "Deceptive Swiftness": {
@@ -72,7 +72,7 @@ let preset_killer_perks = {
     "No Stamina Nurse": {
         "main": "The Nurse",
         "addons": ["Matchbox", "Kavanagh's Last Breath"],
-        "perks": ["Mindbreaker", "Blood Echo", "Barbecue & Chilli", "Hex: Ruin"],
+        "perks": ["Fearmonger", "Blood Echo", "Barbecue & Chilli", "Hex: Ruin"],
         "explanation": "She can make one huge sprint, but then she's out of breath... the survivors are out of breath too?",
         "meme": "High Meme"
     },
@@ -240,14 +240,14 @@ let preset_killer_perks = {
     "Snail Gas": {
         "main": "The Clown",
         "addons": ["Ether 15 Vol%", "Flask of Bleach"],
-        "perks": ["Barbecue & Chilli", "Surge", "Save the Best for Last", "Blood Echo"],
+        "perks": ["Barbecue & Chilli", "Jolt", "Save the Best for Last", "Blood Echo"],
         "explanation": "Significantly slow down survivors with your gas before striking them, speeding you up with StBfL stacks! Blood Echo will help address exhaustion perks, making the slowdown hurt that much more.",
         "meme": "Medium Meme"
     },
     "Litterer": {
         "main": "The Clown",
         "addons": ["Thick Cork Stopper", "Cheap Gin Bottle"],
-        "perks": ["Brutal Strength", "Save the Best for Last", "Tinkerer", "Surge"],
+        "perks": ["Brutal Strength", "Save the Best for Last", "Tinkerer", "Jolt"],
         "explanation": "Throw those bottles like crazy! Brutal Strength will help with obstacle removal and replace that garbage with broken bottles!",
         "meme": "High Meme"
     },
@@ -331,8 +331,8 @@ let preset_killer_perks = {
     "Determined for Death": {
         "main": "The Ghost Face",
         "addons": ["Lasting Perfume", "Leather Knife Sheath"],
-        "perks": ["Save the Best for Last", "Bamboozle", "A Nurse's Calling", "Surge"],
-        "explanation": "Once you've marked a survivor, they MUST die. Use Bamboozle and stacks of StBfL to end chases quickly, and slow down the match with Surge.",
+        "perks": ["Save the Best for Last", "Bamboozle", "A Nurse's Calling", "Jolt"],
+        "explanation": "Once you've marked a survivor, they MUST die. Use Bamboozle and stacks of StBfL to end chases quickly, and slow down the match with Jolt.",
         "meme": "Medium Meme"
     },
     "Guard Dog": {
@@ -373,14 +373,14 @@ let preset_killer_perks = {
     "Tracker": {
         "main": "The Oni",
         "addons": ["Tear Soaked Tenugui", "Child's Wooden Sword"],
-        "perks": ["I'm All Ears", "Mindbreaker", "Infectious Fright", "Nemesis"],
-        "explanation": "Use Wooden Sword, I'm All Ears, and Nemesis to hunt down survivors! Mindbreaker will weaken Exhaustion perks and Infectious Fright with Tear Soaked Tenugui will help you get downs quickly with Blood Fury!",
+        "perks": ["I'm All Ears", "Fearmonger", "Infectious Fright", "Nemesis"],
+        "explanation": "Use Wooden Sword, I'm All Ears, and Nemesis to hunt down survivors! Fearmonger will weaken Exhaustion perks and Infectious Fright with Tear Soaked Tenugui will help you get downs quickly with Blood Fury!",
         "meme": "Low Meme"
     },
     "Jumpscare Slinger": {
         "main": "The Deathslinger",
         "addons": ["Wanted Poster", "Gold Creek Whiskey"],
-        "perks": ["Monitor & Abuse", "Save the Best for Last", "Surge", "Barbecue & Chilli"],
+        "perks": ["Monitor & Abuse", "Save the Best for Last", "Jolt", "Barbecue & Chilli"],
         "explanation": "Hold ADS around corners near generators and try and snipe the survivors before they even know you are there!",
         "meme": "High Meme"
     },
@@ -394,8 +394,8 @@ let preset_killer_perks = {
     "Fast Hands Slinger": {
         "main": "The Deathslinger",
         "addons": ["Warden's Keys", "Bayshore's Gold Tooth"],
-        "perks": ["Save the Best for Last", "Surge", "Hysteria", "Barbecue & Chilli"],
-        "explanation": "Quickly fire and reel in survivors with your addons. StBfL will reward your basic attacks, and Hysteria will throw off survivors and help you get fast downs, resulting in Surge proc!",
+        "perks": ["Save the Best for Last", "Jolt", "Hysteria", "Barbecue & Chilli"],
+        "explanation": "Quickly fire and reel in survivors with your addons. StBfL will reward your basic attacks, and Hysteria will throw off survivors and help you get fast downs, resulting in Jolt proc!",
         "meme": "Low Meme"
     },
     "American Sniper": {
@@ -408,7 +408,7 @@ let preset_killer_perks = {
     "Scorched Earth": {
         "main": "The Executioner",
         "addons": ["Mannequin Foot", "Cinderella Music Box"],
-        "perks": ["Zanshin Tactics", "Cruel Limits", "Hex: Crowd Control", "Corrupt Intervention"],
+        "perks": ["Zanshin Tactics", "Claustrophobia", "Hex: Crowd Control", "Corrupt Intervention"],
         "explanation": "Paint the town red! Block off their lines of escape, and with trails that last over 2 minutes give them no choice but a terrible torment.",
         "meme": "High Meme"
     },
@@ -443,7 +443,7 @@ let preset_killer_perks = {
     "Status Effects": {
         "main": "The Twins",
         "addons": ["Baby Teeth", "Weighty Rattle"],
-        "perks": ["Sloppy Butcher", "Mindbreaker", "Hex: The Third Seal", "Hex: Haunted Ground"],
+        "perks": ["Sloppy Butcher", "Fearmonger", "Hex: The Third Seal", "Hex: Haunted Ground"],
         "explanation": "By combining the different effects from these addons and perks, you can inflict up to 9 status effects on survivors!",
         "meme": "High Meme"
     },
@@ -464,22 +464,22 @@ let preset_killer_perks = {
     "Quick-Fire Trickster": {
         "main": "The Trickster",
         "addons": ["Fizz-Spin Soda", "Ji-Woon's Autograph"],
-        "perks": ["Mindbreaker", "Enduring", "Spirit Fury", "Zanshin Tactics"],
-        "explanation": "Guide survivors to pallets and windows using Zanshin Tactics, where you can punish vaults and pallet stuns with quickly-thrown knives! Mindbreaker will reduce their chances of extending the chase!",
+        "perks": ["Fearmonger", "Enduring", "Spirit Fury", "Zanshin Tactics"],
+        "explanation": "Guide survivors to pallets and windows using Zanshin Tactics, where you can punish vaults and pallet stuns with quickly-thrown knives! Fearmonger will reduce their chances of extending the chase!",
         "meme": "High Meme"
     },
     "Endless Spray": {
         "main": "The Trickster",
         "addons": ["Waiting For You Watch", "Lucky Blade"],
-        "perks": ["Discordance", "Thanatophobia", "A Nurse's Calling", "Mindbreaker"],
+        "perks": ["Discordance", "Thanatophobia", "A Nurse's Calling", "Fearmonger"],
         "explanation": "Force Survivors to group up and heal, or know when they're doubled up on generators. When you've got 'em grouped, Main Event those meatshields into oblivion.",
         "meme": "Medium Meme"
     },
     "Shadow Torturer": {
         "main": "The Trickster",
         "addons": ["Caged Heart Shoes", "Iridescent Photocard"],
-        "perks": ["Surge", "Knock Out", "Trail of Torment", "Dragon's Grip"],
-        "explanation": "Use Trail of Torment to step into the shadows, lacerate the survivor, and instantly down them thanks to the Iridescent Photocard! Surge and Knock Out will oppress survivors while making sure nobody is ever completely sure where you are!",
+        "perks": ["Jolt", "Knock Out", "Trail of Torment", "Dragon's Grip"],
+        "explanation": "Use Trail of Torment to step into the shadows, lacerate the survivor, and instantly down them thanks to the Iridescent Photocard! Jolt and Knock Out will oppress survivors while making sure nobody is ever completely sure where you are!",
         "meme": "Low Meme"
     },
     "Drop It": {
@@ -492,8 +492,8 @@ let preset_killer_perks = {
     "28 Days Later": {
         "main": "The Nemesis",
         "addons": ["Depleted Ink Ribbon", "Mikhail's Eye"],
-        "perks": ["Thrilling Tremors", "Surge", "Starstruck", "Eruption"],
-        "explanation": "Pry survivors off of Gens with Surge + Eruption, keep them off gens with Starstuck + Thrilling, and buy your speedy zombies time to come lay an undead smackdown.",
+        "perks": ["Thrilling Tremors", "Jolt", "Starstruck", "Eruption"],
+        "explanation": "Pry survivors off of Gens with Jolt + Eruption, keep them off gens with Starstuck + Thrilling, and buy your speedy zombies time to come lay an undead smackdown.",
         "meme": "Low Meme"
     },
     "Cannibal Meat": {
@@ -520,7 +520,7 @@ let preset_killer_perks = {
     "Doctor's Hallucinogens": {
         "main": "The Doctor",
         "addons": ["\"Order\" - Carter's Notes", "\"Restraint\" - Carter's Notes"],
-        "perks": ["Enduring", "Brutal Strength", "Hex: Huntress Lullaby", "Surge"],
+        "perks": ["Enduring", "Brutal Strength", "Hex: Huntress Lullaby", "Jolt"],
         "explanation": "Misguide survivors into pallets that don't exist! Early game, you can take advantage of Enduring and Brutal Strength to quickly dispose of real pallets and let the illusionary pallets settle in.",
         "meme": "High Meme"
     },
@@ -534,8 +534,8 @@ let preset_killer_perks = {
     "Disfigured Generators": {
         "main": "The Clown",
         "addons": ["Cigar Box", "Garish Make-up Kit"],
-        "perks": ["Dying Light", "Save the Best for Last", "Mindbreaker", "Thanatophobia"],
-        "explanation": "Make up for map pressure struggles by slowing down the gens! Find survivors with the help of your Afterpiece Antidote and down them easily thanks to Mindbreaker and StBfL!",
+        "perks": ["Dying Light", "Save the Best for Last", "Fearmonger", "Thanatophobia"],
+        "explanation": "Make up for map pressure struggles by slowing down the gens! Find survivors with the help of your Afterpiece Antidote and down them easily thanks to Fearmonger and StBfL!",
         "meme": "Medium Meme"
     },
     "Anti-Sabotage": {
@@ -576,7 +576,7 @@ let preset_killer_perks = {
     "Scratching Nails": {
         "main": "The Cenobite",
         "addons": ["Torture Pillar", "Burning Candle"],
-        "perks": ["Dead Man's Switch", "Nemesis", "Tinkerer", "Surge"],
+        "perks": ["Dead Man's Switch", "Nemesis", "Tinkerer", "Jolt"],
         "explanation": "Hook the obsession for permanent Dead Man's, and let the chains block the gens.",
         "meme": "High Meme"
     },
@@ -653,8 +653,8 @@ let preset_killer_perks = {
     "House of Fun": {
         "main": "The Clown",
         "addons": ["Redhead's Pinky Finger", "Cheap Gin Bottle"],
-        "perks": ["Bitter Murmur", "Tinkerer", "Brutal Strength", "Cruel Limits"],
-        "explanation": "Punish survivors for completing gens! Tinkerer will warn you when a gen is about to pop. When it pops, you'll see where the survivors go with Bitter Murmur; Cruel Limits will block all the windows and vault locations within 32 meters, which you can use to your advantage to get some easier downs on survivors. Brutal Strength will help you break pallets easier, eliminating most of the barriers between you and a survivor. Found in a video by not Otzdarva.",
+        "perks": ["Bitter Murmur", "Tinkerer", "Brutal Strength", "Claustrophobia"],
+        "explanation": "Punish survivors for completing gens! Tinkerer will warn you when a gen is about to pop. When it pops, you'll see where the survivors go with Bitter Murmur; Claustrophobia will block all the windows and vault locations within 32 meters, which you can use to your advantage to get some easier downs on survivors. Brutal Strength will help you break pallets easier, eliminating most of the barriers between you and a survivor. Found in a video by not Otzdarva.",
         "meme": "High Meme"
     },
     "Immersed Trapper": {
@@ -828,15 +828,15 @@ let preset_killer_perks = {
     "Dr. Worldwide": {
         "main": "The Doctor",
         "addons": ["\"Order\" - Carter's Notes", "\"Calm\" - Carter's Notes"],
-        "perks": ["Surge", "Distressing", "Surveillance", "Monitor & Abuse"],
-        "explanation": "Every chance he gets, Doctor will shock as much of the map as he can! Try to use your static blasts in chase to hit a radius of ~63 meters around you! Distressing and Monitor help increase your terror radius for your static blast. Surge will help you damage generators, and you can use Surveillance to know when the survivors come back to those gens.",
+        "perks": ["Jolt", "Distressing", "Surveillance", "Monitor & Abuse"],
+        "explanation": "Every chance he gets, Doctor will shock as much of the map as he can! Try to use your static blasts in chase to hit a radius of ~63 meters around you! Distressing and Monitor help increase your terror radius for your static blast. Jolt will help you damage generators, and you can use Surveillance to know when the survivors come back to those gens.",
         "meme": "Medium Meme"
     },
     "Endurance Runner": {
         "main": "The Legion",
         "addons": ["Cold Dirt", "Joey's Mix Tape"],
-        "perks": ["Pop Goes the Weasel", "Tinkerer", "Surge", "Bamboozle"],
-        "explanation": "The Legion's gotten used to running around! His cooldown on Feral Frenzy is reduced by 1 second thanks to his addons. Bamboozle will help you perform in your chases, since it blocks windows even during your frenzy. Tinkerer, Surge, and Pop Goes the Weasel will help you slow down gens will playing with an improved chase.",
+        "perks": ["Pop Goes the Weasel", "Tinkerer", "Jolt", "Bamboozle"],
+        "explanation": "The Legion's gotten used to running around! His cooldown on Feral Frenzy is reduced by 1 second thanks to his addons. Bamboozle will help you perform in your chases, since it blocks windows even during your frenzy. Tinkerer, Jolt, and Pop Goes the Weasel will help you slow down gens will playing with an improved chase.",
         "meme": "Low Meme"
     },
     "ExtremeSpeed": {
@@ -856,8 +856,8 @@ let preset_killer_perks = {
     "Gap Closing Clown": {
         "main": "The Clown",
         "addons": ["Flask of Bleach", "Redhead's Pinky Finger"],
-        "perks": ["Hex: Plaything", "Thrilling Tremors", "Surge", "Hex: Ruin"],
-        "explanation": "Get quick, easy downs by slowing the survivor, hitting them with a bottle, then downing them with a single swipe! Plaything will make it hard to anticipate when you're coming, and Surge will damage the gens around you! You can take advantage of this to activate Thrillling Tremors and let Ruin do some significant regression to those generators.",
+        "perks": ["Hex: Plaything", "Thrilling Tremors", "Jolt", "Hex: Ruin"],
+        "explanation": "Get quick, easy downs by slowing the survivor, hitting them with a bottle, then downing them with a single swipe! Plaything will make it hard to anticipate when you're coming, and Jolt will damage the gens around you! You can take advantage of this to activate Thrillling Tremors and let Ruin do some significant regression to those generators.",
         "meme": "Low Meme"
     },
     "Gen Regression Symphony": {
@@ -884,8 +884,8 @@ let preset_killer_perks = {
     "Max Lethality": {
         "main": "The Plague",
         "addons": ["Vile Emetic", "Rubbing Oil"],
-        "perks": ["Stridor", "Surge", "Hysteria", "Hex: Ruin"],
-        "explanation": "Infect and show survivors the lethality of your plague. Use her add-ons to get fast infects. Stridor will help you track the infected survivors, Surge will damage surrounding generators when you're downed. Ruin and Thrilling will slow down the match as you down and hook survivors.",
+        "perks": ["Stridor", "Jolt", "Hysteria", "Hex: Ruin"],
+        "explanation": "Infect and show survivors the lethality of your plague. Use her add-ons to get fast infects. Stridor will help you track the infected survivors, Jolt will damage surrounding generators when you're downed. Ruin and Thrilling will slow down the match as you down and hook survivors.",
         "meme": "Medium Meme"
     },
     "Night Terrors": {
@@ -898,14 +898,14 @@ let preset_killer_perks = {
     "Omnipresence": {
         "main": "The Spirit",
         "addons": ["Furin", "White Hair Ribbon"],
-        "perks": ["Barbecue & Chilli", "Surge", "Tinkerer", "Hex: Devour Hope"],
-        "explanation": "Survivors will struggle to know the Spirit's location as she slowly gains strength throughout the match! Prayer Beads will make sure that all survivors are on edge. Tinkerer and Surge will help you find and regress gens, Barbecue will help you find the next survivors to down, and Devour Hope will strengthen Rin throughout the match, eventually exposing the survivors and hopefully even allowing her mori to shine!",
+        "perks": ["Barbecue & Chilli", "Jolt", "Tinkerer", "Hex: Devour Hope"],
+        "explanation": "Survivors will struggle to know the Spirit's location as she slowly gains strength throughout the match! Prayer Beads will make sure that all survivors are on edge. Tinkerer and Jolt will help you find and regress gens, Barbecue will help you find the next survivors to down, and Devour Hope will strengthen Rin throughout the match, eventually exposing the survivors and hopefully even allowing her mori to shine!",
         "meme": "Low Meme"
     },
     "Out of Shape": {
         "main": "The Shape",
         "addons": ["Judith's Tombstone", "Scratched Mirror"],
-        "perks": ["Hex: Devour Hope", "Hex: No One Escapes Death", "Hex: Undying", "Surge"],
+        "perks": ["Hex: Devour Hope", "Hex: No One Escapes Death", "Hex: Undying", "Jolt"],
         "explanation": "The Shape can't move as fast as the survivors, but he's doing his best! Keep track of your surroundings thanks to Scratched Mirror, and hope that Ruin and Undying will give you enough time to down survivors. Thrilling will lock down gens when you do manage to get a down, slowing the gen progression even further. Use Lethal Pursuer to try and get an early hit on a survivor.",
         "meme": "High Meme"
     },
@@ -982,8 +982,8 @@ let preset_killer_perks = {
     "Screaming Chains": {
         "main": "The Hag",
         "addons": ["Waterlogged Shoe", "Scarred Hand"],
-        "perks": ["Hex: Ruin", "Tinkerer", "Hex: Undying", "Surge"],
-        "explanation": "Hags traps will bodyblock and slow down survivors! Use her traps at pallets, windows, and tight doors to prevent the survivors from escaping your clutches. Ruin and Undying will help slow down gen progression in general; Tinkerer will let you know where to head, and Surge will damage all the generators around you when you get your downs!",
+        "perks": ["Hex: Ruin", "Tinkerer", "Hex: Undying", "Jolt"],
+        "explanation": "Hags traps will bodyblock and slow down survivors! Use her traps at pallets, windows, and tight doors to prevent the survivors from escaping your clutches. Ruin and Undying will help slow down gen progression in general; Tinkerer will let you know where to head, and Jolt will damage all the generators around you when you get your downs!",
         "meme": "High Meme"
     },
     "Shattered Glass": {
@@ -1003,15 +1003,15 @@ let preset_killer_perks = {
     "Sixth Sense": {
         "main": "The Shape",
         "addons": ["Mirror Shard", "Vanity Mirror"],
-        "perks": ["Thrilling Tremors", "Lethal Pursuer", "Hex: Undying", "Surge"],
-        "explanation": "Myers is having hints of clairvoyance as he wanders throughout the map! Mirror Shard, Vanity Mirror, Undying, and Lethal Pursuer will give Myers lots of information about survivor positions. Use Thrilling Tremors and Surge to regress nearby gens after downing your target.",
+        "perks": ["Thrilling Tremors", "Lethal Pursuer", "Hex: Undying", "Jolt"],
+        "explanation": "Myers is having hints of clairvoyance as he wanders throughout the map! Mirror Shard, Vanity Mirror, Undying, and Lethal Pursuer will give Myers lots of information about survivor positions. Use Thrilling Tremors and Jolt to regress nearby gens after downing your target.",
         "meme": "Medium Meme"
     },
     "Slovensky Kopov": {
         "main": "The Spirit",
         "addons": ["Mother-Daughter Ring", "Dried Cherry Blossom"],
-        "perks": ["Bloodhound", "Sloppy Butcher", "Save the Best for Last", "Surge"],
-        "explanation": "Rin has gained an acute sensitivity for blood! Fly across the map and track blood with Father's Glasses and Mother-Daughter Ring! Sloppy Butcher will increase their bleeding, Bloodhound increases the visibility of blood, and Save the Best for Last will help her strike fast and hard! In her violent excitement, Surge will damage all the gens around her when she gets downs.",
+        "perks": ["Bloodhound", "Sloppy Butcher", "Save the Best for Last", "Jolt"],
+        "explanation": "Rin has gained an acute sensitivity for blood! Fly across the map and track blood with Father's Glasses and Mother-Daughter Ring! Sloppy Butcher will increase their bleeding, Bloodhound increases the visibility of blood, and Save the Best for Last will help her strike fast and hard! In her violent excitement, Jolt will damage all the gens around her when she gets downs.",
         "meme": "Medium Meme"
     },
     "Steady Fingers & Quick Feet": {
@@ -1024,8 +1024,8 @@ let preset_killer_perks = {
     "Sudden Judgement": {
         "main": "The Wraith",
         "addons": ["Coxcombed Clapper", "\"The Ghost\" - Soot"],
-        "perks": ["Barbecue & Chilli", "Hex: Devour Hope", "Hex: Undying", "Surge"],
-        "explanation": "Nobody will know you're coming until you've already arrived. Use your power to get easy downs and BBQ to know where to go next. Devour and Undying will make the downs even easier over time, and Surge should buy enough time to get all the survivors down and out.",
+        "perks": ["Barbecue & Chilli", "Hex: Devour Hope", "Hex: Undying", "Jolt"],
+        "explanation": "Nobody will know you're coming until you've already arrived. Use your power to get easy downs and BBQ to know where to go next. Devour and Undying will make the downs even easier over time, and Jolt should buy enough time to get all the survivors down and out.",
         "meme": "Low Meme"
     },
     "Surgical Precision": {
@@ -1059,36 +1059,36 @@ let preset_killer_perks = {
     "Unwelcome Surprise": {
         "main": "The Demogorgon",
         "addons": ["Red Moss", "Upside Down Resin"],
-        "perks": ["Tinkerer", "Surge", "Save the Best for Last", "Barbecue & Chilli"],
-        "explanation": "Demo can protect gens with an unparalleled mastery. Place portals near generators; once Tinkerer goes off, your Red Moss will ensure you arrive silently, and you can get easy hits and terrorize survivors on that gen. Save the Best for Last will help you chain hits quickly, Surge will help you damage generators that are close to completion, and Barbecue will help you find the next place to go after getting a hook.",
+        "perks": ["Tinkerer", "Jolt", "Save the Best for Last", "Barbecue & Chilli"],
+        "explanation": "Demo can protect gens with an unparalleled mastery. Place portals near generators; once Tinkerer goes off, your Red Moss will ensure you arrive silently, and you can get easy hits and terrorize survivors on that gen. Save the Best for Last will help you chain hits quickly, Jolt will help you damage generators that are close to completion, and Barbecue will help you find the next place to go after getting a hook.",
         "meme": "Low Meme"
     },
     "Urban Evader": {
         "main": "The Ghost Face",
         "addons": ["Drop-Leg Knife Sheath", "Leather Knife Sheath"],
-        "perks": ["Hex: Devour Hope", "Surge", "Discordance", "Hex: Undying"],
-        "explanation": "Crouch and move almost as fast as you walk! Devour will give you a further speed boost; Surge and Discordance will help you locate relevant generators and regress them.",
+        "perks": ["Hex: Devour Hope", "Jolt", "Discordance", "Hex: Undying"],
+        "explanation": "Crouch and move almost as fast as you walk! Devour will give you a further speed boost; Jolt and Discordance will help you locate relevant generators and regress them.",
         "meme": "Medium Meme"
     },
     "Usain Bolt": {
         "main": "The Nurse",
         "addons": ["Kavanagh's Last Breath", "Heavy Panting"],
-        "perks": ["Coup de Grâce", "Barbecue & Chilli", "Surge", "Starstruck"],
-        "explanation": "The Nurse can make huge sprints, but needs a lot of time to recharge! Take advantage of Starstruck to get downs on nearby survivors when you get to pick one up, Barbecue to find survivors if they're farther away after a hook, Coup de Grace to get a little extra reach in a tight spot, and Surge to damage generators around you when you down a survivor!",
+        "perks": ["Coup de Grâce", "Barbecue & Chilli", "Jolt", "Starstruck"],
+        "explanation": "The Nurse can make huge sprints, but needs a lot of time to recharge! Take advantage of Starstruck to get downs on nearby survivors when you get to pick one up, Barbecue to find survivors if they're farther away after a hook, Coup de Grace to get a little extra reach in a tight spot, and Jolt to damage generators around you when you down a survivor!",
         "meme": "Medium Meme"
     },
     "Migration Tracking": {
         "main": "The Pig",
         "addons": ["Jigsaw's Sketch", "Rules Set No.2"],
-        "perks": ["Hex: Undying", "Hex: Ruin", "Save the Best for Last", "Mindbreaker"],
-        "explanation": "Use your traps like a tracking device and see where the survivors move! When traps are on and a survivor tries to work on a gen, you'll know about it, and they won't be able to run far thanks to Mindbreaker! Save the Best for Last will speed up your strikes and minimize wasted time. Ruin and Undying will regress the gens the trapped survivors are working on.",
+        "perks": ["Hex: Undying", "Hex: Ruin", "Save the Best for Last", "Fearmonger"],
+        "explanation": "Use your traps like a tracking device and see where the survivors move! When traps are on and a survivor tries to work on a gen, you'll know about it, and they won't be able to run far thanks to Fearmonger! Save the Best for Last will speed up your strikes and minimize wasted time. Ruin and Undying will regress the gens the trapped survivors are working on.",
         "meme": "Low Meme"
     },
     "Spectator Sport": {
         "main": "The Pig",
         "addons": ["Video Tape", "Amanda's Secret"],
-        "perks": ["Deerstalker", "Surge", "Barbecue & Chilli", "Make Your Choice"],
-        "explanation": "Quickly find survivors that try to take off their traps and down them! Deerstalker will let you slug survivors to find other survivors taking their traps off, Surge will help with slowing gen progression,  Barbecue will help you find where to go after getting a hook, and Make Your Choice will make unhooking dangerous for survivors!",
+        "perks": ["Deerstalker", "Jolt", "Barbecue & Chilli", "Make Your Choice"],
+        "explanation": "Quickly find survivors that try to take off their traps and down them! Deerstalker will let you slug survivors to find other survivors taking their traps off, Jolt will help with slowing gen progression,  Barbecue will help you find where to go after getting a hook, and Make Your Choice will make unhooking dangerous for survivors!",
         "meme": "Medium Meme"
     },
     "Emergency Meeting": {
@@ -1108,8 +1108,8 @@ let preset_killer_perks = {
     "Stage Fright": {
         "main": "The Pig",
         "addons": ["Razor Wires", "Bag of Gears"],
-        "perks": ["Sloppy Butcher", "Surge", "Hex: Huntress Lullaby", "Unnerving Presence"],
-        "explanation": "Watch the survivor panic and fail skill checks as they try to take off your traps! Unnerving Presence and Huntress Lullaby will make skill checks more difficult for them; Sloppy Butcher and Surge will help slow down the match as you watch the shows.",
+        "perks": ["Sloppy Butcher", "Jolt", "Hex: Huntress Lullaby", "Unnerving Presence"],
+        "explanation": "Watch the survivor panic and fail skill checks as they try to take off your traps! Unnerving Presence and Huntress Lullaby will make skill checks more difficult for them; Sloppy Butcher and Jolt will help slow down the match as you watch the shows.",
         "meme": "High Meme"
     },
     "Venus Flytrap": {
@@ -1171,8 +1171,8 @@ let preset_killer_perks = {
     "Leper Architect": {
         "main": "The Plague",
         "addons": ["Infected Emetic", "Prophylactic Amulet"],
-        "perks": ["Surge", "Bloodhound", "Blood Echo", "Barbecue & Chilli"],
-        "explanation": "Limit their ability to cure themselves! Infect them more easily and they'll have a harder time cleansing! Bloodhound will help you find infected survivors, Blood Echo will limit their abilities to run away, and Barbecue will help you to figure out where to go after getting a hook! Surge will help with some gen regression in the meantime.",
+        "perks": ["Jolt", "Bloodhound", "Blood Echo", "Barbecue & Chilli"],
+        "explanation": "Limit their ability to cure themselves! Infect them more easily and they'll have a harder time cleansing! Bloodhound will help you find infected survivors, Blood Echo will limit their abilities to run away, and Barbecue will help you to figure out where to go after getting a hook! Jolt will help with some gen regression in the meantime.",
         "meme": "Medium Meme"
     },
     "Tightening Grip": {

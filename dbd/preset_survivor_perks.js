@@ -16,8 +16,8 @@ let preset_survivor_perks = {
     "But Faster": {
         "main": "Camping Aid Kit",
         "addons": ["Abdominal Dressing", "Medical Scissors"],
-        "perks": ["Fixated", "Tenacity", "Urban Evasion", "Sprint Burst"],
-        "explanation": "Do everything, but a little faster. Run, walk, crouch, and crawl with alacrity! Plus, unless it's been fixed since the time of writing (Patch 5.1.0) Fixated's speed boost applies to crawling. Zoom!",
+        "perks": ["Self-Aware", "Tenacity", "Urban Evasion", "Sprint Burst"],
+        "explanation": "Do everything, but a little faster. Run, walk, crouch, and crawl with alacrity! Plus, unless it's been fixed since the time of writing (Patch 5.1.0) Self-Aware's speed boost applies to crawling. Zoom!",
         "meme": "High Meme"
     },
     "Hiding in Plain Sight": {
@@ -30,7 +30,7 @@ let preset_survivor_perks = {
     "Dark Senses": {
         "main": "Skeleton Key",
         "addons": ["Blood Amber", "Prayer Beads"],
-        "perks": ["Object of Obsession", "Dark Sense", "Babysitter", "Alert"],
+        "perks": ["Object of Obsession", "Dark Sense", "Guardian", "Alert"],
         "explanation": "You're in tune with your opposition! Always know where the killer is and what they're doing, know where to be and where not to be.",
         "meme": "Medium Meme"
     },
@@ -44,14 +44,14 @@ let preset_survivor_perks = {
     "Hanging Meat": {
         "main": "Ranger Med-Kit",
         "addons": ["Gel Dressings", "Self Adherent Wrap"],
-        "perks": ["Kindred", "Camaraderie", "Decisive Strike", "Open-Handed"],
+        "perks": ["Kindred", "Kinship", "Decisive Strike", "Open-Handed"],
         "explanation": "You don't mind hanging out for a while. Provide crazy info for your team while on the hook, hang out for an extra half minute, and even get a second chance with Decisive Strike!",
         "meme": "High Meme"
     },
     "Double Agent": {
         "main": "Dull Key",
         "addons": ["Milky Glass", "Weaved Ring"],
-        "perks": ["Self-Preservation", "Better Together", "Object of Obsession", "Left Behind"],
+        "perks": ["Self-Preservation", "Situational Awareness", "Object of Obsession", "Left Behind"],
         "explanation": "You're real sinister. Lure teammates to you with Better, Lure killers to you with Object, leave your teammates to die with Self-Preservation. Rinse and repeat till you're \"Left Behind\" and have no choice but to leave via the Hatch.",
         "meme": "High Meme"
     },
@@ -65,7 +65,7 @@ let preset_survivor_perks = {
     "Take A Breather": {
         "main": "Mechanic's Toolbox",
         "addons": ["Socket Swivels", "Scraps"],
-        "perks": ["Vigil", "Fixated", "Sprint Burst", "Spine Chill"],
+        "perks": ["Vigil", "Self-Aware", "Sprint Burst", "Spine Chill"],
         "explanation": "Run till you can't, rest till you can. Sprint Burst constantly, then walk it off with a Vigil to get back in the race. ",
         "meme": "Low Meme"
     },
@@ -100,14 +100,14 @@ let preset_survivor_perks = {
     "Health States": {
         "main": "First Aid Kit",
         "addons": ["Styptic Agent", "Butterfly Tape"],
-        "perks": ["Mettle of Man", "Soul Guard", "Adrenaline", "Inner Strength"],
+        "perks": ["Mettle of Man", "Soul Guard", "Adrenaline", "Inner Healing"],
         "explanation": "Somehow, you're never quite down for the count. Heal on the spot or tank an extra hit when the Killer leasts expects it.",
         "meme": "Medium Meme"
     },
     "Bone Breaker": {
         "main": "Map (Item)",
         "addons": ["Red Twine", "Retardant Jelly"],
-        "perks": ["Inner Strength", "Counterforce", "Small Game", "Spine Chill"],
+        "perks": ["Inner Healing", "Counterforce", "Small Game", "Spine Chill"],
         "explanation": "Crack some skulls and make NOED users cry. Snap every skull, and if the killer comes to swat you use that Spine Chill to just break them faster.",
         "meme": "Low Meme"
     },
@@ -128,8 +128,8 @@ let preset_survivor_perks = {
     "Slippery Worm": {
         "main": "Dull Key",
         "addons": ["Weaved Ring", "Eroded Token"],
-        "perks": ["Tenacity", "Fixated", "Soul Guard", "Unbreakable"],
-        "explanation": "Right when the killers got you down, slink away into the weeds and rise to fight again. Unless it's been fixed since the time of writing (Patch 5.1.0) Fixated's speed boost applies to crawling, letting you get far and fast.",
+        "perks": ["Tenacity", "Self-Aware", "Soul Guard", "Unbreakable"],
+        "explanation": "Right when the killers got you down, slink away into the weeds and rise to fight again. Unless it's been fixed since the time of writing (Patch 5.1.0) Self-Aware's speed boost applies to crawling, letting you get far and fast.",
         "meme": "Medium Meme"
     },
     "Point Gorger": {
@@ -177,7 +177,7 @@ let preset_survivor_perks = {
     "Scratched Up": {
         "main": "Sport Flashlight",
         "addons": ["Focus Lens", "Rubber Grip"],
-        "perks": ["Fixated", "Poised", "Lucky Break", "Dance With Me"],
+        "perks": ["Self-Aware", "Poised", "Lucky Break", "Dance With Me"],
         "explanation": "Don't let them know you were here. Keep track of your scratch marks and wash them away when it counts.",
         "meme": "Medium Meme"
     },
@@ -191,7 +191,7 @@ let preset_survivor_perks = {
     "Guidance": {
         "main": "Rainbow Map",
         "addons": ["Crystal Bead", "Glass Bead"],
-        "perks": ["Leader", "Wake Up!", "Better Together", "Aftercare"],
+        "perks": ["Leader", "Wake Up!", "Situational Awareness", "Aftercare"],
         "explanation": "Lead your teammates to objectives, escapes, or to eachother. Offer your guidance to help them do what they do better.",
         "meme": "Medium Meme"
     },
@@ -247,7 +247,7 @@ let preset_survivor_perks = {
     "Necessary Casualties": {
         "main": "Dull Key",
         "addons": ["Prayer Rope", "Scratched Pearl"],
-        "perks": ["Left Behind", "Unbreakable", "Camaraderie", "Open-Handed"],
+        "perks": ["Left Behind", "Unbreakable", "Kinship", "Open-Handed"],
         "explanation": "No matter what happens to your team, you're getting out of here alive. Use Unbreakable to get up after being slugged near the end of the match, Left Behind to find the hatch, then use that key to escape the trial.",
         "meme": "High Meme"
     },
@@ -289,8 +289,8 @@ let preset_survivor_perks = {
     "Totem Toppler": {
         "main": "Camping Aid Kit",
         "addons": ["Abdominal Dressing", "Surgical Suture"],
-        "perks": ["Counterforce", "Small Game", "Detective's Hunch", "Inner Strength"],
-        "explanation": "Small Game and Detective's Hunch will help you find nearby totems! Counterforce will give you a speed boost to destroying them, and Inner Strength will let you heal each time you break one.",
+        "perks": ["Counterforce", "Small Game", "Detective's Hunch", "Inner Healing"],
+        "explanation": "Small Game and Detective's Hunch will help you find nearby totems! Counterforce will give you a speed boost to destroying them, and Inner Healing will let you heal each time you break one.",
         "meme": "Medium Meme"
     },
     "Team Tank": {
@@ -345,8 +345,8 @@ let preset_survivor_perks = {
     "Inner Dwight": {
         "main": "Engineer's Toolbox",
         "addons": ["Scraps", "Wire Spool"],
-        "perks": ["Inner Strength", "Head On", "Quick & Quiet", "Flashbang"],
-        "explanation": "Use lockers throughout the match to your advantage! Heal with Inner Strength, stun with head on, and get saves with your craftable Flashbangs!",
+        "perks": ["Inner Healing", "Head On", "Quick & Quiet", "Flashbang"],
+        "explanation": "Use lockers throughout the match to your advantage! Heal with Inner Healing, stun with head on, and get saves with your craftable Flashbangs!",
         "meme": "High Meme"
     },
     "Obsession Squad": {
@@ -422,8 +422,8 @@ let preset_survivor_perks = {
     "Sixth Sense": {
         "main": "Flashlight (Item)",
         "addons": ["Low Amp Filament", "Heavy Duty Battery"],
-        "perks": ["Small Game", "Premonition", "Fixated", "Rookie Spirit"],
-        "explanation": "You seem like an average survivor, but you have a knack for knowing when to do the right thing. Get auditory warnings when you're looking at the killer or a totem is nearby! Rookie Spirit will help you find gens to rescue and Fixated will let you see the trail you leave behind.",
+        "perks": ["Small Game", "Premonition", "Self-Aware", "Rookie Spirit"],
+        "explanation": "You seem like an average survivor, but you have a knack for knowing when to do the right thing. Get auditory warnings when you're looking at the killer or a totem is nearby! Rookie Spirit will help you find gens to rescue and Self-Aware will let you see the trail you leave behind.",
         "meme": "High Meme"
     },
     "Perfectionist": {
@@ -471,8 +471,8 @@ let preset_survivor_perks = {
     "Selfish Altruism": {
         "main": "Worn-Out Tools",
         "addons": ["Clean Rag", "Wire Spool"],
-        "perks": ["Self-Preservation", "Second Wind", "Kindred", "We'll Make It"],
-        "explanation": "You'll help a survivor off the hook and heal them, but it's just to make sure you have the help of Second Wind later. Self-Preservation will help you escape sticky situations when you get unhooked, ensuring your Second Wind will proc.",
+        "perks": ["Self-Preservation", "Renewal", "Kindred", "We'll Make It"],
+        "explanation": "You'll help a survivor off the hook and heal them, but it's just to make sure you have the help of Renewal later. Self-Preservation will help you escape sticky situations when you get unhooked, ensuring your Renewal will proc.",
         "meme": "Low Meme"
     },
     "Self-Unhooker": {
@@ -499,14 +499,14 @@ let preset_survivor_perks = {
     "Gen Summmoner": {
         "main": "Toolbox (Item)",
         "addons": ["Wire Spool", "Scraps"],
-        "perks": ["Prove Thyself", "Better Together", "Déjà Vu", "Poised"],
-        "explanation": "Use Déjà Vu to find a generator and Better Together to show other survivors where the generator is! Prove Thyself will help your team get through the gen quickly, and Poised will help you sneak away to the next gen to signal to your team!",
+        "perks": ["Prove Thyself", "Situational Awareness", "Déjà Vu", "Poised"],
+        "explanation": "Use Déjà Vu to find a generator and Situational Awareness to show other survivors where the generator is! Prove Thyself will help your team get through the gen quickly, and Poised will help you sneak away to the next gen to signal to your team!",
         "meme": "Medium Meme"
     },
     "Safe Unhooker": {
         "main": "Camping Aid Kit",
         "addons": ["Butterfly Tape", "Medical Scissors"],
-        "perks": ["Borrowed Time", "Babysitter", "Kindred", "Buckle Up"],
+        "perks": ["Borrowed Time", "Guardian", "Kindred", "Buckle Up"],
         "explanation": "You'll protect an unhooked survivor and make sure they get away. When you unhook, the killer will be able to read your aura while the unhooked survivors' scratch marks and blood will be hidden. Even if the killer still goes after the other survivor, Borrowed Time will make sure that the killer has to waste a lot of time to re-down the survivor. If there's a survivor being slugged, Buckle Up will help you determine if you need to leave while bringing them back up.",
         "meme": "Low Meme"
     },
@@ -562,8 +562,8 @@ let preset_survivor_perks = {
     "Infinite Sprint Burst": {
         "main": "Camping Aid Kit",
         "addons": ["Abdominal Dressing", "Bandages"],
-        "perks": ["Fixated", "Sprint Burst", "Vigil", "Adrenaline"],
-        "explanation": "Get your Sprint Burst back while maintaining speed! Use your Sprint Burst, and enjoy the reduced cooldown from Vigil! Fixated will help you move quickly as you wait for Sprint Burst to be off cooldown, and Adrenaline will give you a health state and speed boost to help clutch the endgame.",
+        "perks": ["Self-Aware", "Sprint Burst", "Vigil", "Adrenaline"],
+        "explanation": "Get your Sprint Burst back while maintaining speed! Use your Sprint Burst, and enjoy the reduced cooldown from Vigil! Self-Aware will help you move quickly as you wait for Sprint Burst to be off cooldown, and Adrenaline will give you a health state and speed boost to help clutch the endgame.",
         "meme": "Medium Meme"
     },
     "Final Stand": {
@@ -576,8 +576,8 @@ let preset_survivor_perks = {
     "Community Service": {
         "main": "Toolbox (Item)",
         "addons": ["Wire Spool", "Scraps"],
-        "perks": ["For the People", "Inner Strength", "Kindred", "Iron Will"],
-        "explanation": "Quickly heal teammates off the hook, then use Inner Strength to heal back up! Kindred will help you figure out the appropriate time to unhook, and Iron Will will keep you quiet when you're injured and keep you hard to find.",
+        "perks": ["For the People", "Inner Healing", "Kindred", "Iron Will"],
+        "explanation": "Quickly heal teammates off the hook, then use Inner Healing to heal back up! Kindred will help you figure out the appropriate time to unhook, and Iron Will will keep you quiet when you're injured and keep you hard to find.",
         "meme": "Medium Meme"
     },
     "Gen Addict": {
@@ -590,8 +590,8 @@ let preset_survivor_perks = {
     "Mom: We Have Meta at Home; The Meta at Home:": {
         "main": "Flashlight (Item)",
         "addons": ["Long Life Battery", "Low Amp Filament"],
-        "perks": ["Smash Hit", "Power Struggle", "Soul Guard", "Babysitter"],
-        "explanation": "Smash Hit is your exhaustion perk instead of Dead Hard, Power Struggle is your alternative to Decisive Strike, Soul Guard is your alternative to Unbreakable, and Babysitter is your alternative to Borrowed Time. Enjoy meta at home! :-)",
+        "perks": ["Smash Hit", "Power Struggle", "Soul Guard", "Guardian"],
+        "explanation": "Smash Hit is your exhaustion perk instead of Dead Hard, Power Struggle is your alternative to Decisive Strike, Soul Guard is your alternative to Unbreakable, and Guardian is your alternative to Borrowed Time. Enjoy meta at home! :-)",
         "meme": "High Meme"
     },
     "Misled to a Concussion": {
@@ -625,7 +625,7 @@ let preset_survivor_perks = {
     "Off Hook Bait": {
         "main": "Camping Aid Kit",
         "addons": ["Surgical Suture", "Medical Scissors"],
-        "perks": ["Second Wind", "Decisive Strike", "Lithe", "Quick & Quiet"],
+        "perks": ["Renewal", "Decisive Strike", "Lithe", "Quick & Quiet"],
         "explanation": "For once, you want the killer to tunnel you a bit. If you get a heal in before you are hooked, you'll get a full health state in 20 seconds. Loop the killer long enough and get a free health state they won't expect! Lithe and Quick & Quiet will help you create distance and confuse the killer in chase, and Decisive Strike will help you get out of the killer's clutches if they manage to down you anyways.",
         "meme": "Medium Meme"
     },
@@ -646,8 +646,8 @@ let preset_survivor_perks = {
     "Anti-Camping": {
         "main": "Flashlight (Item)",
         "addons": ["Odd Bulb", "High-End Sapphire Lens"],
-        "perks": ["Camaraderie", "Borrowed Time", "Breakdown", "Decisive Strike"],
-        "explanation": "The killer will be wasting a ton of time if they try to camp you! Camaraderie will extend your hook timer, Breakdown will destroy the hook you were placed on so he can't re-hook you there, Decisive Strike will help you get out of a tunneling situation, and Borrowed Time will help you get other survivors out of camping situations too!",
+        "perks": ["Kinship", "Borrowed Time", "Breakdown", "Decisive Strike"],
+        "explanation": "The killer will be wasting a ton of time if they try to camp you! Kinship will extend your hook timer, Breakdown will destroy the hook you were placed on so he can't re-hook you there, Decisive Strike will help you get out of a tunneling situation, and Borrowed Time will help you get other survivors out of camping situations too!",
         "meme": "Medium Meme"
     },
     "Team Buffer": {
@@ -660,8 +660,8 @@ let preset_survivor_perks = {
     "Entity's Loosened Grip": {
         "main": "Broken Key",
         "addons": ["Gold Token", "Prayer Beads"],
-        "perks": ["Lightweight", "Distortion", "Camaraderie", "Repressed Alliance"],
-        "explanation": "The Entity has a poor grip on you, making you harder to keep ahold of during the match. Lightweight masks your Scratch Marks, Distortion masks your Aura, Camaraderie will extend your hook timer, and you can force the Entity to protect one of your gens with Repressed Alliance!",
+        "perks": ["Lightweight", "Distortion", "Kinship", "Repressed Alliance"],
+        "explanation": "The Entity has a poor grip on you, making you harder to keep ahold of during the match. Lightweight masks your Scratch Marks, Distortion masks your Aura, Kinship will extend your hook timer, and you can force the Entity to protect one of your gens with Repressed Alliance!",
         "meme": "High Meme"
     },
     "Fighting Back": {
@@ -674,8 +674,8 @@ let preset_survivor_perks = {
     "Distilling Auras": {
         "main": "Camping Aid Kit",
         "addons": ["Surgical Suture", "Medical Scissors"],
-        "perks": ["Clairvoyance", "Dead Hard", "Small Game", "Inner Strength"],
-        "explanation": "Destroy totems to strengthen your magical aptitude. Use Small Game to find totems, then destroy them and enjoy the effects of Clairvoyance and Inner Strength! Dead Hard will help you get away and heal.",
+        "perks": ["Clairvoyance", "Dead Hard", "Small Game", "Inner Healing"],
+        "explanation": "Destroy totems to strengthen your magical aptitude. Use Small Game to find totems, then destroy them and enjoy the effects of Clairvoyance and Inner Healing! Dead Hard will help you get away and heal.",
         "meme": "Medium Meme"
     },
     "Biotic Field": {
@@ -688,8 +688,8 @@ let preset_survivor_perks = {
     "Bone Sage": {
         "main": "Toolbox (Item)",
         "addons": ["Wire Spool", "Scraps"],
-        "perks": ["Inner Strength", "Clairvoyance", "For the People", "Iron Will"],
-        "explanation": "Use the power of bones to get an advantage! Instantly heal others with For the People, and Iron Will will help you get around and find bones to destroy. Inner Strength will let you re-heal and Clairvoyance will help you stay productive!",
+        "perks": ["Inner Healing", "Clairvoyance", "For the People", "Iron Will"],
+        "explanation": "Use the power of bones to get an advantage! Instantly heal others with For the People, and Iron Will will help you get around and find bones to destroy. Inner Healing will let you re-heal and Clairvoyance will help you stay productive!",
         "meme": "High Meme"
     },
     "Infra-Sight": {

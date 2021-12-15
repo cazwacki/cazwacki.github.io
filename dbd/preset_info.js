@@ -98,6 +98,10 @@ let killers = {
     "The Cenobite": {
         "url": "https://deadbydaylight.fandom.com/wiki/Elliot_Spencer",
         "img_url": "images/powers/cenobite.png"
+    },
+    "The Artist": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Carmina_Mora",
+        "img_url": "images/powers/artist.png"
     }
 }
 
@@ -2392,6 +2396,86 @@ let addons = {
     "Kintsugi Teacup": {
         "url": "https://deadbydaylight.fandom.com/wiki/Kintsugi_Teacup",
         "img_url": "images/addons/iconAddon_kintsugiTeacup.png"
+    },
+    "Vibrant Obituary": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Vibrant_Obituary",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/FulliconAddon_vibrantObituary.png"
+    },
+    "Thick Tar": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Thick_Tar",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconAddon_thickTar.png"
+    },
+    "Oil Paints": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Oil_Paints",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconAddon_oilPaints.png"
+    },
+    "Choclo Corn": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Choclo_Corn",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/FulliconAddon_chocloCorn.png"
+    },
+    "Velvet Fabric": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Velvet_Fabric",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/FulliconAddon_velvetFabric.png"
+    },
+    "Untitled Agony": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Untitled_Agony",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/FulliconAddon_untitledAgony.png"
+    },
+    "Still Life Crow": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Still_Life_Crow",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/72/FulliconAddon_stillLifeCrow.png"
+    },
+    "Festering Carrion": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Festering_Carrion",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/FulliconAddon_festeringCarrion.png"
+    },
+    "Automatic Drawing": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Automatic_Drawing",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/FulliconAddon_automaticDrawing.png"
+    },
+    "Thorny Nest": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Thorny_Nest",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_thornyNest.png"
+    },
+    "Silver Bell": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Silver_Bell",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_silverBell.png"
+    },
+    "O Grief, O Lover": {
+        "url": "https://deadbydaylight.fandom.com/wiki/O_Grief,_O_Lover",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconAddon_oGriefOLover.png"
+    },
+    "Darkest Ink": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Darkest_Ink",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconAddon_darkestInk.png"
+    },
+    "Charcoal Stick": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Charcoal_Stick",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/FulliconAddon_charcoalStick.png"
+    },
+    "Severed Tongue": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Severed_Tongue",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b6/FulliconAddon_severedTongue.png"
+    },
+    "Severed Hands": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Severed_Hands",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/FulliconAddon_severedHands.png"
+    },
+    "Matias' Baby Shoes": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Matias%27_Baby_Shoes",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/FulliconAddon_matiasBabyShoes.png"
+    },
+    "Ink Egg": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Ink_Egg",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconAddon_inkEgg.png"
+    },
+    "Iridescent Feather": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Iridescent_Feather",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/FulliconAddon_iridescentFeather.png"
+    },
+    "Garden of Rot": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Garden_of_Rot",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0a/FulliconAddon_gardenOfRot.png"
     }
 }
 
