@@ -109,6 +109,7 @@ let items = {
     "Flashlight (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Flashlight_(Item)",
         "img_url": "images/items/iconItems_flashlight.png",
+        "addons": ["Wide Lens", "Power Bulb", "Leather Grip", "Battery", "TIR Optic", "Rubber Grip", "Low Amp Filament", "Heavy Duty Battery", "Focus Lens", "Long Life Battery", "Intense Halogen", "High-End Sapphire Lens", "Odd Bulb"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 1,
@@ -124,6 +125,7 @@ let items = {
     "Sport Flashlight": {
         "url": "https://deadbydaylight.fandom.com/wiki/Sport_Flashlight",
         "img_url": "images/items/iconItems_flashlightSport.png",
+        "addons": ["Wide Lens", "Power Bulb", "Leather Grip", "Battery", "TIR Optic", "Rubber Grip", "Low Amp Filament", "Heavy Duty Battery", "Focus Lens", "Long Life Battery", "Intense Halogen", "High-End Sapphire Lens", "Odd Bulb"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 1,
@@ -139,6 +141,7 @@ let items = {
     "Utility Flashlight": {
         "url": "https://deadbydaylight.fandom.com/wiki/Utility_Flashlight",
         "img_url": "images/items/iconItems_flashlightUtility.png",
+        "addons": ["Wide Lens", "Power Bulb", "Leather Grip", "Battery", "TIR Optic", "Rubber Grip", "Low Amp Filament", "Heavy Duty Battery", "Focus Lens", "Long Life Battery", "Intense Halogen", "High-End Sapphire Lens", "Odd Bulb"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 1,
@@ -154,6 +157,7 @@ let items = {
     "Broken Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Broken_Key",
         "img_url": "images/items/iconItems_brokenKey.png",
+        "addons": ["Prayer Rope", "Scratched Pearl", "Prayer Beads", "Eroded Token", "Gold Token", "Weaved Ring", "Milky Glass", "Blood Amber", "Unique Wedding Ring"],
         "Cleansing": 0,
         "Informative": 2,
         "Team-Oriented": 0,
@@ -169,6 +173,7 @@ let items = {
     "Dull Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Dull_Key",
         "img_url": "images/items/iconItems_dullKey.png",
+        "addons": ["Prayer Rope", "Scratched Pearl", "Prayer Beads", "Eroded Token", "Gold Token", "Weaved Ring", "Milky Glass", "Blood Amber", "Unique Wedding Ring"],
         "Cleansing": 0,
         "Informative": 2,
         "Team-Oriented": 0,
@@ -184,6 +189,7 @@ let items = {
     "Skeleton Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Skeleton_Key",
         "img_url": "images/items/iconItems_key.png",
+        "addons": ["Prayer Rope", "Scratched Pearl", "Prayer Beads", "Eroded Token", "Gold Token", "Weaved Ring", "Milky Glass", "Blood Amber", "Unique Wedding Ring"],
         "Cleansing": 0,
         "Informative": 3,
         "Team-Oriented": 0,
@@ -199,6 +205,7 @@ let items = {
     "Map (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Map_(Item)",
         "img_url": "images/items/iconItems_map.png",
+        "addons": ["Map Addendum", "Yellow Wire", "Unusual Stamp", "Retardant Jelly", "Red Twine", "Glass Bead", "Odd Stamp", "Black Silk Cord", "Crystal Bead"],
         "Cleansing": 0,
         "Informative": 2,
         "Team-Oriented": 0,
@@ -214,6 +221,7 @@ let items = {
     "Rainbow Map": {
         "url": "https://deadbydaylight.fandom.com/wiki/Rainbow_Map",
         "img_url": "images/items/iconItems_rainbowMap.png",
+        "addons": ["Map Addendum", "Yellow Wire", "Unusual Stamp", "Retardant Jelly", "Red Twine", "Glass Bead", "Odd Stamp", "Black Silk Cord", "Crystal Bead"],
         "Cleansing": 1,
         "Informative": 3,
         "Team-Oriented": 0,
@@ -229,6 +237,7 @@ let items = {
     "Camping Aid Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Camping_Aid_Kit",
         "img_url": "images/items/iconItems_rundownAidKit.png",
+        "addons": ["Rubber Gloves", "Butterfly Tape", "Bandages", "Sponge", "Self Adherent Wrap", "Needle & Thread", "Medical Scissors", "Gauze Roll", "Surgical Suture", "Gel Dressings", "Abdominal Dressing", "Styptic Agent", "Anti-Haemorrhagic Syringe"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 1,
@@ -244,6 +253,7 @@ let items = {
     "First Aid Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/First_Aid_Kit",
         "img_url": "images/items/iconItems_rundownAidKit.png",
+        "addons": ["Rubber Gloves", "Butterfly Tape", "Bandages", "Sponge", "Self Adherent Wrap", "Needle & Thread", "Medical Scissors", "Gauze Roll", "Surgical Suture", "Gel Dressings", "Abdominal Dressing", "Styptic Agent", "Anti-Haemorrhagic Syringe"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 2,
@@ -259,6 +269,7 @@ let items = {
     "Emergency Med-Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Emergency_Med-Kit",
         "img_url": "images/items/iconItems_medkit.png",
+        "addons": ["Rubber Gloves", "Butterfly Tape", "Bandages", "Sponge", "Self Adherent Wrap", "Needle & Thread", "Medical Scissors", "Gauze Roll", "Surgical Suture", "Gel Dressings", "Abdominal Dressing", "Styptic Agent", "Anti-Haemorrhagic Syringe"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 1,
@@ -274,6 +285,7 @@ let items = {
     "Ranger Med-Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Ranger_Med-Kit",
         "img_url": "images/items/iconItems_rangersAidKit.png",
+        "addons": ["Rubber Gloves", "Butterfly Tape", "Bandages", "Sponge", "Self Adherent Wrap", "Needle & Thread", "Medical Scissors", "Gauze Roll", "Surgical Suture", "Gel Dressings", "Abdominal Dressing", "Styptic Agent", "Anti-Haemorrhagic Syringe"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 2,
@@ -289,6 +301,7 @@ let items = {
     "Worn-Out Tools": {
         "url": "https://deadbydaylight.fandom.com/wiki/Worn-Out_Tools",
         "img_url": "images/items/iconItems_toolboxWornOut.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -304,6 +317,7 @@ let items = {
     "Toolbox (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Toolbox_(Item)",
         "img_url": "images/items/iconItems_toolbox.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -319,6 +333,7 @@ let items = {
     "Mechanic's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Mechanic%27s_Toolbox",
         "img_url": "images/items/iconItems_toolboxMechanics.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -334,6 +349,7 @@ let items = {
     "Commodious Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Commodious_Toolbox",
         "img_url": "images/items/iconItems_toolboxCommodious.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -349,6 +365,7 @@ let items = {
     "Engineer's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Engineer%27s_Toolbox",
         "img_url": "images/items/iconItems_toolboxEngineers.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -364,6 +381,7 @@ let items = {
     "Alex's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Alex%27s_Toolbox",
         "img_url": "images/items/iconItems_toolboxAlexs.png",
+        "addons": ["Scraps", "Instructions", "Clean Rag", "Wire Spool", "Spring Clamp", "Socket Swivels", "Protective Gloves", "Cutting Wire", "Hacksaw", "Grip Wrench", "Brand New Part"],
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 2,
@@ -2682,6 +2700,12 @@ for (let addon in addons) {
     // preload all images
     var img = new Image();
     img.src = addons[addon].img_url;
+}
+
+for (let item in items) {
+    // preload all images
+    var img = new Image();
+    img.src = items[item].img_url;
 }
 
 for (let killer in killers) {
