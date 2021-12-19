@@ -108,75 +108,273 @@ let killers = {
 let items = {
     "Flashlight (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Flashlight_(Item)",
-        "img_url": "images/items/iconItems_flashlight.png"
+        "img_url": "images/items/iconItems_flashlight.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 1,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 2,
+        "Total": 3
     },
     "Sport Flashlight": {
         "url": "https://deadbydaylight.fandom.com/wiki/Sport_Flashlight",
-        "img_url": "images/items/iconItems_flashlightSport.png"
+        "img_url": "images/items/iconItems_flashlightSport.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 1,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 2,
+        "Total": 3
     },
     "Utility Flashlight": {
         "url": "https://deadbydaylight.fandom.com/wiki/Utility_Flashlight",
-        "img_url": "images/items/iconItems_flashlightUtility.png"
+        "img_url": "images/items/iconItems_flashlightUtility.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 1,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 2,
+        "Total": 3
     },
     "Broken Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Broken_Key",
-        "img_url": "images/items/iconItems_brokenKey.png"
+        "img_url": "images/items/iconItems_brokenKey.png",
+        "Cleansing": 0,
+        "Informative": 2,
+        "Team-Oriented": 0,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 2
     },
     "Dull Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Dull_Key",
-        "img_url": "images/items/iconItems_dullKey.png"
+        "img_url": "images/items/iconItems_dullKey.png",
+        "Cleansing": 0,
+        "Informative": 2,
+        "Team-Oriented": 0,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 1,
+        "Total": 4
     },
     "Skeleton Key": {
         "url": "https://deadbydaylight.fandom.com/wiki/Skeleton_Key",
-        "img_url": "images/items/iconItems_key.png"
+        "img_url": "images/items/iconItems_key.png",
+        "Cleansing": 0,
+        "Informative": 3,
+        "Team-Oriented": 0,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 1,
+        "Total": 5
     },
     "Map (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Map_(Item)",
-        "img_url": "images/items/iconItems_map.png"
+        "img_url": "images/items/iconItems_map.png",
+        "Cleansing": 0,
+        "Informative": 2,
+        "Team-Oriented": 0,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 1,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 4
     },
     "Rainbow Map": {
         "url": "https://deadbydaylight.fandom.com/wiki/Rainbow_Map",
-        "img_url": "images/items/iconItems_rainbowMap.png"
+        "img_url": "images/items/iconItems_rainbowMap.png",
+        "Cleansing": 1,
+        "Informative": 3,
+        "Team-Oriented": 0,
+        "Repairing": 0,
+        "Healing": 0,
+        "Looting": 1,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 6
     },
     "Camping Aid Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Camping_Aid_Kit",
-        "img_url": "images/items/iconItems_rundownAidKit.png"
+        "img_url": "images/items/iconItems_rundownAidKit.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 1,
+        "Repairing": 0,
+        "Healing": 1,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 3
     },
     "First Aid Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/First_Aid_Kit",
-        "img_url": "images/items/iconItems_rundownAidKit.png"
+        "img_url": "images/items/iconItems_rundownAidKit.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 2,
+        "Repairing": 0,
+        "Healing": 2,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 5
     },
     "Emergency Med-Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Emergency_Med-Kit",
-        "img_url": "images/items/iconItems_medkit.png"
+        "img_url": "images/items/iconItems_medkit.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 1,
+        "Repairing": 0,
+        "Healing": 1,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 1,
+        "Total": 4
     },
     "Ranger Med-Kit": {
         "url": "https://deadbydaylight.fandom.com/wiki/Ranger_Med-Kit",
-        "img_url": "images/items/iconItems_rangersAidKit.png"
+        "img_url": "images/items/iconItems_rangersAidKit.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 2,
+        "Repairing": 0,
+        "Healing": 3,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 1,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 6
     },
     "Worn-Out Tools": {
         "url": "https://deadbydaylight.fandom.com/wiki/Worn-Out_Tools",
-        "img_url": "images/items/iconItems_toolboxWornOut.png"
+        "img_url": "images/items/iconItems_toolboxWornOut.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 0,
+        "Repairing": 1,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 1
     },
     "Toolbox (Item)": {
         "url": "https://deadbydaylight.fandom.com/wiki/Toolbox_(Item)",
-        "img_url": "images/items/iconItems_toolbox.png"
+        "img_url": "images/items/iconItems_toolbox.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 0,
+        "Repairing": 2,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 2
     },
     "Mechanic's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Mechanic%27s_Toolbox",
-        "img_url": "images/items/iconItems_toolboxMechanics.png"
+        "img_url": "images/items/iconItems_toolboxMechanics.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 0,
+        "Repairing": 2,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 1,
+        "Total": 3
     },
     "Commodious Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Commodious_Toolbox",
-        "img_url": "images/items/iconItems_toolboxCommodious.png"
+        "img_url": "images/items/iconItems_toolboxCommodious.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 0,
+        "Repairing": 3,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 1,
+        "Total": 4
     },
     "Engineer's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Engineer%27s_Toolbox",
-        "img_url": "images/items/iconItems_toolboxEngineers.png"
+        "img_url": "images/items/iconItems_toolboxEngineers.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 0,
+        "Repairing": 2,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 2,
+        "Total": 4
     },
     "Alex's Toolbox": {
         "url": "https://deadbydaylight.fandom.com/wiki/Alex%27s_Toolbox",
-        "img_url": "images/items/iconItems_toolboxAlexs.png"
+        "img_url": "images/items/iconItems_toolboxAlexs.png",
+        "Cleansing": 0,
+        "Informative": 0,
+        "Team-Oriented": 2,
+        "Repairing": 1,
+        "Healing": 0,
+        "Looting": 0,
+        "Looping": 0,
+        "Self-Sufficient": 0,
+        "Stealth": 0,
+        "Clutch": 0,
+        "Total": 3
     }
 }
 
