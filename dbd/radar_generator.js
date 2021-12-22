@@ -409,6 +409,9 @@ function chooseMain(main) {
         }, 200);
     }
 
+    // remove title then re-add one second later
+    $('#' + main).protip().hide();
+
     refreshChart();
 }
 
