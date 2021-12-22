@@ -16,7 +16,7 @@ if (mode == 'Killer') {
     main_set = killers;
     perk_set = killer_perks;
 } else if (mode == 'Survivor') {
-    $('#main-title').text('Select Item')
+    $('#main-title').text('Select Your Item')
     $('#character-img').attr('src', 'images/item.png')
     $('#character-caption').text('Item')
     labels = survivor_labels;
@@ -354,6 +354,7 @@ function chooseMain(main) {
         }
 
         main_set[main].addons.forEach(function(addon, i) {
+            console.log(addon);
             $.get(proxy + addons[addon].url, function(response) {
                 // create element that doesn't need response
                 let new_button = '<button onclick="chooseAddon(addonIndex, \'' + encodeURIComponent(addon).replace(/[!'()*]/g, escape) + '\')"><img src="' + addons[addon].img_url + '" style="width:128px; height:128px;"><figcaption>' + addon + '</figcaption></button>'
