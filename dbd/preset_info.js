@@ -9852,7 +9852,7 @@ let addons = {
     },
     "Garden of Rot": {
         "url": "https://deadbydaylight.fandom.com/wiki/Garden_of_Rot",
-        "img_url": "images/addons/iconAddon_GardenOfRot.png",
+        "img_url": "images/addons/iconAddon_GardenofRot.png",
         "Stealth": 0,
         "Informative": 0,
         "1V1": 3,
