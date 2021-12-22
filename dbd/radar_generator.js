@@ -16,6 +16,7 @@ if (mode == 'Killer') {
     main_set = killers;
     perk_set = killer_perks;
 } else if (mode == 'Survivor') {
+    $('#main-title').text('Select Item')
     $('#character-img').attr('src', 'images/item.png')
     $('#character-caption').text('Item')
     labels = survivor_labels;
