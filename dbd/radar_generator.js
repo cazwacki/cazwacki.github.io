@@ -305,6 +305,9 @@ function chooseMain(main) {
             $('#character-img').attr('src', 'images/item.png')
             $('#character-caption').text("Item");
         }
+        $("#main-button").protipSet({
+            title: ''
+        });
     } else {
         $('#character-img').attr('src', main_set[main].img_url)
         $('#character-caption').text(main);
