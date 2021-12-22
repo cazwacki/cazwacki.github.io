@@ -415,12 +415,16 @@ function updateDescription() {
 function copyBrowserSource() {
     $("#browser-source").css("color", "lightgreen");
 
+    let prevVal = $("#browser-source").text()
+
     /* Copy the text inside the text field */
-    navigator.clipboard.writeText($("#browser-source").text());
+    navigator.clipboard.writeText(prevVal);
+    $("#browser-source").text("Copied!");
 
     setTimeout(() => {
+        $("#browser-source").text(prevVal);
         $("#browser-source").css("color", "lightslategray");
-    }, 250);
+    }, 1000);
 }
 
 // $.ajaxSetup({

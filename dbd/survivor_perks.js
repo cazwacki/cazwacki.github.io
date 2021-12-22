@@ -1471,7 +1471,7 @@ let survivor_perks = {
     },
     "Overcome": {
         "url": "https://deadbydaylight.fandom.com/wiki/Overcome",
-        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/IconPerks_overcome.png",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/IconPerks_overcome.png",
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 0,
@@ -1486,7 +1486,7 @@ let survivor_perks = {
     },
     "Corrective Action": {
         "url": "https://deadbydaylight.fandom.com/wiki/Corrective_Action",
-        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/IconPerks_correctiveAction.png",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/IconPerks_correctiveAction.png",
         "Cleansing": 0,
         "Informative": 0,
         "Team-Oriented": 2,
@@ -1501,7 +1501,7 @@ let survivor_perks = {
     },
     "Boon: Exponential": {
         "url": "https://deadbydaylight.fandom.com/wiki/Boon:_Exponential",
-        "image_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/IconPerks_boonExponential.png",
+        "img_url": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/IconPerks_boonExponential.png",
         "Cleansing": 2,
         "Informative": 0,
         "Team-Oriented": 1,
