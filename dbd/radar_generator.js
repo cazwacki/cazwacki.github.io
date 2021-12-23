@@ -157,32 +157,10 @@ if (mode == 'Killer') {
             let info = $(response)
                 .find("#Overview")
                 .parent()
-                .findNext("p")
-
-            info.find("a").each(function() {
-                $(this).attr("href", "");
-                if ($(this).has("img")) {
-                    $(this).find("img").remove();
-                }
-            });
+                .findNext("p");
 
             let resulting_title = info
-                .html()
-                .replaceAll('style="', 'style="font-weight: bold; ')
-                .replaceAll("<li>", "<p>")
-                .replaceAll("</li>", "</p>")
-                .replaceAll("<ul>", "")
-                .replaceAll("</ul>", "")
-                .replaceAll("<a", "<span")
-                .replaceAll("</a>", "</span>")
-                .replaceAll("<br>", "<br><br>")
-                .replaceAll(" .", ".")
-                .replaceAll("  ", " ")
-                .replaceAll("'''", "")
-                .replaceAll("* ", "")
-                .replaceAll("''", "")
-                .replaceAll("&nbsp;%", "%")
-                .replaceAll("\n", "\n\n");
+                .html();
 
             $("#" + main.replace(/\s/g, '')).protipSet({
                 title: '<p style="color: lightgrey; font-style: italic;">' + resulting_title + '</p>'

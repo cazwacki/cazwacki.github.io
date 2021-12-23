@@ -511,3 +511,5 @@ function descUpdate(item) {
         }
     }
 }
+
+window.onload(setTimeout(() => { displayBuild() }, 500));

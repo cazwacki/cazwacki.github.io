@@ -115,6 +115,116 @@ body {
     min-height: 100%;
 }
 
+#header {
+    z-index: 1;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    display: table;
+    top: 0;
+    width: 100%;
+}
+
+#header #branding {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#branding img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#branding h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px auto;
+    color: lightgrey;
+}
+
+#credit {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    width: 50px;
+}
+
+#name {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#hamburger {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: lightgrey;
+}
+
+#hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#nav-menu {
+    overflow-y: auto;
+    position: fixed;
+    right: -100%;
+    z-index: 1;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 20%;
+    max-width: 80%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#nav-menu.active {
+    right: 0;
+}
+
+#hub {
+    font-size: 1.6rem;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.nav-header {
+    font-size: 1.3rem;
+    color: lightgrey;
+}
+
+.nav-link:hover {
+    color: #482ff7;
+}
+
 #video-filter {
     z-index: -9997;
     background-color: rgba(0, 0, 0, 0.5);
@@ -160,13 +270,13 @@ body {
     animation-fill-mode: forwards;
 }
 
-.footer {
+#footer {
     position: fixed;
     height: 150px;
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     color: lightgrey;
     text-align: center;
 }
@@ -319,7 +429,7 @@ option {
     /* Hidden by default */
     position: absolute;
     /* Stay in place */
-    z-index: 1;
+    z-index: 2;
     /* Sit on top */
     left: 0;
     top: 0;
