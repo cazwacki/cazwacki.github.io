@@ -5,7 +5,7 @@ let rank_reset;
 let rift_close;
 
 // get current patch
-$.get('https://dbd.onteh.net.au/patchnotes?json', function(response) {
+$.get(proxy + 'https://dbd.onteh.net.au/patchnotes', function(response) {
     let info = $(response)
         .find(".version")
         .first()
@@ -18,70 +18,80 @@ $.get('https://dbd.onteh.net.au/patchnotes?json', function(response) {
 });
 
 // get shrine
-$.getJSON('https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', function(data) {
-    shrine_reset = data['end'];
-    let perks = data['perks'];
-    perks.forEach(function(perk, i) {
-        $('#perk' + (i + 1) + '-url').find('h1').text(perk['name']);
-        let discovered_perk;
-        if (i < 2) {
-            discovered_perk = killer_perks[perk['name']];
-        } else {
-            discovered_perk = survivor_perks[perk['name']];
-        }
+$.ajax({
+    crossDomain: true,
+    dataType: 'jsonp',
+    url: 'https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json',
+    success: function(data) {
+        console.log(data);
+        shrine_reset = data['end'];
+        let perks = data['perks'];
+        perks.forEach(function(perk, i) {
+            $('#perk' + (i + 1) + '-url').find('h1').text(perk['name']);
+            let discovered_perk;
+            if (i < 2) {
+                discovered_perk = killer_perks[perk['name']];
+            } else {
+                discovered_perk = survivor_perks[perk['name']];
+            }
 
-        $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
-        $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
+            $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
+            $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
 
-        $.get(discovered_perk.url, function(response) {
-            let info = $(response)
-                .find(".wikitable")
-                .first()
-                .find("td")
-                .last()
-                .find(".formattedPerkDesc")
-                .first();
+            $.get(discovered_perk.url, function(response) {
+                let info = $(response)
+                    .find(".wikitable")
+                    .first()
+                    .find("td")
+                    .last()
+                    .find(".formattedPerkDesc")
+                    .first();
 
-            info.find("a").each(function() {
-                $(this).attr("href", "");
-                if ($(this).has("img")) {
-                    $(this).find("img").remove();
-                }
+                info.find("a").each(function() {
+                    $(this).attr("href", "");
+                    if ($(this).has("img")) {
+                        $(this).find("img").remove();
+                    }
+                });
+
+                let resulting_title = info
+                    .html()
+                    .replaceAll('style="', 'style="font-weight: bold; ')
+                    .replaceAll("<li>", "<p>")
+                    .replaceAll("</li>", "</p>")
+                    .replaceAll("<ul>", "")
+                    .replaceAll("</ul>", "")
+                    .replaceAll("<a", "<span")
+                    .replaceAll("</a>", "</span>")
+                    .replaceAll("<br>", "<br><br>")
+                    .replaceAll(" .", ".")
+                    .replaceAll("  ", " ")
+                    .replaceAll("'''", "")
+                    .replaceAll("* ", "")
+                    .replaceAll("''", "")
+                    .replaceAll("&nbsp;%", "%")
+                    .replaceAll("\n", "\n\n");
+
+                $('#perk' + (i + 1) + '-url').protipSet({
+                    title: resulting_title
+                });
             });
 
-            let resulting_title = info
-                .html()
-                .replaceAll('style="', 'style="font-weight: bold; ')
-                .replaceAll("<li>", "<p>")
-                .replaceAll("</li>", "</p>")
-                .replaceAll("<ul>", "")
-                .replaceAll("</ul>", "")
-                .replaceAll("<a", "<span")
-                .replaceAll("</a>", "</span>")
-                .replaceAll("<br>", "<br><br>")
-                .replaceAll(" .", ".")
-                .replaceAll("  ", " ")
-                .replaceAll("'''", "")
-                .replaceAll("* ", "")
-                .replaceAll("''", "")
-                .replaceAll("&nbsp;%", "%")
-                .replaceAll("\n", "\n\n");
-
-            $('#perk' + (i + 1) + '-url').protipSet({
-                title: resulting_title
-            });
-        });
-
-    })
+        })
+    }
 });
 
+// $.getJSON('https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', function(data) {
+
+// });
+
 // get playercount
-$.getJSON('https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
     $('#playercount').find('span').text(data['response']['player_count']);
 })
 
 // get dbd news
-$.getJSON('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
     let content = $('#news-content');
 
     let news = data['appnews']['newsitems'];
@@ -97,14 +107,24 @@ $.getJSON('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=38121
 });
 
 // get rank reset
-$.getJSON('https://dbd.onteh.net.au/api/rankreset?json', function(data) {
-    rank_reset = data['rankreset'];
+$.ajax({
+    crossDomain: true,
+    dataType: 'jsonp',
+    url: 'https://dbd.onteh.net.au/api/rankreset?json',
+    success: function(data) {
+        rank_reset = data['rankreset'];
+    }
 });
 
 // get rift close
-$.getJSON('https://dbd.onteh.net.au/api/archives?json', function(data) {
-    let archives = Object.keys(data);
-    rift_close = data[archives[archives.length - 1]].end;
+$.ajax({
+    crossDomain: true,
+    dataType: 'jsonp',
+    url: 'https://dbd.onteh.net.au/api/archives?json',
+    success: function(data) {
+        let archives = Object.keys(data);
+        rift_close = data[archives[archives.length - 1]].end;
+    }
 });
 
 // set end times for timers
