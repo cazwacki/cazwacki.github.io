@@ -5,7 +5,7 @@ let rank_reset;
 let rift_close;
 
 // get current patch
-$.get(proxy + 'https://dbd.onteh.net.au/patchnotes?json', function(response) {
+$.get('https://dbd.onteh.net.au/patchnotes?json', function(response) {
     let info = $(response)
         .find(".version")
         .first()
@@ -18,7 +18,7 @@ $.get(proxy + 'https://dbd.onteh.net.au/patchnotes?json', function(response) {
 });
 
 // get shrine
-$.getJSON(proxy + 'https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', function(data) {
+$.getJSON('https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', function(data) {
     shrine_reset = data['end'];
     let perks = data['perks'];
     perks.forEach(function(perk, i) {
@@ -33,7 +33,7 @@ $.getJSON(proxy + 'https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', 
         $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
         $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
 
-        $.get(proxy + discovered_perk.url, function(response) {
+        $.get(discovered_perk.url, function(response) {
             let info = $(response)
                 .find(".wikitable")
                 .first()
@@ -76,12 +76,12 @@ $.getJSON(proxy + 'https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', 
 });
 
 // get playercount
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
+$.getJSON('https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
     $('#playercount').find('span').text(data['response']['player_count']);
 })
 
 // get dbd news
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
+$.getJSON('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
     let content = $('#news-content');
 
     let news = data['appnews']['newsitems'];
@@ -97,12 +97,12 @@ $.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?app
 });
 
 // get rank reset
-$.getJSON(proxy + 'https://dbd.onteh.net.au/api/rankreset?json', function(data) {
+$.getJSON('https://dbd.onteh.net.au/api/rankreset?json', function(data) {
     rank_reset = data['rankreset'];
 });
 
 // get rift close
-$.getJSON(proxy + 'https://dbd.onteh.net.au/api/archives?json', function(data) {
+$.getJSON('https://dbd.onteh.net.au/api/archives?json', function(data) {
     let archives = Object.keys(data);
     rift_close = data[archives[archives.length - 1]].end;
 });
