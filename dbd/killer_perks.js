@@ -1351,8 +1351,10 @@ let killer_perks = {
     }
 }
 
+/*
 for (let perk in killer_perks) {
     // preload all images
     var img = new Image();
     img.src = killer_perks[perk].img_url;
 }
+*/

@@ -23,6 +23,11 @@ to determine the resulting font size for each component.
     .button-set {
         width: 80%;
     }
+    #mainhub table,
+    #mainhub tr,
+    #mainhub td {
+        display: block;
+    }
 }
 
 @media (min-width: 480px) {
@@ -43,6 +48,11 @@ to determine the resulting font size for each component.
     }
     .button-set {
         width: 75%;
+    }
+    #mainhub table,
+    #mainhub tr,
+    #mainhub td {
+        display: block;
     }
 }
 
@@ -76,6 +86,18 @@ to determine the resulting font size for each component.
     }
     .button-set {
         width: 50%;
+    }
+}
+
+@media (min-width: 1500px) {
+    #mainhub table {
+        display: table;
+    }
+    #mainhub tr {
+        display: table-row;
+    }
+    #mainhub td {
+        display: table-cell;
     }
 }
 
@@ -147,7 +169,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 10px;
-    width: 50px;
+    width: 80px;
 }
 
 #name {
@@ -160,7 +182,7 @@ body {
     vertical-align: middle;
     cursor: pointer;
     padding: 10px;
-    width: 50px;
+    width: 80px;
 }
 
 .bar {
@@ -204,6 +226,65 @@ body {
 
 #hub {
     font-size: 1.6rem;
+}
+
+#mainhub {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#dbdnews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 50%;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#news-title {
+    flex: none;
+    min-height: 50px;
+    width: 100%;
+}
+
+#news-content {
+    margin: 0 auto;
+    width: 480px;
+    text-align: left;
+    flex: auto;
+    overflow-y: auto;
+}
+
+.top-index {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.top-index table {
+    margin: 0 auto;
+}
+
+#shrine-timer {
+    color: rgb(216, 147, 255);
+}
+
+#grade-timer {
+    color: rgb(255, 87, 51);
+}
+
+#rift-timer {
+    color: rgb(0, 255, 255);
+}
+
+.side-index {
+    display: inline-block;
+    min-width: 20%;
 }
 
 .nav-item {
@@ -305,6 +386,20 @@ body {
 .perk-img {
     width: 128px;
     height: 128px;
+}
+
+#shrine table {
+    table-layout: fixed;
+}
+
+#shrine table tr td {
+    max-width: 45%;
+}
+
+.shrine-img {
+    width: 64px;
+    height: 64px;
+    display: inline;
 }
 
 .addon-img {
