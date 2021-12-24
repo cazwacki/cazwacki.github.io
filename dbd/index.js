@@ -4,127 +4,34 @@ let shrine_reset;
 let rank_reset;
 let rift_close;
 
-// get current patch
-$.get(proxy + 'https://dbd.onteh.net.au/patchnotes', function(response) {
-    let info = $(response)
-        .find(".version")
-        .first()
-        .find("h1");
+// shrine reset is nearest wednesday 0 utc
+let date = new Date();
+date.setUTCHours(0, 0, 0, 0);
+date.setUTCDate(date.getUTCDate() + (7 - date.getUTCDay()) % 7 + 3);
+shrine_reset = date.getTime();
 
-    new_desc = info
-        .text().split(" ")[0];
+// rank reset is nearest 13th 8 utc
+date.setUTCHours(8, 0, 0, 0);
+if (date.getUTCDate() > 13) {
+    date.setUTCMonth(date.getUTCMonth() + 1);
+}
+date.setUTCDate(13);
+rank_reset = date.getTime();
 
-    $('#patch-name').text(new_desc);
-});
+console.log(rank_reset);
+console.log(shrine_reset);
 
-// get shrine
-$.ajax({
-    crossDomain: true,
-    dataType: 'jsonp',
-    url: 'https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json',
-    success: function(data) {
-        console.log(data);
-        shrine_reset = data['end'];
-        let perks = data['perks'];
-        perks.forEach(function(perk, i) {
-            $('#perk' + (i + 1) + '-url').find('h1').text(perk['name']);
-            let discovered_perk;
-            if (i < 2) {
-                discovered_perk = killer_perks[perk['name']];
-            } else {
-                discovered_perk = survivor_perks[perk['name']];
-            }
-
-            $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
-            $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
-
-            $.get(discovered_perk.url, function(response) {
-                let info = $(response)
-                    .find(".wikitable")
-                    .first()
-                    .find("td")
-                    .last()
-                    .find(".formattedPerkDesc")
-                    .first();
-
-                info.find("a").each(function() {
-                    $(this).attr("href", "");
-                    if ($(this).has("img")) {
-                        $(this).find("img").remove();
-                    }
-                });
-
-                let resulting_title = info
-                    .html()
-                    .replaceAll('style="', 'style="font-weight: bold; ')
-                    .replaceAll("<li>", "<p>")
-                    .replaceAll("</li>", "</p>")
-                    .replaceAll("<ul>", "")
-                    .replaceAll("</ul>", "")
-                    .replaceAll("<a", "<span")
-                    .replaceAll("</a>", "</span>")
-                    .replaceAll("<br>", "<br><br>")
-                    .replaceAll(" .", ".")
-                    .replaceAll("  ", " ")
-                    .replaceAll("'''", "")
-                    .replaceAll("* ", "")
-                    .replaceAll("''", "")
-                    .replaceAll("&nbsp;%", "%")
-                    .replaceAll("\n", "\n\n");
-
-                $('#perk' + (i + 1) + '-url').protipSet({
-                    title: resulting_title
-                });
-            });
-
-        })
+rift_close = 0;
+$.get(proxy + 'https://deadbydaylight.com/en/archives#intro', function(response) {
+    let components = $(response).find('.archives-intro__date').text().split(' ');
+    let end_date_month = new Date(Date.parse(components[3] + ' ' + components[4] + ' 2012')).getUTCMonth();
+    let now = new Date(Date.now());
+    let end_date_year = now.getUTCFullYear()
+    if (now.getUTCMonth() > end_date_month) {
+        end_date_year += 1;
     }
-});
-
-// $.getJSON('https://dbd.onteh.net.au/api/shrine?includeperkinfo=1&json', function(data) {
-
-// });
-
-// get playercount
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
-    $('#playercount').find('span').text(data['response']['player_count']);
-})
-
-// get dbd news
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
-    let content = $('#news-content');
-
-    let news = data['appnews']['newsitems'];
-    news.forEach(function(item, i) {
-        console.log(content.find('a'));
-        content.find('a').eq(i).attr('href', item.url);
-        content.find('h1').eq(i).text(item.title + ' - ' + new Date(item.date * 1000).toLocaleDateString());
-        if (item.contents.startsWith('{STEAM_CLAN_IMAGE}')) {
-            item.contents = item.contents.substring(item.contents.indexOf(' ') + 1);
-        }
-        content.find('p').eq(i).text(item.contents);
-    });
-});
-
-// get rank reset
-$.ajax({
-    crossDomain: true,
-    dataType: 'jsonp',
-    url: 'https://dbd.onteh.net.au/api/rankreset?json',
-    success: function(data) {
-        rank_reset = data['rankreset'];
-    }
-});
-
-// get rift close
-$.ajax({
-    crossDomain: true,
-    dataType: 'jsonp',
-    url: 'https://dbd.onteh.net.au/api/archives?json',
-    success: function(data) {
-        let archives = Object.keys(data);
-        rift_close = data[archives[archives.length - 1]].end;
-    }
+    console.log(components[3] + ' ' + components[4] + ' ' + end_date_year + ' 16:00:00 UTC');
+    rift_close = (new Date(Date.parse(components[3] + ' ' + components[4] + ' ' + end_date_year + ' 16:00:00 UTC'))).getTime();
 });
 
 // set end times for timers
@@ -135,7 +42,7 @@ setTimeout(() => {
         let now = new Date().getTime();
 
         // Find the distance between now and the count down date
-        let remainders = [shrine_reset * 1000 - now + 1000, rank_reset * 1000 - now, rift_close * 1000 - now]
+        let remainders = [shrine_reset - now, rank_reset - now, rift_close - now]
 
         let targets = ['#shrine-timer', '#grade-timer', '#rift-timer'];
         remainders.forEach(function(remainder, i) {
@@ -156,3 +63,91 @@ setTimeout(() => {
         });
     }, 1000);
 }, 1000);
+
+// get current patch
+$.get(proxy + 'https://dbd.onteh.net.au/patchnotes', function(response) {
+    let info = $(response)
+        .find(".version")
+        .first()
+        .find("h1");
+
+    new_desc = info
+        .text().split(" ")[0];
+
+    $('#patch-name').text(new_desc);
+});
+
+// get shrine
+$.get(proxy + 'https://deadbydaylight.fandom.com/wiki/Shrine_of_Secrets', function(response) {
+    console.log(response);
+    let table = $(response).find('.sosTable').first();
+    console.log(table);
+    table.find('.sosRow').each(function(i) {
+        let perk_name = $(this).find('.sosText').first().text().trim();
+        console.log(perk_name);
+        let discovered_perk = killer_perks[perk_name] || survivor_perks[perk_name];
+        console.log(discovered_perk);
+        $('#perk' + (i + 1) + '-url').find('h1').text(perk_name);
+        $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
+        $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
+
+        $.get(proxy + discovered_perk.url, function(response) {
+            let info = $(response)
+                .find(".wikitable")
+                .first()
+                .find("td")
+                .last()
+                .find(".formattedPerkDesc")
+                .first();
+
+            info.find("a").each(function() {
+                $(this).attr("href", "");
+                if ($(this).has("img")) {
+                    $(this).find("img").remove();
+                }
+            });
+
+            let resulting_title = info
+                .html()
+                .replaceAll('style="', 'style="font-weight: bold; ')
+                .replaceAll("<li>", "<p>")
+                .replaceAll("</li>", "</p>")
+                .replaceAll("<ul>", "")
+                .replaceAll("</ul>", "")
+                .replaceAll("<a", "<span")
+                .replaceAll("</a>", "</span>")
+                .replaceAll("<br>", "<br><br>")
+                .replaceAll(" .", ".")
+                .replaceAll("  ", " ")
+                .replaceAll("'''", "")
+                .replaceAll("* ", "")
+                .replaceAll("''", "")
+                .replaceAll("&nbsp;%", "%")
+                .replaceAll("\n", "\n\n");
+
+            $('#perk' + (i + 1) + '-url').protipSet({
+                title: resulting_title
+            });
+        });
+    });
+});
+
+// get playercount
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
+    $('#playercount').find('span').text(data['response']['player_count']);
+})
+
+// get dbd news
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
+    let content = $('#news-content');
+
+    let news = data['appnews']['newsitems'];
+    news.forEach(function(item, i) {
+        content.find('a').eq(i).attr('href', item.url);
+        content.find('h1').eq(i).text(item.title + ' - ' + new Date(item.date * 1000).toLocaleDateString());
+        if (item.contents.startsWith('{STEAM_CLAN_IMAGE}')) {
+            item.contents = item.contents.substring(item.contents.indexOf(' ') + 1);
+        }
+        content.find('p').eq(i).text(item.contents);
+    });
+});
