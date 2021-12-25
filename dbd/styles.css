@@ -259,6 +259,19 @@ body {
     overflow-y: auto;
 }
 
+input[type="text"],
+textarea {
+    background-color: rgb(91, 91, 91);
+    border: none;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.dotted-underline {
+    border-bottom: 2px dotted lightgrey;
+    text-decoration: none;
+}
+
 .top-index {
     width: 400px;
     margin-bottom: 20px;

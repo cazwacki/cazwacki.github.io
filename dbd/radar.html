@@ -107,11 +107,13 @@
         </div>
     </div>
     <!-- Perks / Button -->
-    <h1 id="title" class="h2 mb-3 fw-normal text-light">Make Your Own Build</h1>
-    <h1 class="h6 text-muted mb-3 fw-normal">Want to share your build? Click below to copy the URL!</h1>
-    <button id="browser-source" style="color: lightgrey;" class="h6 mb-3 fw-italic" onclick="copyBuildURL()">Copy Build URL</button>
+    <div id="header">
+
+    </div>
+    <input type="text" onkeyup="updateBuildName()" id="title" class="h3 mb-3 fw-normal text-light rounded" placeholder="Enter build name...">
+    <br>
+    <button id="copy-build" class="btn btn-dark btn-radius text-light" onclick="copyBuildURL()">Copy Build URL</button>
     <div class="fadeIn">
-        <br />
         <div id="character-addons" class="mx-auto row justify-content-center">
             <div class="col">
                 <button id="main-button" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayMainModal(2)">
@@ -157,7 +159,6 @@
                 </button>
             </div>
         </div>
-        <br />
         <div>
             <canvas id="radar" aria-label="Build Radar" role="img"></canvas>
         </div>

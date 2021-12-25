@@ -5,6 +5,13 @@ let killer_labels = ["Stealth", "Informative", "1V1", "Anti-Gens", "Anti-Healing
 let survivor_labels = ["Cleansing", "Informative", "Team-Oriented", "Repairing", "Healing", "Clutch", "Stealth", "Self-Sufficient", "Looping", "Looting"]
 let mode = urlParam.get("mode");
 let code = urlParam.get("code");
+let build = urlParam.get("build");
+
+if (build != null) {
+    // decode and place in input text
+    console.log(decodeURIComponent(atob(build)));
+    $('#title').val(decodeURIComponent(atob(build)));
+}
 
 let labels = [];
 
@@ -124,7 +131,8 @@ if (code != null) {
         if (values[0] == 999) {
             chooseMain('Clear');
         } else {
-            chooseMain(main_keys[values[0]]);
+            console.log(main_keys[values[0]]);
+            chooseMain(encodeURIComponent(main_keys[values[0]]).replace(/[!'()*]/g, escape));
         }
 
         for (let i = 0; i < 4; i++) {
@@ -290,10 +298,21 @@ function chooseMain(main) {
         $('#character-img').attr('src', main_set[main].img_url)
         $('#character-caption').text(main);
         $.get(proxy + main_set[main].url, function(response) {
-            let info = $(response)
-                .find("#Overview")
-                .parent()
-                .findNext("p");
+            let info;
+            if (mode == 'Killer') {
+                info = $(response)
+                    .find("#Overview")
+                    .parent()
+                    .findNext("p");
+            } else {
+                info = $(response)
+                    .find(".wikitable")
+                    .first()
+                    .find('tr')
+                    .last()
+                    .find('td')
+                    .first();
+            }
 
             info.find("a").each(function() {
                 $(this).attr("href", "");
@@ -390,7 +409,9 @@ function chooseMain(main) {
         }, 200);
     }
 
-    $('#' + main.replaceAll(' ', '')).protipHide();
+    if (mode == 'Killer') {
+        $('#' + main.replaceAll(' ', '')).protipHide();
+    }
 
     refreshChart();
 }
@@ -586,6 +607,10 @@ function filter(type) {
     })
 }
 
+function updateBuildName() {
+    build = encodeURIComponent(btoa($('#title').val()));
+}
+
 function displayPerkModal(index) {
     perkIndex = index;
     perk_modal.fadeIn('fast');
@@ -616,91 +641,9 @@ $(window).click(function(event) {
     }
 });
 
-// TODO: determine where it came from and update appropriate protip
-// update protips
-function descUpdate(item) {
-    let proxy = "https://dreamland.zawackis.com:12399/";
-    let url = $("#" + item + "-url").attr("href");
-    if (url.includes("https://")) {
-        if (item.includes("perk")) {
-            $.get(proxy + url, function(response) {
-                let info = $(response)
-                    .find(".wikitable")
-                    .first()
-                    .find("td")
-                    .last()
-                    .find(".formattedPerkDesc")
-                    .first();
-
-                info.find("a").each(function() {
-                    $(this).attr("href", "");
-                    if ($(this).has("img")) {
-                        $(this).find("img").remove();
-                    }
-                });
-
-                let resulting_title = info
-                    .html()
-                    .replaceAll('style="', 'style="font-weight: bold; ')
-                    .replaceAll("<li>", "<p>")
-                    .replaceAll("</li>", "</p>")
-                    .replaceAll("<ul>", "")
-                    .replaceAll("</ul>", "")
-                    .replaceAll("<a", "<span")
-                    .replaceAll("</a>", "</span>")
-                    .replaceAll("<br>", "<br><br>")
-                    .replaceAll(" .", ".")
-                    .replaceAll("  ", " ")
-                    .replaceAll("'''", "")
-                    .replaceAll("* ", "")
-                    .replaceAll("''", "")
-                    .replaceAll("&nbsp;%", "%")
-                    .replaceAll("\n", "\n\n");
-
-                $("#" + item + "-url").protipSet({
-                    title: resulting_title
-                });
-            });
-        } else if (item.includes("addon")) {
-            console.log("addon!");
-            $.get(proxy + url, function(response) {
-                let info = $(response)
-                    .find(".wikitable")
-                    .first()
-                    .find("tr")
-                    .last()
-                    .find("td")
-                    .first();
-                info.find("a").each(function() {
-                    $(this).attr("href", "");
-                    if ($(this).has("img")) {
-                        $(this).find("img").remove();
-                    }
-                });
-                let resulting_title = info
-                    .html()
-                    .replaceAll("<li>", "<p>")
-                    .replaceAll("</li>", "</p>")
-                    .replaceAll("<ul>", "")
-                    .replaceAll("</ul>", "")
-                    .replaceAll("<a", "<span")
-                    .replaceAll("</a>", "</span>")
-                    .replaceAll(" .", ".")
-                    .replaceAll("  ", " ")
-                    .replaceAll("&nbsp;%", "%")
-                    .replaceAll("\n", "\n\n");
-                $("#" + item + "-url").protipSet({
-                    title: resulting_title,
-                });
-            });
-        }
-    }
-}
-
 function copyBuildURL() {
-    $("#browser-source").css("color", "lightgreen");
 
-    let prevVal = $("#browser-source").text()
+    let prevVal = $("#copy-build").text();
 
     // calculate the link
     let link = 'https://charles.zawackis.com/dbd/radar.html?mode=' + mode + '&code='
@@ -725,12 +668,14 @@ function copyBuildURL() {
         }
     }
 
+    link += '&build=' + build;
+
     navigator.clipboard.writeText(link);
-    $("#browser-source").text("Copied!");
+    $("#copy-build").text("Copied!");
 
     setTimeout(() => {
-        $("#browser-source").text(prevVal);
-        $("#browser-source").css("color", "lightslategray");
+        $("#copy-build").text(prevVal);
+        $("#copy-build").css("color", "lightslategray");
     }, 1000);
 }
 
