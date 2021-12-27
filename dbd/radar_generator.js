@@ -176,7 +176,7 @@ if (mode == 'Killer') {
         });
     }
 } else if (mode == 'Survivor') {
-    main_modal.find('.byo-modal-content').append('<input type="text" id="mainInput" onkeyup="filter(\'main\')" placeholder="Search..." style="width: 60%"><table id="mainTable" class="table-hover" style="table-layout:fixed;"><tbody>');
+    main_modal.find('.byo-modal-content').append('<input type="text" id="mainInput" class="fw-normal text-light rounded" onkeyup="filter(\'main\')" placeholder="Search..." style="width: 60%"><table id="mainTable" class="table-hover" style="table-layout:fixed;"><tbody>');
     // 1 extra row for clear option
     main_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="chooseMain(\'Clear\')"><img src="images/item.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>');
     for (let main in main_set) {
@@ -226,7 +226,7 @@ if (mode == 'Killer') {
 }
 
 // 2. generate perk modal data
-perk_modal.find('.byo-modal-content').append('<input type="text" id="perkInput" onkeyup="filter(\'perk\')" placeholder="Search for perk..." style="width: 60%"><table id="perkTable" class="table-hover" style="table-layout:fixed;"><tbody>');
+perk_modal.find('.byo-modal-content').append('<input type="text" id="perkInput" class="fw-normal text-light rounded" onkeyup="filter(\'perk\')" placeholder="Search for perk..." style="width: 60%"><table id="perkTable" class="table-hover" style="table-layout:fixed;"><tbody>');
 // 1 extra row for clear option
 perk_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="choosePerk(perkIndex, \'Clear\')"><img src="images/blank.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>');
 for (let perk in perk_set) {
@@ -346,7 +346,7 @@ function chooseMain(main) {
 
         // update addon modal based on main
         addon_modal.find('.byo-modal-content').empty();
-        addon_modal.find('.byo-modal-content').append('<input type="text" id="addonInput" onkeyup="filter(\'addon\')" placeholder="Search for addon..." style="width: 60%"><table id="addonTable" class="table-hover" style="table-layout:fixed;"><tbody>');
+        addon_modal.find('.byo-modal-content').append('<input type="text" id="addonInput" class="fw-normal text-light rounded" onkeyup="filter(\'addon\')" placeholder="Search for addon..." style="width: 60%"><table id="addonTable" class="table-hover" style="table-layout:fixed;"><tbody>');
         // 1 extra row for clear option
         addon_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="chooseAddon(addonIndex, \'Clear\')"><img src="images/addon.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>)');
         for (let perk in perk_set) {
