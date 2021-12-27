@@ -7,7 +7,7 @@ let rift_close;
 // shrine reset is nearest wednesday 0 utc
 let date = new Date();
 date.setUTCHours(0, 0, 0, 0);
-date.setUTCDate(date.getUTCDate() + (7 - date.getUTCDay()) % 7 + 3);
+date.setUTCDate(date.getUTCDate() + ((7 - date.getUTCDay()) % 7 + 3) % 7);
 shrine_reset = date.getTime();
 
 // rank reset is nearest 13th 8 utc
