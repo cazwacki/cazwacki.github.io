@@ -668,7 +668,9 @@ function copyBuildURL() {
         }
     }
 
-    link += '&build=' + build;
+    if (build != null && build != '') {
+        link += '&build=' + build;
+    }
 
     navigator.clipboard.writeText(link);
     $("#copy-build").text("Copied!");
