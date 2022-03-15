@@ -720,4 +720,116 @@ let preset_survivor_perks = {
         "explanation": "Don't let an injury hold you back for too long. When you get injured, use the extra distance and lack of blood to lose the killer! Quickly heal up and re-enter the battlefield. Get back to looping the killer so your teammates can power through gens!",
         "meme": "Low Meme"
     },
+    "Shift + W": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Medical Scissors", "Gel Dressings"],
+        "perks": ["Overcome", "Windows of Opportunity", "Quick & Quiet", "Vigil"],
+        "explanation": "Drag the killer across the map with every chase! Overcome will give you tons of distance upon getting hit, Windows of Opportunity will help you find areas to create more space, and Quick and Quiet may confuse the killer as they follow you! If the killer loses you, Vigil and your Med-Kit will help you get up and running again in no time. Modified a build created by Youtuber Demi.",
+        "meme": "Medium Meme"
+    },
+    "Gentertainment": {
+        "main": "Commodious Toolbox",
+        "addons": ["Clean Rag", "Socket Swivels"],
+        "perks": ["Streetwise", "Built to Last", "Blast Mine", "Repressed Alliance"],
+        "explanation": "Make gen completion a lot more enjoyable! Your toolbox, Streetwise, and Built to Last will allow you to rush generators! Blast Mine a killer, then use Repressed Alliance on the generator so they realize they can't even kick it when their vision returns! Found in a video by Youtuber Demi.",
+        "meme": "Low Meme"
+    },
+    "Hit and Run": {
+        "main": "Flashlight (Item)",
+        "addons": ["Long Life Battery", "Intense Halogen"],
+        "perks": ["Smash Hit", "Windows of Opportunity", "Open-Handed", "Alert"],
+        "explanation": "Even the odds in your killer 1v1s! Smash Hit will let you smack killers and make a great escape. Open-Handed and Windows of Opportunity will help you find the right place to make your getaway. Alert will help you track what the killer does after they kick your pallet and is useful for general tracking! Found in a video by Youtuber Demi.",
+        "meme": "High Meme"
+    },
+    "New to the Realm": {
+        "main": "Flashlight (Item)",
+        "addons": ["Intense Halogen", "Heavy Duty Battery"],
+        "perks": ["Hope", "Kindred", "Spine Chill", "Resilience"],
+        "explanation": "You're a new player introduced to the realm! That does mean you're limited in perks, though. Spine Chill will give you a sixth sense about the killer's position, Resilience will help you act faster when injured, Kindred will let you know when to go for saves, and Hope will help you finalize your escape as you try to leave! Found in a video by Youtuber Demi.",
+        "meme": "Medium Meme"
+    },
+    "Last Second Looper": {
+        "main": "Commodious Toolbox",
+        "addons": ["Wire Spool", "Scraps"],
+        "perks": ["Resilience", "Dead Hard", "Adrenaline", "Hope"],
+        "explanation": "You run the killer best in clutch situations! Vault faster while injured thanks to Resilience. Hope and Adrenaline will help you perform better in endgame chases as the killer will take much longer to catch up to you! Dead Hard will help stretch out all your chases. Found in a video by YouTuber Not Ayrun.",
+        "meme": "Medium Meme"
+    },
+    "The Overcome Tank": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Self Adherent Wrap", "Bandages"],
+        "perks": ["Built to Last", "Resilience", "Overcome", "Mettle Of Man"],
+        "explanation": "Stretch out your teammate's chases while protecting yourself! Use your Emergency Med-Kit to quickly heal up after taking hits for teammates in their chases, and Overcome will help you make a quick getaway so you can heal once more! Do it three times (with the help of Built to Last) and enjoy one extra free hit that can also trigger Overcome! Resilience will help you act quickly once you've become injured. Found in a video by YouTuber Not Ayrun.",
+        "meme": "Medium Meme"
+    },
+    "The Taunting Tank": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Abdominal Dressing", "Bandages"],
+        "perks": ["Bond", "Mettle Of Man", "Adrenaline", "Dead Hard"],
+        "explanation": "Find nearby teammates in chase and tank hits for them so you can power up your Mettle of Man! Dead Hard will help you escape the scene once you've taken a hit, and Adrenaline can help you clutch out the endgame with a free heal and a speed boost. If you time it well, it can negate a hit from the killer while helping a teammate in chase!",
+        "meme": "Low Meme"
+    },
+    "Anti Face Camp": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Gel Dressings", "Gauze Roll"],
+        "perks": ["Deliverance", "Soul Guard", "Decisive Strike", "Unbreakable"],
+        "explanation": "Unhook yourself, and the killer can't tunnel you! If they pick you up, you can hit DS; if they leave you slugged, you can get back up and tank a hit with Soul Guard and Unbreakable! Found in a video by YouTuber Cru5h.",
+        "meme": "Low Meme"
+    },
+    "The Antihook": {
+        "main": "Utility Flashlight",
+        "addons": ["Long Life Battery", "Low-Amp Filament"],
+        "perks": ["No Mither", "Unbreakable", "Power Struggle", "Flip-Flop"],
+        "explanation": "Get up off the ground as fast as you can! If you can't get up, stun them with a pallet! No Mither and Unbreakable speed up your recovery time, and Flip-Flop and Power Struggle will help you escape the killer's grasp. Have a friend bring Boon: Exponential for even faster recoveries! Found in a video by YouTuber Cru5h.",
+        "meme": "High Meme"
+    },
+    "Way of the Ninja": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Smash Hit", "Parental Guidance", "Windows of Opportunity", "Flashbang"],
+        "explanation": "Strike the Killer and disappear in a flash of light! Get a Flashbang, find a pallet to stun the killer with using Windows of Opportunity, stun them, and use your Flashbang alongside Smash Hit to disappear into the night once more and lose the Killer.",
+        "meme": "Medium Meme"
+    },
+    "Living on the Edge": {
+        "main": "Flashlight (Item)",
+        "addons": ["Long Life Battery", "Low Amp Filament"],
+        "perks": ["Resilience", "Dead Hard", "Adrenaline", "Iron Will"],
+        "explanation": "You're at your most powerful while injured! Dodge with Dead Hard and act with more speed while injured thanks to Resilience! Iron Will will keep you quiet and Adrenaline will help you clutch out the endgame with a heal and a speed boost!",
+        "meme": "Medium Meme"
+    },
+    "Stun Gun": {
+        "main": "Worn-Out Tools",
+        "addons": ["Socket Swivels", "Clean Rag"],
+        "perks": ["Blast Mine", "Flashbang", "Head On", "Decisive Strike"],
+        "explanation": "Fight the Killer back with everything you've got! You can stun the killer with Decisive Strike, Blast Mine, and Head On! Use Flashbang as a finisher after stunning the killer with a pallet!",
+        "meme": "High Meme"
+    },
+    "Blood Brothers": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Empathetic Connection", "Empathy", "Dead Hard", "Resilience"],
+        "explanation": "Somehow, you feel more connected with the other survivors as you struggle together to survive. When your team is injured, you will be able to see all of them, and they will all see you thanks to Empathetic Connection and Empathy! Dead Hard and Resilience will make you function better in the meantime until your team can regroup and heal.",
+        "meme": "Medium Meme"
+    },
+    "The Lich's Blessing": {
+        "main": "Commodious Toolbox",
+        "addons": ["Spring Clamp", "Wire Spool"],
+        "perks": ["Boon: Dark Theory", "Boon: Exponential", "Boon: Circle of Healing", "Boon: Shadow Step"],
+        "explanation": "Every ounce of your otherwordly powers is placed within the totem you find. All the boons get stacked onto a single blessed totem!",
+        "meme": "High Meme"
+    },
+    "The Town Priest": {
+        "main": "Ranger Med-Kit",
+        "addons": ["Gel Dressings", "Gauze Roll"],
+        "perks": ["Botany Knowledge", "Empathetic Connection", "Desperate Measures", "Botany Knowledge"],
+        "explanation": "When a teammate gets injured, they know they can come to you. Empathetic Connection will let survivors know of your position, and you can use your various perks to speed up your healing and make sure the survivor is safe and sound!",
+        "meme": "Low Meme"
+    },
+    "Setting the Stage": {
+        "main": "Camping Aid Kit",
+        "addons": ["Bandages", "Styptic Agent"],
+        "perks": ["Windows of Opportunity", "Boon: Dark Theory", "Small Game", "Spine Chill"],
+        "explanation": "You know exactly what you want to happen when you get looped. Find some bones near a nice looping spot and bless them. When the killer finds you, make sure to run over there to make the chase that much more difficult for them! Spine Chill and Dark Theory will give you speed boosts that will make the Killer just barely mispredict your movements. Windows of Opportunity and Small Game will help you find some good bones near a looping spot to set up.",
+        "meme": "Medium Meme"
+    },
 }

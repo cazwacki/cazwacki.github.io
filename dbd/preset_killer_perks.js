@@ -1217,4 +1217,109 @@ let preset_killer_perks = {
         "explanation": "Get maximum visibility of the survivors using this build! Found in a video by Scott Jund.",
         "meme": "Medium Meme"
     },
+    "Survivors in Straitjackets": {
+        "main": "The Doctor",
+        "addons": ["Iridescent King", "High Stimulus Electrode"],
+        "perks": ["Iron Grasp", "Scourge Hook: Pain Resonance", "Unnerving Presence", "Distressing"],
+        "explanation": "Terrorize the survivors and increase their madness! Force them to stay mad for eternity with this build. Unnerving Presence and Distressing will make it super difficult to hit skill checks when survivors try to calm down, revealing their locations to you and making it easy to find them again! Use Iron Grasp and Pain Resonance to constantly drag the survivors to Scourge Hooks and demolish generator progression in the meantime.",
+        "meme": "Medium Meme"
+    },
+    "The Onryo's Aura": {
+        "main": "The Onryō",
+        "addons": ["Well Water", "Clump of Hair"],
+        "perks": ["A Nurse's Calling", "Tinkerer", "Lethal Pursuer", "Dark Devotion"],
+        "explanation": "Confuse and jumpscare survivors left and right! Tinkerer and Dark Devotion will throw them off your trail and make them less able to figure out your position. Lethal Pursuer will help you get a good early start, and A Nurse's Calling will help you prevent healing, especially as you search the map while demanifested. Found in a video by YouTuber SpookyLoopz.",
+        "meme": "Low Meme"
+    },
+    "The Artist That Ruined Me": {
+        "main": "The Artist",
+        "addons": ["Silver Bell", "Iridescent Feather"],
+        "perks": ["Enduring", "Ruin", "Tinkerer", "Shadowborn"],
+        "explanation": "Find many different ways to catch survivors by surprise! Feel free to use your crows excessively to make extra sure you hit survivors - you'll be Undetectable thanks to Iridescent Feather and your Terror Radius will be gone while the survivor is being swarmed! Shadowborn will give you better peripherals, Tinkerer will help you find gens and ambush the survivors, and Ruin will slow down gens as you chase survivors away from them! Enduring will reduce the impact of stuns if survivors try to loop you too much.",
+        "meme": "Low Meme"
+    },
+    "Gen Guardian": {
+        "main": "The Onryō",
+        "addons": ["Cabin Sign", "Bloody Fingernails"],
+        "perks": ["Infectious Fright", "Pop Goes the Weasel", "Call of Brine", "Deadlock"],
+        "explanation": "Make sure the generators you touch don't get completed! Call of Brine will let you know when survivors touch your generators, Pop will regress gens after you get hooks, Deadlock will hold down far away generators with progress, and Infectious Fright will help you chain downs when protecting a generator!",
+        "meme": "Medium Meme"
+    },
+    "The Skill Check Distraction": {
+        "main": "The Onryō",
+        "addons": ["Well Water", "Cabin Sign"],
+        "perks": ["Tinkerer", "Merciless Storm", "Hex: Undying", "Hex: Ruin"],
+        "explanation": "Force survivors to regress their generators with this build! Use Tinkerer to know which generator to approach; when you arrive during the Merciless Storm, interrupt them so that the generator is locked and regresses for 20 seconds thanks to Ruin! Undying will help Ruin stay up longer in the match.",
+        "meme": "Low Meme"
+    },
+    "The Wells of Pain": {
+        "main": "The Onryō",
+        "addons": ["Clump of Hair", "Reiko's Watch"],
+        "perks": ["Agitation", "Iron Grasp", "Scourge Hook: Floods of Rage", "Scourge Hook: Pain Resonance"],
+        "explanation": "Cause true suffering with this build. Each time you down a survivor, drag them to a Scourge Hook to slow down gens and learn the whereabouts of the other survivors. Iron Grasp and Agitation will allow you to pull survivors extra far to meet your needs.",
+        "meme": "Low Meme"
+    },
+    "The Onryō's Rage": {
+        "main": "The Onryō",
+        "addons": ["Mother's Mirror", "Old Newspaper"],
+        "perks": ["Hex: Devour Hope", "Knock Out", "Jolt", "Save the Best for Last"],
+        "explanation": "Sadako's anger grows as she continues to hook the survivors! Do you best to keep Devour Hope up so you can kill your opponents. Save the Best for Last will help you strike faster, Jolt will help you regress gens without wasting time, and Knock Out will keep survivors confused on your position, even when you get downs.",
+        "meme": "Medium Meme"
+    },
+    "Love at First Sight": {
+        "main": "The Ghost Face",
+        "addons": ["\"Ghost Face Caught on Tape\"", "Night Vision Monocular"],
+        "perks": ["Lethal Pursuer", "Fearmonger", "Enduring", "Spirit Fury"],
+        "explanation": "Ghost Face can stalk survivors almost instantly! This is followed up by a chase-focused build to make sure he can get a down as soon as he can. Enduring + Spirit Fury will help nullify pallets, Lethal Pursuer will help you get some early game stalking done, and Fearmonger will make it more difficult to discern your position or run away when the chase begins! Found in a video by YouTuber SpookyLoopz.",
+        "meme": "Low Meme"
+    },
+    "Cable Tied": {
+        "main": "The Nightmare",
+        "addons": ["Class Photo", "Nancy's Masterpiece"],
+        "perks": ["Dead Man's Switch", "Deadlock", "Nemesis", "Scourge Hook: Pain Resonance"],
+        "explanation": "Get stunned by the survivor you're chasing to make them your obsession, then down them! Take them to a Scourge Hook to demolish the most progressed gen and force the survivors to stop working on it, activating Dead Man's Switch. Deadlock will help restrict gen progress even further. Found in a video by YouTuber SpookyLoopz.",
+        "meme": "Low Meme"
+    },
+    "The Silhouette": {
+        "main": "The Shape",
+        "addons": ["Dead Rabbit", "J. Myers Memorial"],
+        "perks": ["Monitor & Abuse", "Nemesis", "Plaything", "Furtive Chase"],
+        "explanation": "Step further and further into the shadows as the match progresses, always catching survivors unaware! Nemesis will make players who stun you the Obsession. Once you down them, you can hook them to get a token for Furtive Chase! As these two stacks increase, you will become nearly undetectable as you walk around and still hard to find during chase! Plaything will make things even more difficult for the survivors who get hooked, as the little terror radius you did have has disappeared. Found in a video by YouTuber SpookyLoopz.",
+        "meme": "Low Meme"
+    },
+    "Mass Murderer": {
+        "main": "The Onryō",
+        "addons": ["Tape Editing Deck", "Yoichi's Fishing Net"],
+        "perks": ["Sloppy Butcher", "Spies from the Shadows", "Hex: Ruin", "Hex: Undying"],
+        "explanation": "Get survivors close to being killed as fast as possible! Even if they get rid of the tapes as fast as possible, they'll still have wasted time being off of the gens. Use Sloppy Butcher and Hex: Ruin and Undying to slow down healing and gen progression, and use Spies from the Shadows to figure out where survivors are going! ",
+        "meme": "Medium Meme"
+    },
+    "The Entity's Informants": {
+        "main": "The Onryō",
+        "addons": ["Mother's Comb", "Tape Editing Deck"],
+        "perks": ["Save the Best for Last", "Enduring", "Jolt", "Tinkerer"],
+        "explanation": "Find out where survivors are going to waste their time! Climb out of nearby TVs or hover around TVs you think they'll go to to make sure they don't let go of that tape. Mother's Comb will help you figure out where to go, and you can use your perks to ensure they go down as quickly as possible.",
+        "meme": "High Meme"
+    },
+    "Static Silence": {
+        "main": "The Onryō",
+        "addons": ["Rickety Pinwheel", "Iridescent Videotape"],
+        "perks": ["A Nurse's Calling", "Sloppy Butcher", "Spies from the Shadows", "Knock Out"],
+        "explanation": "Don't let survivors figure out your position! When nearby TVs, they'll be completely oblivious! Turn on TVs the survivors try to turn off by hitting one after climbing out of a TV. Use your perks to down survivors quickly and take advantage of their inability to hear you to get easy downs.",
+        "meme": "Medium Meme"
+    },
+    "Telekinetic Tapes": {
+        "main": "The Onryō",
+        "addons": ["Remote Control", "Tape Editing Deck"],
+        "perks": ["Jolt", "A Nurse's Calling", "Sloppy Butcher", "I'm All Ears"],
+        "explanation": "Sense the position of nearby survivors when you climb out of the TV. Survivors will have to make sure to take care of the tapes, or they'll be killable. Take advantage of this time to harass survivors and figure out where they're at and down them!",
+        "meme": "Medium Meme"
+    },
+    "Fight no Flight": {
+        "main": "The Onryō",
+        "addons": ["Telephone", "Distorted Photo"],
+        "perks": ["Tinkerer", "Barbecue & Chilli", "Pop Goes the Weasel", "Merciless Storm"],
+        "explanation": "Paralyze survivors with fear when you jump out of a nearby TV! Use Tinkerer to figure out which TV to jump out of, and interrupt their progress and make it difficult for them to run! Barbecue will help you find survivors, Pop will help you regress generators, and Merciless Storm will make it difficult for them to pay attention as they hit difficult skill checks!",
+        "meme": "Low Meme"
+    },
 }
