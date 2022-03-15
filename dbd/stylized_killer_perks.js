@@ -1,10 +1,10 @@
 var stylized_killer_perks = {
     "Aura-Reading": {
-        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Deadlock", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Grim Embrace", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Scourge Hook: Gift of Pain", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
+        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Bitter Murmur", "Blood Warden", "Call of Brine", "Deadlock", "Dead Man's Switch", "Deerstalker", "Discordance", "Eruption", "Franklin's Demise", "Gearhead", "Grim Embrace", "Hangman's Trick", "Hex: Retribution", "Hex: Undying", "I'm All Ears", "Lethal Pursuer", "Lightborn", "Nemesis", "Rancor", "Scourge Hook: Gift of Pain", "Scourge Hook: Floods of Rage", "Surveillance", "Territorial Imperative", "Thrilling Tremors", "Zanshin Tactics"],
         "description": "gather information"
     },
     "Anti-Gens": {
-        "perks": ["Brutal Strength", "Corrupt Intervention", "Deadlock", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Grim Embrace", "Hex: Huntress Lullaby", "Hex: Pentimento", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Scourge Hook: Pain Resonance", "Jolt", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
+        "perks": ["Brutal Strength", "Call of Brine", "Corrupt Intervention", "Deadlock", "Dead Man's Switch", "Discordance", "Dragon's Grip", "Dying Light", "Eruption", "Grim Embrace", "Hex: Huntress Lullaby", "Hex: Pentimento", "Hex: Ruin", "Oppression", "Overcharge", "Pop Goes the Weasel", "Scourge Hook: Pain Resonance", "Jolt", "Merciless Storm", "Surveillance", "Thanatophobia", "Thrilling Tremors", "Tinkerer", "Unnerving Presence"],
         "description": "slow down gen progression"
     },
     "Anti-Healing": {
@@ -72,11 +72,11 @@ var stylized_killer_perks = {
         "description": "catch survivors by surprise"
     },
     "Terrifying": {
-        "perks": ["Agitation", "Coulrophobia", "Distressing", "Infectious Fright", "Overwhelming Presence", "Starstruck", "Unnerving Presence"],
+        "perks": ["Agitation", "Coulrophobia", "Distressing", "Infectious Fright", "Merciless Storm", "Overwhelming Presence", "Starstruck", "Unnerving Presence"],
         "description": "take advantage of your terror radius"
     },
     "Tracking": {
-        "perks": ["Barbecue & Chilli", "Blood Echo", "Bloodhound", "Deerstalker", "Discordance", "Iron Maiden", "Lethal Pursuer", "No Way Out", "Predator", "Shadowborn", "Sloppy Butcher", "Spies from the Shadows", "Stridor", "Whispers"],
+        "perks": ["Barbecue & Chilli", "Blood Echo", "Bloodhound", "Deerstalker", "Discordance", "Iron Maiden", "I'm All Ears", "Lethal Pursuer", "No Way Out", "Predator", "Scourge Hook: Floods of Rage", "Shadowborn", "Sloppy Butcher", "Spies from the Shadows", "Stridor", "Whispers"],
         "description": "track survivors"
     }
 }

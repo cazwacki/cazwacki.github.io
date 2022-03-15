@@ -227,11 +227,11 @@ function presetBuild() {
     main_history.push(chosen_build.main);
     build_history.push(build_name);
 
-    if (main_history.length > 4) {
+    if (main_history.length > 6) {
         main_history.shift();
     }
 
-    if (build_history.length > 10) {
+    if (build_history.length > 15) {
         build_history.shift();
     }
 
