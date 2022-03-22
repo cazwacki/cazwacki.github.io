@@ -10159,7 +10159,7 @@ let addons = {
     },
     "Distorted Photo": {
         "url": "https://deadbydaylight.fandom.com/wiki/Distorted_Photo",
-        "img_url": "images/addons/iconAddon_DistortedPhoto.png",
+        "img_url": "images/addons/iconAddon_DisortedPhoto.png",
         "Stealth": 0,
         "Informative": 2,
         "1V1": 1,
