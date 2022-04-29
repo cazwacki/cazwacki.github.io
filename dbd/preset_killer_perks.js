@@ -1322,221 +1322,312 @@ let preset_killer_perks = {
         "explanation": "Paralyze survivors with fear when you jump out of a nearby TV! Use Tinkerer to figure out which TV to jump out of, and interrupt their progress and make it difficult for them to run! Barbecue will help you find survivors, Pop will help you regress generators, and Merciless Storm will make it difficult for them to pay attention as they hit difficult skill checks!",
         "meme": "Low Meme"
     },
-    "Z: Self-Inflicted Demise": {
+    "Self-Inflicted Demise": {
         "main": "The Plague",
         "addons": ["Infected Emetic", "Rubbing Oil"],
         "perks": ["Hex: Ruin", "Hex: Pentimento", "Thanatophobia", "Hex: Plaything"],
         "explanation": "Give them trouble with plenty of hexes from the beginning of the match. Once they break them, Pentimento can take effect and slow the game down to a crawl while you wreak havoc with your purges!",
         "meme": "Medium Meme"
     },
-    "Z: Charlotte's Timely Web": {
+    "Charlotte's Timely Web": {
         "main": "The Trapper",
         "addons": ["Honing Stone", "Tension Spring"],
         "perks": ["Iron Grasp", "Dead Man's Switch", "Scourge Hook: Pain Resonance", "Scourge Hook: Gift of Pain"],
         "explanation": "Trapper is all about locking down a location. Lock down some generators near your Scourge Hooks, and watch the dominoes begin to fall once you drag a survivor to your web! The other survivors will come in and get easily downed or trapped, resulting in tons of procs for your Scourge perks!",
         "meme": "Low Meme"
     },
-    "Z: Entity's Tendrils": {
+    "Entity's Tendrils": {
         "main": "The Trapper",
         "addons": ["Fastening Tools", "Trapper Bag"],
         "perks": ["Oppression", "Hex: Ruin", "Dead Man's Switch", "Hex: Undying"],
         "explanation": "Each time you get a hook, use Oppression to kick survivors off of generators and lock them down! Ruin will make sure some significant regression occurs while the survivors give away their locations.",
         "meme": "Medium Meme"
     },
-    "Z: Last Second Savior": {
+    "Last Second Savior": {
         "main": "The Wraith",
         "addons": ["Coxcombed Clapper", "\"Swift Hunt\" - Blood"],
         "perks": ["Thrilling Tremors", "Merciless Storm", "Hex: Ruin", "Tinkerer"],
         "explanation": "Show up right on time before generators are completed and force survivors to fail the Merciless Storm, locking down the gen and letting Ruin do some dirty work! After downing the survivor, Thrilling Tremors will extend the lockdown even further. Tinkerer will let you know exactly where to go.",
         "meme": "Low Meme"
     },
-    "Z: Threads of Fate": {
+    "Threads of Fate": {
         "main": "The Wraith",
         "addons": ["\"Shadow Dance\" - Blood", "\"Windstorm\" - Blood"],
         "perks": ["Call of Brine", "Barbecue & Chilli", "Tinkerer", "Thrilling Tremors"],
         "explanation": "Harass survivors off of gens that are almost complete with Tinkerer and kick the gen to activate Call of Brine to get remote knowledge of the generator's progress! Thrilling Tremors will help hold down gens and Barbecue will help you find the next survivor after a hook.",
         "meme": "High Meme"
     },
-    "Z: Gen Limiter": {
+    "Gen Limiter": {
         "main": "The Hillbilly",
         "addons": ["Doom Engravings", "Tuned Carburettor"],
         "perks": ["Merciless Storm", "Tinkerer", "Hex: Undying", "Hex: Ruin"],
         "explanation": "Force survivors off of generators at the most critical moments. When you rush a generator thanks to a Tinkerer notification, you can make survivors fail their Merciless Storm skill checks and lock down the generator. Ruin will make sure that the progress is lost while you chase and down the survivor.",
         "meme": "Medium Meme"
     },
-    "Z: Window Wipers": {
+    "Window Wipers": {
         "main": "The Hillbilly",
         "addons": ["Lopro Chains", "Spiked Boots"],
         "perks": ["Scourge Hook: Pain Resonance", "Scourge Hook: Floods of Rage", "I'm All Ears", "Hex: Crowd Control"],
         "explanation": "Take advantage of windows to get easier downs! I'm All Ears will let you know the survivor's next steps and Crowd Control will prevent them from trying the same trick twice! Use the Scourge Hooks to slow down the match as you down the survivors.",
         "meme": "High Meme"
     },
-    "Z: I'm Already Tracer": {
+    "I'm Already Tracer": {
         "main": "The Nurse",
         "addons": ["Jenner's Last Breath", "Torn Bookmark"],
         "perks": ["Infectious Fright", "Barbecue & Chilli", "Tinkerer", "Scourge Hook: Pain Resonance"],
         "explanation": "You have three blinks and you can rewind, just like Tracer! Tinkerer will notify you of gens nearing completion, Infectious will help you chain downs, Barbecue will give you survivor information, and Pain Resonance will help with gen regression as you dash around the map!",
         "meme": "High Meme"
     },
-    "Z: Clinical Intuition": {
+    "Clinical Intuition": {
         "main": "The Nurse",
         "addons": ["Campbell's Last Breath", "Matchbox"],
         "perks": ["Bitter Murmur", "Fearmonger", "I'm All Ears", "Barbecue & Chilli"],
         "explanation": "Sally's intuition lets her know exactly where to strike. Bitter Murmur, I'm All ears, and Barbecue will give her information about where the survivors are. Fearmonger will make it harder for survivors to run away or know what's going on around them!",
         "meme": "Medium Meme"
     },
-    "Z: Unexpected Torment": {
+    "Unexpected Torment": {
         "main": "The Shape",
         "addons": ["Dead Rabbit", "Mirror Shard"],
         "perks": ["Jolt", "Lethal Pursuer", "Tinkerer", "Merciless Storm"],
         "explanation": "The Shape will strike from the shadows at the most important moment! Use Lethal Pursuer to get some early Stalk, Tinkerer to find gens close to completion, and hold them back using Merciless Storm! Jolt will regress the gen once you down the survivor that was working on it.",
         "meme": "Medium Meme"
     },
-    "Z: Myers' Evil Grip": {
+    "Myers' Evil Grip": {
         "main": "The Shape",
         "addons": ["J. Myers Memorial", "Fragrant Tuft of Hair"],
         "perks": ["Dead Man's Switch", "Iron Grasp", "Scourge Hook: Pain Resonance", "Tinkerer"],
         "explanation": "The hand of the Shape extends beyond the physical realm. Use Tinkerer to find survivors on nearly-completed gens, down them quickly with your power, then drag them to a Scourge hook with Iron Grasp to activate Pain Resonance and pull survivors off gens with Dead Man's Switch.",
         "meme": "Low Meme"
     },
-    "Z: Charlotte's Terror Web": {
+    "Charlotte's Terror Web": {
         "main": "The Hag",
         "addons": ["Dried Cicada", "Dragonfly Wings"],
         "perks": ["Make Your Choice", "Scourge Hook: Pain Resonance", "Dead Man's Switch", "Corrupt Intervention"],
         "explanation": "Hag is good at locking down an area with her traps. Lock down some generators near a Scourge hook, get Make Your Choice to activate, and get an easy down to chain Scourge hook activations.",
         "meme": "Low Meme"
     },
-    "Z: The Scream Switch": {
+    "The Scream Switch": {
         "main": "The Hag",
         "addons": ["Bloodied Mud", "Dried Cicada"],
         "perks": ["Corrupt Intervention", "Hex: Ruin", "Oppression", "Dead Man's Switch"],
         "explanation": "Use Corrupt to set up your web of traps. Oppression can be used after getting a hook to force survivors off generators and Ruin will regress the gens in the meantime!",
         "meme": "High Meme"
     },
-    "Z: The Entity's Holding Hand": {
+    "The Entity's Holding Hand": {
         "main": "The Doctor",
         "addons": ["\"Discipline\" - Carter's Notes", "High Stimulus Electrode"],
         "perks": ["Thrilling Tremors", "Jolt", "Corrupt Intervention", "Deadlock"],
         "explanation": "The Entity holds down generators to give Doctor the time he needs to win the match. Corrupt, Thrilling, and Deadlock will block gens while Jolt regresses them.",
         "meme": "Medium Meme"
     },
-    "Z: Pressure Points": {
+    "Pressure Points": {
         "main": "The Doctor",
         "addons": ["Iridescent Queen", "\"Calm\" - Carter's Notes"],
         "perks": ["Starstruck", "Agitation", "Distressing", "Barbecue & Chilli"],
         "explanation": "Terrorize your opponents throughout the match. Agitation, Distressing, and your addons will make sure your terror radius is maximized when activating Starstruck! Barbcue & Chilli will give you the additional information you need to hunt down survivors for the easy 1-hit kill.",
         "meme": "Medium Meme"
     },
-    "Z: Butterfly Effect": {
+    "Butterfly Effect": {
         "main": "The Huntress",
         "addons": ["Wooden Fox", "Iridescent Head"],
         "perks": ["Iron Maiden", "Dead Man's Switch", "Oppression", "Scourge Hook: Pain Resonance"],
         "explanation": "Crazy what one hatchet can do. Single shot down, Scourge hooks, and Oppression will pull survivors off gens with ease and terrorize your opponents. Iron Maiden will help you reload faster.",
         "meme": "High Meme"
     },
-    "Z: Hands Off!": {
+    "Hands Off!": {
         "main": "The Huntress",
         "addons": ["Infantry Belt", "Weighted Head"],
         "perks": ["Tinkerer", "Iron Maiden", "Hex: Ruin", "Hex: Undying"],
         "explanation": "Huntress's hatchets incapacitate survivors! Use Tinkerer to learn about gens that are nearing completion, and throw some potshot hatchets to yank them off the gen for a few seconds and push them away as you approach the generator and down survivors! Ruin will regress the gen in the meantime and Iron Maiden will help you reload faster.",
         "meme": "Medium Meme"
     },
-    "Z: Not All is Lost": {
+    "Not All is Lost": {
         "main": "The Cannibal",
         "addons": ["Primer Bulb", "Grisly Chains"],
         "perks": ["Enduring", "Nemesis", "Tinkerer", "Play with Your Food"],
         "explanation": "Even if you are stunned and lose the survivor, you'll gain a surge of speed as a result! Enduring, Nemesis, and Play With Your Food will turn getting stunned into a reward and Tinkerer will help guide you to survivors and important generators.",
         "meme": "High Meme"
     },
-    "Z: Jackpots": {
+    "Jackpots": {
         "main": "The Blight",
         "addons": ["Blighted Crow", "Soul Chemical"],
         "perks": ["Scourge Hook: Pain Resonance", "Tinkerer", "Iron Grasp", "Dead Man's Switch"],
         "explanation": "The Blight variant of a Scourge hook build. Tinkerer will lead you to survivors near important gens, Iron Grasp will help you drag survivors to Scourge hooks, and Dead Man's Switch will lock down gens affected by Pain Resonance",
         "meme": "Low Meme"
     },
-    "Z: Operatic Crescendo": {
+    "Operatic Crescendo": {
         "main": "The Trickster",
         "addons": ["Edge of Revival Album", "Cut Thru U Single"],
         "perks": ["Agitation", "Dead Man's Switch", "Scourge Hook: Pain Resonance", "Tinkerer"],
         "explanation": "Use your empowered knives to quickly down survivors near Scourge hooks! Tinkerer will help you find survivors on important gens, your addons will let you quickly down them by throwing knives at their feet, and Agitation will help you activate your Scourge perk! Dead Man's Switch will pull survivors off of the most-progressed generator when you activate a Scourge hook.",
         "meme": "Low Meme"
     },
-    "Z: Finding our S.T.A.R.S.": {
+    "Finding our S.T.A.R.S.": {
         "main": "The Nemesis",
         "addons": ["Admin Wristband", "Depleted Ink Ribbon"],
         "perks": ["Iron Grasp", "Scourge Hook: Pain Resonance", "Corrupt Intervention", "Scourge Hook: Floods of Rage"],
         "explanation": "Nemesis's thirst for survivors (S.T.A.R.S. members as far as he's concerned) motivates him throughout the match! Down survivors and drag them to a Scourge hook with Iron Grasp -- He'll regress generators, and when the survivor is unhooked he'll receive all the information he needs to down the next survivor. Corrupt Intervention will buy him the time he needs to start snowballing.",
         "meme": "Low Meme"
     },
-    "Z: Severed Hands": {
+    "Severed Hands": {
         "main": "The Artist",
         "addons": ["Silver Bell", "Still Life Crow"],
         "perks": ["Dead Man's Switch", "Scourge Hook: Floods of Rage", "Scourge Hook: Pain Resonance", "Iron Grasp"],
         "explanation": "Stop gens from completing with this Scourge hook build! Iron Grasp will help you drag downed survivors to the Scourge hooks and Dead Man's Switch will sever their hands from the gens!",
         "meme": "Low Meme"
     },
-    "Z: The Scarecrows": {
+    "The Scarecrows": {
         "main": "The Legion",
         "addons": ["Stolen Sketch Book", "The Legion Pin"],
         "perks": ["Barbecue & Chilli", "Make Your Choice", "Agitation", "Scourge Hook: Pain Resonance"],
         "explanation": "The Legion's take on a Scourge hook build. Get a down, then drag the survivor to a scourge hook with the help of Agitation. Stay away to activate Make Your Choice and get an easy down later to make sure that the survivors stay downed near Scourge hooks. Barbcue and Chilli will give you the locations of some survivors to harass in the meantime.",
         "meme": "Low Meme"
     },
-    "Z: Gen Terminals": {
+    "Gen Terminals": {
         "main": "The Nightmare",
         "addons": ["Blue Dress", "Green Dress"],
         "perks": ["Tinkerer", "Pop Goes the Weasel", "Oppression", "Overcharge"],
         "explanation": "The Entity provided Freddy the generators as his sources of information. Tinkerer will let him know when gens are almost done, and Oppression and Overcharge will give the survivors plenty of difficult skillchecks so he'll know where to teleport next. Pop will give some strong generator regression at the same time.",
         "meme": "Medium Meme"
     },
-    "Z: The Scent of Blood": {
+    "The Scent of Blood": {
         "main": "The Ghost Face",
         "addons": ["Chewed Pen", "Night Vision Monocular"],
         "perks": ["A Nurse's Calling", "Sloppy Butcher", "Thrilling Tremors", "Jolt"],
         "explanation": "The Ghost Face seeks out healing survivors and sneaks up on them for easy downs! Sloppy Butcher will slow down healing, giving more time for Ghost Face to find survivors with Nurse's Calling. Jolt and Thrilling Tremors will help regress generators in the meantime.",
         "meme": "Medium Meme"
     },
-    "Z: Bloodcurdle": {
+    "Bloodcurdle": {
         "main": "The Oni",
         "addons": ["Splintered Hull", "Wooden Oni Mask"],
         "perks": ["Infectious Fright", "Tinkerer", "Scourge Hook: Pain Resonance", "Merciless Storm"],
         "explanation": "The Oni's rage terrorizes survivors and gives them serious consequences! He can dash to critical locations given away by Tinkerer and cause survivors to fail the Merciless Storm skill check, forcing the generator to regress. Once the Oni gets his down, he can hook on a Scourge hook to regress the generator even further! Infectious Fright will scare away other survivors during his Blood Fury.",
         "meme": "Low Meme"
     },
-    "Z: Bull of the Mists": {
+    "Bull of the Mists": {
         "main": "The Oni",
         "addons": ["Kanai-Anzen Talisman", "Tear Soaked Tenugui"],
         "perks": ["Tinkerer", "Hex: Plaything", "Pop Goes the Weasel", "Infectious Fright"],
         "explanation": "From seemingly nowhere, the Oni strikes down survivors! Tinkerer and Plaything will mask the Oni's position as he dashes to critical locations on the map. Infectious Fright will help him chain downs with his Demon Dash and Pop Goes the Weasel will significantly halt gen progression between his stealth missions.",
         "meme": "Low Meme"
     },
-    "Z: Chain Reactions": {
+    "Chain Reactions": {
         "main": "The Deathslinger",
         "addons": ["Warden's Keys", "Modified Ammo Belt"],
         "perks": ["Scourge Hook: Pain Resonance", "Dead Man's Switch", "Agitation", "Starstruck"],
         "explanation": "The Deathslinger chains downs easily with this build if survivors are nearby! Down a survivor, and drag them to a Scourge hook to activate Pain Resonance and keep survivors off that gen with Dead Man's Switch. Agitation and Starstruck will expose nearby survivors, making them easy next targets after you get your hook!",
         "meme": "Low Meme"
     },
-    "Z: Eternal Chain Hunt": {
+    "Eternal Chain Hunt": {
         "main": "The Cenobite",
         "addons": ["Impaling Wire", "Torture Pillar"],
         "perks": ["Hoarder", "Scourge Hook: Pain Resonance", "Franklin's Demise", "Pop Goes the Weasel"],
         "explanation": "Never let a survivor solve the Lament Configuration! Hoarder and Franklin's Demise will help you easily find the cube and prevent survivors from solving it! Hook survivors on Scourge hooks to slow down gens, and if that doesn't work, you can Pop nearby gens as well to slow down the match.",
         "meme": "Low Meme"
     },
-    "Z: Meaningful Wails": {
+    "Meaningful Wails": {
         "main": "The Cenobite",
         "addons": ["Frank's Heart", "Iridescent Lament Configuration"],
         "perks": ["Scourge Hook: Pain Resonance", "No One Escapes Death", "Dead Man's Switch", "No Way Out"],
         "explanation": "Every Scourge hook brings the Cenobit great pleasure and slows down the match. Hook survivors on a Scourge hook to activate Pain Resonance and keep survivors off of progressed gens with Dead Man's Switch. No Way Out and No One Escapes Death will help you clutch difficult endgame situations.",
         "meme": "Low Meme"
     },
-    "Z: Double-Edged Sword": {
+    "Double-Edged Sword": {
         "main": "The Cenobite",
         "addons": ["Larry's Blood", "Frank's Heart"],
         "perks": ["Hex: Retribution", "Hex: Plaything", "Hoarder", "Save the Best for Last"],
         "explanation": "As you slowly blind your opponents, they will have to decide whether to cleanse and hear your terror radius or avoid the effects of your retribution! Hoarder will help you find the person who picked up the Lament Configuration and Save the Best for Last will help you strike swiftly.",
+        "meme": "Low Meme"
+    },
+    "Pounced!": {
+        "main": "The Ghost Face",
+        "addons": ["Drop-Leg Knife Sheath", "Victim's Detailed Routine"],
+        "perks": ["Hex: Crowd Control", "Jolt", "Deadlock", "Barbecue & Chilli"],
+        "explanation": "This build is around combining your speed boost with the survivor's Exhaustion to get a rapid down after you mark the survivor. Jolt will regress gens on down, Crowd Control will limit the survivor's ability to loop you, Deadlock will slow down gen progression, and Barbecue will help you find the next survivor to down.",
+        "meme": "Low Meme"
+    },
+    "Scopaesthesia": {
+        "main": "The Ghost Face",
+        "addons": ["Olsen's Journal", "Cheap Cologne"],
+        "perks": ["Pop Goes the Weasel", "Hex: The Third Seal", "I'm All Ears", "Hex: Retribution"],
+        "explanation": "The survivor will know that you have your eye on them, but not be sure of where you're coming from! I'm All Ears will conversely give you lots of information as you chase the survivor. The Third Seal and Retribution further contribute to the removal of the survivors' senses while improving your own and Pop Goes the Weasel will help you regress gens in the meantime.",
+        "meme": "Low Meme"
+    },
+    "Infectious Anxiety": {
+        "main": "The Ghost Face",
+        "addons": ["Outdoor Security Camera", "\"Ghost Face Caught on Tape\""],
+        "perks": ["Knock Out", "Thrilling Tremors", "Hex: Ruin", "Hex: Undying"],
+        "explanation": "A twist on Infectious Fright! Instead of survivors screaming, you'll get your Night Shroud back and learn the position of all the other survivors, making slugging and hunting down another survivor immediately a viable option. Knock Out will make survivors struggle to rescue each other and Thrilling Tremors, Ruin, and Undying will all help enforce gen regression as you keep survivors on their toes.",
+        "meme": "Medium Meme"
+    },
+    "Urban Evasion": {
+        "main": "The Ghost Face",
+        "addons": ["Leather Knife Sheath", "Knife Belt Clip"],
+        "perks": ["A Nurse's Calling", "Sloppy Butcher", "Jolt", "Thrilling Tremors"],
+        "explanation": "Like Urban Evaders, you get advantages from staying crouched! Use Sloppy Butcher and Nurse's Calling to catch healing survivors by surprise; Jolt and Thrilling Tremors will help slow down gen progression in the meantime.",
+        "meme": "High Meme"
+    },
+    "Quick Attack": {
+        "main": "The Ghost Face",
+        "addons": ["\"Philly\"", "Drop-Leg Knife Sheath"],
+        "perks": ["Thrilling Tremors", "Save the Best for Last", "Tinkerer", "Jolt"],
+        "explanation": "When you find a survivor, minimize the time needed to mark and down them! Tinkerer will help you find survivors to down at critical times, Jolt will regress the gens, Thrilling Tremors will lock it down, and Save the Best for Last will speed up your swings!",
+        "meme": "Medium Meme"
+    },
+    "Back in the Shadows": {
+        "main": "The Ghost Face",
+        "addons": ["\"Ghost Face Caught on Tape\"", "Olsen's Wallet"],
+        "perks": ["A Nurse's Calling", "Barbecue & Chilli", "Sloppy Butcher", "Save the Best for Last"],
+        "explanation": "If you lose your shroud, you can break a pallet / wall or down a survivor to get it back! Sloppy Butcher and Save the Best for Last will make your basic attacks more effective, and Barbecue and Nurse's will give you information to make it easier to find and down survivors!",
+        "meme": "Low Meme"
+    },
+    "Tricks are for Kids!": {
+        "main": "The Ghost Face",
+        "addons": ["Victim's Detailed Routine", "Olsen's Address Book"],
+        "perks": ["Bamboozle", "Agitation", "Scourge Hook: Pain Resonance", "Dead Man's Switch"],
+        "explanation": "Reduce the tricks survivors can pull on you when you mark them! Bamboozle will lock down windows, and once you get your down on a Marked survivor, Agitation, Pain Resonance, and Dead Man's Switch will hold down the most completed generators each time you get a hook.",
+        "meme": "Medium Meme"
+    },
+    "Shut off the Lights": {
+        "main": "The Legion",
+        "addons": ["Etched Ruler", "Smiley Face Pin"],
+        "perks": ["Pop Goes the Weasel", "Barbecue & Chilli", "Scourge Hook: Pain Resonance", "Agitation"],
+        "explanation": "Survivors who mend by themselves will lose all their information. Agitation, Pain Resonance, and Pop Goes the Weasel will help slow down generators. Barbecue will help you find the next survivor to target after you down and hook one.",
+        "meme": "Low Meme"
+    },
+    "Vile Purge": {
+        "main": "The Legion",
+        "addons": ["The Legion Pin", "Suzie's Mix Tape"],
+        "perks": ["Thanatophobia", "Blood Echo", "Scourge Hook: Pain Resonance", "Deathbound"],
+        "explanation": "Emulate the behavior of the Plague with these addons! Blood Echo and Thanatophobia punish survivors for staying injured, Deathbound makes it easy to find healed survivors to re-injure, and Pain Resonance will help with gen slowdown in the meantime.",
+        "meme": "Low Meme"
+    },
+    "Critical Hits": {
+        "main": "The Legion",
+        "addons": ["Stylish Sunglasses", "Etched Ruler"],
+        "perks": ["Hex: The Third Seal", "Scourge Hook: Pain Resonance", "Agitation", "Jolt"],
+        "explanation": "Find nearby mending survivors and down them as soon as they finish mending! They won't see it coming. Jolt, Agitation, and Pain Resonance all server to help regress gens while The Third Seal quickly blinds survivors, making it much more difficult for them to coordinate.",
+        "meme": "Medium Meme"
+    },
+    "My Final Sprint": {
+        "main": "The Legion",
+        "addons": ["BFFs", "Filthy Blade"],
+        "perks": ["No Way Out", "Blood Warden", "Hex: No One Escapes Death", "Remember Me"],
+        "explanation": "Take the match to the endgame and use your advantages to defeat survivors! BFFs and NOED will give Legion a huge speed boost in the endgame -- No Way Out and Remember Me will buy time for you to find and down survivors. If you do manage to down a survivor, open the gates and hook the survivor to activate Blood Warden, lengthening the survivors' stay even further.",
+        "meme": "Medium Meme"
+    },
+    "Speedrunner": {
+        "main": "The Legion",
+        "addons": ["Mural Sketch", "Never-sleep Pills"],
+        "perks": ["Enduring", "Spirit Fury", "Hex: Blood Favor", "Barbecue & Chilli"],
+        "explanation": "Run for longer than ever in your Feral Frenzy with this builds! Enduring and Spirit Fury will help you stop respecting pallets -- Blood Favor will lock them down in the early chase anyways. Barbecue and Chilli will help you find survivors after you down one.",
+        "meme": "Medium Meme"
+    },
+    "Peak Performance": {
+        "main": "The Legion",
+        "addons": ["Suzie's Mix Tape", "Never-sleep Pills"],
+        "perks": ["Hex: Blood Favor", "Agitation", "Scourge Hook: Pain Resonance", "Dead Man's Switch"],
+        "explanation": "Run further and detect survivors more easily in your Feral Frenzy! Agitation, Pain Resonance, and Dead Man's Switch will help prevent gen progression while Blood Favor prevents survivors from taking advantage of pallets to loop you.",
         "meme": "Low Meme"
     },
 }

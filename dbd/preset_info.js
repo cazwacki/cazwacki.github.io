@@ -496,12 +496,12 @@ let killers = {
             "The Legion Pin",
             "Susie's Mix Tape",
             "Stolen Sketch Book",
-            "Nasty Blade",
+            "Stylish Sunglasses",
             "Joey's Mix Tape",
             "Stab Wounds Study",
             "Frank's Mix Tape",
             "Filthy Blade",
-            "Cold Dirt",
+            "BFFs",
             "Iridescent Button",
             "Fuming Mix Tape"
         ],
@@ -563,7 +563,7 @@ let killers = {
             "Headlines Cut-outs",
             "Cheap Cologne",
             "Telephoto Lens",
-            "Reusable Cinch Straps",
+            "Cinch Straps",
             "Olsen's Journal",
             "Olsen's Address Book",
             "Marked Map",
@@ -4382,9 +4382,9 @@ let addons = {
         "Terrorizing": 0,
         "Total": 3
     },
-    "Nasty Blade": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Nasty_Blade",
-        "img_url": "images/addons/iconAddon_nastyBlade.png",
+    "Stylish Sunglasses": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Stylish_Sunglasses",
+        "img_url": "images/addons/FulliconAddon_stylishSunglasses.webp",
         "Stealth": 0,
         "Informative": 0,
         "1V1": 0,
@@ -4457,9 +4457,9 @@ let addons = {
         "Terrorizing": 0,
         "Total": 4
     },
-    "Cold Dirt": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Cold_Dirt",
-        "img_url": "images/addons/iconAddon_coldDirt.png",
+    "BFFs": {
+        "url": "https://deadbydaylight.fandom.com/wiki/BFFs",
+        "img_url": "images/addons/FulliconAddon_bffs.webp",
         "Stealth": 0,
         "Informative": 0,
         "1V1": 3,
@@ -5177,8 +5177,8 @@ let addons = {
         "Terrorizing": 1,
         "Total": 2
     },
-    "Reusable Cinch Straps": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Reusable_Cinch_Straps",
+    "Cinch Straps": {
+        "url": "https://deadbydaylight.fandom.com/wiki/Cinch_Straps",
         "img_url": "images/addons/iconAddon_reusuableCinchStraps.png",
         "Stealth": 1,
         "Informative": 0,
