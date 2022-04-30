@@ -8,24 +8,33 @@ to determine the resulting font size for each component.
     html {
         font-size: 12px;
     }
+
     .footer-row {
         width: 75%;
     }
+
     #perk-set {
         width: 80%;
     }
+
     #character-addons {
         width: 80%;
     }
+
     #selectors {
         width: 80%;
     }
+
     .button-set {
         width: 80%;
     }
+
     #mainhub table,
     #mainhub tr,
-    #mainhub td {
+    #mainhub td,
+    #builds table,
+    #builds tr,
+    #builds td {
         display: block;
     }
 }
@@ -34,24 +43,33 @@ to determine the resulting font size for each component.
     html {
         font-size: 13px;
     }
+
     .footer-row {
         width: 75%;
     }
+
     #perk-set {
         width: 75%;
     }
+
     #character-addons {
         width: 75%;
     }
+
     #selectors {
         width: 75%;
     }
+
     .button-set {
         width: 75%;
     }
+
     #mainhub table,
     #mainhub tr,
-    #mainhub td {
+    #mainhub td,
+    #builds table,
+    #builds tr,
+    #builds td {
         display: block;
     }
 }
@@ -72,31 +90,42 @@ to determine the resulting font size for each component.
     html {
         font-size: 16px;
     }
+
     .footer-row {
         width: 75%;
     }
+
     #perk-set {
         width: 50%;
     }
+
     #character-addons {
         width: 50%;
     }
+
     #selectors {
         width: 50%;
     }
+
     .button-set {
         width: 50%;
     }
 }
 
 @media (min-width: 1500px) {
-    #mainhub table {
+
+    #mainhub table,
+    #builds table {
         display: table;
     }
-    #mainhub tr {
+
+    #mainhub tr,
+    #builds tr {
         display: table-row;
     }
-    #mainhub td {
+
+    #mainhub td,
+    #builds td {
         display: table-cell;
     }
 }
@@ -228,7 +257,8 @@ body {
     font-size: 1.6rem;
 }
 
-#mainhub {
+#mainhub,
+#builds {
     margin: 0 auto;
     width: 80%;
 }
@@ -351,6 +381,7 @@ textarea {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -495,9 +526,9 @@ option {
 }
 
 #browser-source {
-    background: none!important;
+    background: none !important;
     border: none;
-    padding: 0!important;
+    padding: 0 !important;
 }
 
 .embed-img {
@@ -529,13 +560,23 @@ option {
     right: 10vw;
 }
 
+.table-darkbg {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.build-row:hover {
+    filter: brightness(75%);
+}
 
 /* The Modal (background) */
 
 .byo-modal {
     display: none;
     /* Hidden by default */
-    position: absolute;
+    position: fixed;
     /* Stay in place */
     z-index: 2;
     /* Sit on top */
@@ -564,7 +605,7 @@ option {
     /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 800px;
+    width: 75%;
     min-width: 50%;
     max-width: 90%;
     /* Could be more or less, depending on screen size */

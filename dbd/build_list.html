@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Random Build Generator for Dead by Daylight</title>
+    <title>Charles's Build Generators for Dead by Daylight</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -10,11 +10,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="buttons.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.css">
     <script type="text/javascript" src="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.js"></script>
-    <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <meta name="description"
+        content="Add some elements of randomness to your Dead by Daylight matches with Charles Zawacki's Build Generator." />
+    <meta name="keywords"
+        content="dbd, dead, by, daylight, dead by daylight, dbd build generator, build generator, build, generator, dead by daylight build generator, charles, zawacki, charles zawacki, charles zawacki dbd">
 </head>
 
 <body>
@@ -97,69 +101,81 @@
             <br style="height: 1rem;">
         </table>
     </div>
-    <!-- Perks / Button -->
-    <h1 id="title" class="h2 mb-3 fw-normal text-light">Random Build</h1>
-    <br />
-    <div class="fadeIn">
-        <div id="selectors" class="mx-auto row justify-content-center">
-            <select id="style-1" onchange="updateDescription()"
-                class="col mx-auto form-select form-select-lg mb-3 build-aspect">
-            </select>
-            <div class="col-1"></div>
-            <select id="style-2" onchange="updateDescription()"
-                class="col mx-auto form-select form-select-lg mb-3 build-aspect">
-            </select>
+    <!-- The Modal -->
+    <div id="build-modal" class="byo-modal">
+        <!-- Modal content -->
+        <div class="byo-modal-content w-75">
+            <h1 id="title" class="h2 mb-3 fw-normal text-light">Build Name</h1>
+            <h1 id="explanation" class="h6 mb-3 mx-auto w-50 text-light">Explanation</h1>
             <br />
-            <p id="build-description" class="text-light">This build will help you ___ and ___.</p>
+            <div id="character-addons" class="mx-auto row justify-content-center">
+                <div class="col">
+                    <a id="character-url" href="" target="_blank">
+                        <img id="character-img" src="images/killer.png" />
+                        <figcaption id="character-caption" class="fw-bold h4 perk-caption">Main</figcaption>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="addon1-url" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black"
+                        data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
+                        <img id="addon1-img" class="addon-img" src="images/addon.png" />
+                        <figcaption id="addon1-caption" class="h6 perk-caption">Addon 1</figcaption>
+                    </a>
+
+                    <a id="addon2-url" class="protip" data-pt-width="300" data-pt-position="bottom"
+                        data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href=""
+                        target="_blank">
+                        <img id="addon2-img" class="addon-img" src="images/addon.png" />
+                        <figcaption id="addon2-caption" class="h6 perk-caption">Addon 2</figcaption>
+                    </a>
+                </div>
+            </div>
+            <div id="perk-set" class="mx-auto row justify-content-center w-100">
+                <div class="col">
+                    <a id="perk1-url" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black"
+                        data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
+                        <img id="perk1-img" class="perk-img" src="images/blank.png" />
+                        <figcaption id="perk1-caption" class="h5 perk-caption">Perk 1</figcaption>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="perk2-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black"
+                        data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
+                        <img id="perk2-img" class="perk-img" src="images/blank.png" />
+                        <figcaption id="perk2-caption" class="h5 perk-caption">Perk 2</figcaption>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="perk3-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black"
+                        data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
+                        <img id="perk3-img" class="perk-img" src="images/blank.png" />
+                        <figcaption id="perk3-caption" class="h5 perk-caption">Perk 3</figcaption>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="perk4-url" class="protip" data-pt-width="300" data-pt-position="right" data-pt-scheme="black"
+                        data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
+                        <img id="perk4-img" class="perk-img" src="images/blank.png" />
+                        <figcaption id="perk4-caption" class="h5 perk-caption">Perk 4</figcaption>
+                    </a>
+                </div>
+            </div>
         </div>
-        <br />
-        <div id="perk-set" class="mx-auto row justify-content-center">
-            <div class="col">
-                <a id="perk1-url" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black"
-                    data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
-                    <img id="perk1-img" class="perk-img" src="images/blank.png" />
-                    <figcaption id="perk1-caption" class="h5 perk-caption">Perk 1</figcaption>
-                </a>
-            </div>
-            <div class="col">
-                <a id="perk2-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black"
-                    data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
-                    <img id="perk2-img" class="perk-img" src="images/blank.png" />
-                    <figcaption id="perk2-caption" class="h5 perk-caption">Perk 2</figcaption>
-                </a>
-            </div>
-            <div class="col">
-                <a id="perk3-url" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black"
-                    data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
-                    <img id="perk3-img" class="perk-img" src="images/blank.png" />
-                    <figcaption id="perk3-caption" class="h5 perk-caption">Perk 3</figcaption>
-                </a>
-            </div>
-            <div class="col">
-                <a id="perk4-url" class="protip" data-pt-width="300" data-pt-position="right" data-pt-scheme="black"
-                    data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" href="" target="_blank">
-                    <img id="perk4-img" class="perk-img" src="images/blank.png" />
-                    <figcaption id="perk4-caption" class="h5 perk-caption">Perk 4</figcaption>
-                </a>
-            </div>
-        </div>
-        <br />
-        <br />
-        <button class="btn btn-dark btn-radius text-light" onclick="displayBuild()">Generate Build</button>
-        <br />
-        <br />
-        <h1 class="h6 text-muted mb-3 fw-normal">It's okay if you don't have a listed perk; just try and stick to a
-            theme or choose any!<br />Hover/Click the perks to learn more about them on the wiki!</h1>
-        <br />
     </div>
-    <script src="survivor_perks.js"></script>
-    <script src="stylized_survivor_perks.js"></script>
-    <script src="preset_survivor_perks.js"></script>
-    <script src="killer_perks.js"></script>
-    <script src="stylized_killer_perks.js"></script>
-    <script src="preset_killer_perks.js"></script>
-    <script src="preset_info.js"></script>
-    <script src="build_generator.js"></script>
+    <h1 id="title" class="h2 mb-3 fw-normal text-light">Build List</h1>
+    <input type="text" id="input" class="fw-normal text-light rounded" onkeyup="filter()" placeholder="Search..."
+        style="width: 60%" />
+    <br />
+    <br />
+    <div id="builds" class="container table-darkbg">
+        <div class="row">
+            <div class="col-2 perk-caption h3 pt-3">Build Name</div>
+            <div id="main-th" class="col-2 perk-caption h3 pt-3">Killer</div>
+            <div class="col-2 perk-caption h3 pt-3">Addons</div>
+            <div class="col-6 perk-caption h3 pt-3">Perks</div>
+        </div>
+    </div>
+    </div>
     <!-- Footer -->
     <footer id="footer">
         <br />
@@ -184,7 +200,8 @@
                 <p> </p>
             </div>
             <div class="col">
-                <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight Forums</a>
+                <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight
+                    Forums</a>
             </div>
         </div>
         <div class="mx-auto row justify-content-center footer-row">
@@ -202,6 +219,10 @@
         <br />
     </footer>
     <script src="menu.js"></script>
+    <script src="survivor_perks.js"></script>
+    <script src="preset_survivor_perks.js"></script>
+    <script src="killer_perks.js"></script>
+    <script src="preset_killer_perks.js"></script>
+    <script src="preset_info.js"></script>
+    <script src="build_list_generator.js"></script>
 </body>
-
-</html>

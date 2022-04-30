@@ -272,16 +272,9 @@ let preset_killer_perks = {
         "explanation": "You can be spotted from a mile away in this reality... use your power to shift to a different plane and get as close as you can, before they see you once more.",
         "meme": "High Meme"
     },
-    "Surveillance State": {
-        "main": "The Legion",
-        "addons": ["Iridescent Button", "Stolen Sketch Book"],
-        "perks": ["Spies from the Shadows", "Hangman's Trick", "Hex: Undying", "Rancor"],
-        "explanation": "Everything will help you keep track of where the survivors are! Take advantage of this to consistently injure and down survivors.",
-        "meme": "Medium Meme"
-    },
     "Respect No Pallet": {
         "main": "The Legion",
-        "addons": ["Iridescent Button", "Stolen Sketch Book"],
+        "addons": ["Iridescent Button", "Friendship Bracelet"],
         "perks": ["Spirit Fury", "Enduring", "Brutal Strength", "Fire Up"],
         "explanation": "Destroy pallets when you encounter them! The long Frenzy will help you find more and more pallets to destroy, and your perks help you destroy them quickly outside of your Frenzy!",
         "meme": "Maximum Meme"
@@ -522,13 +515,6 @@ let preset_killer_perks = {
         "addons": ["\"Order\" - Carter's Notes", "\"Restraint\" - Carter's Notes"],
         "perks": ["Enduring", "Brutal Strength", "Hex: Huntress Lullaby", "Jolt"],
         "explanation": "Misguide survivors into pallets that don't exist! Early game, you can take advantage of Enduring and Brutal Strength to quickly dispose of real pallets and let the illusionary pallets settle in.",
-        "meme": "High Meme"
-    },
-    "Order & Chaos": {
-        "main": "The Legion",
-        "addons": ["Iridescent Button", "Cold Dirt"],
-        "perks": ["Coulrophobia", "Overwhelming Presence", "Unnerving Presence", "Save the Best for Last"],
-        "explanation": "Selectively wreak havoc with Feral Frenzy! Even if you can't find anyone to stab, chances are you'll have caused some problems thanks to your terror radius-related perks! Missed skill checks will give you information on where to go and cause trouble.",
         "meme": "High Meme"
     },
     "Disfigured Generators": {
@@ -831,13 +817,6 @@ let preset_killer_perks = {
         "perks": ["Jolt", "Distressing", "Surveillance", "Monitor & Abuse"],
         "explanation": "Every chance he gets, Doctor will shock as much of the map as he can! Try to use your static blasts in chase to hit a radius of ~63 meters around you! Distressing and Monitor help increase your terror radius for your static blast. Jolt will help you damage generators, and you can use Surveillance to know when the survivors come back to those gens.",
         "meme": "Medium Meme"
-    },
-    "Endurance Runner": {
-        "main": "The Legion",
-        "addons": ["Cold Dirt", "Joey's Mix Tape"],
-        "perks": ["Pop Goes the Weasel", "Tinkerer", "Jolt", "Bamboozle"],
-        "explanation": "The Legion's gotten used to running around! His cooldown on Feral Frenzy is reduced by 1 second thanks to his addons. Bamboozle will help you perform in your chases, since it blocks windows even during your frenzy. Tinkerer, Jolt, and Pop Goes the Weasel will help you slow down gens will playing with an improved chase.",
-        "meme": "Low Meme"
     },
     "ExtremeSpeed": {
         "main": "The Hillbilly",
@@ -1234,7 +1213,7 @@ let preset_killer_perks = {
     "The Artist That Ruined Me": {
         "main": "The Artist",
         "addons": ["Silver Bell", "Iridescent Feather"],
-        "perks": ["Enduring", "Ruin", "Tinkerer", "Shadowborn"],
+        "perks": ["Enduring", "Hex: Ruin", "Tinkerer", "Shadowborn"],
         "explanation": "Find many different ways to catch survivors by surprise! Feel free to use your crows excessively to make extra sure you hit survivors - you'll be Undetectable thanks to Iridescent Feather and your Terror Radius will be gone while the survivor is being swarmed! Shadowborn will give you better peripherals, Tinkerer will help you find gens and ambush the survivors, and Ruin will slow down gens as you chase survivors away from them! Enduring will reduce the impact of stuns if survivors try to loop you too much.",
         "meme": "Low Meme"
     },
@@ -1283,7 +1262,7 @@ let preset_killer_perks = {
     "The Silhouette": {
         "main": "The Shape",
         "addons": ["Dead Rabbit", "J. Myers Memorial"],
-        "perks": ["Monitor & Abuse", "Nemesis", "Plaything", "Furtive Chase"],
+        "perks": ["Monitor & Abuse", "Nemesis", "Hex: Plaything", "Furtive Chase"],
         "explanation": "Step further and further into the shadows as the match progresses, always catching survivors unaware! Nemesis will make players who stun you the Obsession. Once you down them, you can hook them to get a token for Furtive Chase! As these two stacks increase, you will become nearly undetectable as you walk around and still hard to find during chase! Plaything will make things even more difficult for the survivors who get hooked, as the little terror radius you did have has disappeared. Found in a video by YouTuber SpookyLoopz.",
         "meme": "Low Meme"
     },
@@ -1366,7 +1345,7 @@ let preset_killer_perks = {
     },
     "Window Wipers": {
         "main": "The Hillbilly",
-        "addons": ["Lopro Chains", "Spiked Boots"],
+        "addons": ["LoPro Chains", "Spiked Boots"],
         "perks": ["Scourge Hook: Pain Resonance", "Scourge Hook: Floods of Rage", "I'm All Ears", "Hex: Crowd Control"],
         "explanation": "Take advantage of windows to get easier downs! I'm All Ears will let you know the survivor's next steps and Crowd Control will prevent them from trying the same trick twice! Use the Scourge Hooks to slow down the match as you down the survivors.",
         "meme": "High Meme"
@@ -1528,7 +1507,7 @@ let preset_killer_perks = {
     "Meaningful Wails": {
         "main": "The Cenobite",
         "addons": ["Frank's Heart", "Iridescent Lament Configuration"],
-        "perks": ["Scourge Hook: Pain Resonance", "No One Escapes Death", "Dead Man's Switch", "No Way Out"],
+        "perks": ["Scourge Hook: Pain Resonance", "Hex: No One Escapes Death", "Dead Man's Switch", "No Way Out"],
         "explanation": "Every Scourge hook brings the Cenobit great pleasure and slows down the match. Hook survivors on a Scourge hook to activate Pain Resonance and keep survivors off of progressed gens with Dead Man's Switch. No Way Out and No One Escapes Death will help you clutch difficult endgame situations.",
         "meme": "Low Meme"
     },
@@ -1597,7 +1576,7 @@ let preset_killer_perks = {
     },
     "Vile Purge": {
         "main": "The Legion",
-        "addons": ["The Legion Pin", "Suzie's Mix Tape"],
+        "addons": ["The Legion Pin", "Susie's Mix Tape"],
         "perks": ["Thanatophobia", "Blood Echo", "Scourge Hook: Pain Resonance", "Deathbound"],
         "explanation": "Emulate the behavior of the Plague with these addons! Blood Echo and Thanatophobia punish survivors for staying injured, Deathbound makes it easy to find healed survivors to re-injure, and Pain Resonance will help with gen slowdown in the meantime.",
         "meme": "Low Meme"
@@ -1618,16 +1597,16 @@ let preset_killer_perks = {
     },
     "Speedrunner": {
         "main": "The Legion",
-        "addons": ["Mural Sketch", "Never-sleep Pills"],
-        "perks": ["Enduring", "Spirit Fury", "Hex: Blood Favor", "Barbecue & Chilli"],
-        "explanation": "Run for longer than ever in your Feral Frenzy with this builds! Enduring and Spirit Fury will help you stop respecting pallets -- Blood Favor will lock them down in the early chase anyways. Barbecue and Chilli will help you find survivors after you down one.",
+        "addons": ["Mural Sketch", "Never-Sleep Pills"],
+        "perks": ["Enduring", "Spirit Fury", "Hex: Blood Favour", "Barbecue & Chilli"],
+        "explanation": "Run for longer than ever in your Feral Frenzy with this builds! Enduring and Spirit Fury will help you stop respecting pallets -- Blood Favour will lock them down in the early chase anyways. Barbecue and Chilli will help you find survivors after you down one.",
         "meme": "Medium Meme"
     },
     "Peak Performance": {
         "main": "The Legion",
-        "addons": ["Suzie's Mix Tape", "Never-sleep Pills"],
-        "perks": ["Hex: Blood Favor", "Agitation", "Scourge Hook: Pain Resonance", "Dead Man's Switch"],
-        "explanation": "Run further and detect survivors more easily in your Feral Frenzy! Agitation, Pain Resonance, and Dead Man's Switch will help prevent gen progression while Blood Favor prevents survivors from taking advantage of pallets to loop you.",
+        "addons": ["Susie's Mix Tape", "Never-Sleep Pills"],
+        "perks": ["Hex: Blood Favour", "Agitation", "Scourge Hook: Pain Resonance", "Dead Man's Switch"],
+        "explanation": "Run further and detect survivors more easily in your Feral Frenzy! Agitation, Pain Resonance, and Dead Man's Switch will help prevent gen progression while Blood Favour prevents survivors from taking advantage of pallets to loop you.",
         "meme": "Low Meme"
     },
 }

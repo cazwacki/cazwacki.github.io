@@ -758,14 +758,14 @@ let preset_survivor_perks = {
     "The Overcome Tank": {
         "main": "Emergency Med-Kit",
         "addons": ["Self Adherent Wrap", "Bandages"],
-        "perks": ["Built to Last", "Resilience", "Overcome", "Mettle Of Man"],
+        "perks": ["Built to Last", "Resilience", "Overcome", "Mettle of Man"],
         "explanation": "Stretch out your teammate's chases while protecting yourself! Use your Emergency Med-Kit to quickly heal up after taking hits for teammates in their chases, and Overcome will help you make a quick getaway so you can heal once more! Do it three times (with the help of Built to Last) and enjoy one extra free hit that can also trigger Overcome! Resilience will help you act quickly once you've become injured. Found in a video by YouTuber Not Ayrun.",
         "meme": "Medium Meme"
     },
     "The Taunting Tank": {
         "main": "Emergency Med-Kit",
         "addons": ["Abdominal Dressing", "Bandages"],
-        "perks": ["Bond", "Mettle Of Man", "Adrenaline", "Dead Hard"],
+        "perks": ["Bond", "Mettle of Man", "Adrenaline", "Dead Hard"],
         "explanation": "Find nearby teammates in chase and tank hits for them so you can power up your Mettle of Man! Dead Hard will help you escape the scene once you've taken a hit, and Adrenaline can help you clutch out the endgame with a free heal and a speed boost. If you time it well, it can negate a hit from the killer while helping a teammate in chase!",
         "meme": "Low Meme"
     },
@@ -778,7 +778,7 @@ let preset_survivor_perks = {
     },
     "The Antihook": {
         "main": "Utility Flashlight",
-        "addons": ["Long Life Battery", "Low-Amp Filament"],
+        "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["No Mither", "Unbreakable", "Power Struggle", "Flip-Flop"],
         "explanation": "Get up off the ground as fast as you can! If you can't get up, stun them with a pallet! No Mither and Unbreakable speed up your recovery time, and Flip-Flop and Power Struggle will help you escape the killer's grasp. Have a friend bring Boon: Exponential for even faster recoveries! Found in a video by YouTuber Cru5h.",
         "meme": "High Meme"
@@ -807,7 +807,7 @@ let preset_survivor_perks = {
     "Blood Brothers": {
         "main": "Camping Aid Kit",
         "addons": ["Surgical Suture", "Medical Scissors"],
-        "perks": ["Empathetic Connection", "Empathy", "Dead Hard", "Resilience"],
+        "perks": ["Empathic Connection", "Empathy", "Dead Hard", "Resilience"],
         "explanation": "Somehow, you feel more connected with the other survivors as you struggle together to survive. When your team is injured, you will be able to see all of them, and they will all see you thanks to Empathetic Connection and Empathy! Dead Hard and Resilience will make you function better in the meantime until your team can regroup and heal.",
         "meme": "Medium Meme"
     },
@@ -821,8 +821,8 @@ let preset_survivor_perks = {
     "The Town Priest": {
         "main": "Ranger Med-Kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
-        "perks": ["Botany Knowledge", "Empathetic Connection", "Desperate Measures", "Botany Knowledge"],
-        "explanation": "When a teammate gets injured, they know they can come to you. Empathetic Connection will let survivors know of your position, and you can use your various perks to speed up your healing and make sure the survivor is safe and sound!",
+        "perks": ["Botany Knowledge", "Empathic Connection", "Desperate Measures", "Botany Knowledge"],
+        "explanation": "When a teammate gets injured, they know they can come to you. Empathic Connection will let survivors know of your position, and you can use your various perks to speed up your healing and make sure the survivor is safe and sound!",
         "meme": "Low Meme"
     },
     "Setting the Stage": {

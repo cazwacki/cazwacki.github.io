@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="buttons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.css">
@@ -19,7 +20,7 @@
 
 <body>
     <script>
-        $(function() {
+        $(function () {
             $.protip();
         });
     </script>
@@ -62,10 +63,12 @@
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
                 <a href="presets.html?build=Preset&mode=Survivor" class="nav-link text-warning">Preset Builds</a>
+                <a href="build_list.html?mode=Survivor" class="nav-link text-warning">Build List</a>
             </tr>
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
-                <a href="generator.html?build=Semi-Random&mode=Survivor" class="nav-link text-warning">Stylized Builds</a>
+                <a href="generator.html?build=Semi-Random&mode=Survivor" class="nav-link text-warning">Stylized
+                    Builds</a>
             </tr>
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
@@ -77,11 +80,12 @@
             </tr>
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
-                <a href="radar.html?mode=Survivor" class="nav-link text-warning">Make Your Own</a>
+                <a href="radar.html?mode=Killer" class="nav-link text-warning">Make Your Own</a>
             </tr>
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
                 <a href="presets.html?build=Preset&mode=Killer" class="nav-link text-warning">Preset Builds</a>
+                <a href="build_list.html?mode=Killer" class="nav-link text-warning">Build List</a>
             </tr>
             <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
             <tr class="nav-item">
@@ -119,24 +123,31 @@
     <div id="header">
 
     </div>
-    <input type="text" onkeyup="updateBuildName()" id="title" class="h3 mb-3 fw-normal text-light rounded" placeholder="Enter build name...">
+    <input type="text" onkeyup="updateBuildName()" id="title" class="h3 mb-3 fw-normal text-light rounded"
+        placeholder="Enter build name...">
     <br>
     <button id="copy-build" class="btn btn-dark btn-radius text-light" onclick="copyBuildURL()">Copy Build URL</button>
     <div class="fadeIn">
         <div id="character-addons" class="mx-auto row justify-content-center">
             <div class="col">
-                <button id="main-button" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayMainModal(2)">
+                <button id="main-button" class="protip" data-pt-width="300" data-pt-position="left"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayMainModal(2)">
                     <img id="character-img" src="images/killer.png" />
                     <figcaption id="character-caption" class="fw-bold h4 perk-caption">Killer</figcaption>
                 </button>
             </div>
             <div class="col">
-                <button id="addon1-button" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayAddonModal(0)">
+                <button id="addon1-button" class="protip" data-pt-width="300" data-pt-position="top"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayAddonModal(0)">
                     <img id="addon1-img" class="addon-img" src="images/addon.png" />
                     <figcaption id="addon1-caption" class="h6 perk-caption">Addon</figcaption>
                 </button>
 
-                <button id="addon2-button" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayAddonModal(1)">
+                <button id="addon2-button" class="protip" data-pt-width="300" data-pt-position="top"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayAddonModal(1)">
                     <img id="addon2-img" class="addon-img" src="images/addon.png" />
                     <figcaption id="addon2-caption" class="h6 perk-caption">Addon</figcaption>
                 </button>
@@ -144,25 +155,33 @@
         </div>
         <div id="perk-set" class="mx-auto row justify-content-center">
             <div class="col">
-                <button id="perk1-button" class="protip" data-pt-width="300" data-pt-position="left" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayPerkModal(0)">
+                <button id="perk1-button" class="protip" data-pt-width="300" data-pt-position="left"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayPerkModal(0)">
                     <img id="perk1-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk1-caption" class="h5 perk-caption">Perk</figcaption>
                 </button>
             </div>
             <div class="col">
-                <button id="perk2-button" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayPerkModal(1)">
+                <button id="perk2-button" class="protip" data-pt-width="300" data-pt-position="top"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayPerkModal(1)">
                     <img id="perk2-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk2-caption" class="h5 perk-caption">Perk</figcaption>
                 </button>
             </div>
             <div class="col">
-                <button id="perk3-button" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayPerkModal(2)">
+                <button id="perk3-button" class="protip" data-pt-width="300" data-pt-position="top"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayPerkModal(2)">
                     <img id="perk3-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk3-caption" class="h5 perk-caption">Perk</figcaption>
                 </button>
             </div>
             <div class="col">
-                <button id="perk4-button" class="protip" data-pt-width="300" data-pt-position="right" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="displayPerkModal(3)">
+                <button id="perk4-button" class="protip" data-pt-width="300" data-pt-position="right"
+                    data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover"
+                    onclick="displayPerkModal(3)">
                     <img id="perk4-img" class="perk-img" src="images/blank.png" />
                     <figcaption id="perk4-caption" class="h5 perk-caption">Perk</figcaption>
                 </button>
@@ -191,7 +210,8 @@
                 <a href="https://github.com/cazwacki" target="_blank">GitHub</a>
             </div>
             <div class="col">
-                <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
+                <a href="https://hits.seeyoufarm.com"><img
+                        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
                 <p> </p>
             </div>
             <div class="col">
@@ -203,7 +223,8 @@
                 <a href="https://www.linkedin.com/in/charleszawacki/" target="_blank">LinkedIn</a>
             </div>
             <div class="col">
-                <a href="https://www.paypal.com/donate?business=DUMTYDP6XGF9E&no_recurring=0&item_name=Tip+me+if+you+like+my+work%21+Appreciate+you%21&currency_code=USD" target="_blank">Tip jar, if you really like my work!</a>
+                <a href="https://www.paypal.com/donate?business=DUMTYDP6XGF9E&no_recurring=0&item_name=Tip+me+if+you+like+my+work%21+Appreciate+you%21&currency_code=USD"
+                    target="_blank">Tip jar, if you really like my work!</a>
             </div>
             <div class="col">
                 <a href="https://twitter.com/DeadByBHVR" target="_blank">Dead By Daylight Twitter</a>
