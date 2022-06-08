@@ -10525,7 +10525,7 @@ let addons = {
         "Total": 5,
     },
     "Iridescent Wooden Plank": {
-        "url": "https://deadbydaylight.fandom.com/wiki/Sacrificial_Knife",
+        "url": "https://deadbydaylight.fandom.com/wiki/Iridescent_Wooden_Plank",
         "img_url": "images/addons/iconAddon_IridescentWoodenPlank.png",
         "Stealth": 0,
         "Informative": 0,
