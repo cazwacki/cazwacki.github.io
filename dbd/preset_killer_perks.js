@@ -1646,7 +1646,7 @@ let preset_killer_perks = {
     },
     "Gibdo": {
         "main": "The Pig",
-        "addons": ["Combat Straps", "Rules Set No. 2"],
+        "addons": ["Combat Straps", "Rules Set No.2"],
         "perks": ["Barbecue & Chilli", "A Nurse's Calling", "Corrupt Intervention", "Septic Touch"],
         "explanation": "Use your stealth to terrorize healing survivors! Nurse's Calling and Septic Touch will help you find and easily down injured survivors. Corrupt Intervention will buy you time to get your first hit and Barbecue will lead you to the next survivors to defeat.",
         "meme": "Low Meme"

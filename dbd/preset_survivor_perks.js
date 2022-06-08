@@ -856,7 +856,7 @@ let preset_survivor_perks = {
     "Killer Instinct": {
         "main": "Flashlight (Item)",
         "addons": ["Long Life Battery", "Low Amp Filament"],
-        "perks": ["Inner Focus", "Saboteur", "Sprint Burst", "Fixated"],
+        "perks": ["Inner Focus", "Saboteur", "Sprint Burst", "Self-Aware"],
         "explanation": "You were a killer in a past life. See the scratch marks of every survivor, including yourself! Saboteur will let you see the hooks when the killer can, and might let you get a cheeky sabotage. Sprint Burst gives you the occasional burst of speed, giving you deja vu of older days...",
         "meme": "High Meme"
     },
