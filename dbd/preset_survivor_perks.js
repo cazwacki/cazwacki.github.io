@@ -832,4 +832,60 @@ let preset_survivor_perks = {
         "explanation": "You know exactly what you want to happen when you get looped. Find some bones near a nice looping spot and bless them. When the killer finds you, make sure to run over there to make the chase that much more difficult for them! Spine Chill and Dark Theory will give you speed boosts that will make the Killer just barely mispredict your movements. Windows of Opportunity and Small Game will help you find some good bones near a looping spot to set up.",
         "meme": "Medium Meme"
     },
+    "Z: Zen State": {
+        "main": "Toolbox (Item)",
+        "addons": ["Wire Spool", "Scraps"],
+        "perks": ["Overzealous", "Inner Healing", "Spine Chill", "Sprint Burst"],
+        "explanation": "Doing a totem brings you some inner peace. Your gen work is faster, and you use your sense of when the killer is looking at you to run and preserve your mind. If you do get hit, your Inner Healing will bring you back to full health in no time and Sprint Burst will help you try not to get hurt in the first place.",
+        "meme": "Low Meme"
+    },
+    "Z: Tools of the Trade": {
+        "main": "Worn-Out Tools",
+        "addons": ["Clean Rag", "Instructions"],
+        "perks": ["Residual Manifest", "Pharmacy", "Déjà Vu", "Empathy"],
+        "explanation": "Regardless of the item you bring in, you'll always be able to get your classic tools. Pharmacy will guarantee you a fast heal medkit, and you can come back around to the same chest later to fetch your trusty flashlight! Deja Vu will help you find generators to work on to stay productive in the meantime, and Empathy will help you find survivors being chased so you can get those clutch flashlight saves.",
+        "meme": "Medium Meme"
+    },
+    "Z: Thrift Store Saviour": {
+        "main": "Camping Aid Kit",
+        "addons": ["Surgical Suture", "Medical Scissors"],
+        "perks": ["Empathy", "Ace in the Hole", "Residual Manifest", "Built to Last"],
+        "explanation": "You don't always feel pressure to save your teammates, but you don't mess around once you're ready. You can fetch a flashlight thanks to Residual Manifest. Ace in the Hole will buff it with some nice addons -- Built to Last will extend its life even further, and Empathy will help you set up the flashlight saves.",
+        "meme": "High Meme"
+    },
+    "Z: Killer Instinct": {
+        "main": "Flashlight (Item)",
+        "addons": ["Long Life Battery", "Low Amp Filament"],
+        "perks": ["Inner Focus", "Saboteur", "Sprint Burst", "Fixated"],
+        "explanation": "You were a killer in a past life. See the scratch marks of every survivor, including yourself! Saboteur will let you see the hooks when the killer can, and might let you get a cheeky sabotage. Sprint Burst gives you the occasional burst of speed, giving you deja vu of older days...",
+        "meme": "High Meme"
+    },
+    "Z: Seared Retinas": {
+        "main": "Utility Flashlight",
+        "addons": ["High-End Sapphire Lens", "Focus Lens"],
+        "perks": ["Built to Last", "Residual Manifest", "Empathy", "Iron Will"],
+        "explanation": "Even if you miss your flashlight saves, the killer won't be able to see a thing. Try to use your flashlight at pallets and to get saves -- either way, you'll give the killer blindness, making it more difficult for them to patrol generators or find hooks! Iron Will and Empathy will help you set up for saves, Residual Manifest will also give you a bonus flashlight, and Built to Last will increase the longevity of your flashlights!",
+        "meme": "High Meme"
+    },
+    "Z: Delicate Gen Repairs": {
+        "main": "Commodious Toolbox",
+        "addons": ["Spring Clamp", "Wire Spool"],
+        "perks": ["Spine Chill", "Overzealous", "Fast Track", "Prove Thyself"],
+        "explanation": "Doing gens at the speed you do them isn't free! Cleanse a totem to get a boost in generator speed, and Fast Track uses the suffering of your fellow survivors to finish generators a little bit faster. Prove Thyself will help you complete gens faster with a teammate, and Spine Chill will let you know when to run away to preserve the benefits of Overzealous.",
+        "meme": "Medium Meme"
+    },
+    "Z: Gen Rushing Ninja": {
+        "main": "Commodious Toolbox",
+        "addons": ["Brand New Part", "Wire Spool"],
+        "perks": ["Sprint Burst", "Poised", "Overzealous", "Distortion"],
+        "explanation": "Once you've cleansed a totem for your generator progress boost, you will never be found again. Distortion prevents the killer from reading your Aura, Poised makes you disappear when you've completed a gen, and Sprint Burst will help you create extra distance from the generator once it pops!",
+        "meme": "High Meme"
+    },
+    "Speed Strip": {
+        "main": "Emergency Med-Kit",
+        "addons": ["Self Adherent Wrap", "Bandages"],
+        "perks": ["Iron Will", "Overcome", "Boon: Dark Theory", "Boon: Shadow Step"],
+        "explanation": "You have a boost pad in the middle of the map. Any time you're in danger or get hit, run straight for your boon and lose the killer. Iron Will and Shadow Step will mask your tracks, and Dark Theory and Overcome will help you zip away from the killer.",
+        "meme": "High Meme"
+    },
 }

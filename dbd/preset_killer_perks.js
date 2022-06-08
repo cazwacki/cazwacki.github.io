@@ -1609,4 +1609,116 @@ let preset_killer_perks = {
         "explanation": "Run further and detect survivors more easily in your Feral Frenzy! Agitation, Pain Resonance, and Dead Man's Switch will help prevent gen progression while Blood Favour prevents survivors from taking advantage of pallets to loop you.",
         "meme": "Low Meme"
     },
+    "New Sense of Purpose": {
+        "main": "The Huntress",
+        "addons": ["Infantry Belt", "Oak Haft"],
+        "perks": ["Darkness Revealed", "Iron Maiden", "Scourge Hook: Pain Resonance", "Iron Grasp"],
+        "explanation": "When you reload, you get a sense of peace as you remember what you are here to do. You sense the survivors after reloading and can go after anyone you want. Find survivors quickly after reloading using Darkness Revealed and Iron Maiden, and regress generators with your downs using Iron Grasp and Pain Resonance.",
+        "meme": "Low Meme"
+    },
+    "One Shot Wonder": {
+        "main": "The Huntress",
+        "addons": ["Wooden Fox", "Iridescent Head"],
+        "perks": ["Iron Maiden", "Darkness Revealed", "Barbecue & Chilli", "Bitter Murmur"],
+        "explanation": "Remember those old FaZe clips? That's you! Use your one-shot hatchet to get some crazy downs! You'll see the survivors from miles away with Darkness Revealed, Barbecue, and Bitter Murmur. Iron Maiden will make you reload faster, giving you more time to get your next clip and see those survivors from a distance!",
+        "meme": "High Meme"
+    },
+    "The Show Must Go On": {
+        "main": "The Trickster",
+        "addons": ["Caged Heart Shoes", "Killing Part Chords"],
+        "perks": ["Scourge Hook: Pain Resonance", "Iron Grasp", "Darkness Revealed", "Iron Maiden"],
+        "explanation": "When the show slows down, you can figure out how to bring back the hype. Use Darkness Revealed and Iron Maiden to quickly reload and figure out which survivor to hunt next! With good snowballing, Iron Grasp and Pain Resonance will help you destroy gen progress as you hunt down the team.",
+        "meme": "Medium Meme"
+    },
+    "Wound Dehiscence": {
+        "main": "The Doctor",
+        "addons": ["\"Calm\" - Carter's Notes", "\"Calm\" - Class II"],
+        "perks": ["Septic Touch", "Pop Goes the Weasel", "Sloppy Butcher", "Jolt"],
+        "explanation": "Healing survivors should never feel safe in your terror radius. Your addons combined with Septic Touch will make your Static Blast weaken hurt survivors even further, and Sloppy Butcher will revert any healing they've done. Pop Goes the Weasel and Jolt will help regress generators as you continuously disarm your opponents.",
+        "meme": "Medium Meme"
+    },
+    "Eliminating the Mind Game": {
+        "main": "The Spirit",
+        "addons": ["Uchiwa", "Kaiun Talisman"],
+        "perks": ["Dissolution", "Barbecue & Chilli", "Save the Best for Last", "Pop Goes the Weasel"],
+        "explanation": "The pinnacle of Spirit gameplay, the pallet mindgame, is no longer an issue for you. When you injure a survivor at a pallet, use your phasing to bait them into vaulting the pallet, destroying it with Dissolution and making it easy for you to down them! Save the Best for Last will make your downs even more rapid and Barbecue will help you find the next survivors to \"mindgame.\"",
+        "meme": "Low Meme"
+    },
+    "Gibdo": {
+        "main": "The Pig",
+        "addons": ["Combat Straps", "Rules Set No. 2"],
+        "perks": ["Barbecue & Chilli", "A Nurse's Calling", "Corrupt Intervention", "Septic Touch"],
+        "explanation": "Use your stealth to terrorize healing survivors! Nurse's Calling and Septic Touch will help you find and easily down injured survivors. Corrupt Intervention will buy you time to get your first hit and Barbecue will lead you to the next survivors to defeat.",
+        "meme": "Low Meme"
+    },
+    "Hallucinatory Pallets": {
+        "main": "The Clown",
+        "addons": ["Cheap Gin Bottle", "Ether 15 Vol%"],
+        "perks": ["Pop Goes the Weasel", "Bamboozle", "Dissolution", "Barbecue & Chilli"],
+        "explanation": "Survivors shouldn't trust their vision in your intoxication! When you injure a survivor and they vault a pallet, it will disappear thanks to Dissolution! Bamboozle will take away the window as well, reducing the survivor's means of escape. Barbecue will help you find more survivors and Pop Goes the Weasel will help you regress critical generators.",
+        "meme": "Medium Meme"
+    },
+    "Pallet-Piercing Shred": {
+        "main": "The Demogorgon",
+        "addons": ["Vermilion Webcap", "Mews' Guts"],
+        "perks": ["Save the Best for Last", "Scourge Hook: Pain Resonance", "Make Your Choice", "Dissolution"],
+        "explanation": "Survivors will dodge around a Demo's leaps, but they're less safe than usual. Once you get an injury, bait survivors into jumping the pallet with your Shred and get an easy down when it shatters under their weight! Save the Best for Last will speed up the sequence of a chase and Make Your Choice will help you chain downs if you place portals near hooks.",
+        "meme": "Low Meme"
+    },
+    "Basement Demo": {
+        "main": "The Demogorgon",
+        "addons": ["Red Moss", "Deer Lung"],
+        "perks": ["Make Your Choice", "Agitation", "Territorial Imperative", "Corrupt Intervention"],
+        "explanation": "Create your spider's web around the basement with your portals! Once you can, put a survivor in the basement and place portals nearby. Territorial Imperative will let you know when someone is attempting a save. Make Your Choice will expose the rescuer, guaranteeing a trade on the hook. Corrupt Intervention will buy you time to set up your basement situation.",
+        "meme": "Medium Meme"
+    },
+    "You Can't Stop Me Now": {
+        "main": "The Legion",
+        "addons": ["Susie's Mix Tape", "Filthy Blade"],
+        "perks": ["Dissolution", "Thanatophobia", "Bamboozle", "Discordance"],
+        "explanation": "When you get your frenzy, don't let any survivor get away. Dissolution will make sure pallets can't stop your stabs and Bamboozle will lock down the windows! Discordance and Thanatophobia will help you deal with generator progression and guide you to good sections of the map to use your Feral Frenzy.",
+        "meme": "Medium Meme"
+    },
+    "A Deadly Distraction": {
+        "main": "The Ghost Face",
+        "addons": ["Driver's License", "Outdoor Security Camera"],
+        "perks": ["Tinkerer", "Merciless Storm", "Hex: Ruin", "Hex: Undying"],
+        "explanation": "Generator completion will never have been harder. Tinkerer will lead you to the right survivors to stalk. Merciless Storm will distract them, allowing you to stalk them to completion. Your addons will regress the generator and lock it down, allowing Ruin to do 15 seconds of damage! It also leaves you with a marked survivor that should be an easy target! Undying will make sure your Ruin lasts even longer.",
+        "meme": "Medium Meme"
+    },
+    "Spreading the Pain": {
+        "main": "The Dredge",
+        "addons": ["Broken Doll", "Burnt Letters"],
+        "perks": ["Dead Man's Switch", "Agitation", "Jolt", "Scourge Hook: Pain Resonance"],
+        "explanation": "This is a classic gen regression build for the Dredge. Pain Resonance and Dead Man's Switch will severely regress generators each time you get a hook. Jolt will regress nearby generators when you get a down, and Agitation will help get you to a Scourge Hook quickly to trigger Pain Resonance.",
+        "meme": "Low Meme"
+    },
+    "No Rest for the Wicked": {
+        "main": "The Dredge",
+        "addons": ["Field Recorder", "Broken Doll"],
+        "perks": ["Tinkerer", "Corrupt Intervention", "Lethal Pursuer", "I'm All Ears"],
+        "explanation": "Start in Nightfall, and use Lethal Pursuer to get quick downs on survivors at the beginning of the match! Tinkerer will guide you to the right lockers, Corrupt will buy you more time after getting your early game damage in, and I'm All Ears will let you go for cheeky plays with lockers in chase!",
+        "meme": "Medium Meme"
+    },
+    "Foresight": {
+        "main": "The Dredge",
+        "addons": ["Worry Stone", "Haddie's Calendar"],
+        "perks": ["Bitter Murmur", "Hex: Undying", "Deadlock", "Hex: Ruin"],
+        "explanation": "Survivors will have to put their most progressed gen on pause each time a gen is completed. On top of that, you'll be tormenting the survivors that completed the generator using Bitter Murmur, creating moments of intense chaos for the survivors. Deadlock combined with Ruin and Undying will tear down generators each time one is completed and make it harder for survivors to work on generators in parallel.",
+        "meme": "Low Meme"
+    },
+    "Basement Dredge": {
+        "main": "The Dredge",
+        "addons": ["Haddie's Calendar", "Caffeine Tablets"],
+        "perks": ["Make Your Choice", "Territorial Imperative", "Agitation", "Corrupt Intervention"],
+        "explanation": "Put a survivor in the basement with the help of Agitation. Territorial Imperative will let you know when someone is attempting a save. Make Your Choice will expose the rescuer, guaranteeing a trade on the hook. Corrupt Intervention will buy you time to set up your basement situation. Your addons will help you choose the right locker, showing you which ones are locked!",
+        "meme": "Low Meme"
+    },
+    "There's Nowhere to Run": {
+        "main": "The Dredge",
+        "addons": ["Sacrificial Knife", "Haddie's Calendar"],
+        "perks": ["Hex: Blood Favour", "Scourge Hook: Pain Resonance", "Iron Grasp", "Tinkerer"],
+        "explanation": "You block every escape when a survivor is in danger! Your addons will hold down nearby Vault locations, and Blood Favour will lock down pallets for even longer once you injure a survivor. Once you get a down, Iron Grasp will help you trigger Pain Resonance, slowing down the generators. Tinkerer will help you choose the right lockers to teleport to to stop nearly-completed generators.",
+        "meme": "Low Meme"
+    },
 }
