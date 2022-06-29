@@ -102,19 +102,26 @@ function buildModal(build_name) {
     $('#character-url').attr('href', main.url);
     $('#character-img').attr('src', main.img_url);
     $('#character-caption').text(build.main);
+    $('#character-url').protipSet({
+        title: main.description,
+    });
     for (let i = 0; i <= 3; i++) {
         let perk = perk_set[build.perks[i]];
         $('#perk' + (i + 1) + '-url').attr('href', perk.url);
         $('#perk' + (i + 1) + '-img').attr('src', perk.img_url);
         $('#perk' + (i + 1) + '-caption').text(build.perks[i]);
-        descUpdate("perk" + (i + 1).toString());
+        $('#perk' + (i + 1) + '-url').protipSet({
+            title: perk.description,
+        });
     }
     for (let i = 0; i <= 1; i++) {
         let addon = addons[build.addons[i]]
         $('#addon' + (i + 1) + '-url').attr('href', addon.url);
         $('#addon' + (i + 1) + '-img').attr('src', addon.img_url);
         $('#addon' + (i + 1) + '-caption').text(build.addons[i]);
-        descUpdate("addon" + (i + 1).toString());
+        $('#addon' + (i + 1) + '-url').protipSet({
+            title: addon.description,
+        });
     }
     $('#build-modal').fadeIn('fast');
 }
@@ -137,85 +144,4 @@ function filter() {
             trs.eq(index).fadeOut('fast');
         }
     })
-}
-
-function descUpdate(item) {
-    console.log(item)
-    let proxy = "https://dreamland.zawackis.com:12399/";
-    let url = $("#" + item + "-url").attr("href");
-    if (url.includes("https://")) {
-        if (item.includes("perk")) {
-            console.log("perk!")
-            $.get(proxy + url, function (response) {
-                let info = $(response)
-                    .find(".wikitable")
-                    .first()
-                    .find("td")
-                    .last()
-                    .find(".formattedPerkDesc")
-                    .first();
-
-                info.find("a").each(function () {
-                    $(this).attr("href", "");
-                    if ($(this).has("img")) {
-                        $(this).find("img").remove();
-                    }
-                });
-
-                let resulting_title = info
-                    .html()
-                    .replaceAll('style="', 'style="font-weight: bold; ')
-                    .replaceAll("<li>", "<p>")
-                    .replaceAll("</li>", "</p>")
-                    .replaceAll("<ul>", "")
-                    .replaceAll("</ul>", "")
-                    .replaceAll("<a", "<span")
-                    .replaceAll("</a>", "</span>")
-                    .replaceAll("<br>", "<br><br>")
-                    .replaceAll(" .", ".")
-                    .replaceAll("  ", " ")
-                    .replaceAll("'''", "")
-                    .replaceAll("* ", "")
-                    .replaceAll("''", "")
-                    .replaceAll("&nbsp;%", "%")
-                    .replaceAll("\n", "\n\n");
-
-                $("#" + item + "-url").protipSet({
-                    title: resulting_title
-                });
-            });
-        } else if (item.includes("addon")) {
-            console.log("addon!");
-            $.get(proxy + url, function (response) {
-                let info = $(response)
-                    .find(".wikitable")
-                    .first()
-                    .find("tr")
-                    .last()
-                    .find("td")
-                    .first();
-                info.find("a").each(function () {
-                    $(this).attr("href", "");
-                    if ($(this).has("img")) {
-                        $(this).find("img").remove();
-                    }
-                });
-                let resulting_title = info
-                    .html()
-                    .replaceAll("<li>", "<p>")
-                    .replaceAll("</li>", "</p>")
-                    .replaceAll("<ul>", "")
-                    .replaceAll("</ul>", "")
-                    .replaceAll("<a", "<span")
-                    .replaceAll("</a>", "</span>")
-                    .replaceAll(" .", ".")
-                    .replaceAll("  ", " ")
-                    .replaceAll("&nbsp;%", "%")
-                    .replaceAll("\n", "\n\n");
-                $("#" + item + "-url").protipSet({
-                    title: resulting_title,
-                });
-            });
-        }
-    }
 }
