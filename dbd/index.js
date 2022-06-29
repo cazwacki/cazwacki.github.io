@@ -26,7 +26,7 @@ console.log(rank_reset);
 console.log(shrine_reset);
 
 rift_close = 0;
-$.get(proxy + 'https://deadbydaylight.com/en/archives#intro', function(response) {
+$.get(proxy + 'https://deadbydaylight.com/en/archives#intro', function (response) {
     let components = $(response).find('.archives-intro__date').text().split(' ');
     let end_date_month = new Date(Date.parse(components[3] + ' ' + components[4] + ' 2012')).getUTCMonth();
     let now = new Date(Date.now());
@@ -40,7 +40,7 @@ $.get(proxy + 'https://deadbydaylight.com/en/archives#intro', function(response)
 
 // set end times for timers
 setTimeout(() => {
-    let x = setInterval(function() {
+    let x = setInterval(function () {
 
         // Get today's date and time
         let now = new Date().getTime();
@@ -49,7 +49,7 @@ setTimeout(() => {
         let remainders = [shrine_reset - now, rank_reset - now, rift_close - now]
 
         let targets = ['#shrine-timer', '#grade-timer', '#rift-timer'];
-        remainders.forEach(function(remainder, i) {
+        remainders.forEach(function (remainder, i) {
             // Time calculations for days, hours, minutes and seconds
             let days = Math.floor(remainder / (1000 * 60 * 60 * 24)).toLocaleString('en-US', { minimumIntegerDigits: 2 });
             let hours = Math.floor((remainder % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
@@ -69,7 +69,7 @@ setTimeout(() => {
 }, 1000);
 
 // get current patch
-$.get(proxy + 'https://dbd.onteh.net.au/patchnotes', function(response) {
+$.get(proxy + 'https://dbd.tricky.lol/patchnotes', function (response) {
     let info = $(response)
         .find(".version")
         .first()
@@ -82,71 +82,28 @@ $.get(proxy + 'https://dbd.onteh.net.au/patchnotes', function(response) {
 });
 
 // get shrine
-$.get(proxy + 'https://deadbydaylight.fandom.com/wiki/Shrine_of_Secrets', function(response) {
-    console.log(response);
-    let table = $(response).find('.sosTable').first();
-    console.log(table);
-    table.find('.sosRow').each(function(i) {
-        let perk_name = $(this).find('.sosText').first().text().trim();
-        console.log(perk_name);
-        let discovered_perk = killer_perks[perk_name] || survivor_perks[perk_name];
-        console.log(discovered_perk);
-        $('#perk' + (i + 1) + '-url').find('h1').text(perk_name);
-        $('#perk' + (i + 1) + '-url').find('img').attr('src', discovered_perk.img_url);
-        $('#perk' + (i + 1) + '-url').attr('href', discovered_perk.url);
-
-        $.get(proxy + discovered_perk.url, function(response) {
-            let info = $(response)
-                .find(".wikitable")
-                .first()
-                .find("td")
-                .last()
-                .find(".formattedPerkDesc")
-                .first();
-
-            info.find("a").each(function() {
-                $(this).attr("href", "");
-                if ($(this).has("img")) {
-                    $(this).find("img").remove();
-                }
-            });
-
-            let resulting_title = info
-                .html()
-                .replaceAll('style="', 'style="font-weight: bold; ')
-                .replaceAll("<li>", "<p>")
-                .replaceAll("</li>", "</p>")
-                .replaceAll("<ul>", "")
-                .replaceAll("</ul>", "")
-                .replaceAll("<a", "<span")
-                .replaceAll("</a>", "</span>")
-                .replaceAll("<br>", "<br><br>")
-                .replaceAll(" .", ".")
-                .replaceAll("  ", " ")
-                .replaceAll("'''", "")
-                .replaceAll("* ", "")
-                .replaceAll("''", "")
-                .replaceAll("&nbsp;%", "%")
-                .replaceAll("\n", "\n\n");
-
-            $('#perk' + (i + 1) + '-url').protipSet({
-                title: resulting_title
-            });
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/shrine.json', function (shrine) {
+    for (let i = 0; i <= 3; i++) {
+        $('#perk' + (i + 1) + '-url').find('h1').text(shrine[i].id);
+        $('#perk' + (i + 1) + '-url').find('img').attr('src', shrine[i].img_url);
+        $('#perk' + (i + 1) + '-url').attr('href', shrine[i].url);
+        $('#perk' + (i + 1) + '-url').protipSet({
+            title: shrine[i].description.replaceAll("<li>", '<li style="margin: 1rem">')
         });
-    });
+    }
 });
 
 // get playercount
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function(data) {
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=381210', function (data) {
     $('#playercount').find('span').text(data['response']['player_count']);
 })
 
 // get dbd news
-$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function(data) {
+$.getJSON(proxy + 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&feeds=steam_community_announcements&maxlength=200', function (data) {
     let content = $('#news-content');
 
     let news = data['appnews']['newsitems'];
-    news.forEach(function(item, i) {
+    news.forEach(function (item, i) {
         content.find('a').eq(i).attr('href', item.url);
         content.find('h1').eq(i).text(item.title + ' - ' + new Date(item.date * 1000).toLocaleDateString());
         if (item.contents.startsWith('{STEAM_CLAN_IMAGE}')) {
