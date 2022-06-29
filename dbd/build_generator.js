@@ -25,6 +25,7 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/p
     perk_set = Object.fromEntries(
         Object.entries(perk_set).filter(([key, value]) => value.role == mode.toLowerCase()));
 });
+
 let addons;
 $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/addons.json', function (response) {
     addons = response;

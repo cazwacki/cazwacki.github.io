@@ -21,7 +21,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Hiding in Plain Sight": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Spring Clamp", "Wire Spool"],
         "perks": ["Technician", "Iron Will", "Stake Out", "Built to Last"],
         "explanation": "Why stop repairing just because the Killer's inches away? Spring Clamp + Technician means the Killer can only hear repairs from 4 Meters or closer, Stake 'em Out to work even faster.",
@@ -35,7 +35,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Blue Rescue Team": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Breakout", "We're Gonna Live Forever", "Saboteur", "Mettle of Man"],
         "explanation": "Be the body blocking bully you were always meant to be. Flashlight saves, Breaking hooks, tanking hits. It might get you tunneled, but you'll know who really won.",
@@ -77,7 +77,7 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Bomb Has Been Planted": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Scraps", "Instructions"],
         "perks": ["Rookie Spirit", "Blast Mine", "Red Herring", "Repressed Alliance"],
         "explanation": "Protect your Generators from being messed with. Strap mines to generators and lure prey with Red Herring, or use a quick Reppressed Alliance to protect even longer. With Rookie Spirit, know what needs protecting next.",
@@ -105,7 +105,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Bone Breaker": {
-        "main": "Map (Item)",
+        "main": "Map",
         "addons": ["Red Twine", "Retardant Jelly"],
         "perks": ["Inner Healing", "Counterforce", "Small Game", "Spine Chill"],
         "explanation": "Crack some skulls and make NOED users cry. Snap every skull, and if the killer comes to swat you use that Spine Chill to just break them faster.",
@@ -133,14 +133,14 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Point Gorger": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Wire Spool", "Protective Gloves"],
         "perks": ["No One Left Behind", "We're Gonna Live Forever", "Prove Thyself", "For the People"],
         "explanation": "It's not about the message, it's about getting money. Do everything you can to gobble up all the bloodpoints possible. (Shoutout to Otz for the idea)",
         "meme": "Low Meme"
     },
     "Stunning": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Odd Bulb", "High-End Sapphire Lens"],
         "perks": ["Any Means Necessary", "Decisive Strike", "Blast Mine", "Head On"],
         "explanation": "You're just a real jerk, arent'cha? Hit the poor murderer with shards of glass, locker doors, and explosives. If you're feeling extra rude, pick up a pallet just to whack 'em with it again!",
@@ -280,7 +280,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Gen Protector": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Scraps", "Socket Swivels"],
         "perks": ["Blast Mine", "Repressed Alliance", "Spine Chill", "Resilience"],
         "explanation": "Focus on generators, but make sure the killer struggles to regress them. Use Blast Mine to stun the killer or Repressed Alliance to prevent the killer from kicking the generator! Spine Chill will help you know when the killer is coming to cause some trouble.",
@@ -378,14 +378,14 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Slug Escapist": {
-        "main": "Map (Item)",
+        "main": "Map",
         "addons": ["Retardant Jelly", "Map Addendum"],
         "perks": ["Unbreakable", "Tenacity", "Flip-Flop", "Power Struggle"],
         "explanation": "If the killer slugs you, it might work out in your favor! Try to recover at least 75% of the way while crawling next to a pallet. When the killer picks you up, you'll be able to stun them and run away!",
         "meme": "High Meme"
     },
     "Second Chance Survivor": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Unbreakable", "Decisive Strike", "Adrenaline", "Dead Hard"],
         "explanation": "One of the infamous \"Small PP Builds\" of older Dead by Daylight. You get second chances for poor looping, getting slugged, getting picked up after immediately being downed, and a free health state if the generators are opened.",
@@ -420,7 +420,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Sixth Sense": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Low Amp Filament", "Heavy Duty Battery"],
         "perks": ["Small Game", "Premonition", "Self-Aware", "Rookie Spirit"],
         "explanation": "You seem like an average survivor, but you have a knack for knowing when to do the right thing. Get auditory warnings when you're looking at the killer or a totem is nearby! Rookie Spirit will help you find gens to rescue and Self-Aware will let you see the trail you leave behind.",
@@ -441,7 +441,7 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Escape Artist": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Soul Guard", "Unbreakable", "Tenacity", "Decisive Strike"],
         "explanation": "After an unhook, you'll make sure you stay alive. If the killer slugs you, you can use Unbreakable or Soul Guard to get back up and out, and enjoy 8 seconds of Enduring. If the killer downs you and picks you up, you can use Decisive Strike to get out of the killer's clutches and back into the game.",
@@ -462,7 +462,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Chase Ender": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Instructions", "Scraps"],
         "perks": ["Smash Hit", "Windows of Opportunity", "Quick & Quiet", "Lucky Break"],
         "explanation": "When you get in a chase, you already want it to be over. If you get a pallet stun, you'll make enormous distance thanks to Smash Hit. If you get injured, Quick & Quiet and Lucky Break will help you make a clean getaway and confuse the Killer on your position. Windows of Opportunity will help you find places where you can take advantage of pallets.",
@@ -497,7 +497,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Gen Summmoner": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Wire Spool", "Scraps"],
         "perks": ["Prove Thyself", "Situational Awareness", "Déjà Vu", "Poised"],
         "explanation": "Use Déjà Vu to find a generator and Situational Awareness to show other survivors where the generator is! Prove Thyself will help your team get through the gen quickly, and Poised will help you sneak away to the next gen to signal to your team!",
@@ -518,7 +518,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Parkour Enthusiast": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Intense Halogen", "Heavy Duty Battery"],
         "perks": ["Balanced Landing", "Windows of Opportunity", "Iron Will", "Quick & Quiet"],
         "explanation": "You have a knack for navigating areas with tricky footing. Quickly adapt to long falls with Balanced Landing and have a sense of where to go during a chase with Windows of Opportunity. You're used to injuries, so you don't make much noise with Iron Will and your parkour skills let you leap over some obstacles silently.",
@@ -574,7 +574,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Community Service": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Wire Spool", "Scraps"],
         "perks": ["For the People", "Inner Healing", "Kindred", "Iron Will"],
         "explanation": "Quickly heal teammates off the hook, then use Inner Healing to heal back up! Kindred will help you figure out the appropriate time to unhook, and Iron Will will keep you quiet when you're injured and keep you hard to find.",
@@ -588,14 +588,14 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Mom: We Have Meta at Home; The Meta at Home:": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Smash Hit", "Power Struggle", "Soul Guard", "Guardian"],
         "explanation": "Smash Hit is your exhaustion perk instead of Dead Hard, Power Struggle is your alternative to Decisive Strike, Soul Guard is your alternative to Unbreakable, and Guardian is your alternative to Borrowed Time. Enjoy meta at home! :-)",
         "meme": "High Meme"
     },
     "Misled to a Concussion": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Deception", "Head On", "Iron Will", "Quick & Quiet"],
         "explanation": "Confuse, then concuss a killer with two adjacent lockers! Use Deception to create a loud noise notification at one locker, then use Quick & Quiet to silently hop into the other one. Iron Will will stifle your cries if you're injured. After the killer opens the first locker, they'll probably check the other locker; use this chance to stun them with Head On and make a quick getaway!",
@@ -637,14 +637,14 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Heal Me! Please!": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Resurgence", "Leader", "Off the Record", "Tenacity"],
         "explanation": "Off hook, people should heal you because it'll be super fast! Resurgence restores 50% of your health state, and Leader increases your teammate's healing speed when nearby! Off the Record will help you make a break away from the killer if they're nearby, and Tenacity will help you start moving away from the killer to get picked up if they slug you.",
         "meme": "Medium Meme"
     },
     "Anti-Camping": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Odd Bulb", "High-End Sapphire Lens"],
         "perks": ["Kinship", "Borrowed Time", "Breakdown", "Decisive Strike"],
         "explanation": "The killer will be wasting a ton of time if they try to camp you! Kinship will extend your hook timer, Breakdown will destroy the hook you were placed on so he can't re-hook you there, Decisive Strike will help you get out of a tunneling situation, and Borrowed Time will help you get other survivors out of camping situations too!",
@@ -679,14 +679,14 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Biotic Field": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Detective's Hunch", "Boon: Circle of Healing", "Boon: Shadow Step", "Prove Thyself"],
         "explanation": "Complete a generator and find a totem to plant your biotic field! Prove Thyself will help you quickly complete a generator, which will help you find a location to plant your biotic field! Enjoy the health and stealth benefits from your boons!",
         "meme": "High Meme"
     },
     "Bone Sage": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Wire Spool", "Scraps"],
         "perks": ["Inner Healing", "Clairvoyance", "For the People", "Iron Will"],
         "explanation": "Use the power of bones to get an advantage! Instantly heal others with For the People, and Iron Will will help you get around and find bones to destroy. Inner Healing will let you re-heal and Clairvoyance will help you stay productive!",
@@ -700,14 +700,14 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Noob Assist": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Intense Halogen"],
         "perks": ["Technician", "Corrective Action", "Guardian", "We'll Make It"],
         "explanation": "Make sure your fellow survivors get a boost! Their failed skill checks won't hurt as much and you can heal them quickly once you take them off the Hook! Technician and Guardian will further help you protect your teammates from harm.",
         "meme": "High Meme"
     },
     "The Witch": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Small Game", "Boon: Circle of Healing", "Boon: Shadow Step", "Boon: Exponential"],
         "explanation": "Cast your witchcraft onto bones to create incredibly powerful areas that your fellow survivors can take advantage of!",
@@ -735,14 +735,14 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Hit and Run": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Intense Halogen"],
         "perks": ["Smash Hit", "Windows of Opportunity", "Open-Handed", "Alert"],
         "explanation": "Even the odds in your killer 1v1s! Smash Hit will let you smack killers and make a great escape. Open-Handed and Windows of Opportunity will help you find the right place to make your getaway. Alert will help you track what the killer does after they kick your pallet and is useful for general tracking! Found in a video by Youtuber Demi.",
         "meme": "High Meme"
     },
     "New to the Realm": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Intense Halogen", "Heavy Duty Battery"],
         "perks": ["Hope", "Kindred", "Spine Chill", "Resilience"],
         "explanation": "You're a new player introduced to the realm! That does mean you're limited in perks, though. Spine Chill will give you a sixth sense about the killer's position, Resilience will help you act faster when injured, Kindred will let you know when to go for saves, and Hope will help you finalize your escape as you try to leave! Found in a video by Youtuber Demi.",
@@ -791,7 +791,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Living on the Edge": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Resilience", "Dead Hard", "Adrenaline", "Iron Will"],
         "explanation": "You're at your most powerful while injured! Dodge with Dead Hard and act with more speed while injured thanks to Resilience! Iron Will will keep you quiet and Adrenaline will help you clutch out the endgame with a heal and a speed boost!",
@@ -833,7 +833,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Zen State": {
-        "main": "Toolbox (Item)",
+        "main": "Toolbox",
         "addons": ["Wire Spool", "Scraps"],
         "perks": ["Overzealous", "Inner Healing", "Spine Chill", "Sprint Burst"],
         "explanation": "Doing a totem brings you some inner peace. Your gen work is faster, and you use your sense of when the killer is looking at you to run and preserve your mind. If you do get hit, your Inner Healing will bring you back to full health in no time and Sprint Burst will help you try not to get hurt in the first place.",
@@ -854,7 +854,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Killer Instinct": {
-        "main": "Flashlight (Item)",
+        "main": "Flashlight",
         "addons": ["Long Life Battery", "Low Amp Filament"],
         "perks": ["Inner Focus", "Saboteur", "Sprint Burst", "Self-Aware"],
         "explanation": "You were a killer in a past life. See the scratch marks of every survivor, including yourself! Saboteur will let you see the hooks when the killer can, and might let you get a cheeky sabotage. Sprint Burst gives you the occasional burst of speed, giving you deja vu of older days...",

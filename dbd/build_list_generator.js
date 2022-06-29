@@ -3,18 +3,43 @@ let urlParam = new URLSearchParams(window.location.search);
 let mode = urlParam.get("mode");
 let build = urlParam.get("build");
 
+let perks_ready = false;
+let main_ready = false;
+let addons_ready = false;
+
 let perk_set;
-let preset_perk_set;
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
+    perk_set = response;
+    perk_set = Object.fromEntries(
+        Object.entries(perk_set).filter(([key, value]) => value.role == mode.toLowerCase()));
+    perks_ready = true;
+});
+
 let main_source;
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/' + (mode == "Killer" ? 'killers' : 'items') + '.json', function (response) {
+    main_source = response;
+    main_ready = true;
+}).then(() => {
+    let build_names = Object.keys(preset_perk_set).sort()
+
+    for (let build_name of build_names) {
+        let build = preset_perk_set[build_name];
+        $('#builds').append(constructBuildString(build_name, build));
+    }
+});
+
+let addons;
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/addons.json', function (response) {
+    addons = response;
+    addons_ready = true;
+});
+
+let preset_perk_set;
 if (mode == "Killer") {
-    perk_set = killer_perks;
     preset_perk_set = preset_killer_perks;
-    main_source = killers;
     $('#main-th').text("Killer");
 } else if (mode == "Survivor") {
-    perk_set = survivor_perks;
     preset_perk_set = preset_survivor_perks;
-    main_source = items;
     $('#main-th').text("Item");
 } else {
     alert(
@@ -22,14 +47,21 @@ if (mode == "Killer") {
     );
 }
 
-let build_names = Object.keys(preset_perk_set).sort()
+function loadBuilds() {
+    if (addons_ready && main_ready && perks_ready) {
+        let build_names = Object.keys(preset_perk_set).sort()
 
-for (let build_name of build_names) {
-    let build = preset_perk_set[build_name];
-    $('#builds').append(constructBuildString(build_name, build));
+        for (let build_name of build_names) {
+            let build = preset_perk_set[build_name];
+            $('#builds').append(constructBuildString(build_name, build));
+        }
+    } else {
+        setTimeout(() => { loadBuilds() }, 200);
+    }
 }
 
 function constructBuildString(build_name, build) {
+    console.log(main_source[build.main]);
     let build_string = '<div class="build-row row align-items-center build-row" onclick="buildModal(\'' + build_name.replace('\'', '\\\'') + '\')"><div class="col-2">'
     // add build name
     build_string += '<span class="h4 perk-caption build-name">' + build_name + '</span></div><div class="col-2 justify-content-center">';
