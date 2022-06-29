@@ -18,10 +18,9 @@ let main_source;
 $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
     perk_set = response;
     console.log(perk_set);
-    let names = Object.keys(perk_set)
-    for (let name in names) {
-        let img = new Image();
-        img.src = perk_set[name].img_url
+    let names = Object.keys(perk_set);
+    for (let name of names) {
+        setTimeout(() => { if (perk_set[name] != null) { $("#perk1-img").attr("src", perk_set[name].img_url); console.log(perk_set[name]); } }, Math.random() * 1000 + 1000);
     }
 }).then(() => {
     if (mode == "Killer") {
@@ -150,7 +149,10 @@ function fetchAndFade(perks) {
         $("#perk" + (i + 1).toString() + "-caption").text(perk);
         $("#perk" + (i + 1).toString() + "-caption").addClass("fadeIn");
         let current_i = i + 1;
-        descUpdate("perk" + (i + 1).toString());
+        $("#perk" + (i + 1).toString() + "-url").protipSet({
+            title: perks[perk].description
+        });
+        // descUpdate("perk" + (i + 1).toString());
         setTimeout(
             (dom_img, dom_caption) => {
                 dom_img.removeClass("fadeIn");
@@ -364,10 +366,10 @@ function presetBuild() {
             $("#perk" + (i + 1).toString() + "-img").addClass("fadeIn");
             $("#perk" + (i + 1).toString() + "-caption").text(perk);
             $("#perk" + (i + 1).toString() + "-caption").addClass("fadeIn");
+            $("#perk" + (i + 1).toString() + "-url").protipSet({
+                title: perks[perk].description
+            });
             i++;
-        }
-        for (let i = 0; i < 4; i++) {
-            descUpdate("perk" + (i + 1).toString());
         }
     }, 1500);
 }
