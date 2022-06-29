@@ -63,6 +63,31 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/p
             "Please click on the DBD Logo and navigate the site using the buttons."
         );
     }
+
+    if (build != "Semi-Random") {
+        $("#selectors").remove();
+    } else {
+        $(".build-aspect").each(function () {
+            for (let style in stylized_perk_set) {
+                $(this).append("<option>" + style + "</option>");
+            }
+        });
+        let style_1 = stylized_perk_set[$("#style-1 option:selected").val()];
+        let style_2 = stylized_perk_set[$("#style-2 option:selected").val()];
+        if (style_1 == style_2) {
+            $("#build-description").text(
+                "This build will help you " + style_1.description + "."
+            );
+        } else {
+            $("#build-description").text(
+                "This build will help you " +
+                style_1.description +
+                " and " +
+                style_2.description +
+                "."
+            );
+        }
+    }
 });
 
 //DEBUG
@@ -78,31 +103,6 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/p
 //         console.log(items[chosen_build.addons[i]]);
 //     }
 // }
-
-if (build != "Semi-Random") {
-    $("#selectors").remove();
-} else {
-    $(".build-aspect").each(function () {
-        for (let style in stylized_perk_set) {
-            $(this).append("<option>" + style + "</option>");
-        }
-    });
-    let style_1 = stylized_perk_set[$("#style-1 option:selected").val()];
-    let style_2 = stylized_perk_set[$("#style-2 option:selected").val()];
-    if (style_1 == style_2) {
-        $("#build-description").text(
-            "This build will help you " + style_1.description + "."
-        );
-    } else {
-        $("#build-description").text(
-            "This build will help you " +
-            style_1.description +
-            " and " +
-            style_2.description +
-            "."
-        );
-    }
-}
 
 $("#title").text(build + " " + mode + " Build");
 
