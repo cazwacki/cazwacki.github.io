@@ -821,7 +821,7 @@ let preset_survivor_perks = {
     "The Town Priest": {
         "main": "Ranger Med-Kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
-        "perks": ["Botany Knowledge", "Empathic Connection", "Desperate Measures", "Botany Knowledge"],
+        "perks": ["Botany Knowledge", "Empathic Connection", "Desperate Measures", "Empathy"],
         "explanation": "When a teammate gets injured, they know they can come to you. Empathic Connection will let survivors know of your position, and you can use your various perks to speed up your healing and make sure the survivor is safe and sound!",
         "meme": "Low Meme"
     },

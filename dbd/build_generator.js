@@ -52,7 +52,6 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/p
             );
 
             $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/items.json', function (response) {
-                console.log(response);
                 main_source = response;
             });
             main_loop = "./images/item_loop.gif";
