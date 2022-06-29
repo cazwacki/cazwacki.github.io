@@ -18,6 +18,11 @@ let main_source;
 $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
     perk_set = response;
     console.log(perk_set);
+    let names = Object.keys(perk_set)
+    for (let name in names) {
+        let img = new Image();
+        img.src = perk_set[name].img_url
+    }
 }).then(() => {
     if (mode == "Killer") {
         perk_set = Object.fromEntries(
