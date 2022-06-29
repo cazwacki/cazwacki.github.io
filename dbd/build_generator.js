@@ -2,41 +2,68 @@ let urlParam = new URLSearchParams(window.location.search);
 
 let mode = urlParam.get("mode");
 let build = urlParam.get("build");
+
 let main_history = []; // size 4
 let build_history = []; // size 10
+
+let perk_loop;
+let addon_loop;
+let main_loop;
+
 let perk_set;
 let stylized_perk_set;
 let preset_perk_set;
 let main_source;
-if (mode == "Killer") {
-    perk_set = killer_perks;
-    stylized_perk_set = stylized_killer_perks;
-    preset_perk_set = preset_killer_perks;
-    main_source = killers;
-    if (build == "Preset") {
-        $("#character-img").attr("src", "images/killer.png");
-        $("#character-caption").text("Killer");
-        $("#browser-source").text(
-            "https://charles.zawackis.com/dbd/embed.html?mode=Killer"
+
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
+    perk_set = response;
+    console.log(perk_set);
+}).then(() => {
+    if (mode == "Killer") {
+        perk_set = Object.fromEntries(
+            Object.entries(perk_set).filter(([key, value]) => value.role == "killer"));
+        stylized_perk_set = stylized_killer_perks;
+        preset_perk_set = preset_killer_perks;
+        perk_loop = "./images/killer_perk_loop";
+        if (build == "Preset") {
+            $("#character-img").attr("src", "images/killer.png");
+            $("#character-caption").text("Killer");
+            $("#browser-source").text(
+                "https://charles.zawackis.com/dbd/embed.html?mode=Killer"
+            );
+
+            $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/killers.json', function (response) {
+                main_source = response;
+            });
+            main_loop = "./images/killer_loop.gif";
+            addon_loop = "./images/killer_addon_loop";
+        }
+    } else if (mode == "Survivor") {
+        perk_set = Object.fromEntries(
+            Object.entries(perk_set).filter(([key, value]) => value.role == "survivor"));
+        stylized_perk_set = stylized_survivor_perks;
+        preset_perk_set = preset_survivor_perks;
+        perk_loop = "./images/survivor_perk_loop";
+        if (build == "Preset") {
+            $("#character-img").attr("src", "images/item.png");
+            $("#character-caption").text("Item");
+            $("#browser-source").text(
+                "https://charles.zawackis.com/dbd/embed.html?mode=Survivor"
+            );
+
+            $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/items.json', function (response) {
+                console.log(response);
+                main_source = response;
+            });
+            main_loop = "./images/item_loop.gif";
+            addon_loop = "./images/survivor_addon_loop";
+        }
+    } else {
+        alert(
+            "Please click on the DBD Logo and navigate the site using the buttons."
         );
     }
-} else if (mode == "Survivor") {
-    perk_set = survivor_perks;
-    stylized_perk_set = stylized_survivor_perks;
-    preset_perk_set = preset_survivor_perks;
-    main_source = items;
-    if (build == "Preset") {
-        $("#character-img").attr("src", "images/item.png");
-        $("#character-caption").text("Item");
-        $("#browser-source").text(
-            "https://charles.zawackis.com/dbd/embed.html?mode=Survivor"
-        );
-    }
-} else {
-    alert(
-        "Please click on the DBD Logo and navigate the site using the buttons."
-    );
-}
+});
 
 //DEBUG
 // console.log(Object.keys(preset_perk_set).length);
@@ -55,7 +82,7 @@ if (mode == "Killer") {
 if (build != "Semi-Random") {
     $("#selectors").remove();
 } else {
-    $(".build-aspect").each(function() {
+    $(".build-aspect").each(function () {
         for (let style in stylized_perk_set) {
             $(this).append("<option>" + style + "</option>");
         }
@@ -82,24 +109,30 @@ $("#title").text(build + " " + mode + " Build");
 function animateRandom() {
     // clear figcaptions and URLs
     for (let i = 0; i < 4; i++) {
-        $("#perk" + (i + 1).toString() + "-caption").text("???");
-        $("#perk" + (i + 1).toString() + "-url").attr("href", "");
+        $("#perk" + (i + 1) + "-caption").text("???");
+        $("#perk" + (i + 1) + "-url").attr("href", "");
+        setTimeout(() => { $("#perk" + (i + 1) + "-img").attr("src", perk_loop + i + ".gif") }, 250 * i);
     }
-    for (let refreshes = 0; refreshes < 60; refreshes++) {
-        (function(refreshes) {
-            setTimeout(() => {
-                for (let i = 0; i < 4; i++) {
-                    let perk_name =
-                        Object.keys(perk_set)[
-                            Math.floor(Math.random() * Object.keys(perk_set).length)
-                        ];
-                    $("#perk" + (i + 1).toString() + "-img").attr(
-                        "src",
-                        perk_set[perk_name].img_url
-                    );
-                }
-            }, 25 + 25 * refreshes);
-        })(refreshes);
+    if (build == "Preset") {
+        // here we also have to animate killer, power, addons as well as select them
+        $("#title").text("???");
+        $("#explanation").text("???");
+        // tool for survivors
+        $("#character-caption").text("???");
+        $("#character-url").attr("href", "");
+        $("#character-img").attr("src", main_loop);
+
+        $("#power-caption").text("???");
+        $("#power-url").attr("href", "");
+        $("#power-img").attr("src", main_loop);
+
+        $("#addon1-caption").text("???");
+        $("#addon1-url").attr("href", "");
+        setTimeout(() => { $("#addon1-img").attr("src", addon_loop + "0.gif") }, 500);
+
+        $("#addon2-caption").text("???");
+        $("#addon2-url").attr("href", "");
+        setTimeout(() => { $("#addon2-img").attr("src", addon_loop + "1.gif") }, 750);
     }
 }
 
@@ -137,7 +170,7 @@ function randomBuild() {
             uniquePerk = true;
             let perk_name =
                 Object.keys(perk_set)[
-                    Math.floor(Math.random() * Object.keys(perk_set).length)
+                Math.floor(Math.random() * Object.keys(perk_set).length)
                 ];
             if (perks[perk_name] != null) {
                 uniquePerk = false;
@@ -208,7 +241,7 @@ function presetBuild() {
     animateRandom();
     let build_name =
         Object.keys(preset_perk_set)[
-            Math.floor(Math.random() * Object.keys(preset_perk_set).length)
+        Math.floor(Math.random() * Object.keys(preset_perk_set).length)
         ];
     let chosen_build = preset_perk_set[build_name];
 
@@ -220,7 +253,7 @@ function presetBuild() {
     ) {
         build_name =
             Object.keys(preset_perk_set)[
-                Math.floor(Math.random() * Object.keys(preset_perk_set).length)
+            Math.floor(Math.random() * Object.keys(preset_perk_set).length)
             ];
         chosen_build = preset_perk_set[build_name];
     }
@@ -235,41 +268,6 @@ function presetBuild() {
         build_history.shift();
     }
 
-    // here we also have to animate killer, power, addons as well as select them
-    $("#title").text("???");
-    $("#explanation").text("???");
-    // tool for survivors
-    $("#character-caption").text("???");
-    $("#character-url").attr("href", "");
-    $("#power-caption").text("???");
-    $("#power-url").attr("href", "");
-    $("#addon1-caption").text("???");
-    $("#addon1-url").attr("href", "");
-    $("#addon2-caption").text("???");
-    $("#addon2-url").attr("href", "");
-    for (let refreshes = 0; refreshes < 60; refreshes++) {
-        (function(refreshes) {
-            setTimeout(() => {
-                for (let i = 0; i < 4; i++) {
-                    let tmp_main =
-                        Object.keys(main_source)[
-                            Math.floor(Math.random() * Object.keys(main_source).length)
-                        ];
-                    $("#character-img").attr("src", main_source[tmp_main].img_url);
-                    let tmp_addon =
-                        Object.keys(addons)[
-                            Math.floor(Math.random() * Object.keys(addons).length)
-                        ];
-                    $("#addon1-img").attr("src", addons[tmp_addon].img_url);
-                    tmp_addon =
-                        Object.keys(addons)[
-                            Math.floor(Math.random() * Object.keys(addons).length)
-                        ];
-                    $("#addon2-img").attr("src", addons[tmp_addon].img_url);
-                }
-            }, 25 + 25 * refreshes);
-        })(refreshes);
-    }
     let perks = [];
     for (let i = 0; i < 4; i++) {
         perks[chosen_build.perks[i]] = perk_set[chosen_build.perks[i]];
@@ -438,7 +436,7 @@ function descUpdate(item) {
     let url = $("#" + item + "-url").attr("href");
     if (url.includes("https://")) {
         if (item.includes("perk")) {
-            $.get(proxy + url, function(response) {
+            $.get(proxy + url, function (response) {
                 let info = $(response)
                     .find(".wikitable")
                     .first()
@@ -447,7 +445,7 @@ function descUpdate(item) {
                     .find(".formattedPerkDesc")
                     .first();
 
-                info.find("a").each(function() {
+                info.find("a").each(function () {
                     $(this).attr("href", "");
                     if ($(this).has("img")) {
                         $(this).find("img").remove();
@@ -478,7 +476,7 @@ function descUpdate(item) {
             });
         } else if (item.includes("addon")) {
             console.log("addon!");
-            $.get(proxy + url, function(response) {
+            $.get(proxy + url, function (response) {
                 let info = $(response)
                     .find(".wikitable")
                     .first()
@@ -486,7 +484,7 @@ function descUpdate(item) {
                     .last()
                     .find("td")
                     .first();
-                info.find("a").each(function() {
+                info.find("a").each(function () {
                     $(this).attr("href", "");
                     if ($(this).has("img")) {
                         $(this).find("img").remove();
