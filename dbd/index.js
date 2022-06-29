@@ -5,13 +5,9 @@ let rank_reset;
 let rift_close;
 
 // shrine reset is nearest wednesday 0 utc
-let date = new Date();
-date.setUTCHours(0, 0, 0, 0);
-date.setUTCDate(date.getUTCDate() + ((7 - date.getUTCDay()) % 7 + 3) % 7);
-if (date.getTime() < Date.now()) {
-    date.setUTCDate(date.getUTCDate() + 7);
-}
-shrine_reset = date.getTime();
+$.getJSON(proxy + 'https://dbd.tricky.lol/api/shrine', function (response) {
+    shrine_reset = response.end * 1000;
+});
 
 // rank reset is nearest 13th 8 utc
 date = new Date();
@@ -26,16 +22,8 @@ console.log(rank_reset);
 console.log(shrine_reset);
 
 rift_close = 0;
-$.get(proxy + 'https://deadbydaylight.com/en/archives#intro', function (response) {
-    let components = $(response).find('.archives-intro__date').text().split(' ');
-    let end_date_month = new Date(Date.parse(components[3] + ' ' + components[4] + ' 2012')).getUTCMonth();
-    let now = new Date(Date.now());
-    let end_date_year = now.getUTCFullYear()
-    if (now.getUTCMonth() > end_date_month) {
-        end_date_year += 1;
-    }
-    console.log(components[3] + ' ' + components[4] + ' ' + end_date_year + ' 16:00:00 UTC');
-    rift_close = (new Date(Date.parse(components[3] + ' ' + components[4] + ' ' + end_date_year + ' 16:00:00 UTC'))).getTime();
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/rift.json', function (response) {
+    rift_close = response.end * 1000;
 });
 
 // set end times for timers
