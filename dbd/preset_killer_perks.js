@@ -43,7 +43,7 @@ let preset_killer_perks = {
     },
     "Stealth Saw": {
         "main": "The Hillbilly",
-        "addons": ["Apex Muffler", "Off-brand Motor Oil"],
+        "addons": ["Apex Muffler", "Off-Brand Motor Oil"],
         "perks": ["Monitor & Abuse", "Furtive Chase", "Tinkerer", "Trail of Torment"],
         "explanation": "With Apex Muffler and a slew of stealth perks, survivors won't be able to trust their ears to figure out when you're nearby! Consistently catch them by surprise for easy hits and downs!",
         "meme": "High Meme"
