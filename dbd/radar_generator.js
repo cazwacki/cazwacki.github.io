@@ -319,7 +319,7 @@ function chooseAddon(i, addon) {
         $('#addon' + (i + 1) + '-img').attr('src', addons[addon].img_url)
         $('#addon' + (i + 1) + '-caption').text(addon);
         $("#addon" + (i + 1) + "-button").protipSet({
-            title: addons[addon].img_url
+            title: addons[addon].description
         });
     }
 
