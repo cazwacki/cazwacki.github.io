@@ -85,7 +85,7 @@ let preset_killer_perks = {
     },
     "Vault Hopper": {
         "main": "The Shape",
-        "addons": ["Lock of Hair", "J. Myers Memorial"],
+        "addons": ["Lock of Hair", "J.Myers Memorial"],
         "perks": ["Bamboozle", "Fire Up", "Coup de Grâce", "Brutal Strength"],
         "explanation": "Pallets and Windows might stop other killers, but not you. Cast aside every obstacle in your path to hunt and down the survivors.",
         "meme": "High Meme"
@@ -170,7 +170,7 @@ let preset_killer_perks = {
     "Drooling Bubba": {
         "main": "The Cannibal",
         "addons": ["Light Chassis", "Iridescent Flesh"],
-        "perks": ["Territorial Imperative", "Iron Grasp", "Agitation", "Monstrous Shrine"],
+        "perks": ["Territorial Imperative", "Iron Grasp", "Agitation", "Scourge Hook: Monstrous Shrine"],
         "explanation": "Not quite a basement Bubba, but you sympathize. Bring survivors down into your 'underground kitchen', then go out to invite more meat on in.",
         "meme": "High Meme"
     },
@@ -568,7 +568,7 @@ let preset_killer_perks = {
     },
     "Combo-Chain": {
         "main": "The Cannibal",
-        "addons": ["Iridescent Flesh", "Carburettor Tuning Guide"],
+        "addons": ["Iridescent Flesh", "Carburetor Tuning Guide"],
         "perks": ["Infectious Fright", "Lethal Pursuer", "Play with Your Food", "Corrupt Intervention"],
         "explanation": "Draw them towards you early with Lethal + Corrupt, and let Infectious guide your chain. If you don't win early, stack up a PWYF and go for a super speedy saw!",
         "meme": "Low Meme"
@@ -666,7 +666,7 @@ let preset_killer_perks = {
     },
     "Old Cannibal": {
         "main": "The Cannibal",
-        "addons": ["Carburettor Tuning Guide", "Depth Gauge Rake"],
+        "addons": ["Carburetor Tuning Guide", "Depth Gauge Rake"],
         "perks": ["Hex: Ruin", "Pop Goes the Weasel", "Play with Your Food", "Nemesis"],
         "explanation": "Old Cannibal used to be a decent bit weaker than he is now, but these addons are just a reminder of what he used to be. Ruin will slow down the match, and you can use Nemesis + PwYF to get easy speedups. Use this to your advantage to catch and down survivors. Pop will help you regress gens if Ruin is lost. Found in a video by not Otzdarva.",
         "meme": "High Meme"
@@ -702,7 +702,7 @@ let preset_killer_perks = {
     "Skeleton Lord": {
         "main": "The Trapper",
         "addons": ["Trapper Bag", "Trapper Gloves"],
-        "perks": ["Thanatophobia", "Hex: Undying", "Hex: No One Escapes Death", "Monstrous Shrine"],
+        "perks": ["Thanatophobia", "Hex: Undying", "Hex: No One Escapes Death", "Scourge Hook: Monstrous Shrine"],
         "explanation": "Every perk has a bunch of skulls on it. That's all there is to it :-) Found in a video by not Otzdarva.",
         "meme": "High Meme"
     },
@@ -778,7 +778,7 @@ let preset_killer_perks = {
     },
     "Biceps Bubba": {
         "main": "The Cannibal",
-        "addons": ["Award-winning Chilli", "The Beast's Marks"],
+        "addons": ["Award-Winning Chilli", "The Beast's Marks"],
         "perks": ["Coup de Grâce", "Hex: Ruin", "Hex: Undying", "Thrilling Tremors"],
         "explanation": "The Cannibal has gotten some arm days in at the gym! His add-ons allow him to run a little bit farther than usual when swinging his chainsaw, and Coup de Grace will allow him to go for unconventional lunges. Ruin and Undying will help slow down generators as Cannibal pushes his arms workout to the limits.",
         "meme": "Low Meme"
@@ -869,7 +869,7 @@ let preset_killer_perks = {
     },
     "Night Terrors": {
         "main": "The Shape",
-        "addons": ["Fragrant Tuft of Hair", "J. Myers Memorial"],
+        "addons": ["Fragrant Tuft of Hair", "J.Myers Memorial"],
         "perks": ["Hex: Plaything", "Infectious Fright", "Save the Best for Last", "Knock Out"],
         "explanation": "In the early game, the survivors will see you frequently and run as much as possible. However, once you get to Tier III, it's time for a huge comeback! Use Plaything and Knock Out to keep survivors confused about your position, and use Save the Best for Last and Infectious Fright to chain downs quickly as you begin your endgame slaughter.",
         "meme": "Low Meme"
@@ -953,7 +953,7 @@ let preset_killer_perks = {
     },
     "SCP-4162": {
         "main": "The Shape",
-        "addons": ["Scratched Mirror", "Jewellery Box"],
+        "addons": ["Scratched Mirror", "Jewelry Box"],
         "perks": ["Save the Best for Last", "Hex: Undying", "Hex: Ruin", "Barbecue & Chilli"],
         "explanation": "Just like SCP-4162, The Shape will always move closer to a survivor and eventually kill them no matter what they do! Save the Best for Last will help reduce hit cooldowns, Scratched Mirror will help you see where survivors are headed and ruin their mind games, and Barbecue will help you find faraway survivors. Ruin and Undying will slow down the match as you slowly but surely down and kill your prey.",
         "meme": "Medium Meme"
@@ -1261,7 +1261,7 @@ let preset_killer_perks = {
     },
     "The Silhouette": {
         "main": "The Shape",
-        "addons": ["Dead Rabbit", "J. Myers Memorial"],
+        "addons": ["Dead Rabbit", "J.Myers Memorial"],
         "perks": ["Monitor & Abuse", "Nemesis", "Hex: Plaything", "Furtive Chase"],
         "explanation": "Step further and further into the shadows as the match progresses, always catching survivors unaware! Nemesis will make players who stun you the Obsession. Once you down them, you can hook them to get a token for Furtive Chase! As these two stacks increase, you will become nearly undetectable as you walk around and still hard to find during chase! Plaything will make things even more difficult for the survivors who get hooked, as the little terror radius you did have has disappeared. Found in a video by YouTuber SpookyLoopz.",
         "meme": "Low Meme"
@@ -1373,7 +1373,7 @@ let preset_killer_perks = {
     },
     "Myers' Evil Grip": {
         "main": "The Shape",
-        "addons": ["J. Myers Memorial", "Fragrant Tuft of Hair"],
+        "addons": ["J.Myers Memorial", "Fragrant Tuft of Hair"],
         "perks": ["Dead Man's Switch", "Iron Grasp", "Scourge Hook: Pain Resonance", "Tinkerer"],
         "explanation": "The hand of the Shape extends beyond the physical realm. Use Tinkerer to find survivors on nearly-completed gens, down them quickly with your power, then drag them to a Scourge hook with Iron Grasp to activate Pain Resonance and pull survivors off gens with Dead Man's Switch.",
         "meme": "Low Meme"
@@ -1485,7 +1485,7 @@ let preset_killer_perks = {
     },
     "Bull of the Mists": {
         "main": "The Oni",
-        "addons": ["Kanai-Anzen Talisman", "Tear Soaked Tenugui"],
+        "addons": ["Kanai-anzen Talisman", "Tear Soaked Tenugui"],
         "perks": ["Tinkerer", "Hex: Plaything", "Pop Goes the Weasel", "Infectious Fright"],
         "explanation": "From seemingly nowhere, the Oni strikes down survivors! Tinkerer and Plaything will mask the Oni's position as he dashes to critical locations on the map. Infectious Fright will help him chain downs with his Demon Dash and Pop Goes the Weasel will significantly halt gen progression between his stealth missions.",
         "meme": "Low Meme"

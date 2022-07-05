@@ -61,6 +61,7 @@ function loadBuilds() {
 }
 
 function constructBuildString(build_name, build) {
+    console.log(build.main);
     console.log(main_source[build.main]);
     let build_string = '<div class="build-row row align-items-center build-row" onclick="buildModal(\'' + build_name.replace('\'', '\\\'') + '\')"><div class="col-2">'
     // add build name
@@ -70,9 +71,11 @@ function constructBuildString(build_name, build) {
     build_string += '<img style="width:10em;height:10em;" src="' + main_source[build.main].img_url + '" />';
     build_string += '<figcaption class="fw-bold perk-caption">' + build.main + '</figcaption></span></div><div class="col-2 justify-content-center">';
     // add addons
+    console.log(build);
     for (let i in build.addons) {
         let addon = build.addons[i];
         console.log(addon);
+        console.log(addons[addon]);
         build_string += '<span class="protip text-decoration-none">';
         build_string += '<img style="width:4em;height:4em;" class="addon-img" src="' + addons[addon].img_url + '" />';
         build_string += '<figcaption class="perk-caption">' + addon + '</figcaption></span>';
@@ -83,6 +86,7 @@ function constructBuildString(build_name, build) {
     for (let i in build.perks) {
         let perk = build.perks[i];
         console.log(perk);
+        console.log(perk_set[perk]);
         build_string += '<div class="col">';
         build_string += '<span class="protip text-decoration-none">';
         build_string += '<img style="width:8em;height:8em;" class="perk-img" src="' + perk_set[perk].img_url + '" />';

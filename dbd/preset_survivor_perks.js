@@ -1,6 +1,6 @@
 let preset_survivor_perks = {
     "Smoke Bomb": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Instructions", "Scraps"],
         "perks": ["Flashbang", "Dance With Me", "Lithe", "Quick & Quiet"],
         "explanation": "Use your \"Smoke Bomb\" to blind the killer, and vanish at full speed with no sound or scratch marks.",
@@ -42,7 +42,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Hanging Meat": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Self Adherent Wrap"],
         "perks": ["Kindred", "Kinship", "Decisive Strike", "Open-Handed"],
         "explanation": "You don't mind hanging out for a while. Provide crazy info for your team while on the hook, hang out for an extra half minute, and even get a second chance with Decisive Strike!",
@@ -91,8 +91,8 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Saviour": {
-        "main": "Emergency Med-Kit",
-        "addons": ["Anti-Haemorrhagic Syringe", "Abdominal Dressing"],
+        "main": "Emergency Med-kit",
+        "addons": ["Anti-Hemorrhagic Syringe", "Abdominal Dressing"],
         "perks": ["For the People", "Borrowed Time", "We're Gonna Live Forever", "We'll Make It"],
         "explanation": "You're not giving up on them, no matter what. Pick them up off the floor, get them off the hook safely if there's danger and in good health if there isn't. If it comes to it, give up your own blood for theirs.",
         "meme": "Low Meme"
@@ -155,13 +155,13 @@ let preset_survivor_perks = {
     },
     "Playing Hookey": {
         "main": "Camping Aid Kit",
-        "addons": ["Anti-Haemorrhagic Syringe", "Medical Scissors"],
+        "addons": ["Anti-Hemorrhagic Syringe", "Medical Scissors"],
         "perks": ["Desperate Measures", "No One Left Behind", "Spine Chill", "Resilience"],
         "explanation": "Do you even lift? Fully stacked together every perk in this build allows for Unhooking at 121% speed. See your buddies fly off the hook. because why not?",
         "meme": "High Meme"
     },
     "Don't Tell Me The Odds": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Sponge", "Rubber Gloves"],
         "perks": ["Slippery Meat", "Ace in the Hole", "Autodidact", "Distortion"],
         "explanation": "Feeling lucky? Maybe you'll get the unhook, maybe you'll get the stack, maybe you'll deny the vision. Roll the dice and see if you get any value out of these inconsistent perks at all.",
@@ -197,13 +197,13 @@ let preset_survivor_perks = {
     },
     "Painless": {
         "main": "Camping Aid Kit",
-        "addons": ["Anti-Haemorrhagic Syringe", "Medical Scissors"],
+        "addons": ["Anti-Hemorrhagic Syringe", "Medical Scissors"],
         "perks": ["Iron Will", "Resilience", "This Is Not Happening", "No Mither"],
         "explanation": "You don't mind being injured, which is good for you because you're not being healed any time soon.",
         "meme": "High Meme"
     },
     "Clairvoyant": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Wire Spool", "Instructions"],
         "perks": ["Kindred", "Windows of Opportunity", "Visionary", "Open-Handed"],
         "explanation": "Know exactly where to go and your teammates' position at all times during the match!",
@@ -211,13 +211,13 @@ let preset_survivor_perks = {
     },
     "The Ghost": {
         "main": "Camping Aid Kit",
-        "addons": ["Anti-Haemorrhagic Syringe", "Medical Scissors"],
+        "addons": ["Anti-Hemorrhagic Syringe", "Medical Scissors"],
         "perks": ["Iron Will", "Lightweight", "Quick & Quiet", "Deception"],
         "explanation": "Evade the killer in chases, constantly confusing them with your different perks to waste their time!",
         "meme": "Low Meme"
     },
     "Cleric": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
         "perks": ["Botany Knowledge", "We'll Make It", "Empathy", "Spine Chill"],
         "explanation": "Find and heal survivors whenever you can! Your healing speed will be incredible upon unhooks, use Empathy to find injured survivors, and use Spine Chill to make sure healing is a safe option!",
@@ -252,7 +252,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Sugar Daddy": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Clean Rag", "Instructions"],
         "perks": ["Bond", "Plunderer's Instinct", "Ace in the Hole", "Appraisal"],
         "explanation": "Go around the map, opening chests and finding items for your fellow teammates! Find them using Bond and donate the item so they have something to work with after exhausting their own tools.",
@@ -294,7 +294,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Team Tank": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Medical Scissors"],
         "perks": ["Mettle of Man", "Self-Care", "Resilience", "Leader"],
         "explanation": "Take hits for your teammates to help extend their chases and protect them off the hook!",
@@ -322,7 +322,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Viscera Cleanup Detail": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Self Adherent Wrap", "Abdominal Dressing"],
         "perks": ["Any Means Necessary", "Appraisal", "Lucky Break", "Counterforce"],
         "explanation": "Clean out the totems, and reset the pallets throughout the map! Use Appraisal to organize used chests and Lucky Break will help you avoid bleeding on the map.",
@@ -350,7 +350,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Obsession Squad": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Gel Dressings", "Abdominal Dressing"],
         "perks": ["Blood Pact", "Prove Thyself", "Leader", "Buckle Up"],
         "explanation": "Stick close to the Obsession throughout the match to get various advantages! Speed boost from Blood Pact, and quick healing and gens thanks the Prove Thyself and Leader will make sure you are both in good shape throughout the match. Buckle Up will let you heal the Obsession more safely when downed.",
@@ -392,14 +392,14 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Live Bait": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Socket Swivels", "Wire Spool"],
         "perks": ["Up the Ante", "Dead Hard", "No Mither", "Slippery Meat"],
         "explanation": "When you get hooked, you won't just lie down and take it! Up the Ante and Slippery Meat make it viable for you to try and unhook up to six times, throwing off the killer and ensuring an unexpected escape, if you're lucky.",
         "meme": "High Meme"
     },
     "Self Care Deluxe": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Medical Scissors", "Self Adherent Wrap"],
         "perks": ["Self-Care", "Botany Knowledge", "Resilience", "Desperate Measures"],
         "explanation": "Take care of yourself, rather than depending on your teammates. Enjoy an immensely buffed Self Care to spend less time healing yourself so you can focus on continuing the match.",
@@ -469,7 +469,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Selfish Altruism": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Clean Rag", "Wire Spool"],
         "perks": ["Self-Preservation", "Renewal", "Kindred", "We'll Make It"],
         "explanation": "You'll help a survivor off the hook and heal them, but it's just to make sure you have the help of Renewal later. Self-Preservation will help you escape sticky situations when you get unhooked, ensuring your Renewal will proc.",
@@ -483,14 +483,14 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Emergency Medical Technician": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Abdominal Dressing", "Bandages"],
         "perks": ["Pharmacy", "Sprint Burst", "For the People", "Empathy"],
-        "explanation": "Any survivor who needs a quick fix can look to you. You can quickly find injured survivors using Sprint Burst and Empathy, then make sure they get healed thanks to your Med-Kit or one from a chest, which can be found using Pharmacy. In tight situations, you can use For the People to send them off with an instant heal!",
+        "explanation": "Any survivor who needs a quick fix can look to you. You can quickly find injured survivors using Sprint Burst and Empathy, then make sure they get healed thanks to your Med-kit or one from a chest, which can be found using Pharmacy. In tight situations, you can use For the People to send them off with an instant heal!",
         "meme": "Medium Meme"
     },
     "Sprinter": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Butterfly Tape", "Abdominal Dressing"],
         "perks": ["Hope", "Blood Pact", "Breakout", "Borrowed Time"],
         "explanation": "You can get up to a 7% bonus from Hope, 7% bonus from Blood Pact, and 7% bonus from Breakout, allowing you to move faster than even the killer could! Use that speed to help you navigate the map with the Obsession and get from place to place without wasting time.",
@@ -525,7 +525,7 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Nurse in Schooling": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Autodidact", "Bond", "Self-Care", "No One Left Behind"],
         "explanation": "You're not the best nurse, but you're taking this opportunity to learn. You know how to take care of yourself, but Autodidact lets you learn how to properly care for others, who you can find using Bond. However, you have the mettle to do a good job in intense situations. Your healing skills increase dramatically once an Exit Gate has been opened.",
@@ -546,7 +546,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Charles's Special": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Self Adherent Wrap", "Medical Scissors"],
         "perks": ["Déjà Vu", "Iron Will", "Kindred", "We'll Make It"],
         "explanation": "These are the perks I like using when I play online! Déjà Vu helps you prevent tight 3 gen situations, Iron Will helps you stay quiet during chases, Kindred helps you know when to go for an unhook, and We'll Make It helps you take care of the survivor quickly so you can get back to doing gens ASAP! I hope you enjoy it as much as I do :-)",
@@ -602,7 +602,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Hemophobia": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
         "perks": ["Botany Knowledge", "Lucky Break", "Desperate Measures", "Built to Last"],
         "explanation": "You're terrified of blood, especially when it's you who's bleeding. Your medkit combined with Botany Knowledge, Desperate Measures, and Built to Last, will make sure you prevent bleeding as soon as you can. In the meantime, Lucky Break will stifle the bleeding, but only for so long. Use that time to heal up!",
@@ -714,17 +714,17 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Self-Suturer": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
         "perks": ["Lucky Break", "Overcome", "Iron Will", "Built to Last"],
         "explanation": "Don't let an injury hold you back for too long. When you get injured, use the extra distance and lack of blood to lose the killer! Quickly heal up and re-enter the battlefield. Get back to looping the killer so your teammates can power through gens!",
         "meme": "Low Meme"
     },
     "Shift + W": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Medical Scissors", "Gel Dressings"],
         "perks": ["Overcome", "Windows of Opportunity", "Quick & Quiet", "Vigil"],
-        "explanation": "Drag the killer across the map with every chase! Overcome will give you tons of distance upon getting hit, Windows of Opportunity will help you find areas to create more space, and Quick and Quiet may confuse the killer as they follow you! If the killer loses you, Vigil and your Med-Kit will help you get up and running again in no time. Modified a build created by Youtuber Demi.",
+        "explanation": "Drag the killer across the map with every chase! Overcome will give you tons of distance upon getting hit, Windows of Opportunity will help you find areas to create more space, and Quick and Quiet may confuse the killer as they follow you! If the killer loses you, Vigil and your Med-kit will help you get up and running again in no time. Modified a build created by Youtuber Demi.",
         "meme": "Medium Meme"
     },
     "Gentertainment": {
@@ -756,21 +756,21 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "The Overcome Tank": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Self Adherent Wrap", "Bandages"],
         "perks": ["Built to Last", "Resilience", "Overcome", "Mettle of Man"],
-        "explanation": "Stretch out your teammate's chases while protecting yourself! Use your Emergency Med-Kit to quickly heal up after taking hits for teammates in their chases, and Overcome will help you make a quick getaway so you can heal once more! Do it three times (with the help of Built to Last) and enjoy one extra free hit that can also trigger Overcome! Resilience will help you act quickly once you've become injured. Found in a video by YouTuber Not Ayrun.",
+        "explanation": "Stretch out your teammate's chases while protecting yourself! Use your Emergency Med-kit to quickly heal up after taking hits for teammates in their chases, and Overcome will help you make a quick getaway so you can heal once more! Do it three times (with the help of Built to Last) and enjoy one extra free hit that can also trigger Overcome! Resilience will help you act quickly once you've become injured. Found in a video by YouTuber Not Ayrun.",
         "meme": "Medium Meme"
     },
     "The Taunting Tank": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Abdominal Dressing", "Bandages"],
         "perks": ["Bond", "Mettle of Man", "Adrenaline", "Dead Hard"],
         "explanation": "Find nearby teammates in chase and tank hits for them so you can power up your Mettle of Man! Dead Hard will help you escape the scene once you've taken a hit, and Adrenaline can help you clutch out the endgame with a free heal and a speed boost. If you time it well, it can negate a hit from the killer while helping a teammate in chase!",
         "meme": "Low Meme"
     },
     "Anti Face Camp": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
         "perks": ["Deliverance", "Soul Guard", "Decisive Strike", "Unbreakable"],
         "explanation": "Unhook yourself, and the killer can't tunnel you! If they pick you up, you can hit DS; if they leave you slugged, you can get back up and tank a hit with Soul Guard and Unbreakable! Found in a video by YouTuber Cru5h.",
@@ -798,7 +798,7 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Stun Gun": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Socket Swivels", "Clean Rag"],
         "perks": ["Blast Mine", "Flashbang", "Head On", "Decisive Strike"],
         "explanation": "Fight the Killer back with everything you've got! You can stun the killer with Decisive Strike, Blast Mine, and Head On! Use Flashbang as a finisher after stunning the killer with a pallet!",
@@ -819,7 +819,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "The Town Priest": {
-        "main": "Ranger Med-Kit",
+        "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Gauze Roll"],
         "perks": ["Botany Knowledge", "Empathic Connection", "Desperate Measures", "Empathy"],
         "explanation": "When a teammate gets injured, they know they can come to you. Empathic Connection will let survivors know of your position, and you can use your various perks to speed up your healing and make sure the survivor is safe and sound!",
@@ -840,7 +840,7 @@ let preset_survivor_perks = {
         "meme": "Low Meme"
     },
     "Tools of the Trade": {
-        "main": "Worn-Out Tools",
+        "main": "Worn-out Tools",
         "addons": ["Clean Rag", "Instructions"],
         "perks": ["Residual Manifest", "Pharmacy", "Déjà Vu", "Empathy"],
         "explanation": "Regardless of the item you bring in, you'll always be able to get your classic tools. Pharmacy will guarantee you a fast heal medkit, and you can come back around to the same chest later to fetch your trusty flashlight! Deja Vu will help you find generators to work on to stay productive in the meantime, and Empathy will help you find survivors being chased so you can get those clutch flashlight saves.",
@@ -882,7 +882,7 @@ let preset_survivor_perks = {
         "meme": "High Meme"
     },
     "Speed Strip": {
-        "main": "Emergency Med-Kit",
+        "main": "Emergency Med-kit",
         "addons": ["Self Adherent Wrap", "Bandages"],
         "perks": ["Iron Will", "Overcome", "Boon: Dark Theory", "Boon: Shadow Step"],
         "explanation": "You have a boost pad in the middle of the map. Any time you're in danger or get hit, run straight for your boon and lose the killer. Iron Will and Shadow Step will mask your tracks, and Dark Theory and Overcome will help you zip away from the killer.",
