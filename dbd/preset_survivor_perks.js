@@ -888,4 +888,18 @@ let preset_survivor_perks = {
         "explanation": "You have a boost pad in the middle of the map. Any time you're in danger or get hit, run straight for your boon and lose the killer. Iron Will and Shadow Step will mask your tracks, and Dark Theory and Overcome will help you zip away from the killer.",
         "meme": "High Meme"
     },
+    "Disappearing Act": {
+        "main": "Worn-out Tools",
+        "addons": ["Wire Spool", "Instructions"],
+        "perks": ["Power Struggle", "Smash Hit", "Flip-Flop", "Unbreakable"],
+        "explanation": "If a killer slugs you, get to a pallet and recover. They have no chance of getting you! Flip-Flop and Unbreakable will help you recover and have enough wiggle progress to trigger Power Struggle, allowing you to escape the killer's grasp! Smash Hit will give you a huge speed boost to get enormous distance on the killer while they're stunned!",
+        "meme": "Medium Meme"
+    },
+    "Physical Therapist": {
+        "main": "Skeleton Key",
+        "addons": ["Blood Amber", "Prayer Beads"],
+        "perks": ["Guardian", "Borrowed Time", "Botany Knowledge", "Lucky Break"],
+        "explanation": "Your job is to safely unhook a survivor and help them recover. The Skeleton Key will help you determine the Killer's position as you go for the rescue. Guardian and Borrowed Time will ensure the survivor's short term safety off of an unhook. Later, you can heal them quickly with Botany Knowledge and gain time for your Lucky Break when you get caught out later by the Killer.",
+        "meme": "Medium Meme"
+    }
 }
