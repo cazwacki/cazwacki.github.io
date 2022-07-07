@@ -19,13 +19,6 @@ let main_source;
 $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/' + (mode == "Killer" ? 'killers' : 'items') + '.json', function (response) {
     main_source = response;
     main_ready = true;
-}).then(() => {
-    let build_names = Object.keys(preset_perk_set).sort()
-
-    for (let build_name of build_names) {
-        let build = preset_perk_set[build_name];
-        $('#builds').append(constructBuildString(build_name, build));
-    }
 });
 
 let addons;
@@ -47,9 +40,10 @@ if (mode == "Killer") {
     );
 }
 
+loadBuilds();
 function loadBuilds() {
     if (addons_ready && main_ready && perks_ready) {
-        let build_names = Object.keys(preset_perk_set).sort()
+        let build_names = Object.keys(preset_perk_set).sort();
 
         for (let build_name of build_names) {
             let build = preset_perk_set[build_name];
