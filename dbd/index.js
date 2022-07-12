@@ -1,12 +1,22 @@
 let proxy = "https://dreamland.zawackis.com:12399/";
 
 let shrine_reset;
+let shrine_loaded = false;
 let rank_reset;
 let rift_close;
+let rift_loaded = false;
 
-// shrine reset is nearest wednesday 0 utc
-$.getJSON(proxy + 'https://dbd.tricky.lol/api/shrine', function (response) {
-    shrine_reset = response.end * 1000;
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/shrine.json', function (shrine) {
+    for (let i = 0; i <= 3; i++) {
+        $('#perk' + (i + 1) + '-url').find('h1').text(shrine.perks[i].id);
+        $('#perk' + (i + 1) + '-url').find('img').attr('src', shrine.perks[i].img_url);
+        $('#perk' + (i + 1) + '-url').attr('href', shrine.perks[i].url);
+        $('#perk' + (i + 1) + '-url').protipSet({
+            title: shrine.perks[i].description.replaceAll("<li>", '<li style="margin: 1rem">')
+        });
+    }
+    shrine_reset = shrine.end * 1000;
+    shrine_loaded = true;
 });
 
 // rank reset is nearest 13th 8 utc
@@ -18,67 +28,54 @@ if (date.getUTCDate() > 13) {
 date.setUTCDate(13);
 rank_reset = date.getTime();
 
-console.log(rank_reset);
-console.log(shrine_reset);
-
 rift_close = 0;
 $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/rift.json', function (response) {
     rift_close = response.end * 1000;
+    rift_loaded = true;
 });
 
-// set end times for timers
-setTimeout(() => {
-    let x = setInterval(function () {
+setTimers();
+function setTimers() {
+    if (shrine_loaded && rift_loaded) {
+        let x = setInterval(function () {
 
-        // Get today's date and time
-        let now = new Date().getTime();
+            // Get today's date and time
+            let now = new Date().getTime();
 
-        // Find the distance between now and the count down date
-        let remainders = [shrine_reset - now, rank_reset - now, rift_close - now]
+            // Find the distance between now and the count down date
+            let remainders = [shrine_reset - now, rank_reset - now, rift_close - now]
 
-        let targets = ['#shrine-timer', '#grade-timer', '#rift-timer'];
-        remainders.forEach(function (remainder, i) {
-            // Time calculations for days, hours, minutes and seconds
-            let days = Math.floor(remainder / (1000 * 60 * 60 * 24)).toLocaleString('en-US', { minimumIntegerDigits: 2 });
-            let hours = Math.floor((remainder % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
-            let minutes = Math.floor((remainder % (1000 * 60 * 60)) / (1000 * 60)).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
-            let seconds = Math.floor((remainder % (1000 * 60)) / 1000).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
-            let text = hours + ':' + minutes + ':' + seconds
-            if (days > 0) {
-                text = days + ' days, ' + text
-            }
-            $(targets[i]).find('span').text(text);
-            // If the count down is finished, write some text
-            if (remainder < 0) {
-                $(targets[i]).find('span').text("the past");
-            }
-        });
-    }, 1000);
-}, 1000);
+            let targets = ['#shrine-timer', '#grade-timer', '#rift-timer'];
+            remainders.forEach(function (remainder, i) {
+                // Time calculations for days, hours, minutes and seconds
+                let days = Math.floor(remainder / (1000 * 60 * 60 * 24)).toLocaleString('en-US', { minimumIntegerDigits: 2 });
+                let hours = Math.floor((remainder % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
+                let minutes = Math.floor((remainder % (1000 * 60 * 60)) / (1000 * 60)).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
+                let seconds = Math.floor((remainder % (1000 * 60)) / 1000).toLocaleString('en-US', { minimumIntegerDigits: 2 });;
+                let text = hours + ':' + minutes + ':' + seconds
+                if (days > 0) {
+                    text = days + ' days, ' + text
+                }
+                $(targets[i]).find('span').text(text);
+                // If the count down is finished, write some text
+                if (remainder < 0) {
+                    if (i != 2) {
+                        $(targets[i]).find('span').text("???");
+                    } else {
+                        $(targets[i]).text('Rift closed');
+                    }
+                }
+            });
+        }, 1000);
+    } else {
+        setTimeout(setTimers, 200);
+    }
+}
 
 // get current patch
-$.get(proxy + 'https://dbd.tricky.lol/patchnotes', function (response) {
-    let info = $(response)
-        .find(".version")
-        .first()
-        .find("h1");
-
-    new_desc = info
-        .text().split(" ")[0];
-
-    $('#patch-name').text(new_desc);
-});
-
-// get shrine
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/shrine.json', function (shrine) {
-    for (let i = 0; i <= 3; i++) {
-        $('#perk' + (i + 1) + '-url').find('h1').text(shrine[i].id);
-        $('#perk' + (i + 1) + '-url').find('img').attr('src', shrine[i].img_url);
-        $('#perk' + (i + 1) + '-url').attr('href', shrine[i].url);
-        $('#perk' + (i + 1) + '-url').protipSet({
-            title: shrine[i].description.replaceAll("<li>", '<li style="margin: 1rem">')
-        });
-    }
+$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/version.json', function (version) {
+    console.log(version.latest);
+    $('#patch-name').text(version.latest.slice(0, version.latest.indexOf('_')));
 });
 
 // get playercount
