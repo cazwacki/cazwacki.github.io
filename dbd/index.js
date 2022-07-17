@@ -16,6 +16,7 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/s
         });
     }
     shrine_reset = shrine.end * 1000;
+    console.log(shrine_reset);
     shrine_loaded = true;
 });
 
