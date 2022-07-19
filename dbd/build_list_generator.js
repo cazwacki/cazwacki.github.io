@@ -108,8 +108,8 @@ function filter() {
     let table = $('#builds');
     let trs = table.find('.build-row');
     trs.each(function (index) {
-        let mainName = trs.eq(index).find('.build-name').text().toUpperCase();
-        if (mainName.indexOf(mainInput) > -1) {
+        let content = trs.eq(index).text().toUpperCase();
+        if (content.indexOf(mainInput) > -1) {
             trs.eq(index).fadeIn('fast');
         } else {
             trs.eq(index).fadeOut('fast');
