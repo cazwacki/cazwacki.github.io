@@ -27,13 +27,13 @@ function loadBuilds() {
 
 function constructBuildString(build_name, build) {
     // console.log(build.main);
-    // console.log(main_source[build.main]);
+    // console.log(mains[build.main]);
     let build_string = '<div class="build-row row align-items-center build-row" onclick="buildModal(\'' + build_name.replace('\'', '\\\'') + '\')"><div class="col-2">'
     // add build name
     build_string += '<span class="h4 perk-caption build-name">' + build_name + '</span></div><div class="col-2 justify-content-center">';
     // add main element
     build_string += '<span class="text-decoration-none">';
-    build_string += '<img style="width:10em;height:10em;" src="' + main_source[build.main].img_url + '" />';
+    build_string += '<img style="width:10em;height:10em;" src="' + mains[build.main].img_url + '" />';
     build_string += '<figcaption class="fw-bold perk-caption">' + build.main + '</figcaption></span></div><div class="col-2 justify-content-center">';
     // add addons
     // console.log(build);
@@ -67,7 +67,7 @@ function buildModal(build_name) {
     $('#title').text(build_name);
     let build = preset_perk_set[build_name];
     $('#explanation').text(build.explanation);
-    let main = main_source[build.main];
+    let main = mains[build.main];
     $('#character-url').attr('href', main.url);
     $('#character-img').attr('src', main.img_url);
     $('#character-caption').text(build.main);
