@@ -3,12 +3,7 @@
 const upper_structure = document.createElement('template');
 
 // enable protip
-upper_structure.innerHTML += `
-<script>
-$(function () {
-    $.protip();
-});
-</script>`;
+$.protip();
 
 // video background
 upper_structure.innerHTML += `
@@ -55,17 +50,17 @@ upper_structure.innerHTML += `
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="presets.html?build=Preset&mode=Survivor" class="nav-link text-warning">Preset Builds</a>
+            <a href="build_preset.html?mode=Survivor" class="nav-link text-warning">Preset Builds</a>
             <a href="build_list.html?mode=Survivor" class="nav-link text-warning">Build List</a>
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="generator.html?build=Semi-Random&mode=Survivor" class="nav-link text-warning">Stylized
+            <a href="build_styled.html?mode=Survivor" class="nav-link text-warning">Stylized
                 Builds</a>
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="generator.html?build=Random&mode=Survivor" class="nav-link text-warning">Random Builds</a>
+            <a href="build_random.html?mode=Survivor" class="nav-link text-warning">Random Builds</a>
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
@@ -77,16 +72,16 @@ upper_structure.innerHTML += `
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="presets.html?build=Preset&mode=Killer" class="nav-link text-warning">Preset Builds</a>
+            <a href="build_preset.html?mode=Killer" class="nav-link text-warning">Preset Builds</a>
             <a href="build_list.html?mode=Killer" class="nav-link text-warning">Build List</a>
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="generator.html?build=Semi-Random&mode=Killer" class="nav-link text-warning">Stylized Builds</a>
+            <a href="build_styled.html?mode=Killer" class="nav-link text-warning">Stylized Builds</a>
         </tr>
         <hr style="color: lightgrey; margin-left: 5%; margin-right: 5%;">
         <tr class="nav-item">
-            <a href="generator.html?build=Random&mode=Killer" class="nav-link text-warning">Random Builds</a>
+            <a href="build_random.html?mode=Killer" class="nav-link text-warning">Random Builds</a>
         </tr>
         <br style="height: 1rem;">
     </table>
@@ -96,6 +91,10 @@ document.body.prepend(upper_structure.content);
 
 // footer
 const lower_structure = document.createElement('template');
+
+// <a href="https://hits.seeyoufarm.com"><img
+// src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
+// <p> </p>
 
 lower_structure.innerHTML += `
 <footer id="footer">
@@ -116,9 +115,7 @@ lower_structure.innerHTML += `
                 <a href="https://github.com/cazwacki" target="_blank">GitHub</a>
             </div>
             <div class="col">
-                <a href="https://hits.seeyoufarm.com"><img
-                        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
-                <p> </p>
+
             </div>
             <div class="col">
                 <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight Forums</a>

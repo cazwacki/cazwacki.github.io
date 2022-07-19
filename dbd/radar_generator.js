@@ -1,9 +1,6 @@
-let urlParam = new URLSearchParams(window.location.search);
-
 // setup radar chart
 let killer_labels = ["Stealth", "Informative", "1V1", "Anti-Gens", "Anti-Healing", "Terrorizing", "Clutch", "Map Pressure", "Anti-Information", "Special Effects"]
 let survivor_labels = ["Cleansing", "Informative", "Team-Oriented", "Repairing", "Healing", "Clutch", "Stealth", "Self-Sufficient", "Looping", "Looting"]
-let mode = urlParam.get("mode");
 let code = urlParam.get("code");
 let build = urlParam.get("build");
 
@@ -30,35 +27,6 @@ let addon_modal = $('#addon-modal');
 
 let main_keys;
 let perk_keys;
-
-let main_ready = false;
-let perks_ready = false;
-let addons_ready = false;
-waitToInitialize();
-
-let main_set;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/' + (mode == "Killer" ? 'killers' : 'items') + '.json', function (response) {
-    main_set = response;
-    main_set = Object.fromEntries(
-        Object.entries(main_set).filter(([key, value]) => value.url != undefined));
-    main_keys = Object.keys(main_set)
-    main_ready = true;
-});
-
-let perk_set;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
-    perk_set = response;
-    perk_set = Object.fromEntries(
-        Object.entries(perk_set).filter(([key, value]) => value.role == mode.toLowerCase()));
-    perk_keys = Object.keys(perk_set)
-    perks_ready = true;
-});
-
-let addons;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/addons.json', function (response) {
-    addons = response;
-    addons_ready = true;
-});
 
 labels = mode == 'Killer' ? killer_labels : survivor_labels;
 
@@ -125,11 +93,14 @@ const config = {
 
 let myChart = new Chart(document.getElementById('radar'), config);
 
-$('#character-img').attr('src', 'images/' + mode.toLowerCase() + '.png');
-$('#character-caption').text(mode == "Killer" ? "Killer" : "Item");
+$('#main-img').attr('src', 'images/' + mode.toLowerCase() + '.png');
+$('#main-caption').text(mode == "Killer" ? "Killer" : "Item");
 
+waitToInitialize();
 function waitToInitialize() {
     if (main_ready && perks_ready && addons_ready) {
+        main_keys = Object.keys(mains).sort();
+        perk_keys = Object.keys(perks).sort();
         initialize();
     } else {
         setTimeout(() => { waitToInitialize(); }, 200);
@@ -164,7 +135,7 @@ function initialize() {
                     chooseAddon(i, 'Clear');
                 } else {
                     addonIndex = i;
-                    chooseAddon(i, main_set[mainChoice].addons[values[i + 5]]);
+                    chooseAddon(i, mains[mainChoice].addons[values[i + 5]]);
                 }
             }
         }
@@ -173,25 +144,29 @@ function initialize() {
     // 1. generate main (killer / item) modal data
     if (mode == 'Killer') {
         main_modal.find('.byo-modal-content').append('<button onclick="chooseMain(\'Clear\')"><img src="images/killer.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button>');
-        for (let main in main_set) {
-            let new_button = '<button id="' + main.replace(/\s/g, '') + '" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="chooseMain(\'' + encodeURIComponent(main).replace(/[!'()*]/g, escape) + '\')"><img src="' + main_set[main].img_url + '" style="width:128px; height:128px;"><figcaption>' + main + '</figcaption></button>'
-            main_modal.find('.byo-modal-content').append(new_button);
-            $("#" + main.replace(/\s/g, '')).protipSet({
-                title: main_set[main].description
-            });
+        for (let main in mains) {
+            if (mains[main].addons !== undefined) {
+                let new_button = '<button id="' + main.replace(/\s/g, '') + '" class="protip" data-pt-width="300" data-pt-position="top" data-pt-scheme="black" data-pt-delay-out="100" data-pt-title="" data-pt-trigger="hover" onclick="chooseMain(\'' + encodeURIComponent(main).replace(/[!'()*]/g, escape) + '\')"><img src="' + mains[main].img_url + '" style="width:128px; height:128px;"><figcaption>' + main + '</figcaption></button>'
+                main_modal.find('.byo-modal-content').append(new_button);
+                $("#" + main.replace(/\s/g, '')).protipSet({
+                    title: mains[main].description
+                });
+            }
         }
     } else if (mode == 'Survivor') {
         main_modal.find('.byo-modal-content').append('<input type="text" id="mainInput" class="fw-normal text-light rounded" onkeyup="filter(\'main\')" placeholder="Search..." style="width: 60%"><table id="mainTable" class="table-hover" style="table-layout:fixed;"><tbody>');
         // 1 extra row for clear option
         main_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="chooseMain(\'Clear\')"><img src="images/survivor.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>');
-        for (let main in main_set) {
-            main_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"></tr>');
-        }
-
-        for (let i = 0; i < main_keys.length; i++) {
-            let new_button = '<button onclick="chooseMain(\'' + encodeURIComponent(main_keys[i]).replace(/[!'()*]/g, escape) + '\')"><img src="' + main_set[main_keys[i]].img_url + '" style="width:128px; height:128px;"><figcaption>' + main_keys[i] + '</figcaption></button>'
-            let new_desc = main_set[main_keys[i]].description;
-            main_modal.find('.byo-modal-content').find('tr').eq(i + 1).html('<td style="vertical-align: middle; padding: 10px;">' + new_button + '</td><td style="vertical-align: middle; padding-top: 10px; max-width: 60%;">' + new_desc + '</td>');
+        let i = 0;
+        for (let main in mains) {
+            if (mains[main].addons !== undefined) {
+                console.log(mains[main]);
+                main_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"></tr>');
+                let new_button = '<button onclick="chooseMain(\'' + encodeURIComponent(main).replace(/[!'()*]/g, escape) + '\')"><img src="' + mains[main].img_url + '" style="width:128px; height:128px;"><figcaption>' + main + '</figcaption></button>'
+                let new_desc = mains[main].description;
+                main_modal.find('.byo-modal-content').find('tr').eq(i + 1).html('<td style="vertical-align: middle; padding: 10px;">' + new_button + '</td><td style="vertical-align: middle; padding-top: 10px; max-width: 60%;">' + new_desc + '</td>');
+                i++;
+            }
         }
     }
 
@@ -199,14 +174,14 @@ function initialize() {
     perk_modal.find('.byo-modal-content').append('<input type="text" id="perkInput" class="fw-normal text-light rounded" onkeyup="filter(\'perk\')" placeholder="Search for perk..." style="width: 60%"><table id="perkTable" class="table-hover" style="table-layout:fixed;"><tbody>');
     // 1 extra row for clear option
     perk_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="choosePerk(perkIndex, \'Clear\')"><img src="images/blank.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>');
-    for (let perk in perk_set) {
+    for (let perk in perks) {
         perk_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"></tr>');
     }
     perk_modal.find('.byo-modal-content').append('</tbody></table>');
 
     for (let i = 0; i < perk_keys.length; i++) {
-        let new_button = '<button onclick="choosePerk(perkIndex, \'' + encodeURIComponent(perk_keys[i]).replace(/[!'()*]/g, escape) + '\')"><img src="' + perk_set[perk_keys[i]].img_url + '" style="width:128px; height:128px;"><figcaption>' + perk_keys[i] + '</figcaption></button>'
-        let new_desc = perk_set[perk_keys[i]].description;
+        let new_button = '<button onclick="choosePerk(perkIndex, \'' + encodeURIComponent(perk_keys[i]).replace(/[!'()*]/g, escape) + '\')"><img src="' + perks[perk_keys[i]].img_url + '" style="width:128px; height:128px;"><figcaption>' + perk_keys[i] + '</figcaption></button>'
+        let new_desc = perks[perk_keys[i]].description;
         perk_modal.find('.byo-modal-content').find('tr').eq(i + 1).html('<td style="vertical-align: middle; padding: 10px;">' + new_button + '</td><td style="vertical-align: middle; padding-top: 10px;">' + new_desc + '</td>');
     }
 }
@@ -217,16 +192,16 @@ function chooseMain(main) {
     mainChoice = main;
     if (main == 'Clear') {
         mainChoice = '';
-        $('#character-img').attr('src', 'images/' + mode.toLowerCase() + '.png');
-        $('#character-caption').text(mode == "Killer" ? "Killer" : "Item");
+        $('#main-img').attr('src', 'images/' + mode.toLowerCase() + '.png');
+        $('#main-caption').text(mode == "Killer" ? "Killer" : "Item");
         $("#main-button").protipSet({
             title: ''
         });
     } else {
-        $('#character-img').attr('src', main_set[main].img_url)
-        $('#character-caption').text(main);
+        $('#main-img').attr('src', mains[main].img_url)
+        $('#main-caption').text(main);
         $("#main-button").protipSet({
-            title: main_set[main].description
+            title: mains[main].description
         });
 
         // update addon modal based on main
@@ -234,11 +209,11 @@ function chooseMain(main) {
         addon_modal.find('.byo-modal-content').append('<input type="text" id="addonInput" class="fw-normal text-light rounded" onkeyup="filter(\'addon\')" placeholder="Search for addon..." style="width: 60%"><table id="addonTable" class="table-hover" style="table-layout:fixed;"><tbody>');
         // 1 extra row for clear option
         addon_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"><td><button onclick="chooseAddon(addonIndex, \'Clear\')"><img src="images/addon.png" style="width:128px; height:128px;"><figcaption>Reset</figcaption></button></td><td>Clear your current selection.</td></tr>)');
-        for (let perk in perk_set) {
+        for (let perk in perks) {
             addon_modal.find('.byo-modal-content').find('tbody').eq(0).append('<tr style="border-bottom:1px solid grey"></tr>');
         }
 
-        main_set[main].addons.forEach(function (addon, i) {
+        mains[main].addons.forEach(function (addon, i) {
             console.log(addon);
             // create element that doesn't need response
             let new_button = '<button onclick="chooseAddon(addonIndex, \'' + encodeURIComponent(addon).replace(/[!'()*]/g, escape) + '\')"><img src="' + addons[addon].img_url + '" style="width:128px; height:128px;"><figcaption>' + addon + '</figcaption></button>'
@@ -283,10 +258,10 @@ function choosePerk(i, perk) {
         });
     } else {
         perkChoices[i] = perk;
-        $('#perk' + (i + 1) + '-img').attr('src', perk_set[perk].img_url)
+        $('#perk' + (i + 1) + '-img').attr('src', perks[perk].img_url)
         $('#perk' + (i + 1) + '-caption').text(perk);
         $("#perk" + (i + 1) + "-button").protipSet({
-            title: perk_set[perk].description
+            title: perks[perk].description
         });
     }
 
@@ -341,13 +316,13 @@ function refreshChart() {
     // add data values based on each choice
     if (mainChoice != '') {
         labels.forEach(function (value, i) {
-            new_data[i] += main_set[mainChoice][value];
+            new_data[i] += mains[mainChoice][value];
         });
     }
 
     perkChoices.forEach(function (choice, i) {
         if (choice != '') {
-            let perk = perk_set[choice];
+            let perk = perks[choice];
             labels.forEach(function (value, i) {
                 new_data[i] += perk[value];
             });
@@ -442,7 +417,7 @@ function copyBuildURL() {
     }
     for (let choice in addonChoices) {
         if (mainChoice != '' && addonChoices[choice] != '') {
-            link += 'a' + main_set[mainChoice].addons.indexOf(addonChoices[choice]);
+            link += 'a' + mains[mainChoice].addons.indexOf(addonChoices[choice]);
         } else {
             link += 'a999';
         }

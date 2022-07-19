@@ -11,16 +11,17 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="buttons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.js"></script>
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 </head>
 
-<body id="embed-body" onload="presetBuild()">
+<body id="embed-body" onload="generate()">
     <div id="embed-wrapper" class="mx-auto">
         <br />
         <span id="title" class="display-3 mb-3 text-light">Build</span>
         <br />
-        <span id="character-caption" class=" display-5 text-muted mb-3 font-italic"><i>Killer</i></span>
+        <span id="main-caption" class=" display-5 text-muted mb-3 font-italic"><i>Killer</i></span>
         <br />
         <a id="perk1-url" href="" target="_blank">
             <img id="perk1-img" class="embed-img perk1" src="images/blank.png" />
@@ -35,8 +36,8 @@
             <img id="perk4-img" class="embed-img perk4" src="images/blank.png" />
         </a>
         <br />
-        <a id="character-url" href="" target="_blank">
-            <img id="character-img" class="character-embed" src="images/killer.png" />
+        <a id="main-url" href="" target="_blank">
+            <img id="main-img" class="main-embed" src="images/killer.png" />
         </a>
         <a id="addon1-url" class="embed-url addon1" href="" target="_blank">
             <img id="addon1-img" class="addon-embed" class="addon-embed" src="images/addon.png" />
@@ -47,15 +48,14 @@
             <figcaption id="addon2-caption" class="h6 perk-caption addon2cap">Addon 1</figcaption>
         </a>
         <button id="embed-refresh" class="btn btn-outline-dark btn-sm btn-radius text-light"
-            onclick="presetBuild()">↻</button>
+            onclick="generate()">↻</button>
     </div>
 </body>
-
-<script src="survivor_perks.js"></script>
-<script src="stylized_survivor_perks.js"></script>
+<script>
+    $.protip();
+</script>
 <script src="preset_survivor_perks.js"></script>
-<script src="killer_perks.js"></script>
-<script src="stylized_killer_perks.js"></script>
 <script src="preset_killer_perks.js"></script>
-<script src="preset_info.js"></script>
-<script src="build_generator.js"></script>
+<script src="setup/load_data.js"></script>
+<script src="setup/generator_functions.js"></script>
+<script src="build_preset.js"></script>

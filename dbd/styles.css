@@ -17,7 +17,7 @@ to determine the resulting font size for each component.
         width: 80%;
     }
 
-    #character-addons {
+    #main-addons {
         width: 80%;
     }
 
@@ -52,7 +52,7 @@ to determine the resulting font size for each component.
         width: 75%;
     }
 
-    #character-addons {
+    #main-addons {
         width: 75%;
     }
 
@@ -99,7 +99,7 @@ to determine the resulting font size for each component.
         width: 50%;
     }
 
-    #character-addons {
+    #main-addons {
         width: 50%;
     }
 
@@ -406,11 +406,15 @@ textarea {
     text-align: center;
 }
 
+#title {
+    font-weight: bold;
+}
+
 #perk-set a {
     text-decoration: none;
 }
 
-#character-addons a {
+#main-addons a {
     text-decoration: none;
 }
 
@@ -451,12 +455,12 @@ textarea {
     height: 96px;
 }
 
-#character-addons a {
+#main-addons a {
     display: inline-block;
     padding-right: 40px;
 }
 
-#character-img {
+#main-img {
     max-height: 128px;
     width: auto;
 }
@@ -505,7 +509,7 @@ option {
     left: 20vw;
 }
 
-.character-embed {
+.main-embed {
     position: absolute;
     top: 22.5vh;
     left: 62vw;
