@@ -54,7 +54,7 @@ function constructBuildString(build_name, build) {
         // console.log(perk_set[perk]);
         build_string += '<div class="col">';
         build_string += '<span class="protip text-decoration-none">';
-        build_string += '<img style="width:8em;height:8em;" class="perk-img" src="' + perk_set[perk].img_url + '" />';
+        build_string += '<img style="width:8em;height:8em;" class="perk-img" src="' + perks[perk].img_url + '" />';
         build_string += '<figcaption class="perk-caption">' + perk + '</figcaption></span>'
         build_string += '</div>';
     }
@@ -75,7 +75,7 @@ function buildModal(build_name) {
         title: main.description,
     });
     for (let i = 0; i <= 3; i++) {
-        let perk = perk_set[build.perks[i]];
+        let perk = perks[build.perks[i]];
         $('#perk' + (i + 1) + '-url').attr('href', perk.url);
         $('#perk' + (i + 1) + '-img').attr('src', perk.img_url);
         $('#perk' + (i + 1) + '-caption').text(build.perks[i]);
