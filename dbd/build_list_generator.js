@@ -1,32 +1,3 @@
-let urlParam = new URLSearchParams(window.location.search);
-
-let mode = urlParam.get("mode");
-let build = urlParam.get("build");
-
-let perks_ready = false;
-let main_ready = false;
-let addons_ready = false;
-
-let perk_set;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/perks.json', function (response) {
-    perk_set = response;
-    perk_set = Object.fromEntries(
-        Object.entries(perk_set).filter(([key, value]) => value.role == mode.toLowerCase()));
-    perks_ready = true;
-});
-
-let main_source;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/' + (mode == "Killer" ? 'killers' : 'items') + '.json', function (response) {
-    main_source = response;
-    main_ready = true;
-});
-
-let addons;
-$.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/addons.json', function (response) {
-    addons = response;
-    addons_ready = true;
-});
-
 let preset_perk_set;
 if (mode == "Killer") {
     preset_perk_set = preset_killer_perks;
