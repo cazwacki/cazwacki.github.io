@@ -14,6 +14,8 @@ if (mode == "Killer") {
 loadBuilds();
 function loadBuilds() {
     if (addons_ready && main_ready && perks_ready) {
+        $('#remove-me').remove();
+
         let build_names = Object.keys(preset_perk_set).sort();
 
         for (let build_name of build_names) {
