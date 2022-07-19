@@ -1,5 +1,7 @@
 $("#title").text(mode === "Survivor" ? "Themed Survivor Build" : "Themed Killer Build");
 
+let styled_perks = mode === "Survivor" ? stylized_survivor_perks : stylized_killer_perks;
+
 generate();
 function generate() {
     if (main_ready && perks_ready && addons_ready) {
@@ -8,8 +10,6 @@ function generate() {
         setTimeout(generate, 200);
     }
 }
-
-let styled_perks = mode === "Survivor" ? stylized_survivor_perks : stylized_killer_perks;
 
 function styledBuild() {
     let build = [];

@@ -92,10 +92,6 @@ document.body.prepend(upper_structure.content);
 // footer
 const lower_structure = document.createElement('template');
 
-// <a href="https://hits.seeyoufarm.com"><img
-// src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
-// <p> </p>
-
 lower_structure.innerHTML += `
 <footer id="footer">
         <br />
@@ -115,7 +111,9 @@ lower_structure.innerHTML += `
                 <a href="https://github.com/cazwacki" target="_blank">GitHub</a>
             </div>
             <div class="col">
-
+                <a href="https://hits.seeyoufarm.com"><img
+                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
+                <p> </p>
             </div>
             <div class="col">
                 <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight Forums</a>
