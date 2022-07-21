@@ -19,13 +19,13 @@ function styledBuild() {
 
     // KILLER / ITEM
     let main;
-    let main_names
+    let main_names;
     if (mode === "Survivor") {
         // pool items, select one randomly (if none choose any item)
         main_names = Array.from(new Set(style_1.items.concat(style_2.items)));
         if (main_names.length === 0) {
             // fallback if no items are in the styles
-            main_names = Object.keys(mains);
+            main_names = Object.keys(mains).filter(main => mains[main].img_url != undefined);
         }
     } else {
         // select completely randomly
@@ -40,7 +40,7 @@ function styledBuild() {
     build["addons"] = [];
     let addon_names = Array.from(new Set(style_1.addons.concat(style_2.addons)));
     addon_names = addon_names.filter(name => build.main.addons.includes(name));
-    if (addon_names.length === 0) {
+    if (addon_names.length === 0 || addon_names == undefined) {
         // fallback if no main-compatible addons remain
         addon_names = build.main.addons;
     }
