@@ -95,17 +95,17 @@ class AboutMe extends React.Component {
                 </Box >
                 <Box elevation='0' sx={{ display: { xs: 'block', sm: 'none' } }}>
                     <div className="inline-block text-center max-h-3/4">
-                        <Typography variant="h6">Education and Current Work</Typography>
+                        <Typography variant="h6" color="text.primary">Education and Current Work</Typography>
                         {current_education_cards}
                         <Divider sx={{ margin: '0.5em' }} />
                         {current_job_cards}
                         <Divider sx={{ margin: '0.5em' }} />
-                        <Typography variant="h6">Personal Projects I'm Maintaining</Typography>
+                        <Typography variant="h6" color="text.primary">Personal Projects I'm Maintaining</Typography>
                         <div className="grid grid-cols-3 w-full gap-5">
                             {current_project_cards}
                         </div>
                         <Divider sx={{ margin: '0.5em' }} />
-                        <Typography variant="h6">Games I'm Playing</Typography>
+                        <Typography variant="h6" color="text.primary">Games I'm Playing</Typography>
                         <div className="grid grid-cols-3 w-full gap-5">
                             {current_game_cards}
                         </div>

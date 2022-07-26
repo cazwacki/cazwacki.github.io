@@ -47,7 +47,7 @@ export default function LaborModal({ handleClose, show, is_job, labor, formatted
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
-            <Box sx={style}>
+            <Box sx={style} className={"h-3/4 overflow-y-scroll w-11/12 sm:w-5/6 md:w-3/4 lg:w-3/4 xl:w-1/2"}>
                 <div className="inline-block align-middle pr-5">
                     <img src={labor.card_image} alt={is_job ? labor.company : labor.title} style={{ height: (is_job ? '5em' : '10em') }} />
                 </div>
