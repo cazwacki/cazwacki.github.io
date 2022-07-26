@@ -30,19 +30,17 @@ class Home extends React.Component {
                             <source src={TopVideo} type="video/mp4" />
                         </video>
                     </div>
-                    <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden hidden md:block">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-75 overflow-hidden hidden lg:block text-center">
                         <div ref={this.myRef}>
                             <Slide direction="right" in={true} timeout={1500}>
                                 <div>
                                     <Typography variant="h3" color="secondary.main">CHARLES ZAWACKI</Typography>
-                                    <Typography variant="h4" color="secondary.dark">⚜️ Engineer</Typography>
-                                    <Typography variant="h4" color="secondary.dark">⚜️ Architect</Typography>
-                                    <Typography variant="h4" color="secondary.dark">⚜️ Student</Typography>
+                                    <Typography variant="h5" color="secondary.dark">⚜️ Engineer ⚜️ Architect ⚜️ Student ⚜️</Typography>
                                 </div>
                             </Slide>
                         </div>
                     </div>
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden block md:hidden w-3/4">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden block lg:hidden w-3/4">
                         <div ref={this.myRef}>
                             <Slide direction="right" in={true} timeout={1500}>
                                 <div>

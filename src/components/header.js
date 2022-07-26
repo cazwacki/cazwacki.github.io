@@ -116,6 +116,7 @@ const Header = (props) => {
                             variant="h6"
                             noWrap
                             component="div"
+                            color="secondary"
                             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                         >
                             Charles Zawacki
