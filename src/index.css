@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.job-card {
+    transition: all 250ms ease-in-out;
+}
+
+.job-card:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+
+.horizontal-card {
+    transition: all 250ms ease-in-out;
+}
+
+.horizontal-card:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+
+.MuiCardContent-root {
+    height: 100%;
+    width: 100%;
+}
+
+.MuiTypography-root {
+    white-space: pre-line;
+}
+
+.img-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-4pxqpi {
+    overflow-y: scroll;
+    height: 75%;
+}
+
+.css-30rg0p {
+    overflow-y: scroll;
+    height: 75%;
+}
+
+.dark {
+    background-color: #121212;
+}
+
+.preload {
+    background-color: #121212;
+    transition: none !important;
+}
+
+.transition {
+    transition: all 0.25s linear;
+}
+
+.MuiAppBar-root {
+    transition: background-color 0.25s ease-in-out, top 0.25s ease-in-out !important;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.deck {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.icon-set img {
+    height: 5rem;
+}
+
+.dark .icon-set img {
+    filter: invert(1);
+}

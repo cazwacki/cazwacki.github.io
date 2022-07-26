@@ -1,0 +1,627 @@
+/*
+This is used to set sizes for different devices that will visit the site.
+All my font sizes use "rem", which uses a multiplier on the html font size
+to determine the resulting font size for each component.
+*/
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    .footer-row {
+        width: 75%;
+    }
+
+    #perk-set {
+        width: 80%;
+    }
+
+    #main-addons {
+        width: 80%;
+    }
+
+    #selectors {
+        width: 80%;
+    }
+
+    .button-set {
+        width: 80%;
+    }
+
+    #mainhub table,
+    #mainhub tr,
+    #mainhub td,
+    #builds table,
+    #builds tr,
+    #builds td {
+        display: block;
+    }
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+
+    .footer-row {
+        width: 75%;
+    }
+
+    #perk-set {
+        width: 75%;
+    }
+
+    #main-addons {
+        width: 75%;
+    }
+
+    #selectors {
+        width: 75%;
+    }
+
+    .button-set {
+        width: 75%;
+    }
+
+    #mainhub table,
+    #mainhub tr,
+    #mainhub td,
+    #builds table,
+    #builds tr,
+    #builds td {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .footer-row {
+        width: 75%;
+    }
+
+    #perk-set {
+        width: 50%;
+    }
+
+    #main-addons {
+        width: 50%;
+    }
+
+    #selectors {
+        width: 50%;
+    }
+
+    .button-set {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    #mainhub table,
+    #builds table {
+        display: table;
+    }
+
+    #mainhub tr,
+    #builds tr {
+        display: table-row;
+    }
+
+    #mainhub td,
+    #builds td {
+        display: table-cell;
+    }
+}
+
+
+/*
+Sets the website's background, and establishes a default font and color of 
+"Microsoft YaHei Light" and white font for all containers in the HTML body.
+*/
+
+body {
+    overflow-x: hidden;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Roboto" !important;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#bg-video {
+    z-index: -9998;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#bg-img {
+    z-index: -9999;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#header {
+    z-index: 1;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    display: table;
+    top: 0;
+    width: 100%;
+}
+
+#header #branding {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#branding img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#branding h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px auto;
+    color: lightgrey;
+}
+
+#credit {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    width: 80px;
+}
+
+#name {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#hamburger {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+    width: 80px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: lightgrey;
+}
+
+#hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#nav-menu {
+    overflow-y: auto;
+    position: fixed;
+    right: -100%;
+    z-index: 1;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 20%;
+    max-width: 80%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#nav-menu.active {
+    right: 0;
+}
+
+#hub {
+    font-size: 1.6rem;
+}
+
+#mainhub,
+#builds {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#dbdnews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 50%;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#news-title {
+    flex: none;
+    min-height: 50px;
+    width: 100%;
+}
+
+#news-content {
+    margin: 0 auto;
+    width: 480px;
+    text-align: left;
+    flex: auto;
+    overflow-y: auto;
+}
+
+input[type="text"],
+textarea {
+    background-color: rgb(91, 91, 91);
+    border: none;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.dotted-underline {
+    border-bottom: 2px dotted lightgrey;
+    text-decoration: none;
+}
+
+.top-index {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.top-index table {
+    margin: 0 auto;
+}
+
+#shrine-timer {
+    color: rgb(216, 147, 255);
+}
+
+#grade-timer {
+    color: rgb(255, 87, 51);
+}
+
+#rift-timer {
+    color: rgb(0, 255, 255);
+}
+
+.side-index {
+    display: inline-block;
+    min-width: 20%;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.nav-header {
+    font-size: 1.3rem;
+    color: lightgrey;
+}
+
+.nav-link:hover {
+    color: #482ff7;
+}
+
+#video-filter {
+    z-index: -9997;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    height: 96px;
+    display: inline;
+}
+
+.button-menu {
+    padding: 15px;
+    margin: auto;
+}
+
+.generate {
+    width: 30%;
+    margin: auto;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation ease 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#footer {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: lightgrey;
+    text-align: center;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#perk-set a {
+    text-decoration: none;
+}
+
+#main-addons a {
+    text-decoration: none;
+}
+
+#build-description {
+    opacity: 1;
+}
+
+#embed-set a {
+    text-decoration: none;
+}
+
+#embed-set {
+    display: grid;
+    width: 100%;
+}
+
+.perk-img {
+    width: 128px;
+    height: 128px;
+}
+
+#shrine table {
+    table-layout: fixed;
+}
+
+#shrine table tr td {
+    max-width: 45%;
+}
+
+.shrine-img {
+    width: 64px;
+    height: 64px;
+    display: inline;
+}
+
+.addon-img {
+    width: 96px;
+    height: 96px;
+}
+
+#main-addons a {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#main-img {
+    max-height: 128px;
+    width: auto;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto" !important;
+}
+
+#home h1 {
+    display: inline;
+}
+
+.perk-caption {
+    color: white;
+    font-family: "Roboto" !important;
+}
+
+option {
+    background: black;
+    color: lightgrey;
+}
+
+.perk1 {
+    position: absolute;
+    top: 27.5vh;
+    left: 10vw;
+}
+
+.perk2 {
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+
+.perk3 {
+    position: absolute;
+    top: 27.5vh;
+    left: 30vw;
+}
+
+.perk4 {
+    position: absolute;
+    top: 41vh;
+    left: 20vw;
+}
+
+.main-embed {
+    position: absolute;
+    top: 22.5vh;
+    left: 62vw;
+}
+
+.addon1 {
+    position: fixed;
+    width: 20vw;
+    top: 42.5vh;
+    left: 50vw;
+}
+
+.addon2 {
+    position: fixed;
+    width: 20vw;
+    top: 42.5vh;
+    right: 10vw;
+}
+
+#browser-source {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+}
+
+.embed-img {
+    height: 20vw;
+    width: 20vw;
+}
+
+.embed-url {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.addon-embed {
+    width: 10vw;
+}
+
+#embed-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+
+#embed-refresh {
+    position: absolute;
+    top: 0vh;
+    right: 10vw;
+}
+
+.table-darkbg {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.build-row:hover {
+    filter: brightness(75%);
+}
+
+/* The Modal (background) */
+
+.byo-modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.byo-modal-content {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: lightgrey;
+    font-family: "Roboto" !important;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75%;
+    min-width: 50%;
+    max-width: 90%;
+    /* Could be more or less, depending on screen size */
+}
+
+.byo-modal-content figcaption {
+    color: lightgrey;
+    font-family: "Roboto" !important;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
