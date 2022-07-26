@@ -30,7 +30,7 @@ class Home extends React.Component {
                             <source src={TopVideo} type="video/mp4" />
                         </video>
                     </div>
-                    <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden">
+                    <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden hidden md:block">
                         <div ref={this.myRef}>
                             <Slide direction="right" in={true} timeout={1500}>
                                 <div>
@@ -38,6 +38,18 @@ class Home extends React.Component {
                                     <Typography variant="h4" color="secondary.dark">⚜️ Engineer</Typography>
                                     <Typography variant="h4" color="secondary.dark">⚜️ Architect</Typography>
                                     <Typography variant="h4" color="secondary.dark">⚜️ Student</Typography>
+                                </div>
+                            </Slide>
+                        </div>
+                    </div>
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden block md:hidden w-3/4">
+                        <div ref={this.myRef}>
+                            <Slide direction="right" in={true} timeout={1500}>
+                                <div>
+                                    <Typography variant="h5" color="secondary.main">CHARLES ZAWACKI</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Engineer</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Architect</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Student</Typography>
                                 </div>
                             </Slide>
                         </div>
@@ -51,7 +63,7 @@ class Home extends React.Component {
                                 <Typography variant="h4" display="inline" color="text.primary">Life-long Learner</Typography>
                                 <Typography className="text-left p-5" color="text.secondary">When I'm not working or in formal education, I love taking on different side projects. Research projects, quality of life projects, streaming services, and automation are a few of many interests in computer science I've pursued. I'm attending Georgia Tech to master parallel computation and distributed computing to learn how to handle huge workloads as effectively as possible.</Typography>
                             </div>
-                            <div className="icon-set grid grid-cols-3 w-1/2 m-auto flex">
+                            <div className="icon-set grid grid-cols-3 w-5/6 md:w-1/2 m-auto flex">
                                 <img src={lifelong_learner_1} className="m-auto" alt="Studying" />
                                 <img src={lifelong_learner_2} className="m-auto" alt="Graduation" />
                                 <img src={lifelong_learner_3} className="m-auto" alt="Degree" />
@@ -64,10 +76,10 @@ class Home extends React.Component {
                             <br />
                             <br />
                             <div className="grid sm:grid-cols-1 md:grid-cols-2">
-                                <div className="icon-set grid grid-cols-3 w-1/2 m-auto flex">
-                                    <img src={problem_solver_1} className="m-auto" alt="Studying" />
-                                    <img src={problem_solver_2} className="m-auto" alt="Graduation" />
-                                    <img src={problem_solver_3} className="m-auto" alt="Degree" />
+                                <div className="icon-set grid grid-cols-3 w-5/6 md:w-1/2 m-auto flex">
+                                    <img src={problem_solver_1} className="m-auto" alt="Network" />
+                                    <img src={problem_solver_2} className="m-auto" alt="Connect" />
+                                    <img src={problem_solver_3} className="m-auto" alt="Process" />
                                 </div>
                                 <div className="w-3/4 m-auto">
                                     <Typography variant="h4" display="inline" color="text.primary">Problem Solver</Typography>
@@ -86,10 +98,10 @@ class Home extends React.Component {
                                     <Typography variant="h4" display="inline" color="text.primary">Creator</Typography>
                                     <Typography className="text-left p-5" color="text.secondary">Creativity is an essential component of development, especially in today's rapidly moving world of technology. If you can't find an easy solution, why not create it? I've created 3D models to substitute for missing parts, music and videos for personal enjoyment or game design, and software for personal enjoyment and creating new solutions that haven't been considered before, such as my Nintendo Switch remote play project.</Typography>
                                 </div>
-                                <div className="icon-set grid grid-cols-3 w-1/2 m-auto flex">
-                                    <img src={creator_1} className="m-auto" alt="Studying" />
-                                    <img src={creator_2} className="m-auto" alt="Graduation" />
-                                    <img src={creator_3} className="m-auto" alt="Degree" />
+                                <div className="icon-set grid grid-cols-3 w-5/6 md:w-1/2 m-auto flex">
+                                    <img src={creator_1} className="m-auto" alt="Music" />
+                                    <img src={creator_2} className="m-auto" alt="Model" />
+                                    <img src={creator_3} className="m-auto" alt="Video" />
                                 </div>
                             </div>
                         </div>
