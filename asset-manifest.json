@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41503a85.css",
+    "main.js": "/static/js/main.deb4b074.js",
+    "static/media/front-video.mp4": "/static/media/front-video.31e691119d278e71c749.mp4",
+    "static/media/map_maker.png": "/static/media/map_maker.79824be15226dd19751d.png",
+    "static/media/video.gif": "/static/media/video.daec80eb28018df3555c.gif",
+    "static/media/model.gif": "/static/media/model.6fbecc757336cabca30e.gif",
+    "static/media/communicate.gif": "/static/media/communicate.fe3c718965aeda0ac94a.gif",
+    "static/media/mortarboard.gif": "/static/media/mortarboard.f677f89c8fdeee269609.gif",
+    "static/media/timeline.gif": "/static/media/timeline.7b5c51d24e5a9bd0ffd2.gif",
+    "static/media/verified.gif": "/static/media/verified.05f038f558660498b7c5.gif",
+    "static/media/music.gif": "/static/media/music.358256d9a62864c81cb5.gif",
+    "static/media/flow-chart.gif": "/static/media/flow-chart.b06baecda978b30def44.gif",
+    "static/media/book.gif": "/static/media/book.7bd57dd6285003fa4606.gif",
+    "static/media/vt_dining_services.png": "/static/media/vt_dining_services.1b7f395b1ebde02e1a9b.png",
+    "static/media/colonial_parking.png": "/static/media/colonial_parking.95d897d2ffe0fd48d0f6.png",
+    "static/media/calendar_tasks.png": "/static/media/calendar_tasks.4badec8f35b2a582f45b.png",
+    "static/media/capital_one.png": "/static/media/capital_one.582377d12d9176bccc04.png",
+    "static/media/personal_site.jpg": "/static/media/personal_site.3b0b558694b27adb77c2.jpg",
+    "static/media/lost_skies.png": "/static/media/lost_skies.76ebfa9385df50f9d2ce.png",
+    "static/media/switch_stream.png": "/static/media/switch_stream.5cf764ff6af404b3aed2.png",
+    "static/media/dbd_hub.ico": "/static/media/dbd_hub.1f3759ba3505bab9f648.ico",
+    "static/media/georgia_tech.png": "/static/media/georgia_tech.4000c2b66bcd00dae004.png",
+    "static/media/music_data_to_spreadsheet.png": "/static/media/music_data_to_spreadsheet.b1e7c329082748a2b36a.png",
+    "static/media/discord_freelance.png": "/static/media/discord_freelance.74ebbb058cdd7f2d04b3.png",
+    "static/media/full_body_placeholder.png": "/static/media/full_body_placeholder.00c269d2a55af7132938.png",
+    "index.html": "/index.html",
+    "main.41503a85.css.map": "/static/css/main.41503a85.css.map",
+    "main.deb4b074.js.map": "/static/js/main.deb4b074.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41503a85.css",
+    "static/js/main.deb4b074.js"
+  ]
+}
