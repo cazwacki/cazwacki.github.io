@@ -9,7 +9,8 @@ import BotCommands from './pages/bot_commands'
 import Home from './pages/home'
 import data from './constants'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { darkTheme, lightTheme } from './components/theming'
+import { darkTheme, lightTheme } from './components/theming';
+import { Helmet } from 'react-helmet';
 
 import './index.css';
 
@@ -48,6 +49,13 @@ function App() {
 
     return (
         <React.StrictMode>
+            <Helmet>
+                <title>Charles Zawacki</title>
+                <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86" />
+                <meta name="google-site-verification" content="fg1j0qTATYMAR9nRRR0XCRtZn6_Pj0IKWJ9Ma4toVsA" />
+                <meta name="description" content="I'm a Georgia Tech master's student and software engineer at Capital One with a specialization in software engineering in agile development and parallelization. In my free time, I try to work on fun and interesting side projects. Click to learn more!" />
+                <meta name="keywords" content="charles zawacki, charles zawacki resume, charles zawacki linkedin, charles, zawacki" />
+            </Helmet>
             <Router>
                 <ThemeProvider theme={theme}>
                     <Header setTheme={setTheme} />
