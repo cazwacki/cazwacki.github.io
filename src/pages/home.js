@@ -40,14 +40,14 @@ class Home extends React.Component {
                             </Slide>
                         </div>
                     </div>
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden block lg:hidden w-3/4">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-2 bg-black bg-opacity-90 overflow-hidden block lg:hidden text-center">
                         <div ref={this.myRef}>
                             <Slide direction="right" in={true} timeout={1500}>
                                 <div>
                                     <Typography variant="h5" color="secondary.main">CHARLES ZAWACKI</Typography>
-                                    <Typography variant="h6" color="secondary.dark">⚜️ Engineer</Typography>
-                                    <Typography variant="h6" color="secondary.dark">⚜️ Architect</Typography>
-                                    <Typography variant="h6" color="secondary.dark">⚜️ Student</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Engineer ⚜️</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Architect ⚜️</Typography>
+                                    <Typography variant="h6" color="secondary.dark">⚜️ Student ⚜️</Typography>
                                 </div>
                             </Slide>
                         </div>
