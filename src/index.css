@@ -78,3 +78,7 @@
 .dark .icon-set img {
     filter: invert(1);
 }
+
+.dark #silhouette {
+    filter: invert(0.5);
+}

@@ -72,7 +72,7 @@ class AboutMe extends React.Component {
                                     <ShopIcon />
                                 </IconButton>
                             </div>
-                            <img src={full_body} className="h-5/6 m-auto" alt="Charles Zawacki" />
+                            <img id="silhouette" src={full_body} className="h-5/6 m-auto" alt="Charles Zawacki" />
                         </div>
                         <div className="inline-block text-center max-h-3/4">
                             <Typography variant="h5" color="text.primary" className='pb-2'>Education and Current Work</Typography>
