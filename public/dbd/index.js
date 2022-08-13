@@ -23,7 +23,7 @@ $.getJSON('https://raw.githubusercontent.com/cazwacki/periodic-dbd-data/master/s
 // rank reset is nearest 13th 8 utc
 date = new Date();
 date.setUTCHours(8, 0, 0, 0);
-if (date.getUTCDate() > 13) {
+if (date.getUTCDate() >= 13) {
     date.setUTCMonth(date.getUTCMonth() + 1);
 }
 date.setUTCDate(13);
