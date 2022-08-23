@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import TopVideo from '../other_images/front-video.mp4'
-import Fade from 'react-reveal/Fade'
+import { Fade } from 'react-awesome-reveal'
 import lifelong_learner_1 from '../other_images/lifelong-learner/book.gif'
 import lifelong_learner_2 from '../other_images/lifelong-learner/mortarboard.gif'
 import lifelong_learner_3 from '../other_images/lifelong-learner/verified.gif'
@@ -55,7 +55,7 @@ class Home extends React.Component {
                 </div>
                 <div className="pt-20" />
                 <div className="grid grid-rows-3 gap-5 text-center w-5/6 m-auto">
-                    <Fade bottom>
+                    <Fade fraction="0.25" triggerOnce="true" direction="up">
                         <div className="grid sm:grid-cols-1 md:grid-cols-2">
                             <div className="w-3/4 m-auto">
                                 <Typography variant="h4" display="inline" color="text.primary">Life-long Learner</Typography>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </Fade>
-                    <Fade bottom>
+                    <Fade fraction="0.25" triggerOnce="true" direction="up">
                         <div>
                             <Divider />
                             <br />
@@ -86,7 +86,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </Fade>
-                    <Fade bottom>
+                    <Fade fraction="0.25" triggerOnce="true" direction="up">
                         <div>
                             <Divider />
                             <br />
@@ -105,7 +105,7 @@ class Home extends React.Component {
                         </div>
                     </Fade>
                 </div>
-                <Fade bottom>
+                <Fade fraction="0.25" triggerOnce="true" direction="up">
                     <div className="w-full text-center mb-20">
                         <Divider />
                         <br />
