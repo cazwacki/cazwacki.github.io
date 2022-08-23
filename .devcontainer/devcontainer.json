@@ -1,6 +1,7 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
     "postCreateCommand": "./.devcontainer/postCreate.sh",
+    "containerUser": "node",
     "forwardPorts": [3000],
     "customizations": {
         "vscode": {
