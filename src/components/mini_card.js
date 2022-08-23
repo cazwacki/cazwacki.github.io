@@ -5,7 +5,6 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Day from 'dayjs'
-import Grow from '@mui/material/Grow';
 import LaborModal from './labor_modal.js'
 import Typography from '@mui/material/Typography';
 

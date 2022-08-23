@@ -8,9 +8,8 @@ import LaborWrapper from './pages/labor_wrapper'
 import BotCommands from './pages/bot_commands'
 import Home from './pages/home'
 import data from './constants'
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { darkTheme, lightTheme } from './components/theming';
-import { Helmet } from 'react-helmet';
 
 import './index.css';
 
