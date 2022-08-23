@@ -1,0 +1,16 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
+    "postCreateCommand": "npm install",
+    "forwardPorts": [3000],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eg2.vscode-npm-script",
+                "christian-kohler.npm-intellisense",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    },
+    "runArgs": ["--rm"],
+    "shutdownAction": "stopContainer"
+}
