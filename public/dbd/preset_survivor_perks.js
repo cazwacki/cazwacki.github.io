@@ -901,5 +901,68 @@ let preset_survivor_perks = {
         "perks": ["Guardian", "Borrowed Time", "Botany Knowledge", "Lucky Break"],
         "explanation": "Your job is to safely unhook a survivor and help them recover. The Skeleton Key will help you determine the Killer's position as you go for the rescue. Guardian and Borrowed Time will ensure the survivor's short term safety off of an unhook. Later, you can heal them quickly with Botany Knowledge and gain time for your Lucky Break when you get caught out later by the Killer.",
         "meme": "Medium Meme"
+    },
+    "Expert Informant": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Wiretap", "Open-Handed"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Electrician": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Wiretap", "Blast Mine"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Flashlight Fanatic": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Reactive Healing", "Self Care", "Built to Last", "Overcome"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Life or Death": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Low Profile", "We'll Make It", "For the People", "Bite the Bullet"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "I Got Mine": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Low Profile", "Left Behind"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Apollo": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Better than New", "We'll Make It"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Unhappy Camper": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Reassurance"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Surrogate Soul Reaper": {
+        "main": "",
+        "addons": [""],
+        "perks": ["For the People", "Better than New"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Flow State": {
+        "main": "",
+        "addons": [""],
+        "perks": ["Hyperfocus"],
+        "explanation": "",
+        "meme": "Low Meme"
     }
 }
