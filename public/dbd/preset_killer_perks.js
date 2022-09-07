@@ -1721,4 +1721,60 @@ let preset_killer_perks = {
         "explanation": "You block every escape when a survivor is in danger! Your addons will hold down nearby Vault locations, and Blood Favour will lock down pallets for even longer once you injure a survivor. Once you get a down, Iron Grasp will help you trigger Pain Resonance, slowing down the generators. Tinkerer will help you choose the right lockers to teleport to to stop nearly-completed generators.",
         "meme": "Low Meme"
     },
+    "The Backpack Build": {
+        "main": "The Mastermind",
+        "addons": ["Video Conference Device", "Maiden Medallion"],
+        "perks": ["Mad Grit", "Agitation", "Awakened Awareness", "Starstruck"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Too Scared to Heal": {
+        "main": "The Mastermind",
+        "addons": ["Helicopter Stick", "Video Conference Device"],
+        "perks": ["Coulrophobia", "Distressing", "Sloppy Butcher", "Unnerving Presence"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Silenced Bound": {
+        "main": "The Mastermind",
+        "addons": ["Bullhorn", "Leather Gloves"],
+        "perks": ["Trail of Torment", "Tinkerer", "Dark Devotion", "Terminus"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Flipping the Script": {
+        "main": "The Mastermind",
+        "addons": ["Helicopter Stick", "Bullhorn"],
+        "perks": ["No Way Out", "Terminus", "Infectious Fright", "Scourge Hook: Pain Resonance"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Hot Pursuit": {
+        "main": "The Mastermind",
+        "addons": ["Iridescent Uroboros Vial", "Video Conference Device"],
+        "perks": ["Call of Brine", "Overcharge", "Eruption", "Bamboozle"],
+        "explanation": "",
+        "meme": "Low Meme"
+    },
+    "Starstruck Nurse": {
+        "main": "The Mastermind",
+        "addons": ["Unicorn Medallion", "Leather Gloves"],
+        "perks": ["Starstruck", "Agitation", "Scourge Hook: Pain Resonance", "Scourge Hook: Gift of Pain"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Plague, Inc.": {
+        "main": "The Mastermind",
+        "addons": ["Dark Sunglasses", "Video Conference Device"],
+        "perks": ["Tinkerer", "Merciless Storm", "Hex: Ruin", "Hex: Undying"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Aburame Techniques": {
+        "main": "The Mastermind",
+        "addons": ["Uroboros Virus", "Helicopter Stick"],
+        "perks": ["Infectious Fright", "Hysteria", "Fearmonger", "Scourge Hook: Pain Resonance"],
+        "explanation": "",
+        "meme": "High Meme"
+    }
 }
