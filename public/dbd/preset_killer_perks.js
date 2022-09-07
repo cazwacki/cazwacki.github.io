@@ -1776,5 +1776,96 @@ let preset_killer_perks = {
         "perks": ["Infectious Fright", "Hysteria", "Fearmonger", "Scourge Hook: Pain Resonance"],
         "explanation": "",
         "meme": "High Meme"
+    },
+    "Irreparable Harm": {
+        "main": "The Trapper",
+        "addons": [],
+        "perks": ["Terminus"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Shrinking Web": {
+        "main": "The Hag",
+        "addons": [],
+        "perks": ["Terminus"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Frank's Last Resort": {
+        "main": "The Legion",
+        "addons": [],
+        "perks": ["Terminus"],
+        "explanation": "",
+        "meme": "High Meme"
+    },
+    "Tenketsu": {
+        "main": "The Spirit",
+        "addons": [],
+        "perks": ["Terminus", "No Way Out"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Welcome to the Game": {
+        "main": "The Dredge",
+        "addons": [],
+        "perks": ["Terminus", "No Way Out"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Lifted Veil": {
+        "main": "The Nurse",
+        "addons": [],
+        "perks": ["Awakened Awareness", "Starstruck"],
+        "explanation": "",
+        "meme": "Low Meme"
+    },
+    "Tanjiro's Opening Thread": {
+        "main": "The Spirit",
+        "addons": [],
+        "perks": ["Awakened Awareness", "Starstruck"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Critical ESP": {
+        "main": "The Huntress",
+        "addons": [],
+        "perks": ["Awakened Awareness", "Bitter Murmur"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Shatter My Chains": {
+        "main": "The Blight",
+        "addons": [],
+        "perks": ["Awakened Awareness", "Tinkerer"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Inevitable Demise": {
+        "main": "The Hillbilly",
+        "addons": [],
+        "perks": ["Superior Anatomy", "Bamboozle"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Nothing Will Come Between Us": {
+        "main": "The Cannibal",
+        "addons": [],
+        "perks": ["Superior Anatomy", "Bamboozle"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "I Didn't Mark You Just For Fun!": {
+        "main": "The Ghost Face",
+        "addons": [],
+        "perks": ["Superior Anatomy", "Bamboozle"],
+        "explanation": "",
+        "meme": "Medium Meme"
+    },
+    "Parkour Expert": {
+        "main": "The Wraith",
+        "addons": [],
+        "perks": ["Superior Anatomy", "Brutal Strength"],
+        "explanation": "",
+        "meme": "Medium Meme"
     }
 }
