@@ -1779,93 +1779,93 @@ let preset_killer_perks = {
     },
     "Irreparable Harm": {
         "main": "The Trapper",
-        "addons": [],
-        "perks": ["Terminus"],
-        "explanation": "",
-        "meme": "Medium Meme"
+        "addons": ["Oily Coil", "Bloody Coil"],
+        "perks": ["Terminus", "No Way Out", "Rancor", "Blood Warden"],
+        "explanation": "Imprison the survivors in the endgame! Make sure to set traps at each of the exit gates before the endgame. Rancor threatens a survivor and forces them to hide -- if they try to undo your traps, they'll be injured by Bloody Coil and broken by Terminus! No Way Out will block the door, and when you reset the trap, you can find where that survivor ran. Blood Warden will help you convert the down into a win if the other survivors manage to open a gate.",
+        "meme": "High Meme"
     },
     "Shrinking Web": {
         "main": "The Hag",
-        "addons": [],
-        "perks": ["Terminus"],
-        "explanation": "",
+        "addons": ["Dried Cicada", "Rusty Shackles"],
+        "perks": ["Terminus", "No Way Out", "Save the Best for Last", "Make Your Choice"],
+        "explanation": "Make sure to set a couple traps near the endgame. Terminus will keep survivors injured while the Exit Gates aren't open. Take the opportunity given by No Way Out to make sure survivors get downed quickly.",
         "meme": "Medium Meme"
     },
     "Frank's Last Resort": {
         "main": "The Legion",
-        "addons": [],
-        "perks": ["Terminus"],
-        "explanation": "",
-        "meme": "High Meme"
+        "addons": ["Stylish Sunglasses", "Susie's Mix Tape"],
+        "perks": ["Terminus", "No Way Out", "Superior Anatomy", "Bamboozle"],
+        "explanation": "The Legion combines aura-reading and stealth addons to get sneaky downs on mending survivors! It becomes especially powerful in the endgame, preventing survivors from healing. No Way Out will give you info on the survivors in the endgame and Terminus will prevent them from healing. Superior Anatomy and Bamboozle will simplify your chases.",
+        "meme": "Medium Meme"
     },
     "Tenketsu": {
         "main": "The Spirit",
-        "addons": [],
-        "perks": ["Terminus", "No Way Out"],
-        "explanation": "",
+        "addons": ["Rusty Flute", "Kaiun Talisman"],
+        "perks": ["Terminus", "No Way Out", "Tinkerer", "Barbecue & Chilli"],
+        "explanation": "An endgame build for Spirit. Tinkerer and Barbecue will help you find survivors throughout the match. Terminus and No Way Out will help you put survivors into dangerous situations and get downs since they won't be able to heal!",
         "meme": "Medium Meme"
     },
     "Welcome to the Game": {
         "main": "The Dredge",
-        "addons": [],
-        "perks": ["Terminus", "No Way Out"],
-        "explanation": "",
+        "addons": ["Malthinker's Skull", "Haddie's Calendar"],
+        "perks": ["Terminus", "No Way Out", "Dead Man's Switch", "Scourge Hook: Pain Resonance"],
+        "explanation": "You are the Breather. Get hints of the survivors' whereabouts throughout the match and jumpscare them with your power. In the endgame, No Way Out and Terminus will help you take things up a notch and finish the job!",
         "meme": "Medium Meme"
     },
     "Lifted Veil": {
         "main": "The Nurse",
-        "addons": [],
-        "perks": ["Awakened Awareness", "Starstruck"],
-        "explanation": "",
+        "addons": ["Fragile Wheeze", "Dark Cincture"],
+        "perks": ["Awakened Awareness", "Starstruck", "Agitation", "Scourge Hook: Pain Resonance"],
+        "explanation": "After the Nurse gets a down, her eyes are wide open. Take the survivor to a Scourge Hook to slow down the match. While carrying, look around with Awakened Awareness to find nearby survivors and down them with Starstruck!",
         "meme": "Low Meme"
     },
     "Tanjiro's Opening Thread": {
         "main": "The Spirit",
-        "addons": [],
-        "perks": ["Awakened Awareness", "Starstruck"],
-        "explanation": "",
+        "addons": ["Muddy Sports Day Cap", "Juniper Bonsai"],
+        "perks": ["Awakened Awareness", "Starstruck", "Hex: Devour Hope", "Make Your Choice"],
+        "explanation": "Carry a survivor and find your opening to strike! Awakened Awareness will help you find nearby survivors during carry to down with Starstruck later! Devour Hope will give you a speed boost to get that survivor even more quickly. Make Your Choice will add to the opportunities to get an Exposed down.",
         "meme": "Medium Meme"
     },
     "Critical ESP": {
         "main": "The Huntress",
-        "addons": [],
-        "perks": ["Awakened Awareness", "Bitter Murmur"],
-        "explanation": "",
+        "addons": ["Oak Haft", "Flower Babushka"],
+        "perks": ["Awakened Awareness", "Bitter Murmur", "Infectious Fright", "Iron Maiden"],
+        "explanation": "Get aura-reading at valuable opportunities!",
         "meme": "Medium Meme"
     },
     "Shatter My Chains": {
         "main": "The Blight",
-        "addons": [],
-        "perks": ["Awakened Awareness", "Tinkerer"],
-        "explanation": "",
+        "addons": ["Vigo's Journal", "Shredded Notes"],
+        "perks": ["Awakened Awareness", "Tinkerer", "Hex: Devour Hope", "Pop Goes the Weasel"],
+        "explanation": "Blight hates being slowed down when carrying survivors. Use Awakened Awareness to find the next survivor to take your rage out on, and chase them down! Vigo's Journal will help you catch them by surprise! Tinkerer and Pop will help you slow down generators in the meantime.",
         "meme": "Medium Meme"
     },
     "Inevitable Demise": {
         "main": "The Hillbilly",
-        "addons": [],
-        "perks": ["Superior Anatomy", "Bamboozle"],
-        "explanation": "",
-        "meme": "Medium Meme"
+        "addons": ["Dad's Boots", "Heavy Clutch"],
+        "perks": ["Superior Anatomy", "Bamboozle", "Make Your Choice", "Barbecue & Chilli"],
+        "explanation": "Chases will be shorter than ever when you combine Superior Anatomy and Bamboozle to blaze through windows!",
+        "meme": "Low Meme"
     },
     "Nothing Will Come Between Us": {
         "main": "The Cannibal",
-        "addons": [],
-        "perks": ["Superior Anatomy", "Bamboozle"],
-        "explanation": "",
+        "addons": ["Light Chassis", "The Grease"],
+        "perks": ["Superior Anatomy", "Bamboozle", "Agitation", "Scourge Hook: Gift of Pain"],
+        "explanation": "Chases will be even shorter than usual! Superior Anatomy and Bamboozle will make windows a non-issue. Rev your chainsaw to see nearby survivors and down them! Use Agitation and the Scourge Hook to slow down generators.",
         "meme": "Medium Meme"
     },
     "I Didn't Mark You Just For Fun!": {
         "main": "The Ghost Face",
-        "addons": [],
-        "perks": ["Superior Anatomy", "Bamboozle"],
-        "explanation": "",
+        "addons": ["Victim's Detailed Routine", "Olsen's Address Book"],
+        "perks": ["Superior Anatomy", "Bamboozle", "Save the Best for Last", "Jolt"],
+        "explanation": "When a survivor gets marked, you'll do anything to get them. Superior Anatomy and Bamboozle will shorten your vaults and Save the Best for Last will speed up your hits! Your addons will weaken the survivor and give you the necessary information to close out chases quickly.",
         "meme": "Medium Meme"
     },
     "Parkour Expert": {
         "main": "The Wraith",
-        "addons": [],
-        "perks": ["Superior Anatomy", "Brutal Strength"],
-        "explanation": "",
-        "meme": "Medium Meme"
+        "addons": ["\"Shadow Dance\" - Blood", "\"Shadow Dance\" - White"],
+        "perks": ["Superior Anatomy", "Brutal Strength", "Enduring", "Tinkerer"],
+        "explanation": "Get through pallets and windows faster than anyone else ever could!",
+        "meme": "High Meme"
     }
 }
