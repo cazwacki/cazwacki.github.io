@@ -903,66 +903,66 @@ let preset_survivor_perks = {
         "meme": "Medium Meme"
     },
     "Expert Informant": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Wiretap", "Open-Handed"],
-        "explanation": "",
+        "main": "Map",
+        "addons": ["Retardant Jelly", "Crystal Bead"],
+        "perks": ["Wiretap", "Open-Handed", "Detective's Hunch", "Kindred"],
+        "explanation": "Let the rest of the team know what's going on throughout the match. Plant Wiretaps and use Kindred to show your teammates where the killer is. Detective's Hunch and your Map will show the critical items of the game to the rest of the survivors as well!",
         "meme": "Medium Meme"
     },
     "Electrician": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Wiretap", "Blast Mine"],
-        "explanation": "",
+        "main": "Engineer's Toolbox",
+        "addons": ["Socket Swivels", "Spring Clamp"],
+        "perks": ["Wiretap", "Blast Mine", "Prove Thyself", "Rookie Spirit"],
+        "explanation": "Rewiring a generator is a familiar task for you. In fact, you find spare wires and parts littered within the broken generator to fashion up Wiretaps and Blast Mines. After working on the generators, you know how to teach others to wire it back up and you have a sixth sense for when a generator is starting to break back down!",
         "meme": "Medium Meme"
     },
     "Flashlight Fanatic": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Reactive Healing", "Self Care", "Built to Last", "Overcome"],
-        "explanation": "",
+        "main": "Utility Flashlight",
+        "addons": ["Long Life Battery", "Heavy Duty Battery"],
+        "perks": ["Reactive Healing", "Self Care", "Iron Will", "Overcome"],
+        "explanation": "You will stop at nothing to get your flashlight save, even if injured. Follow along with the other survivor during a chase, and partially heal with Reactive Healing. Self Care the rest of the way at opportune times to heal to full, and when the killer goes for a pickup, get the flashlight save! If you get spotted, Overcome will help you make a quick getaway.",
         "meme": "Medium Meme"
     },
     "Life or Death": {
-        "main": "",
-        "addons": [""],
+        "main": "Emergency Med-kit",
+        "addons": ["Medical Scissors", "Gel Dressings"],
         "perks": ["Low Profile", "We'll Make It", "For the People", "Bite the Bullet"],
-        "explanation": "",
+        "explanation": "When things come down to the wire, Low Profile will let you know. Use your healing-oriented build to turn the match back around!",
         "meme": "Medium Meme"
     },
     "I Got Mine": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Low Profile", "Left Behind"],
-        "explanation": "",
+        "main": "Dull Key",
+        "addons": ["Blood Amber", "Weaved Ring"],
+        "perks": ["Low Profile", "Left Behind", "Sole Survivor", "Quick & Quiet"],
+        "explanation": "You'll make it out, even at the expense of your teammates. Quick & Quiet will help keep you stealthy while the game progresses. The rest of your build will make sure you're safe and can more quickly find the hatch!",
         "meme": "High Meme"
     },
-    "Apollo": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Better than New", "We'll Make It"],
-        "explanation": "",
+    "Apollo's Child": {
+        "main": "Ranger Med-kit",
+        "addons": ["Gel Dressings", "Butterfly Tape"],
+        "perks": ["Better than New", "Inner Focus", "Empathy", "Botany Knowledge"],
+        "explanation": "You are a demigod of healing! Find and heal your fellow survivors with Empathy while avoiding the Killer with Inner Focus. Better than New will have your fellow survivors feeling unusually healthy after they leave your touch.",
         "meme": "High Meme"
     },
     "Unhappy Camper": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Reassurance"],
-        "explanation": "",
+        "main": "Sport Flashlight",
+        "addons": ["Intense Halogen", "Odd Bulb"],
+        "perks": ["Reassurance", "Borrowed Time", "Decisive Strike", "Desperate Measures"],
+        "explanation": "Make sure any camping killer isn't having a good time! Fast unhooks with Desperate Measures, Slowing the hook phase with Reassurance, extra Endurance with Borrowed Time, and an extremely long blind from your flashlight will throw off the killer and help you get hooked survivors out of a seemingly impossible situation.",
         "meme": "Medium Meme"
     },
     "Surrogate Soul Reaper": {
-        "main": "",
-        "addons": [""],
-        "perks": ["For the People", "Better than New"],
-        "explanation": "",
+        "main": "Flashlight",
+        "addons": ["Focus Lens", "High-End Sapphire Lens"],
+        "perks": ["For the People", "Better than New", "Inner Healing", "Off the Record"],
+        "explanation": "Like Rukia from Bleach, you can donate your power to another. After a couple seconds of healing, use For the People to instantly heal a survivor and infuse them with the Better than New bonuses! Inner Healing and Off the Record will help you preserve yourself in your weakened state.",
         "meme": "High Meme"
     },
     "Flow State": {
-        "main": "",
-        "addons": [""],
-        "perks": ["Hyperfocus"],
-        "explanation": "",
+        "main": "Commodious Toolbox",
+        "addons": ["Wire Spool", "Clean Rag"],
+        "perks": ["Hyperfocus", "Stake Out", "This Is Not Happening", "Overcome"],
+        "explanation": "When you get to a generator, you don't mess around. Use Stake Out and This is Not Happening to get more Great Skill Checks and get your Hyperfocus bonuses! If you get hit while getting Stake Out points, Overcome will help you make a quick getaway.",
         "meme": "Low Meme"
     }
 }
