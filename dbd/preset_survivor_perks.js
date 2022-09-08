@@ -919,8 +919,8 @@ let preset_survivor_perks = {
     "Flashlight Fanatic": {
         "main": "Utility Flashlight",
         "addons": ["Long Life Battery", "Heavy Duty Battery"],
-        "perks": ["Reactive Healing", "Self Care", "Iron Will", "Overcome"],
-        "explanation": "You will stop at nothing to get your flashlight save, even if injured. Follow along with the other survivor during a chase, and partially heal with Reactive Healing. Self Care the rest of the way at opportune times to heal to full, and when the killer goes for a pickup, get the flashlight save! If you get spotted, Overcome will help you make a quick getaway.",
+        "perks": ["Reactive Healing", "Self-Care", "Iron Will", "Overcome"],
+        "explanation": "You will stop at nothing to get your flashlight save, even if injured. Follow along with the other survivor during a chase, and partially heal with Reactive Healing. Self-Care the rest of the way at opportune times to heal to full, and when the killer goes for a pickup, get the flashlight save! If you get spotted, Overcome will help you make a quick getaway.",
         "meme": "Medium Meme"
     },
     "Life or Death": {
@@ -940,8 +940,8 @@ let preset_survivor_perks = {
     "Apollo's Child": {
         "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Butterfly Tape"],
-        "perks": ["Better than New", "Inner Focus", "Empathy", "Botany Knowledge"],
-        "explanation": "You are a demigod of healing! Find and heal your fellow survivors with Empathy while avoiding the Killer with Inner Focus. Better than New will have your fellow survivors feeling unusually healthy after they leave your touch.",
+        "perks": ["Better Than New", "Inner Focus", "Empathy", "Botany Knowledge"],
+        "explanation": "You are a demigod of healing! Find and heal your fellow survivors with Empathy while avoiding the Killer with Inner Focus. Better Than New will have your fellow survivors feeling unusually healthy after they leave your touch.",
         "meme": "High Meme"
     },
     "Unhappy Camper": {
@@ -954,8 +954,8 @@ let preset_survivor_perks = {
     "Surrogate Soul Reaper": {
         "main": "Flashlight",
         "addons": ["Focus Lens", "High-End Sapphire Lens"],
-        "perks": ["For the People", "Better than New", "Inner Healing", "Off the Record"],
-        "explanation": "Like Rukia from Bleach, you can donate your power to another. After a couple seconds of healing, use For the People to instantly heal a survivor and infuse them with the Better than New bonuses! Inner Healing and Off the Record will help you preserve yourself in your weakened state.",
+        "perks": ["For the People", "Better Than New", "Inner Healing", "Off the Record"],
+        "explanation": "Like Rukia from Bleach, you can donate your power to another. After a couple seconds of healing, use For the People to instantly heal a survivor and infuse them with the Better Than New bonuses! Inner Healing and Off the Record will help you preserve yourself in your weakened state.",
         "meme": "High Meme"
     },
     "Flow State": {
