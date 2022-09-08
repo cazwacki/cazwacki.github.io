@@ -940,8 +940,8 @@ let preset_survivor_perks = {
     "Apollo's Child": {
         "main": "Ranger Med-kit",
         "addons": ["Gel Dressings", "Butterfly Tape"],
-        "perks": ["Better than New", "Inner Focus", "Empathy", "Botany Knowledge"],
-        "explanation": "You are a demigod of healing! Find and heal your fellow survivors with Empathy while avoiding the Killer with Inner Focus. Better than New will have your fellow survivors feeling unusually healthy after they leave your touch.",
+        "perks": ["Better Than New", "Inner Focus", "Empathy", "Botany Knowledge"],
+        "explanation": "You are a demigod of healing! Find and heal your fellow survivors with Empathy while avoiding the Killer with Inner Focus. Better Than New will have your fellow survivors feeling unusually healthy after they leave your touch.",
         "meme": "High Meme"
     },
     "Unhappy Camper": {
@@ -954,8 +954,8 @@ let preset_survivor_perks = {
     "Surrogate Soul Reaper": {
         "main": "Flashlight",
         "addons": ["Focus Lens", "High-End Sapphire Lens"],
-        "perks": ["For the People", "Better than New", "Inner Healing", "Off the Record"],
-        "explanation": "Like Rukia from Bleach, you can donate your power to another. After a couple seconds of healing, use For the People to instantly heal a survivor and infuse them with the Better than New bonuses! Inner Healing and Off the Record will help you preserve yourself in your weakened state.",
+        "perks": ["For the People", "Better Than New", "Inner Healing", "Off the Record"],
+        "explanation": "Like Rukia from Bleach, you can donate your power to another. After a couple seconds of healing, use For the People to instantly heal a survivor and infuse them with the Better Than New bonuses! Inner Healing and Off the Record will help you preserve yourself in your weakened state.",
         "meme": "High Meme"
     },
     "Flow State": {
