@@ -1725,56 +1725,56 @@ let preset_killer_perks = {
         "main": "The Mastermind",
         "addons": ["Video Conference Device", "Maiden Medallion"],
         "perks": ["Mad Grit", "Agitation", "Awakened Awareness", "Starstruck"],
-        "explanation": "",
+        "explanation": "Throw survivors off by being surprisingly strong with a survivor on your back! All your perks are oriented towards getting downs while or after carrying a survivor.",
         "meme": "Medium Meme"
     },
     "Too Scared to Heal": {
         "main": "The Mastermind",
         "addons": ["Helicopter Stick", "Video Conference Device"],
         "perks": ["Coulrophobia", "Distressing", "Sloppy Butcher", "Unnerving Presence"],
-        "explanation": "",
+        "explanation": "Abuse your unusually large terror readius to make it difficult for anyone to heal!",
         "meme": "High Meme"
     },
     "Silenced Bound": {
         "main": "The Mastermind",
         "addons": ["Bullhorn", "Leather Gloves"],
         "perks": ["Trail of Torment", "Tinkerer", "Dark Devotion", "Terminus"],
-        "explanation": "",
+        "explanation": "Use the different methods of becoming undetectable or making survivors oblivious to catch survivors by surprise!",
         "meme": "Medium Meme"
     },
     "Flipping the Script": {
         "main": "The Mastermind",
         "addons": ["Helicopter Stick", "Bullhorn"],
         "perks": ["No Way Out", "Terminus", "Infectious Fright", "Scourge Hook: Pain Resonance"],
-        "explanation": "",
+        "explanation": "A Mastermind endgame build! No Way Out and Terminus will help keep survivors injured -- Infectious Fright will let you chain downs once you find a survivor in the endgame.",
         "meme": "Medium Meme"
     },
     "Hot Pursuit": {
         "main": "The Mastermind",
         "addons": ["Iridescent Uroboros Vial", "Video Conference Device"],
         "perks": ["Call of Brine", "Overcharge", "Eruption", "Bamboozle"],
-        "explanation": "",
+        "explanation": "Quickly force infection with your addons; your perks will slow down generators and Bamboozle will simplify your chases!",
         "meme": "Low Meme"
     },
     "Starstruck Nurse": {
         "main": "The Mastermind",
         "addons": ["Unicorn Medallion", "Leather Gloves"],
         "perks": ["Starstruck", "Agitation", "Scourge Hook: Pain Resonance", "Scourge Hook: Gift of Pain"],
-        "explanation": "",
+        "explanation": "Emulate a Starstruck Nurse! The addons will simulate being Nurse, and the build is a common Starstruck Nurse build!",
         "meme": "High Meme"
     },
     "Plague, Inc.": {
         "main": "The Mastermind",
         "addons": ["Dark Sunglasses", "Video Conference Device"],
         "perks": ["Tinkerer", "Merciless Storm", "Hex: Ruin", "Hex: Undying"],
-        "explanation": "",
+        "explanation": "Spread your infection silently! When it counts, use it to down survivors quickly.",
         "meme": "High Meme"
     },
     "Aburame Techniques": {
         "main": "The Mastermind",
         "addons": ["Uroboros Virus", "Helicopter Stick"],
         "perks": ["Infectious Fright", "Hysteria", "Fearmonger", "Scourge Hook: Pain Resonance"],
-        "explanation": "",
+        "explanation": "Your infection is everywhere in the match. It slows down gens and exhausts survivors. When you hit a survivor, the rest of your infection reacts, blinding survivors. The infection will alert you when survivors shed it or it creates a critical infection as well. Hooking survivors in the right place will slow down generators as well.",
         "meme": "High Meme"
     },
     "Irreparable Harm": {
