@@ -357,7 +357,7 @@ const projects = [
         card_image: unraid_image,
         project_type: 'DevOps / Architecture Development',
         start_date: '04/21/2022',
-        last_updated: '07/20/2022',
+        last_updated: '10/03/2022',
         currently_maintaining: false,
         one_liner: 'A server used to maintain media, Docker applications, and virtual machines.',
         info: [
@@ -440,7 +440,7 @@ const projects = [
         card_image: personal_site_image,
         project_type: 'Website Development',
         start_date: '08/27/2020',
-        last_updated: '03/15/2022',
+        last_updated: '10/03/2022',
         currently_maintaining: false,
         one_liner: 'A portfolio site dedicated to presenting my skills, real world experience, higher education, and side projects.',
         info: [
@@ -568,7 +568,7 @@ const projects = [
         card_image: dbd_hub_image,
         project_type: 'Website Development',
         start_date: '07/29/2021',
-        last_updated: '07/07/2022',
+        last_updated: '09/08/2022',
         currently_maintaining: true,
         one_liner: 'A fan site / hub for Dead by Daylight information that presents perks and other data in a pleasing, game-thematic manner.',
         info: [
@@ -622,7 +622,7 @@ const projects = [
         card_image: discord_freelance_logo,
         project_type: 'Bot / Back-end Development',
         start_date: '08/03/2020',
-        last_updated: '05/02/2022',
+        last_updated: '10/03/2022',
         currently_maintaining: true,
         one_liner: 'A fully-featured Discord bot with many commands that covered administrative and utility needs for multiple servers.',
         info: [
