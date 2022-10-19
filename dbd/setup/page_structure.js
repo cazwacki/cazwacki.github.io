@@ -107,19 +107,18 @@ lower_structure.innerHTML += `
             </div>
         </div>
         <div class="mx-auto row justify-content-center footer-row">
-            <div class="col">
+            <div class="col d-none d-lg-block">
                 <a href="https://github.com/cazwacki" target="_blank">GitHub</a>
             </div>
             <div class="col">
-                <a href="https://hits.seeyoufarm.com"><img
-                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" /></a>
+                <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcharles.zawackis.com%2Fdbd%2F&count_bg=%23BA854C&title_bg=%231D1D1D&icon=&icon_color=%239E9E9E&title=Daily+%2F+Total+Visits&edge_flat=false" />
                 <p> </p>
             </div>
-            <div class="col">
+            <div class="col d-none d-lg-block">
                 <a href="https://forum.deadbydaylight.com/en/categories/p6" target="_blank">Dead By Daylight Forums</a>
             </div>
         </div>
-        <div class="mx-auto row justify-content-center footer-row">
+        <div class="mx-auto row justify-content-center footer-row d-none d-lg-flex">
             <div class="col">
                 <a href="https://www.linkedin.com/in/charleszawacki/" target="_blank">LinkedIn</a>
             </div>
