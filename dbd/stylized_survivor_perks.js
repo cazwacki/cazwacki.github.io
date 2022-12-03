@@ -6,7 +6,7 @@ var stylized_survivor_perks = {
         "description": "assist your teammates"
     },
     "Aura-Reading": {
-        "perks": ["Aftercare", "Alert", "Situational Awareness", "Bond", "Breakdown", "Clairvoyance", "Counterforce", "Dark Sense", "Déjà Vu", "Empathy", "Kindred", "Left Behind", "No One Left Behind", "Object of Obsession", "Open-Handed", "Plunderer's Instinct", "Rookie Spirit", "Visionary", "Wake Up!", "Windows of Opportunity", "Wiretap"],
+        "perks": ["Aftercare", "Alert", "Situational Awareness", "Bond", "Breakdown", "Clairvoyance", "Counterforce", "Dark Sense", "Déjà Vu", "Empathy", "Kindred", "Left Behind", "No One Left Behind", "Object of Obsession", "Open-Handed", "Plunderer's Instinct", "Rookie Spirit", "Visionary", "Wake Up!", "Windows of Opportunity", "Wiretap", "Fogwise"],
         "items": ["Map", "Broken Key", "Dull Key", "Skeleton Key", "Rainbow Map"],
         "addons": ["Map Addendum", "Yellow Wire", "Unusual Stam", "Retardant Jelly", "Red Twine", "Odd Stamp", "Black Silk Cord", "Prayer Beads", "Eroded Token", "Gold Token", "Blood Amber", "Unique Wedding Ring", "Scratched Pearl"],
         "description": "get more information"
@@ -18,7 +18,7 @@ var stylized_survivor_perks = {
         "description": "get more bloodpoints"
     },
     "Clutch": {
-        "perks": ["Adrenaline", "Decisive Strike", "Deliverance", "Flashbang", "Flip-Flop", "Head On", "Hope", "Inner Healing", "Left Behind", "Power Struggle", "Repressed Alliance", "Resurgence", "Saboteur", "Renewal", "Soul Guard", "Unbreakable", "We'll Make It", "Reactive Healing"],
+        "perks": ["Adrenaline", "Decisive Strike", "Deliverance", "Flashbang", "Flip-Flop", "Head On", "Hope", "Inner Healing", "Left Behind", "Power Struggle", "Repressed Alliance", "Resurgence", "Saboteur", "Renewal", "Soul Guard", "Unbreakable", "We'll Make It", "Reactive Healing", "Potential Energy", "Quick Gambit"],
         "items": ["Alex's Toolbox", "Engineer's Toolbox", "Flashlight", "Sport Flashlight", "Utility Flashlight", "Emergency Med-kit"],
         "addons": ["Odd Bulb", "High-End Sapphire Lens", "Long Life Battery", "Heavy Duty Battery", "Low Amp Filament", "Rubber Grip", "Battery", "Leather Grip", "Gel Dressings", "Gauze Roll", "Abdominal Dressing", "Medical Scissors", "Surgical Suture", "Needle & Thread", "Self Adherent Wrap", "Hacksaw", "Cutting Wire", "Protective Gloves", "Wire Spool", "Spring Clamp", "Scraps"],
         "description": "clutch difficult situations"
@@ -42,7 +42,7 @@ var stylized_survivor_perks = {
         "description": "increase your general safety"
     },
     "End-Gaming": {
-        "perks": ["Adrenaline", "Clairvoyance", "Hope", "Left Behind", "No One Left Behind", "Wake Up!", "Low Profile"],
+        "perks": ["Adrenaline", "Clairvoyance", "Hope", "Left Behind", "No One Left Behind", "Wake Up!", "Low Profile", "Potential Energy"],
         "items": ["Dull Key", "Skeleton Key"],
         "addons": ["Weaved Ring", "Milky Glass", "Eroded Token", "Gold Token"],
         "description": "clutch out the endgame"
@@ -60,7 +60,7 @@ var stylized_survivor_perks = {
         "description": "extend a chase"
     },
     "Gen-Rushing": {
-        "perks": ["Clairvoyance", "Corrective Action", "Déjà Vu", "Detective's Hunch", "Fast Track", "Prove Thyself", "Rookie Spirit", "Visionary", "Better than New", "Hyperfocus"],
+        "perks": ["Clairvoyance", "Corrective Action", "Déjà Vu", "Detective's Hunch", "Fast Track", "Prove Thyself", "Rookie Spirit", "Visionary", "Better than New", "Hyperfocus", "Potential Energy", "Fogwise"],
         "items": ["Commodious Toolbox", "Engineer's Toolbox", "Mechanic's Toolbox", "Toolbox", "Worn-out Tools"],
         "addons": ["Brand New Part", "Socket Swivels", "Wire Spool", "Clean Rag", "Scraps", "Instructions"],
         "description": "quickly complete generators"
@@ -78,7 +78,7 @@ var stylized_survivor_perks = {
         "description": "farm for new items"
     },
     "Killer-Spying": {
-        "perks": ["Alert", "Breakdown", "Buckle Up", "Dark Sense", "Object of Obsession", "Premonition", "Spine Chill", "Wiretap"],
+        "perks": ["Alert", "Breakdown", "Buckle Up", "Dark Sense", "Object of Obsession", "Premonition", "Spine Chill", "Wiretap", "Fogwise"],
         "items": ["Dull Key", "Skeleton Key"],
         "addons": ["Prayer Beads", "Blood Amber", "Scratched Pearl"],
         "description": "keep track of the killer"
@@ -90,19 +90,19 @@ var stylized_survivor_perks = {
         "description": "take advantage of lockers"
     },
     "Looping": {
-        "perks": ["Self-Aware", "Dance With Me", "Iron Will", "Lightweight", "Lucky Break", "Quick & Quiet", "Resilience", "Windows of Opportunity"],
+        "perks": ["Self-Aware", "Dance With Me", "Iron Will", "Lightweight", "Lucky Break", "Quick & Quiet", "Resilience", "Windows of Opportunity", "Quick Gambit"],
         "items": ["Skeleton Key"],
         "addons": ["Blood Amber", "Prayer Beads", "Scratched Pearl"],
         "description": "loop more effectively"
     },
     "Resourceful": {
-        "perks": ["Boon: Circle of Healing", "Boon: Shadow Step", "Boon: Exponential", "Built to Last", "Detective's Hunch", "Flashbang", "Repressed Alliance", "Self-Care", "Streetwise", "Wiretap"],
+        "perks": ["Boon: Circle of Healing", "Boon: Shadow Step", "Boon: Exponential", "Built to Last", "Detective's Hunch", "Flashbang", "Repressed Alliance", "Self-Care", "Streetwise", "Wiretap", "Fogwise"],
         "items": ["Map", "Rainbow Map"],
         "addons": ["Map Addendum", "Yellow Wire", "Unusual Stam", "Retardant Jelly", "Red Twine", "Odd Stamp", "Black Silk Cord"],
         "description": "make the best of a difficult situation"
     },
     "Risky": {
-        "perks": ["Autodidact", "Borrowed Time", "Deception", "Decisive Strike", "Deliverance", "Diversion", "Flashbang", "Flip-Flop", "Head On", "Left Behind", "Saboteur", "Self-Care", "Slippery Meat", "Stake Out", "Up the Ante", "Wake Up!", "Hyperfocus"],
+        "perks": ["Autodidact", "Borrowed Time", "Deception", "Decisive Strike", "Deliverance", "Diversion", "Flashbang", "Flip-Flop", "Head On", "Left Behind", "Saboteur", "Self-Care", "Slippery Meat", "Stake Out", "Up the Ante", "Wake Up!", "Hyperfocus", "Potential Energy"],
         "items": ["Alex's Toolbox", "Flashlight", "Sport Flashlight", "Utility Flashlight"],
         "addons": ["Battery", "Leather Grip", "Rubber Grip", "Low Amp Filament", "Heavy Duty Battery", "Long Life Battery", "Intense Halogen", "Hacksaw", "Cutting Wire", "Protective Gloves", "Wire Spool"],
         "description": "go for dangerous plays"
@@ -138,7 +138,7 @@ var stylized_survivor_perks = {
         "description": "remain concealed"
     },
     "Team-Oriented": {
-        "perks": ["Blood Pact", "Guardian", "Boon: Shadow Step", "Boon: Circle of Healing", "Botany Knowledge", "Breakout", "Kinship", "Corrective Action", "Empathy", "Head On", "Kindred", "Leader", "Mettle of Man", "Open-Handed", "Prove Thyself", "Streetwise", "Vigil", "We'll Make It", "Better than New", "Reassurance"],
+        "perks": ["Blood Pact", "Guardian", "Boon: Shadow Step", "Boon: Circle of Healing", "Botany Knowledge", "Breakout", "Kinship", "Corrective Action", "Empathy", "Head On", "Kindred", "Leader", "Mettle of Man", "Open-Handed", "Prove Thyself", "Streetwise", "Vigil", "We'll Make It", "Better than New", "Reassurance", "Quick Gambit"],
         "items": ["Alex's Toolbox", "Flashlight", "Sport Flashlight", "Utility Flashlight", "First Aid Kit", "Ranger Med-kit", "Rainbow Map"],
         "addons": ["Battery", "Leather Grip", "Rubber Grip", "Low Amp Filament", "Heavy Duty Battery", "Long Life Battery", "Intense Halogen", "Gel Dressings", "Gauze Roll", "Medical Scissors", "Self Adherent Wrap", "Bandages", "Hacksaw", "Cutting Wire", "Protective Gloves", "Wire Spool"],
         "description": "go for team-coordination plays"
