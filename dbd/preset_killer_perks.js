@@ -1867,5 +1867,194 @@ let preset_killer_perks = {
         "perks": ["Superior Anatomy", "Brutal Strength", "Enduring", "Tinkerer"],
         "explanation": "Get through pallets and windows faster than anyone else ever could!",
         "meme": "High Meme"
+    },
+    "Terror State": {
+        "main": "The Wraith",
+        "addons": ["\"Shadow Dance\" - White", "\"Swift Hunt\" - Blood"],
+        "perks": ["Hex: Face the Darkness", "Infectious Fright", "Jolt", "Hex: Haunted Ground"],
+        "explanation": "Use Face the Darkness and Infectious Fright to constantly know survivors' locations through their screams! Jolt will slow down gens and Haunted Ground will add a new threat if survivors try to cleanse your totems.",
+        "meme": "Medium Meme"
+    },
+    "Amish Murderer": {
+        "main": "The Wraith",
+        "addons": ["\"Shadow Dance\" - Blood", "\"Swift Hunt\" - White"],
+        "perks": ["Nowhere to Hide", "Brutal Strength", "Save the Best for Last", "Jolt"],
+        "explanation": "Nowhere to Hide will let you find survivors near gens and down them, allowing you trigger Jolt over and over again!",
+        "meme": "Medium Meme"
+    },
+    "Personally, I Wouldn't Let That Slide": {
+        "main": "The Hillbilly",
+        "addons": ["Heavy Clutch", "Dad's Boots"],
+        "perks": ["Tinkerer", "Nowhere to Hide", "Iron Grasp", "Scourge Hook: Pain Resonance"],
+        "explanation": "Slither through the map with your smaller hitbox and down survivors near gens! Use the Scourge Hook to regress generators.",
+        "meme": "Low Meme"
+    },
+    "Traumatizer": {
+        "main": "The Nurse",
+        "addons": ["Fragile Wheeze", "Ataxic Respiration"],
+        "perks": ["Hex: Face the Darkness", "Hex: Plaything", "Jolt", "Deadlock"],
+        "explanation": "When you hurt or hook a survivor, there's some lingering pains. Hold back gens by downing survivors near gens!",
+        "meme": "Medium Meme"
+    },
+    "r/shapepalletstun": {
+        "main": "The Shape",
+        "addons": ["Vanity Mirror", "Dead Rabbit"],
+        "perks": ["Hubris", "Enduring", "Brutal Strength", "Save the Best for Last"],
+        "explanation": "Get stunned as much as possible by survivors to hear that sweet, sweet sound while still remaining a threat.",
+        "meme": "High Meme"
+    },
+    "A Doctor A Day Keeps the Gens At Bay": {
+        "main": "The Doctor",
+        "addons": ["\"Order\" - Carter's Notes", "Iridescent Queen"],
+        "perks": ["Nowhere to Hide", "Overcharge", "Call of Brine", "Jolt"],
+        "explanation": "Swing by generators to make sure there's nobody nearby. Regress it, and if there's a nearby survivor, down them to trigger Jolt!",
+        "meme": "Medium Meme"
+    },
+    "Aim Trainer": {
+        "main": "The Huntress",
+        "addons": ["Oak Haft", "Flower Babushka"],
+        "perks": ["Hex: Face the Darkness", "Bitter Murmur", "Iron Maiden", "Lethal Pursuer"],
+        "explanation": "Get an injury to start your aim training! Aim at and down survivors you find with Face the Darkness and Bitter Murmur.",
+        "meme": "High Meme"
+    },
+    "\"God, Leave Me Alone!\"": {
+        "main": "The Cannibal",
+        "addons": ["Primer Bulb", "Light Chassis"],
+        "perks": ["Tinkerer", "Call of Brine", "Nowhere to Hide", "Fearmonger"],
+        "explanation": "Find survivors near critical generators, regress the generator, and down survivors!",
+        "meme": "Low Meme"
+    },
+    "Bloodbender": {
+        "main": "The Nightmare",
+        "addons": ["Nancy's Masterpiece", "Outdoor Rope"],
+        "perks": ["Nowhere to Hide", "Tinkerer", "Sloppy Butcher", "Jolt"],
+        "explanation": "You can feel the survivors through the generators. Kick them to gain insight on survivor positions and down them nearby to trigger Jolt.",
+        "meme": "Medium Meme"
+    },
+    "I Was Here All Along": {
+        "main": "The Nightmare",
+        "addons": ["Nancy's Sketch", "Outdoor Rope"],
+        "perks": ["Tinkerer", "Knock Out", "Deadlock", "Insidious"],
+        "explanation": "Teleport to gens that are near completion and kick them. Stay still until you hear the survivors coming back. Take them out with a jumpscare! Knock Out will make sure other survivors aren't 100% sure about your position.",
+        "meme": "High Meme"
+    },
+    "Self-Sabotage": {
+        "main": "The Spirit",
+        "addons": ["Uchiwa", "Rusty Flute"],
+        "perks": ["Hubris", "Spirit Fury", "Enduring", "Hex: Ruin"],
+        "explanation": "Pallets only make you stronger. Use pallet stuns and Spirit Fury to get easy, fast downs on survivors.",
+        "meme": "Medium Meme"
+    },
+    "You Can't Hide From Me": {
+        "main": "The Legion",
+        "addons": ["Stylish Sunglasses", "Filthy Blade"],
+        "perks": ["Nowhere to Hide", "Fearmonger", "Discordance", "Hex: Face the Darkness"],
+        "explanation": "Survivors can't stay hidden from you. Use your Frenzy to activate your Hex and Nowhere to Hide to keep survivors easy to find! Fearmonger will simplify chases and Discordance will help you start the chaos.",
+        "meme": "Medium Meme"
+    },
+    "Silence Their Suffering": {
+        "main": "The Oni",
+        "addons": ["Wooden Oni Mask", "Chipped Saihai"],
+        "perks": ["Hex: Face the Darkness", "Hex: No One Escapes Death", "Scourge Hook: Pain Resonance", "Dead Man's Switch"],
+        "explanation": "When you start wreaking havoc, survivors will scream throughout the map. Use this to your advantage to get downs with your Demon Dash!",
+        "meme": "Medium Meme"
+    },
+    "Gun Club Enthusiast": {
+        "main": "The Deathslinger",
+        "addons": ["Warden's Keys", "Tin Oil Can"],
+        "perks": ["Nowhere to Hide", "Scourge Hook: Pain Resonance", "Dead Man's Switch", "Tinkerer"],
+        "explanation": "\"A gen with survivors on it!? Sounds like a shooting range to me!\"",
+        "meme": "Low Meme"
+    },
+    "Brawn Over Brains": {
+        "main": "The Blight",
+        "addons": ["Compound Seven", "Soul Chemical"],
+        "perks": ["Nowhere to Hide", "Tinkerer", "Hubris", "Spirit Fury"],
+        "explanation": "What Blight lacks in mind, he makes up with muscle. Take pallet stuns to threaten survivors and find them with your instinct when you kick a gen.",
+        "meme": "Medium Meme"
+    },
+    "Victor's Jump Scare": {
+        "main": "The Twins",
+        "addons": ["Cat's Eye", "Forest Stew"],
+        "perks": ["Hex: Face the Darkness", "Infectious Fright", "Overcharge", "Oppression"],
+        "explanation": "When Victor gets a pounce and injures a survivor, it's a jump scare for the whole team!",
+        "meme": "High Meme"
+    },
+    "Terrorizing Chains": {
+        "main": "The Cenobite",
+        "addons": ["Impaling Wire", "Frank's Heart"],
+        "perks": ["Hex: Face the Darkness", "Scourge Hook: Pain Resonance", "Dead Man's Switch", "Tinkerer"],
+        "explanation": "Every time a gen is near completion, chains appear to terrorize the survivors and start the screams!",
+        "meme": "Medium Meme"
+    },
+    "Extrasensory Perception": {
+        "main": "The Artist",
+        "addons": ["Charcoal Stick", "Silver Bell"],
+        "perks": ["Nowhere to Hide", "Tinkerer", "Call of Brine", "I'm All Ears"],
+        "explanation": "Somehow, the Artist seems to know where everyone is when things get tense! This setup will mask your position while helping you aim at and down survivors near gens from a distance.",
+        "meme": "Medium Meme"
+    },
+    "Reactive Itinerary": {
+        "main": "The Onryō",
+        "addons": ["Reiko's Watch", "Well Water"],
+        "perks": ["Hex: Face the Darkness", "Save the Best for Last", "Hex: Haunted Ground", "Scourge Hook: Pain Resonance"],
+        "explanation": ["As you tour the map, kick gens and let the hex give you information on your immediate next visits!"],
+        "meme": "High Meme"
+    },
+    "Surprise Inspection": {
+        "main": "The Dredge",
+        "addons": ["Haddie's Calendar", "Caffeine Tablets"],
+        "perks": ["Merciless Storm", "Nowhere to Hide", "Call of Brine", "Fearmonger"],
+        "explanation": "Ever feel your boss's eyes boring holes into your monitor from behind you, then you make a mistake? That's what this build is supposed to make survivors feel. Enjoy!",
+        "meme": "High Meme"
+    },
+    "Skill Check Proctors": {
+        "main": "The Knight",
+        "addons": ["Battleaxe Head", "Map of the Realm"],
+        "perks": ["Hex: Ruin", "Hex: Undying", "Surveillance", "Overcharge"],
+        "explanation": "Kick gens to provide difficult skillchecks, and stress out the survivors by placing your proctors by the gens!",
+        "meme": "High Meme"
+    },
+    "Spartan Kick": {
+        "main": "The Knight",
+        "addons": ["Lightweight Greaves", "Healing Poultice"],
+        "perks": ["Nowhere to Hide", "Oppression", "Trail of Torment", "Overcharge"],
+        "explanation": "Your kick shakes the earth to its core. It silences your footsteps, hits gens in the area, and makes survivors give away their positions.",
+        "meme": "Medium Meme"
+    },
+    "Teabagger's Torture": {
+        "main": "The Knight",
+        "addons": ["Iridescent Company Banner", "Call To Arms"],
+        "perks": ["Blood Warden", "No Way Out", "Nowhere to Hide", "Tinkerer"],
+        "explanation": "Use the Hunt in the endgame to force survivors down! Use the down to trigger the real Blood Warden, and extend it to survivors trying to stay hidden at the gate. Made by CoconutRTS.",
+        "meme": "High Meme"
+    },
+    "Hex Guardians": {
+        "main": "The Knight",
+        "addons": ["Cold Steel Manacles", "Gritty Lump"],
+        "perks": ["Hex: Devour Hope", "Hex: Ruin", "Hex: Undying", "Save the Best for Last"],
+        "explanation": "Use your Guards to protect your hexes while you take down survivors!",
+        "meme": "High Meme"
+    },
+    "Skill Check Destroyers": {
+        "main": "The Knight",
+        "addons": ["Cold Steel Manacles", "Map of the Realm"],
+        "perks": ["Save the Best for Last", "Overcharge", "Merciless Storm", "Unnerving Presence"],
+        "explanation": "Use your Guards to protect static areas around you while you damage generators and down survivors! Build by Otzdarva.",
+        "meme": "Low Meme"
+    },
+    "Gen Guardians": {
+        "main": "The Knight",
+        "addons": ["Tattered Tabard", "Cold Steel Manacles"],
+        "perks": ["Call of Brine", "Nowhere to Hide", "Eruption", "Scourge Hook: Pain Resonance"],
+        "explanation": "Use your guards to protect other generators while you damage the ones that concern you most!",
+        "meme": "Low Meme"
+    },
+    "Disinfectant": {
+        "main": "The Knight",
+        "addons": ["Ironworker's Tongs", "Broken Hilt"],
+        "perks": ["Lethal Pursuer", "Barbecue & Chilli", "Nowhere to Hide", "Eruption"],
+        "explanation": "You're able to sniff out the position of survivors and seriously damage them. You take preventative measures to minimize the amount of damage they can do. Use your Guards to help you wipe out the map's infection.",
+        "meme": "Medium Meme"
     }
 }

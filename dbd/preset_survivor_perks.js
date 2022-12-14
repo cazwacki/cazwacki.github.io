@@ -964,5 +964,33 @@ let preset_survivor_perks = {
         "perks": ["Hyperfocus", "Stake Out", "This Is Not Happening", "Overcome"],
         "explanation": "When you get to a generator, you don't mess around. Use Stake Out and This is Not Happening to get more Great Skill Checks and get your Hyperfocus bonuses! If you get hit while getting Stake Out points, Overcome will help you make a quick getaway.",
         "meme": "Low Meme"
+    },
+    "PAYDAY's Bain": {
+        "main": "Map",
+        "addons": ["Red Twine", "Retardant Jelly"],
+        "perks": ["Fogwise", "Kindred", "Botany Knowledge", "Déjà Vu"],
+        "explanation": "You keep your eyes on everything in the match. Report your knowledge to your teammates to make sure you get the job done and get paid.",
+        "meme": "Medium Meme"
+    },
+    "Double Time": {
+        "main": "Toolbox",
+        "addons": ["Wire Spool", "Spring Clamp"],
+        "perks": ["Potential Energy", "Prove Thyself", "Poised", "This Is Not Happening"],
+        "explanation": "Charge tokens for Potential Energy even more quickly with this build! Poised will help you ensure those charges go to the next generator.",
+        "meme": "High Meme"
+    },
+    "Sense of Urgency": {
+        "main": "Sport Flashlight",
+        "addons": ["Battery", "Rubber Grip"],
+        "perks": ["Quick Gambit", "Windows of Opportunity", "Overcome", "Resilience"],
+        "explanation": "Loop the Killer nearby your teammates to speed them up! Hopefully they're running Technician...",
+        "meme": "High Meme"
+    },
+    "3-Gen Warrior": {
+        "main": "Emergency Med-kit",
+        "addons": ["Butterfly Tape", "Medical Scissors"],
+        "perks": ["Potential Energy", "Sprint Burst", "Repressed Alliance", "Fogwise"],
+        "explanation": "You are set up to win 3-gens with everything it takes. Keep an eye on the killer, build up charges, block gens, and make emergency escapes with this build.",
+        "meme": "Low Meme"
     }
 }
