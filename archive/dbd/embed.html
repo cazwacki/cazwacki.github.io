@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dead by Daylight Embedded Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="buttons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.js"></script>
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+</head>
+
+<body id="embed-body" onload="generate()">
+    <div id="embed-wrapper" class="mx-auto">
+        <br />
+        <span id="title" class="display-3 mb-3 text-light">Build</span>
+        <br />
+        <span id="main-caption" class=" display-5 text-muted mb-3 font-italic"><i>Killer</i></span>
+        <br />
+        <a id="perk1-url" href="" target="_blank">
+            <img id="perk1-img" class="embed-img perk1" src="images/blank.png" />
+        </a>
+        <a id="perk2-url" href="" target="_blank">
+            <img id="perk2-img" class="embed-img perk2" src="images/blank.png" />
+        </a>
+        <a id="perk3-url" href="" target="_blank">
+            <img id="perk3-img" class="embed-img perk3" src="images/blank.png" />
+        </a>
+        <a id="perk4-url" href="" target="_blank">
+            <img id="perk4-img" class="embed-img perk4" src="images/blank.png" />
+        </a>
+        <br />
+        <a id="main-url" href="" target="_blank">
+            <img id="main-img" class="main-embed" src="images/killer.png" />
+        </a>
+        <a id="addon1-url" class="embed-url addon1" href="" target="_blank">
+            <img id="addon1-img" class="addon-embed" class="addon-embed" src="images/addon.png" />
+            <figcaption id="addon1-caption" class="h6 perk-caption addon1cap">Addon 1</figcaption>
+        </a>
+        <a id="addon2-url" href="" class="embed-url addon2" target="_blank">
+            <img id="addon2-img" class="addon-embed" src="images/addon.png" />
+            <figcaption id="addon2-caption" class="h6 perk-caption addon2cap">Addon 1</figcaption>
+        </a>
+        <button id="embed-refresh" class="btn btn-outline-dark btn-sm btn-radius text-light"
+            onclick="generate()">↻</button>
+    </div>
+</body>
+<script>
+    $.protip();
+</script>
+<script src="preset_survivor_perks.js"></script>
+<script src="preset_killer_perks.js"></script>
+<script src="setup/load_data.js"></script>
+<script src="setup/generator_functions.js"></script>
+<script src="build_preset.js"></script>

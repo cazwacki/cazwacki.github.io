@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dead by Daylight Fully Random Build Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="buttons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.css">
+    <script type="text/javascript" src="https://gitcdn.link/repo/wintercounter/Protip/master/protip.min.js"></script>
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+    <!-- Perks / Button -->
+    <h1 id="title" class="h2 mb-3 fw-normal text-light">Random Build</h1>
+    <div class="fadeIn">
+        <br />
+        <button class="btn btn-dark btn-radius text-light" onclick="generate()">Generate Build</button>
+        <br />
+        <br />
+        <h1 class="h6 text-warning mb-3 fw-normal">It's okay if you don't have a listed perk; just try and stick to a
+            theme or choose any!<br />Hover/Click the perks to learn more about them on the wiki!</h1>
+        <br />
+    </div>
+    <script src="setup/load_data.js"></script>
+    <script src="setup/page_structure.js"></script>
+    <script src="setup/generator_html.js"></script>
+    <script src="setup/generator_functions.js"></script>
+    <script src="build_random.js"></script>
+</body>
+
+</html>
